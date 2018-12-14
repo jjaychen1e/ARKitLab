@@ -6,6 +6,7 @@ Assets/UnityARKitPlugin.unitypackage/Examples/UnityARKitScene/UnityARKitScene.un
 SceneListEnd?
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.touch
 a97745634b523349a1a8b9c7595e43f4 Assembly-CSharp.dll:.PointCloudParticleExample
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -25,6 +26,7 @@ c7ae1c8854f784bca325824b1e9c8236 Assembly-CSharp.dll:.DetectedObjectManager
 c6297dc373f7705620a180b0b5573731 Assembly-CSharp.dll:.ObjectScanSessionManager
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
+f2d769ff66d559636c21dcba3ff16453 Assembly-CSharp.dll:.IconPreview
 e2ca92a8ee625c9c7d35e75b98adf245 Assembly-CSharp.dll:.ColorPickerTester
 0ec1ba94eb2a93f5036c1f3b4d518b24 Assembly-CSharp.dll:.GenerateObjectAnchor
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -210,6 +212,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 4903c00541cb6535f2679ebfd987a0ff Assembly-CSharp.dll:.ColorImage
+7da2eb9163a53537f3dd9aeb2006fa46 Assembly-CSharp.dll:.colt
 69960fff0a780e1de65802a0e011340f Assembly-CSharp.dll:.VideoFormatButton
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARUserAnchorComponent
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -232,4 +235,3 @@ bf5cbeb343b015b4fda69d21e2bd78be Assembly-CSharp.dll:.ReflectionProbeGameObject
 be05cccf9a5a5ef0737550885f55e634 Assembly-CSharp.dll:.UnityPointCloudExample
 622aa64877982231650b7d8de8ad5f01 Assembly-CSharp.dll:.TongueDetector
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
-7da2eb9163a53537f3dd9aeb2006fa46 Assembly-CSharp.dll:.colt

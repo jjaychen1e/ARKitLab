@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23093329500453956}
   - component: {fileID: 135197544541887148}
   - component: {fileID: 54885194613888238}
-  m_Layer: 0
+  - component: {fileID: 114582288353093004}
+  m_Layer: 11
   m_Name: BoundSphere
-  m_TagString: Untagged
+  m_TagString: Sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +101,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114582288353093004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931800418024036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb6d640cc064459291db692c84e3391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135197544541887148
 SphereCollider:
   m_ObjectHideFlags: 1
