@@ -66,6 +66,7 @@
     <Compile Include="Assets\HitResultController.cs" />
     <Compile Include="Assets\Judge.cs" />
     <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
+    <Compile Include="Assets\touch.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
@@ -182,16 +183,16 @@
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/jjaychen/Downloads/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jjaychen/Downloads/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/jjaychen/Downloads/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jjaychen/Downloads/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity2018/Unity2018.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
