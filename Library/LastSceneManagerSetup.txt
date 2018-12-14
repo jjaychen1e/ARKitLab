@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UnityARKitPlugin.unitypackage/Examples/UnityARKitScene/UnityARKitScene.unity
+- path: Assets/TempTest/TTT.unity
   isLoaded: 1
   isActive: 1
