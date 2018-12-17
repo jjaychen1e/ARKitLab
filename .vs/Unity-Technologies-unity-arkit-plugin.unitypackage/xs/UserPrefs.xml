@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{612DB4BC-A45D-AEA9-738B-76D5933DABE9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HitResultController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Momentum/Scripts/HitResultController.cs">
     <Files>
-      <File FileName="Assets/HitResultController.cs" Line="31" Column="15" />
-      <File FileName="Assets/touch.cs" Line="24" Column="13" />
+      <File FileName="Assets/Momentum/Scripts/HitResultController.cs" Line="29" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
