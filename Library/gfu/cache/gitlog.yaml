@@ -12,9 +12,1107 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-19T17:19:22.172+08:00
+  lastUpdatedAtString: 2018-12-19T17:20:08.124+08:00
   initializedAtString: 2018-12-19T17:18:09.281+08:00
   log:
+  - commitID: 09045e451a134440f4b8a2d17ae985dc6b9ef00a
+    mergeA: 
+    mergeB: 
+    authorName: jjaychen
+    authorEmail: jjaychen1e@gmail.com
+    commitEmail: jjaychen1e@gmail.com
+    commitName: jjaychen
+    summary: "\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00"
+    description: "\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00\n\n\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00"
+    timeString: 2018-12-19T17:20:06.000+08:00
+    commitTimeString: 2018-12-19T17:20:06.000+08:00
+    changes:
+    - path: .DS_Store
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .collabignore
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.collabignore
+      projectPath: .collabignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/.DS_Store
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/.DS_Store
+      projectPath: Assets/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Momentum/.DS_Store
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Momentum/.DS_Store
+      projectPath: Assets/Momentum/.DS_Store
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins.meta
+      projectPath: Assets/Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub.meta
+      projectPath: Assets/Plugins/GitHub.meta
+      originalPath: Assets/UnityARKitPlugin.unitypackage/Examples/UnityARKitScene.meta
+      status: 6
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor.meta
+      projectPath: Assets/Plugins/GitHub/Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/credits.txt
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/eula.txt
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/libsfw.so
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x64.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x86.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+      projectPath: Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/ProjectSettings.asset
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ProjectSettings.asset
+      projectPath: Library/ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ShaderCache/2/2ba051567ba02253a122fc83698e87d1.bin
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ShaderCache/2/2ba051567ba02253a122fc83698e87d1.bin
+      projectPath: Library/ShaderCache/2/2ba051567ba02253a122fc83698e87d1.bin
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/ShaderCache/e/ef609356fb049c73628794bfeb1ac25b.bin
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ShaderCache/e/ef609356fb049c73628794bfeb1ac25b.bin
+      projectPath: Library/ShaderCache/e/ef609356fb049c73628794bfeb1ac25b.bin
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+      projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c
+      projectPath: Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c.info
+      projectPath: Library/metadata/0b/0b7127f69d16e4437b8049d9652f890c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+      projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+      projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/13/136dc24f151211d438acee17aff4e934
+      projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+      projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/15/151a1d946b98deb4b98445400983ba92
+      projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+      projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+      projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+      projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+      projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e
+      projectPath: Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e.info
+      projectPath: Library/metadata/1e/1edddb09b96c44ac293e4e6a86d5257e.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+      projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/23/23c8bee69b591054094d32918f98facd
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/23/23c8bee69b591054094d32918f98facd
+      projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+      projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+      projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+      projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+      projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+      projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/63/636d33ae594884e7d80b569f429d245d
+      projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+      projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+      projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+      projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+      projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+      projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/81/817c5ef37785247e48752d916f0a5b75.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/81/817c5ef37785247e48752d916f0a5b75.info
+      projectPath: Library/metadata/81/817c5ef37785247e48752d916f0a5b75.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+      projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+      projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+      projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/87/877ef3585573ce44eab899298be23158
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/87/877ef3585573ce44eab899298be23158
+      projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/87/877ef3585573ce44eab899298be23158.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/87/877ef3585573ce44eab899298be23158.info
+      projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/8f/8fb6d640cc064459291db692c84e3391
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/8f/8fb6d640cc064459291db692c84e3391
+      projectPath: Library/metadata/8f/8fb6d640cc064459291db692c84e3391
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/8f/8fb6d640cc064459291db692c84e3391.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/8f/8fb6d640cc064459291db692c84e3391.info
+      projectPath: Library/metadata/8f/8fb6d640cc064459291db692c84e3391.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/94/948fdc7e82a84443c92746700c16cb6b
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/94/948fdc7e82a84443c92746700c16cb6b
+      projectPath: Library/metadata/94/948fdc7e82a84443c92746700c16cb6b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/94/948fdc7e82a84443c92746700c16cb6b.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/94/948fdc7e82a84443c92746700c16cb6b.info
+      projectPath: Library/metadata/94/948fdc7e82a84443c92746700c16cb6b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+      projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+      projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+      originalPath: Library/metadata/81/81c8e3240e6624a1c9c093d35f99d1cf.info
+      status: 6
+      staged: 0
+    - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+      projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+      projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+      projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+      projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+      projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+      projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+      projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+      projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+      projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+      projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+      projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+      projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: Library/metadata/81/81c8e3240e6624a1c9c093d35f99d1cf
+      status: 6
+      staged: 0
+    - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+      projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+      projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+      projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d
+      projectPath: Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d.info
+      projectPath: Library/metadata/f0/f04e0b0431a06425c9cda13c78e16b9d.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2
+      projectPath: Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2.info
+      projectPath: Library/metadata/f8/f8c8b61c82abd4c1a97b956ac9ef9ae2.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+      projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+      projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+      projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/ProjectSettings.asset
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/ProjectSettings/ProjectSettings.asset
+      projectPath: ProjectSettings/ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityLockfile
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityLockfile
+      projectPath: Temp/UnityLockfile
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+      projectPath: Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+      projectPath: Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+      projectPath: Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+      projectPath: Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+      projectPath: Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+      projectPath: Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+      projectPath: Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+      projectPath: Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+      projectPath: Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+      projectPath: Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+      projectPath: Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+      projectPath: Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+      projectPath: Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+      projectPath: Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+      projectPath: Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: 4718ed78eb59e3de89bfd6cdd16fcff9d384a49a
     mergeA: 
     mergeB: 
