@@ -12,12 +12,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-19T17:20:07.414+08:00
-  initializedAtString: 2018-12-19T17:18:09.275+08:00
+  lastUpdatedAtString: 2018-12-19T19:11:18.440+08:00
+  initializedAtString: 2018-12-19T19:05:39.332+08:00
   entries:
+  - path: .vs/ARKitLab.unitypackage/xs/sqlite3/db.lock
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.vs/ARKitLab.unitypackage/xs/sqlite3/db.lock
+    projectPath: .vs/ARKitLab.unitypackage/xs/sqlite3/db.lock
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide
+    projectPath: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-shm
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/ARKitLab.unitypackage/xs/sqlite3/storage.ide-wal
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs/ARKitLab.unitypackage/xs/UserPrefs.xml
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/.vs/ARKitLab.unitypackage/xs/UserPrefs.xml
+    projectPath: .vs/ARKitLab.unitypackage/xs/UserPrefs.xml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ARKitLab.unitypackage.sln
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/ARKitLab.unitypackage.sln
+    projectPath: ARKitLab.unitypackage.sln
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assembly-CSharp.csproj
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+    projectPath: Library/Collab/CollabSnapshot_8a909591-1c32-4931-b15c-39f672cd3838.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/expandedItems
+    projectPath: Library/expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -26,4 +122,118 @@ MonoBehaviour:
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+    projectPath: Temp/UnityTempFile-1e767a3b21e5b4d549919875b91a93f5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+    projectPath: Temp/UnityTempFile-35978a1388a654ddbbd3ab4911f99967
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+    projectPath: Temp/UnityTempFile-5b845ca1d4f0a4eb0aa960f82cd5f89b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+    projectPath: Temp/UnityTempFile-6800f49753fbd4e39bec884616c31108
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+    projectPath: Temp/UnityTempFile-696ce779967294e6c9fa5ddad139bf1e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+    projectPath: Temp/UnityTempFile-6acacc0e7d6334261828722cc1605c2e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+    projectPath: Temp/UnityTempFile-73a82e42d4c0d44468f4b3751b30e4ed
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+    projectPath: Temp/UnityTempFile-7ce4499bf15814134a7111f6962a4e04
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+    projectPath: Temp/UnityTempFile-7d4ba7b30eac742f89b6b36488b3f334
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+    projectPath: Temp/UnityTempFile-7eefd0d93c14144dbb40b430f24d4416
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+    projectPath: Temp/UnityTempFile-a6a4f69e7d37147f2ac195197cd91f0a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+    projectPath: Temp/UnityTempFile-a78b857b110e0469e9fa9696fa7145ce
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+    projectPath: Temp/UnityTempFile-cf5c823b024f94db3994721d5c3b4395
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+    projectPath: Temp/UnityTempFile-d17634a85dfd648b8a9f155842591c94
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+    fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+    projectPath: Temp/UnityTempFile-ec6c2c995dc9642f0911726dd069029b
+    originalPath: 
+    status: 5
     staged: 0

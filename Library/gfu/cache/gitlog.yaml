@@ -12,9 +12,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-19T17:20:08.124+08:00
-  initializedAtString: 2018-12-19T17:18:09.281+08:00
+  lastUpdatedAtString: 2018-12-19T19:05:39.067+08:00
+  initializedAtString: 2018-12-19T19:05:39.067+08:00
   log:
+  - commitID: 934f0e7b21845c5fd6ce3e519ee0964788dcfabc
+    mergeA: 
+    mergeB: 
+    authorName: jjaychen
+    authorEmail: jjaychen1e@gmail.com
+    commitEmail: jjaychen1e@gmail.com
+    commitName: jjaychen
+    summary: "\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00"
+    description: "\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00\n\n\u589E\u52A0\u4E86GitHub\u63D2\u4EF6\uFF0C\u5728Window-Github\u4E2D\u6253\u5F00"
+    timeString: 2018-12-19T17:20:20.000+08:00
+    commitTimeString: 2018-12-19T17:20:20.000+08:00
+    changes:
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/jjaychen/Developer/ARKitLab.unitypackage/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 09045e451a134440f4b8a2d17ae985dc6b9ef00a
     mergeA: 
     mergeB: 
