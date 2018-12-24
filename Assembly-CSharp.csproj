@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{612DB4BC-A45D-AEA9-738B-76D5933DABE9}</ProjectGuid>
+    <ProjectGuid>{19520214-E110-6A8B-CC12-90826DF4CFB1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -181,16 +181,16 @@
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jjaychen/Developer/Unity-Technologies-unity-arkit-plugin.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity2018/Unity2018.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
