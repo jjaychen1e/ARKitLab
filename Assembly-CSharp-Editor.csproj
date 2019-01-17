@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B6BBC798-F4BA-8CA1-8DCB-A2BB1697ADE9}</ProjectGuid>
+    <ProjectGuid>{DB22C782-4FC9-3915-6364-2B43450F05E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,16 +64,16 @@
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Examples\UnityParticlePainter\HSVPicker\Editor\BoxSliderEditor.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity2018/Unity2018.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -319,28 +319,28 @@
       <HintPath>/Applications/Unity2018/Unity2018.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
     </Reference>
     <Reference Include="AsyncBridge.Net35">
-      <HintPath>/Users/jjaychen/Developer/ARKitLab.unitypackage/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+      <HintPath>/Users/jjaychen/Developer/ARKitLab/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/jjaychen/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -396,11 +396,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{19520214-E110-6A8B-CC12-90826DF4CFB1}</Project>
+      <Project>{D7661684-514B-E4B7-2543-3A1FB7E43026}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{4987F901-A0D2-A223-0081-9DECF0381B80}</Project>
+      <Project>{8910B228-CA0B-5CCA-9974-6E48A5702748}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
