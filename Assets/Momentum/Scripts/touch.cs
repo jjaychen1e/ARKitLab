@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class touch : MonoBehaviour {
-    private int time = 0;
+    //private int time = 0;
+    private Time time;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,8 +18,7 @@ public class touch : MonoBehaviour {
         //}
         //if (time < 1) time++;
 
-
-        if (Input.GetMouseButtonDown(0))//鼠标左键点下
+        if (Input.GetTouch(0).tapCount == 2)//双击
         {
             //住摄像机向鼠标位置发射射线  
             LayerMask mask = 1 << LayerMask.NameToLayer("Sphere");

@@ -11,9 +11,13 @@ public class HitResultController : MonoBehaviour {
     private GameObject[] currentObj = new GameObject[MAX];
     //public Rigidbody[] currentObjRigid = new Rigidbody[MAX];
     private bool hitTestEnabled = false;
-    public Slider m_slider;
-    public Text text;
-    public Text text2;
+
+    /* Test Print */
+    //public Slider m_slider;
+    //public Text text;
+    //public Text text2;
+    /* == Test Print */
+
     // Use this for initialization
     void Start () {
 
@@ -91,15 +95,22 @@ public class HitResultController : MonoBehaviour {
                         //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform) + Vector3.up * currentObj[0].transform.localScale.y;
                         currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        text2.text = text2.text + " b1:" + currentObj[0].transform.position.ToString("F3");
+
+                        /* Test Print */
+                        //text2.text = text2.text + " b1:" + currentObj[0].transform.position.ToString("F3");
+                        /* == Test Print */
+
                         if (currentObj[1] != null) currentObj[0].transform.position = new Vector3(currentObj[0].transform.position.x, currentObj[1].transform.position.y, currentObj[0].transform.position.z);
                         //设置颜色
                         //currentObj[0].GetComponent<Material>().color = Color.blue;
 
 
                         currentObj[0].GetComponent<Rigidbody>().mass = 5;
-                        text2.text = text2.text + " a1:" + currentObj[0].transform.position.ToString("F3");
+
+                        /* Test Print */
+                        //text2.text = text2.text + " a1:" + currentObj[0].transform.position.ToString("F3");
                         //text2.text = text2.text + " b1:" + currentObj[0].GetComponent<SphereCollider>().material.bounciness.ToString();
+                        /* == Test Print */
                     }
                     else if (currentObj[1] == null)
                     {
@@ -107,15 +118,26 @@ public class HitResultController : MonoBehaviour {
                         //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform) + Vector3.up * currentObj[0].transform.localScale.y;
                         currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        text2.text = text2.text + " b2:" + currentObj[1].transform.position.ToString("F3");
+
+                        /* Test Print */
+                        //text2.text = text2.text + " b2:" + currentObj[1].transform.position.ToString("F3");
+                        /* == Test Print */
+
                         if (currentObj[0] != null) currentObj[1].transform.position = new Vector3(currentObj[1].transform.position.x, currentObj[0].transform.position.y, currentObj[1].transform.position.z);
                         //设置颜色还没有完成
-                        text2.text = text2.text + " a2:" + currentObj[1].transform.position.ToString("F3");
+
+                        /* Test Print */
+                        //text2.text = text2.text + " a2:" + currentObj[1].transform.position.ToString("F3");
                         //text2.text = text2.text + " b2:" + currentObj[1].GetComponent<SphereCollider>().material.bounciness.ToString();
+                        /* == Test Print */
                     }
                 }
             }
-            text.text = currentObj[0].GetComponent<Rigidbody>().mass.ToString() + " " + currentObj[1].GetComponent<Rigidbody>().mass.ToString();
+
+            /* Test Print */
+            //text.text = currentObj[0].GetComponent<Rigidbody>().mass.ToString() + " " + currentObj[1].GetComponent<Rigidbody>().mass.ToString();
+            /* == Test Print */
+
         }
 
 
@@ -135,9 +157,12 @@ public class HitResultController : MonoBehaviour {
             Vector3 direction = currentObj[1].transform.position - currentObj[0].transform.position;
             //currentObj[0].AddForce(direction.normalized*0.5f, ForceMode.VelocityChange);
             currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized*0.5f;
-            text2.text = text2.text+ " 方向:" + direction.ToString("F3");
-            text2.text = text2.text + " V0:" + currentObj[0].GetComponent<Rigidbody>().velocity.ToString("F3");
-            text2.text = text2.text + " V1:" + currentObj[1].GetComponent<Rigidbody>().velocity.ToString("F3");
+
+            /* Test Print */
+            //text2.text = text2.text+ " 方向:" + direction.ToString("F3");
+            //text2.text = text2.text + " V0:" + currentObj[0].GetComponent<Rigidbody>().velocity.ToString("F3");
+            //text2.text = text2.text + " V1:" + currentObj[1].GetComponent<Rigidbody>().velocity.ToString("F3");
+            /* == Test Print */
         }
     }
 
@@ -149,25 +174,27 @@ public class HitResultController : MonoBehaviour {
         }
     }
 
-    public void ChangeMass(float a){
-        if (currentObj[0] != null) currentObj[0].GetComponent<Rigidbody>().mass = a;
-    }
+    /* Test Print */
+    //public void ChangeMass(float a){
+    //    if (currentObj[0] != null) currentObj[0].GetComponent<Rigidbody>().mass = a;
+    //}
 
-    public void ChangeMassT(string a){
-        if (currentObj[0] != null) currentObj[0].GetComponent<Rigidbody>().mass = float.Parse(a);
-    }
+    //public void ChangeMassT(string a){
+    //    if (currentObj[0] != null) currentObj[0].GetComponent<Rigidbody>().mass = float.Parse(a);
+    //}
 
-    public void showv(){
-        text2.text = text2.text + " V0:" + currentObj[0].GetComponent<Rigidbody>().velocity.ToString("F3");
-        text2.text = text2.text + " V1:" + currentObj[1].GetComponent<Rigidbody>().velocity.ToString("F3");
-    }
+    //public void showv(){
+    //    text2.text = text2.text + " V0:" + currentObj[0].GetComponent<Rigidbody>().velocity.ToString("F3");
+    //    text2.text = text2.text + " V1:" + currentObj[1].GetComponent<Rigidbody>().velocity.ToString("F3");
+    //}
 
-    public void showpos(){
-        text2.text = text2.text + " pos0:" + currentObj[0].transform.position.ToString("F3");
-        text2.text = text2.text + " pos1:" + currentObj[1].transform.position.ToString("F3");
-    }
+    //public void showpos(){
+    //    text2.text = text2.text + " pos0:" + currentObj[0].transform.position.ToString("F3");
+    //    text2.text = text2.text + " pos1:" + currentObj[1].transform.position.ToString("F3");
+    //}
 
-    public void clear(){
-        text2.text = "";
-    }
+    //public void clear(){
+    //    text2.text = "";
+    //}
+    /* == Test Print */
 }

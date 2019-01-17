@@ -12,23 +12,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-01-16T15:02:19.100+08:00
-  initializedAtString: 2019-01-16T15:00:55.725+08:00
+  lastUpdatedAtString: 2019-01-17T16:19:35.235+08:00
+  initializedAtString: 2019-01-17T16:19:35.222+08:00
   localBranches:
-  - name: HavenTong
-    tracking: origin/HavenTong
   - name: jjaychen
     tracking: origin/jjaychen
   - name: master
     tracking: origin/master
-  - name: mufanx
-    tracking: 
   remoteBranches:
-  - name: origin/HavenTong
+  - name: origin/HEAD
     tracking: '[None]'
   - name: origin/jjaychen
-    tracking: '[None]'
-  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -40,16 +34,9 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - HavenTong
     - jjaychen
     - master
-    - mufanx
     values:
-    - name: HavenTong
-      remote:
-        name: origin
-        url: https://github.com/JJAYCHENooo/ARKitLab.git
-      trackingBranch: HavenTong
     - name: jjaychen
       remote:
         name: origin
@@ -60,32 +47,21 @@ MonoBehaviour:
         name: origin
         url: https://github.com/JJAYCHENooo/ARKitLab.git
       trackingBranch: master
-    - name: mufanx
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - HavenTong
+      - HEAD
       - jjaychen
-      - master
     subKeyValues:
     - Values:
-      - name: HavenTong
+      - name: HEAD
         remote:
           name: origin
           url: https://github.com/JJAYCHENooo/ARKitLab.git
         trackingBranch: 
       - name: jjaychen
-        remote:
-          name: origin
-          url: https://github.com/JJAYCHENooo/ARKitLab.git
-        trackingBranch: 
-      - name: master
         remote:
           name: origin
           url: https://github.com/JJAYCHENooo/ARKitLab.git
