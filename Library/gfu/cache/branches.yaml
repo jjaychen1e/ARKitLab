@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-01-17T16:19:35.235+08:00
-  initializedAtString: 2019-01-17T16:19:35.222+08:00
+  lastUpdatedAtString: 2019-01-18T10:54:39.531+08:00
+  initializedAtString: 2019-01-18T10:43:21.091+08:00
   localBranches:
-  - name: jjaychen
-    tracking: origin/jjaychen
+  - name: Jimwizzzzz
+    tracking: origin/Jimwizzzzz
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/jjaychen
+  - name: origin/Jimwizzzzz
     tracking: '[None]'
   remotes:
   - name: origin
@@ -34,14 +34,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - jjaychen
+    - Jimwizzzzz
     - master
     values:
-    - name: jjaychen
+    - name: Jimwizzzzz
       remote:
         name: origin
         url: https://github.com/JJAYCHENooo/ARKitLab.git
-      trackingBranch: jjaychen
+      trackingBranch: Jimwizzzzz
     - name: master
       remote:
         name: origin
@@ -53,7 +53,7 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
-      - jjaychen
+      - Jimwizzzzz
     subKeyValues:
     - Values:
       - name: HEAD
@@ -61,7 +61,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/JJAYCHENooo/ARKitLab.git
         trackingBranch: 
-      - name: jjaychen
+      - name: Jimwizzzzz
         remote:
           name: origin
           url: https://github.com/JJAYCHENooo/ARKitLab.git

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-01-17T16:19:35.212+08:00
-  initializedAtString: 2019-01-17T16:19:35.158+08:00
+  lastUpdatedAtString: 2019-01-18T10:54:39.427+08:00
+  initializedAtString: 2019-01-18T10:43:19.783+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/JJAYCHENooo/ARKitLab.git
@@ -23,14 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: jjaychen
-    tracking: origin/jjaychen
+    name: Jimwizzzzz
+    tracking: origin/Jimwizzzzz
   currentConfigBranch:
-    name: jjaychen
+    name: Jimwizzzzz
     remote:
       name: origin
       url: https://github.com/JJAYCHENooo/ARKitLab.git
-    trackingBranch: jjaychen
+    trackingBranch: Jimwizzzzz
   currentConfigRemote:
     name: origin
     url: https://github.com/JJAYCHENooo/ARKitLab.git
