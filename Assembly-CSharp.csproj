@@ -63,8 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\Momentum\Scripts\HitResultController.cs" />
     <Compile Include="Assets\Momentum\Scripts\touch.cs" />
-    <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
-    <Compile Include="Assets\TempTest\colt.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
@@ -174,7 +172,6 @@
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\UnityARKitPluginSettings.cs" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileOcclusion.shader" />
-    <None Include="Assets\Simple UI\Fonts\OFL.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileARShadow.shader" />

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class touch : MonoBehaviour {
-    //private int time = 0;
-    private Time time;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,11 +11,6 @@ public class touch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //if(Input.GetMouseButtonDown(0) && Input.GetTouch(0).phase==TouchPhase.Began)
-        //{
-        //    DestroyImmediate(this.gameObject);
-        //}
-        //if (time < 1) time++;
 
         if (Input.GetTouch(0).tapCount == 2)//双击
         {
@@ -27,9 +21,10 @@ public class touch : MonoBehaviour {
             //射线检验  
             if (Physics.Raycast(mRay, out mHit, 20f, mask.value))
             {
-                if (mHit.collider.gameObject == this.gameObject)// && time >= 1
+                if (mHit.collider.gameObject == this.gameObject && this.gameObject.activeSelf == true)
                 {
-                    DestroyImmediate(this.gameObject);
+                    this.gameObject.SetActive(false);
+                    this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 }
             }
         }

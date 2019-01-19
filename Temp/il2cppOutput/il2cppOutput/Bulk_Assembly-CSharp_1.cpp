@@ -289,8 +289,6 @@ struct TextGenerator_t3211863866;
 struct Texture_t3661962703;
 // UnityEngine.Texture2D
 struct Texture2D_t3840446185;
-// UnityEngine.Time
-struct Time_t2420636075;
 // UnityEngine.Transform
 struct Transform_t3600365921;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
@@ -485,8 +483,6 @@ struct VideoFormatButtonPressed_t1187798507;
 struct VideoFormatsExample_t2303262312;
 // WorldMapManager
 struct WorldMapManager_t2538599596;
-// colt
-struct colt_t3736145701;
 // touch
 struct touch_t4199061861;
 
@@ -508,7 +504,6 @@ extern RuntimeClass* CommandBuffer_t2206337031_il2cpp_TypeInfo_var;
 extern RuntimeClass* Console_t3208230065_il2cpp_TypeInfo_var;
 extern RuntimeClass* Debug_t3317548046_il2cpp_TypeInfo_var;
 extern RuntimeClass* Encoding_t1523322056_il2cpp_TypeInfo_var;
-extern RuntimeClass* GameObjectU5BU5D_t3328599146_il2cpp_TypeInfo_var;
 extern RuntimeClass* GameObject_t1113636619_il2cpp_TypeInfo_var;
 extern RuntimeClass* IDisposable_t3640265483_il2cpp_TypeInfo_var;
 extern RuntimeClass* Input_t1431474628_il2cpp_TypeInfo_var;
@@ -661,8 +656,6 @@ extern const uint32_t WorldMapManager_Save_m1685066494_MetadataUsageId;
 extern const uint32_t WorldMapManager_Start_m1381697079_MetadataUsageId;
 extern const uint32_t WorldMapManager_get_path_m263249698_MetadataUsageId;
 extern const uint32_t WorldMapManager_get_session_m4054597902_MetadataUsageId;
-extern const uint32_t colt_Start_m2122990903_MetadataUsageId;
-extern const uint32_t colt__ctor_m885952333_MetadataUsageId;
 extern const uint32_t internal_ARAnchorAdded_BeginInvoke_m4199645137_MetadataUsageId;
 extern const uint32_t internal_ARAnchorRemoved_BeginInvoke_m2416400457_MetadataUsageId;
 extern const uint32_t internal_ARAnchorUpdated_BeginInvoke_m3288631253_MetadataUsageId;
@@ -720,7 +713,6 @@ struct ByteU5BU5D_t4116647657;
 struct Int32U5BU5D_t385246372;
 struct ObjectU5BU5D_t2843939325;
 struct SingleU5BU5D_t1444911251;
-struct GameObjectU5BU5D_t3328599146;
 struct Vector2U5BU5D_t1457185986;
 struct Vector3U5BU5D_t1718750761;
 
@@ -10302,69 +10294,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // WORLDMAPMANAGER_T2538599596_H
-#ifndef COLT_T3736145701_H
-#define COLT_T3736145701_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// colt
-struct  colt_t3736145701  : public MonoBehaviour_t3962482529
-{
-public:
-	// UnityEngine.GameObject colt::obj1
-	GameObject_t1113636619 * ___obj1_4;
-	// UnityEngine.GameObject colt::obj2
-	GameObject_t1113636619 * ___obj2_5;
-	// UnityEngine.GameObject colt::obj
-	GameObject_t1113636619 * ___obj_6;
-	// UnityEngine.GameObject[] colt::currentObj
-	GameObjectU5BU5D_t3328599146* ___currentObj_7;
-
-public:
-	inline static int32_t get_offset_of_obj1_4() { return static_cast<int32_t>(offsetof(colt_t3736145701, ___obj1_4)); }
-	inline GameObject_t1113636619 * get_obj1_4() const { return ___obj1_4; }
-	inline GameObject_t1113636619 ** get_address_of_obj1_4() { return &___obj1_4; }
-	inline void set_obj1_4(GameObject_t1113636619 * value)
-	{
-		___obj1_4 = value;
-		Il2CppCodeGenWriteBarrier((&___obj1_4), value);
-	}
-
-	inline static int32_t get_offset_of_obj2_5() { return static_cast<int32_t>(offsetof(colt_t3736145701, ___obj2_5)); }
-	inline GameObject_t1113636619 * get_obj2_5() const { return ___obj2_5; }
-	inline GameObject_t1113636619 ** get_address_of_obj2_5() { return &___obj2_5; }
-	inline void set_obj2_5(GameObject_t1113636619 * value)
-	{
-		___obj2_5 = value;
-		Il2CppCodeGenWriteBarrier((&___obj2_5), value);
-	}
-
-	inline static int32_t get_offset_of_obj_6() { return static_cast<int32_t>(offsetof(colt_t3736145701, ___obj_6)); }
-	inline GameObject_t1113636619 * get_obj_6() const { return ___obj_6; }
-	inline GameObject_t1113636619 ** get_address_of_obj_6() { return &___obj_6; }
-	inline void set_obj_6(GameObject_t1113636619 * value)
-	{
-		___obj_6 = value;
-		Il2CppCodeGenWriteBarrier((&___obj_6), value);
-	}
-
-	inline static int32_t get_offset_of_currentObj_7() { return static_cast<int32_t>(offsetof(colt_t3736145701, ___currentObj_7)); }
-	inline GameObjectU5BU5D_t3328599146* get_currentObj_7() const { return ___currentObj_7; }
-	inline GameObjectU5BU5D_t3328599146** get_address_of_currentObj_7() { return &___currentObj_7; }
-	inline void set_currentObj_7(GameObjectU5BU5D_t3328599146* value)
-	{
-		___currentObj_7 = value;
-		Il2CppCodeGenWriteBarrier((&___currentObj_7), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLT_T3736145701_H
 #ifndef TOUCH_T4199061861_H
 #define TOUCH_T4199061861_H
 #ifdef __clang__
@@ -10377,18 +10306,8 @@ public:
 struct  touch_t4199061861  : public MonoBehaviour_t3962482529
 {
 public:
-	// UnityEngine.Time touch::time
-	Time_t2420636075 * ___time_4;
 
 public:
-	inline static int32_t get_offset_of_time_4() { return static_cast<int32_t>(offsetof(touch_t4199061861, ___time_4)); }
-	inline Time_t2420636075 * get_time_4() const { return ___time_4; }
-	inline Time_t2420636075 ** get_address_of_time_4() { return &___time_4; }
-	inline void set_time_4(Time_t2420636075 * value)
-	{
-		___time_4 = value;
-		Il2CppCodeGenWriteBarrier((&___time_4), value);
-	}
 };
 
 #ifdef __clang__
@@ -11028,43 +10947,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t3328599146  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) GameObject_t1113636619 * m_Items[1];
-
-public:
-	inline GameObject_t1113636619 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline GameObject_t1113636619 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, GameObject_t1113636619 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline GameObject_t1113636619 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline GameObject_t1113636619 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t1113636619 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
 
 extern "C" void ARUserAnchor_t1406831531_marshal_pinvoke(const ARUserAnchor_t1406831531& unmarshaled, ARUserAnchor_t1406831531_marshaled_pinvoke& marshaled);
 extern "C" void ARUserAnchor_t1406831531_marshal_pinvoke_back(const ARUserAnchor_t1406831531_marshaled_pinvoke& marshaled, ARUserAnchor_t1406831531& unmarshaled);
@@ -11673,21 +11555,6 @@ extern "C" IL2CPP_METHOD_ATTR void ARKitWorldTrackingSessionConfiguration_set_wo
 extern "C" IL2CPP_METHOD_ATTR serializableARWorldMap_t2514323794 * serializableARWorldMap_op_Implicit_m1798102707 (RuntimeObject * __this /* static, unused */, ARWorldMap_t2240790807 * ___arWorldMap0, const RuntimeMethod* method);
 // UnityEngine.XR.iOS.ARWorldMap UnityEngine.XR.iOS.serializableARWorldMap::op_Implicit(UnityEngine.XR.iOS.serializableARWorldMap)
 extern "C" IL2CPP_METHOD_ATTR ARWorldMap_t2240790807 * serializableARWorldMap_op_Implicit_m3533126774 (RuntimeObject * __this /* static, unused */, serializableARWorldMap_t2514323794 * ___serWorldMap0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Subtraction_m3073674971 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  p0, Vector3_t3722313464  p1, const RuntimeMethod* method);
-// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Rigidbody>()
-inline Rigidbody_t3916780224 * GameObject_GetComponent_TisRigidbody_t3916780224_m564316479 (GameObject_t1113636619 * __this, const RuntimeMethod* method)
-{
-	return ((  Rigidbody_t3916780224 * (*) (GameObject_t1113636619 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m2049753423_gshared)(__this, method);
-}
-// UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_get_normalized_m2454957984 (Vector3_t3722313464 * __this, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Multiply_m3376773913 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  p0, float p1, const RuntimeMethod* method);
-// System.Void UnityEngine.Rigidbody::set_velocity(UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR void Rigidbody_set_velocity_m2899403247 (Rigidbody_t3916780224 * __this, Vector3_t3722313464  p0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::op_UnaryNegation(UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_UnaryNegation_m1951478815 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  p0, const RuntimeMethod* method);
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR Touch_t1921856868  Input_GetTouch_m2192712756 (RuntimeObject * __this /* static, unused */, int32_t p0, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Touch::get_tapCount()
@@ -11708,8 +11575,15 @@ extern "C" IL2CPP_METHOD_ATTR int32_t LayerMask_get_value_m1881709263 (LayerMask
 extern "C" IL2CPP_METHOD_ATTR bool Physics_Raycast_m1893809531 (RuntimeObject * __this /* static, unused */, Ray_t3785851493  p0, RaycastHit_t1056001966 * p1, float p2, int32_t p3, const RuntimeMethod* method);
 // UnityEngine.Collider UnityEngine.RaycastHit::get_collider()
 extern "C" IL2CPP_METHOD_ATTR Collider_t1773347010 * RaycastHit_get_collider_m1464180279 (RaycastHit_t1056001966 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-extern "C" IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m3193525861 (RuntimeObject * __this /* static, unused */, Object_t631007953 * p0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.GameObject::get_activeSelf()
+extern "C" IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m1767405923 (GameObject_t1113636619 * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Rigidbody>()
+inline Rigidbody_t3916780224 * GameObject_GetComponent_TisRigidbody_t3916780224_m564316479 (GameObject_t1113636619 * __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t3916780224 * (*) (GameObject_t1113636619 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m2049753423_gshared)(__this, method);
+}
+// System.Void UnityEngine.Rigidbody::set_velocity(UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR void Rigidbody_set_velocity_m2899403247 (Rigidbody_t3916780224 * __this, Vector3_t3722313464  p0, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -21047,80 +20921,6 @@ IL_0081:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void colt::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void colt__ctor_m885952333 (colt_t3736145701 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (colt__ctor_m885952333_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		GameObjectU5BU5D_t3328599146* L_0 = (GameObjectU5BU5D_t3328599146*)SZArrayNew(GameObjectU5BU5D_t3328599146_il2cpp_TypeInfo_var, (uint32_t)2);
-		__this->set_currentObj_7(L_0);
-		MonoBehaviour__ctor_m1579109191(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void colt::Start()
-extern "C" IL2CPP_METHOD_ATTR void colt_Start_m2122990903 (colt_t3736145701 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (colt_Start_m2122990903_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3_t3722313464  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		GameObject_t1113636619 * L_0 = __this->get_obj2_5();
-		NullCheck(L_0);
-		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		Vector3_t3722313464  L_2 = Transform_get_position_m36019626(L_1, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_3 = __this->get_obj1_4();
-		NullCheck(L_3);
-		Transform_t3600365921 * L_4 = GameObject_get_transform_m1369836730(L_3, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		Vector3_t3722313464  L_5 = Transform_get_position_m36019626(L_4, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_6 = Vector3_op_Subtraction_m3073674971(NULL /*static, unused*/, L_2, L_5, /*hidden argument*/NULL);
-		V_0 = L_6;
-		GameObject_t1113636619 * L_7 = __this->get_obj1_4();
-		NullCheck(L_7);
-		Rigidbody_t3916780224 * L_8 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_7, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
-		Vector3_t3722313464  L_9 = Vector3_get_normalized_m2454957984((Vector3_t3722313464 *)(&V_0), /*hidden argument*/NULL);
-		Vector3_t3722313464  L_10 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_9, (0.5f), /*hidden argument*/NULL);
-		NullCheck(L_8);
-		Rigidbody_set_velocity_m2899403247(L_8, L_10, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_11 = __this->get_obj2_5();
-		NullCheck(L_11);
-		Rigidbody_t3916780224 * L_12 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_11, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
-		Vector3_t3722313464  L_13 = Vector3_get_normalized_m2454957984((Vector3_t3722313464 *)(&V_0), /*hidden argument*/NULL);
-		Vector3_t3722313464  L_14 = Vector3_op_UnaryNegation_m1951478815(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_15 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_14, (0.5f), /*hidden argument*/NULL);
-		NullCheck(L_12);
-		Rigidbody_set_velocity_m2899403247(L_12, L_15, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void colt::Update()
-extern "C" IL2CPP_METHOD_ATTR void colt_Update_m1066608375 (colt_t3736145701 * __this, const RuntimeMethod* method)
-{
-	{
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void touch::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void touch__ctor_m2049330656 (touch_t4199061861 * __this, const RuntimeMethod* method)
 {
@@ -21160,7 +20960,7 @@ extern "C" IL2CPP_METHOD_ATTR void touch_Update_m1285112628 (touch_t4199061861 *
 		int32_t L_1 = Touch_get_tapCount_m2125417096((Touch_t1921856868 *)(&V_0), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
-			goto IL_0079;
+			goto IL_00ae;
 		}
 	}
 	{
@@ -21178,7 +20978,7 @@ extern "C" IL2CPP_METHOD_ATTR void touch_Update_m1285112628 (touch_t4199061861 *
 		bool L_9 = Physics_Raycast_m1893809531(NULL /*static, unused*/, L_7, (RaycastHit_t1056001966 *)(&V_3), (20.0f), L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
-			goto IL_0079;
+			goto IL_00ae;
 		}
 	}
 	{
@@ -21190,16 +20990,33 @@ extern "C" IL2CPP_METHOD_ATTR void touch_Update_m1285112628 (touch_t4199061861 *
 		bool L_13 = Object_op_Equality_m1810815630(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
 		if (!L_13)
 		{
-			goto IL_0079;
+			goto IL_00ae;
 		}
 	}
 	{
 		GameObject_t1113636619 * L_14 = Component_get_gameObject_m442555142(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t631007953_il2cpp_TypeInfo_var);
-		Object_DestroyImmediate_m3193525861(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		bool L_15 = GameObject_get_activeSelf_m1767405923(L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		GameObject_t1113636619 * L_16 = Component_get_gameObject_m442555142(__this, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		GameObject_SetActive_m796801857(L_16, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_17 = Component_get_gameObject_m442555142(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Rigidbody_t3916780224 * L_18 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_17, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
+		Vector3_t3722313464  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Vector3__ctor_m3353183577((&L_19), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Rigidbody_set_velocity_m2899403247(L_18, L_19, /*hidden argument*/NULL);
 	}
 
-IL_0079:
+IL_00ae:
 	{
 		return;
 	}

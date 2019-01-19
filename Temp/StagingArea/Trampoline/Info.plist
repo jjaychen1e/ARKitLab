@@ -33,6 +33,8 @@
     <string>请求使用相机</string>
     <key>UIApplicationExitsOnSuspend</key>
     <false />
+    <key>UIFileSharingEnabled</key>
+    <true />
     <key>UILaunchStoryboardName~ipad</key>
     <string>LaunchScreen-iPad</string>
     <key>UILaunchStoryboardName~iphone</key>

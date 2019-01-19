@@ -15332,28 +15332,6 @@ IL_0039:
 		return L_7;
 	}
 }
-// UnityEngine.Vector3 UnityEngine.Vector3::op_UnaryNegation(UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_UnaryNegation_m1951478815 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, const RuntimeMethod* method)
-{
-	Vector3_t3722313464  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		float L_0 = (&___a0)->get_x_2();
-		float L_1 = (&___a0)->get_y_3();
-		float L_2 = (&___a0)->get_z_4();
-		Vector3_t3722313464  L_3;
-		memset(&L_3, 0, sizeof(L_3));
-		Vector3__ctor_m3353183577((&L_3), ((-L_0)), ((-L_1)), ((-L_2)), /*hidden argument*/NULL);
-		V_0 = L_3;
-		goto IL_0024;
-	}
-
-IL_0024:
-	{
-		Vector3_t3722313464  L_4 = V_0;
-		return L_4;
-	}
-}
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Multiply_m3376773913 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, float ___d1, const RuntimeMethod* method)
 {
