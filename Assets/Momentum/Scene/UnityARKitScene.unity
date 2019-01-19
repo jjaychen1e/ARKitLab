@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 11}
   - component: {fileID: 8}
   - component: {fileID: 14}
+  - component: {fileID: 15}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -231,6 +232,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce437cef046e841aabd6070890e79d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b765e0b5af3bcf4a9deb5895e477da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fillAlpha: 0
+  _downsampleFactor: 4
+  _iterations: 2
+  _blurMinSpread: 0.65
+  _blurSpread: 0.25
+  _blurIntensity: 0.3
+  _blurDirections: 0
+  _blitter: {fileID: 0}
+  _antiAliasing: 0
+  _presets:
+  - _name: Default
+    _fillAlpha: 0
+    _downsampleFactor: 4
+    _iterations: 2
+    _blurMinSpread: 0.65
+    _blurSpread: 0.25
+    _blurIntensity: 0.3
+    _blurDirections: 0
+  - _name: Wide
+    _fillAlpha: 0
+    _downsampleFactor: 4
+    _iterations: 4
+    _blurMinSpread: 0.65
+    _blurSpread: 0.25
+    _blurIntensity: 0.3
+    _blurDirections: 0
+  - _name: Strong
+    _fillAlpha: 0
+    _downsampleFactor: 4
+    _iterations: 2
+    _blurMinSpread: 0.5
+    _blurSpread: 0.15
+    _blurIntensity: 0.325
+    _blurDirections: 0
+  - _name: Speed
+    _fillAlpha: 0
+    _downsampleFactor: 4
+    _iterations: 1
+    _blurMinSpread: 0.75
+    _blurSpread: 0
+    _blurIntensity: 0.35
+    _blurDirections: 0
+  - _name: Quality
+    _fillAlpha: 0
+    _downsampleFactor: 2
+    _iterations: 3
+    _blurMinSpread: 0.5
+    _blurSpread: 0.5
+    _blurIntensity: 0.28
+    _blurDirections: 0
+  - _name: Solid 1px
+    _fillAlpha: 0
+    _downsampleFactor: 1
+    _iterations: 1
+    _blurMinSpread: 1
+    _blurSpread: 0
+    _blurIntensity: 1
+    _blurDirections: 2
+  - _name: Solid 2px
+    _fillAlpha: 0
+    _downsampleFactor: 1
+    _iterations: 2
+    _blurMinSpread: 1
+    _blurSpread: 0
+    _blurIntensity: 1
+    _blurDirections: 2
 --- !u!1 &16
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294771743}
   - component: {fileID: 294771742}
+  - component: {fileID: 294771744}
   m_Layer: 11
   m_Name: HitTestController
   m_TagString: Untagged
@@ -564,6 +643,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294771744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294771741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dae6fbb6072340a7916cc46757715d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 2145177559}
+  obj2: {fileID: 2102932710}
 --- !u!1 &348590377
 GameObject:
   m_ObjectHideFlags: 0
