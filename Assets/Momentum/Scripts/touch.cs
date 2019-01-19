@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HighlightingSystem;
 
 public class touch : MonoBehaviour {
 
@@ -25,6 +26,7 @@ public class touch : MonoBehaviour {
                 {
                     this.gameObject.SetActive(false);
                     this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+                    this.GetComponent<Highlighter>().ConstantOffImmediate();
                 }
             }
         }
