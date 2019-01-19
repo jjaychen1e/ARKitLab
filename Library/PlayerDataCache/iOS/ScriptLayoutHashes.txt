@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/jjaychen/Downloads/ARKitLab-master/Jimoutput
+/Users/cherrier/Developer/Xcode/ARtest1
 SceneListBegin?
 Assets/Momentum/Scene/UnityARKitScene.unity
 SceneListEnd?
@@ -234,7 +234,7 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-4484db8cc0ec67b544ae1fa6d679dd78 Assembly-CSharp.dll:.HighLightingControl
+6f96b4eab8d008b2ea0ffd6054093503 Assembly-CSharp.dll:.HighLightingControl
 9298c327ebff903c2048989ac2597ba1 Assembly-CSharp-firstpass.dll:HighlightingSystem.HighlightingBase
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 4903c00541cb6535f2679ebfd987a0ff Assembly-CSharp.dll:.ColorImage
