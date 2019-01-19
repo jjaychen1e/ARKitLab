@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Momentum/Scripts/HighLightingControl.cs">
     <Files>
-      <File FileName="Assets/Momentum/Scripts/HighLightingControl.cs" Line="16" Column="47" />
       <File FileName="Assets/Momentum/Scripts/HitResultController.cs" Line="6" Column="1" />
       <File FileName="Assets/Momentum/Scripts/touch.cs" Line="5" Column="1" />
+      <File FileName="Assets/Momentum/Scripts/ShowSetAttibutes.cs" Line="17" Column="12" />
+      <File FileName="Assets/Momentum/Scripts/HighLightingControl.cs" Line="54" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
