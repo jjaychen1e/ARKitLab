@@ -10,10 +10,11 @@ public class HitResultController : MonoBehaviour {
     public GameObject[] currentObj = new GameObject[MAX];
     private bool hitTestEnabled = false;
 
+
     // Use this for initialization
     void Start () {
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -24,8 +25,10 @@ public class HitResultController : MonoBehaviour {
         if (Physics.Raycast(mRay, out mHit, 20f, mask.value))
         {
             ;
-        }else{
-        if (hitTestEnabled && Input.touchCount > 0)
+        }
+        else{
+
+            if (hitTestEnabled && Input.touchCount > 0)
             {//如果有触摸
                 var touch = Input.GetTouch(0); //获取第一个触摸点
                 if (touch.phase == TouchPhase.Began)//触摸点的状态是开始或者移动中
