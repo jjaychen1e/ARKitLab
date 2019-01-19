@@ -90,9 +90,11 @@
     <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\SceneLoader.cs" />
     <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\UI.cs" />
     <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Momentum\Scripts\HandleValueChange.cs" />
     <Compile Include="Assets\Momentum\Scripts\HighLightingControl.cs" />
     <Compile Include="Assets\Momentum\Scripts\HitResultController.cs" />
-    <Compile Include="Assets\Momentum\Scripts\touch.cs" />
+    <Compile Include="Assets\Momentum\Scripts\ShowSetAttibutes.cs" />
+    <Compile Include="Assets\Momentum\Scripts\Touch.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
