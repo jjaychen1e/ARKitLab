@@ -8,6 +8,7 @@ a24de7823f496c349ba8756ca6ad0318 Assembly-CSharp.dll:HighlightingSystem.Demo.Hig
 1a1d52d7fe60f2c912af983a19c664d8 Assembly-CSharp.dll:HighlightingSystem.Demo.HighlighterFlashing
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.touch
 a97745634b523349a1a8b9c7595e43f4 Assembly-CSharp.dll:.PointCloudParticleExample
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 c99a8bb9aba29c211a6189ea24c6f83c Assembly-CSharp.dll:HighlightingSystem.Demo.MovementController
@@ -30,6 +31,7 @@ f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 a225f4952e738def859042b9222749e3 Assembly-CSharp.dll:HighlightingSystem.Demo.HighlighterFilterBasic
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
 e2ca92a8ee625c9c7d35e75b98adf245 Assembly-CSharp.dll:.ColorPickerTester
+882004bcf699fab6ca3eba5f71dac545 Assembly-CSharp.dll:.ShowMsg
 0ec1ba94eb2a93f5036c1f3b4d518b24 Assembly-CSharp.dll:.GenerateObjectAnchor
 9f1eb7e1ca96c5099899a72881072fcf Assembly-CSharp.dll:HighlightingSystem.Demo.BehaviourToggle
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -228,13 +230,14 @@ af0330195ee2952276420a5a79b1ac01 Assembly-CSharp.dll:.ObjectText
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 fa20481299461e1b327b099ee2b59ed4 Assembly-CSharp.dll:.HitCreateEnvironmentProbe
 d43a1c664da41a0b47220482b3bd95a8 Assembly-CSharp.dll:.HexColorField
+acdbe08d89b507b19c04c9f9e8c05f92 Assembly-CSharp.dll:.ShowSetAttibutes
 d1ab8151fc5334319ef3691f9a36f251 Assembly-CSharp.dll:.FocusSquare
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-24db0f0196f2e53b4dacb7d93d7a83d7 Assembly-CSharp.dll:.HighLightingControl
+e50d19fc07c3893679949c419fba4878 Assembly-CSharp.dll:.HighLightingControl
 9298c327ebff903c2048989ac2597ba1 Assembly-CSharp-firstpass.dll:HighlightingSystem.HighlightingBase
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 4903c00541cb6535f2679ebfd987a0ff Assembly-CSharp.dll:.ColorImage
@@ -268,4 +271,3 @@ be05cccf9a5a5ef0737550885f55e634 Assembly-CSharp.dll:.UnityPointCloudExample
 622aa64877982231650b7d8de8ad5f01 Assembly-CSharp.dll:.TongueDetector
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
 55ccd04074c0d9aea690b034ed67015f Assembly-CSharp.dll:HighlightingSystem.Demo.ControlsUI
-acdbe08d89b507b19c04c9f9e8c05f92 Assembly-CSharp.dll:.ShowSetAttibutes
