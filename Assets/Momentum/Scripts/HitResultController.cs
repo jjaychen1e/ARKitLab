@@ -10,7 +10,7 @@ public class HitResultController : MonoBehaviour
     const int MAX = 2;
     public GameObject[] currentObj = new GameObject[MAX];
     private bool hitTestEnabled = false;
-    private float velocity = 0.5f;
+    private float[] velocity = new float[2];    // 两个小球的速度存放在数组中，与currentObj相对应
 
     // Use this for initialization
     void Start()
@@ -98,7 +98,7 @@ public class HitResultController : MonoBehaviour
         if (currentObj[0].activeSelf == true && currentObj[1].activeSelf == true)
         {
             Vector3 direction = currentObj[1].transform.position - currentObj[0].transform.position;
-            currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized * velocity;
+            currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized * velocity[0];     // Smoothball[0]的速度
         }
     }
 
@@ -113,6 +113,16 @@ public class HitResultController : MonoBehaviour
                 item.GetComponent<Highlighter>().ConstantOffImmediate();
             }
         }
+    }
+
+    // 设置小球i速度
+    public void setVelocity(float v,int i) { 
+        this.velocity[i] = v;
+    }
+
+    // 得到小球i速度
+    public float getVelocity(int i) {
+        return this.velocity[i];
     }
 }
 
