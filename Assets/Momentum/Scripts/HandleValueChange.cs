@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HandleValueChange : MonoBehaviour {
+    public Rigidbody rigidbody;
     public Slider slider;
     public InputField input;
     // Use this for initialization
@@ -17,10 +18,13 @@ public class HandleValueChange : MonoBehaviour {
 
     }
     public void onSliderValueChanged() {
-        input.text = slider.value.ToString("0.0");
+        input.text = slider.value.ToString("0.0"); //Slider的值改变，InputField的值也相应改变
     }
     public void onInputFieldValueChanged() {
-        slider.value = float.Parse(input.text);
+        slider.value = float.Parse(input.text); // InputField的值改变，Slider的值也相应改变
     }
-
+    public void passNewMass() {     // 点击Sure时，传递新的质量
+        rigidbody.mass = slider.value;
+    }
+    
 }
