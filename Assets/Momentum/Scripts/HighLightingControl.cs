@@ -44,12 +44,12 @@ public class HighLightingControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedObj1.GetComponent<Text>().text = obj1.GetComponent<Rigidbody>().velocity.magnitude.ToString();
-        speedObj2.GetComponent<Text>().text = obj2.GetComponent<Rigidbody>().velocity.magnitude.ToString();
-        massObj1.GetComponent<Text>().text = obj1.GetComponent<Rigidbody>().mass.ToString();
-        massObj2.GetComponent<Text>().text = obj2.GetComponent<Rigidbody>().mass.ToString();
-        nameObj1.GetComponent<Text>().text = "ball1";
-        nameObj2.GetComponent<Text>().text = "ball2";
+        speedObj1.GetComponent<Text>().text = "Velocity: " + obj1.GetComponent<Rigidbody>().velocity.magnitude.ToString();
+        speedObj2.GetComponent<Text>().text = "Velocity: " + obj2.GetComponent<Rigidbody>().velocity.magnitude.ToString();
+        massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString();
+        massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString();
+        nameObj1.GetComponent<Text>().text = "Ball 1";
+        nameObj2.GetComponent<Text>().text = "Ball 2";
         position1 = obj1.GetComponent<Transform>().position;
         position2 = obj2.GetComponent<Transform>().position;
         Vector2 screenPos0 = Camera.main.WorldToScreenPoint(position1);
