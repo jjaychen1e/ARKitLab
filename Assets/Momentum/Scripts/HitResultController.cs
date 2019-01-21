@@ -10,7 +10,7 @@ public class HitResultController : MonoBehaviour
     const int MAX = 2;
     public GameObject[] currentObj = new GameObject[MAX];
     private bool hitTestEnabled = false;
-
+    private float velocity = 0.5f;
 
     // Use this for initialization
     void Start()
@@ -98,7 +98,7 @@ public class HitResultController : MonoBehaviour
         if (currentObj[0].activeSelf == true && currentObj[1].activeSelf == true)
         {
             Vector3 direction = currentObj[1].transform.position - currentObj[0].transform.position;
-            currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized * 0.5f;
+            currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized * velocity;
         }
     }
 
