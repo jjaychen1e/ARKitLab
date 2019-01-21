@@ -4096,7 +4096,7 @@ MonoBehaviour:
   cVolocity2: {fileID: 1729393997}
   obj1: {fileID: 2145177562}
   obj2: {fileID: 2102932714}
-  HitResultController: {fileID: 0}
+  HitResultController: {fileID: 294771742}
 --- !u!1 &999362752
 GameObject:
   m_ObjectHideFlags: 0
