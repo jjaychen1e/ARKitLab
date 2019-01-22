@@ -20,11 +20,29 @@ public class StateController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         //造成大量资源浪费，等待使用委托和事件来优化.
-        mass1.text = obj1.mass.ToString() + " kg";
-        iVolocity1.text = HitResultController.getVelocity(0).ToString() + " m/s";
-        cVolocity1.text = obj1.velocity.magnitude.ToString() + " m/s"; ;
-        mass2.text = obj2.mass.ToString() + " kg";
-        iVolocity2.text = HitResultController.getVelocity(1).ToString() + " m/s"; ;
-        cVolocity2.text = obj2.velocity.magnitude.ToString() + " m/s"; ;
+        if (HitResultController.currentObj[0].activeSelf)
+        {
+            mass1.text = obj1.mass.ToString() + " kg";
+            iVolocity1.text = HitResultController.getVelocity(0).ToString() + " m/s";
+            cVolocity1.text = obj1.velocity.magnitude.ToString() + " m/s";
+        }
+        else
+        {
+            mass1.text = "";
+            iVolocity1.text = "";
+            cVolocity1.text = "";
+        }
+        if (HitResultController.currentObj[1].activeSelf)
+        {
+            mass2.text = obj2.mass.ToString() + " kg";
+            iVolocity2.text = HitResultController.getVelocity(1).ToString() + " m/s";
+            cVolocity2.text = obj2.velocity.magnitude.ToString() + " m/s";
+        }
+        else
+        {
+            mass2.text = "";
+            iVolocity2.text = "";
+            cVolocity2.text = "";
+        }
     }
 }
