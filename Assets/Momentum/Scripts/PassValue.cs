@@ -8,15 +8,15 @@ public class PassValue : MonoBehaviour {
     public Slider VelocitySlider;
     public Rigidbody ball;
     public GameObject hitController;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
+    private int index = 2;
+    // Use this for initialization
+    void Start () {
+        Initiate();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
     // 点击OK时，传递新的质量
@@ -25,16 +25,10 @@ public class PassValue : MonoBehaviour {
         ball.mass = float.Parse(tmp);
     }
 
-    // 点击OK时，传递新的速度给Smoothball0
-    public void passNewVelocity0() {  
+    //// 点击OK时，传递新的速度给SmoothBall\(index)
+    public void passNewVelocity() { 
         string tmp = VelocitySlider.value.ToString("f1");
-        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp),0);
-    }
-
-    // 点击OK时，传递新的速度给Smoothball1
-    public void passNewVelocity1() { 
-        string tmp = VelocitySlider.value.ToString("f1");
-        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp), 1);
+        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp), index);
     }
 
     // 在SetAttributes出现后调用，显示小球质量
@@ -42,14 +36,22 @@ public class PassValue : MonoBehaviour {
         MassSlider.value = ball.mass;
     }
 
-    // 在SetAttributes出现后调用，显示小球0速度
-    public void showVelocity0() {   
-        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(0);
+    // 在SetAttributes出现后调用，显示小球index速度
+    public void showVelocity() {
+        if (index > 1) Initiate();
+        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(index);
     }
 
-    // 在SetAttributes出现后调用，显示小球1速度
-    public void showVelocity1() {
-        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(1);
+    private void Initiate()
+    {
+        if (ball.name.Equals("SmoothBall0"))
+        {
+            index = 0;
+        }
+        else index = 1;
     }
-
+    //// 在SetAttributes出现后调用，显示小球1速度
+    //public void showVelocity1() {
+    //    VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(1);
+    //}
 }

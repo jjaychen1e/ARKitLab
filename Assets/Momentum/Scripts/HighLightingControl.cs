@@ -46,10 +46,10 @@ public class HighLightingControl : MonoBehaviour
     void Update()
     {
 
-        speedObj1.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(0).ToString("#0.00");
-        speedObj2.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(1).ToString("#0.00");
-        massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString("#0.00");
-        massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString("#0.00");
+        speedObj1.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(0).ToString("#0.00") + " m/s";
+        speedObj2.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(1).ToString("#0.00") + " m/s";
+        massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
+        massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
         nameObj1.GetComponent<Text>().text = "Ball 1";
         nameObj2.GetComponent<Text>().text = "Ball 2";
         position1 = obj1.GetComponent<Transform>().position;

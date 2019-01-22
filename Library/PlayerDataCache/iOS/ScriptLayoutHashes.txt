@@ -232,7 +232,7 @@ af0330195ee2952276420a5a79b1ac01 Assembly-CSharp.dll:.ObjectText
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 fa20481299461e1b327b099ee2b59ed4 Assembly-CSharp.dll:.HitCreateEnvironmentProbe
 d43a1c664da41a0b47220482b3bd95a8 Assembly-CSharp.dll:.HexColorField
-acdbe08d89b507b19c04c9f9e8c05f92 Assembly-CSharp.dll:.ShowSetAttibutes
+0707b930ee49919ebbdeac2eae5ff0c3 Assembly-CSharp.dll:.ShowSetAttibutes
 d1ab8151fc5334319ef3691f9a36f251 Assembly-CSharp.dll:.FocusSquare
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShowSetAttibutes : MonoBehaviour {
     public GameObject ob;
+    public PassValue passValue;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,5 +18,7 @@ public class ShowSetAttibutes : MonoBehaviour {
     public void mShowSetAttibutes()
     {
         ob.SetActive(true);
+        passValue.showMass();
+        passValue.showVelocity();
     }
 }
