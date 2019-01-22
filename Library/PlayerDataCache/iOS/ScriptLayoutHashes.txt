@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/cherrier/Developer/Xcode/ARtest1
+/Users/jjaychen/Developer/OutToXcode
 SceneListBegin?
 Assets/Momentum/Scene/UnityARKitScene.unity
 SceneListEnd?
