@@ -18,16 +18,38 @@ public class PassValue : MonoBehaviour {
 	void Update () {
 		
 	}
-    public void passNewMass() {     // 点击OK时，传递新的质量
-        ball.mass = MassSlider.value;
-    }
-    public void passNewVelocity0() {  // 点击OK时，传递新的速度给Smoothball0
-        hitController.GetComponent<HitResultController>().setVelocity(VelocitySlider.value, 0);
+
+    // 点击OK时，传递新的质量
+    public void passNewMass() {     
+        string tmp = MassSlider.value.ToString("f1");
+        ball.mass = float.Parse(tmp);
     }
 
-    public void passNewVelocity1() { // 点击OK时，传递新的速度给Smoothball1
-        hitController.GetComponent<HitResultController>().setVelocity(VelocitySlider.value, 1);
+    // 点击OK时，传递新的速度给Smoothball0
+    public void passNewVelocity0() {  
+        string tmp = VelocitySlider.value.ToString("f1");
+        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp),0);
     }
 
+    // 点击OK时，传递新的速度给Smoothball1
+    public void passNewVelocity1() { 
+        string tmp = VelocitySlider.value.ToString("f1");
+        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp), 1);
+    }
+
+    // 在SetAttributes出现后调用，显示小球质量
+    public void showMass() {    
+        MassSlider.value = ball.mass;
+    }
+
+    // 在SetAttributes出现后调用，显示小球0速度
+    public void showVelocity0() {   
+        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(0);
+    }
+
+    // 在SetAttributes出现后调用，显示小球1速度
+    public void showVelocity1() {
+        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(1);
+    }
 
 }
