@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/jjaychen/Developer/OutToXcode
+/Users/cherrier/Developer/Xcode/ARtest1
 SceneListBegin?
 Assets/Momentum/Scene/UnityARKitScene.unity
 SceneListEnd?
@@ -170,6 +170,7 @@ a24de7823f496c349ba8756ca6ad0318 Assembly-CSharp.dll:HighlightingSystem.Demo.Hig
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:HighlightingSystem.HighlightingBlitter
 fe43c78381311242b7d41580cc74902b Assembly-CSharp.dll:.Ballz
 e71f74b3e56219660de4f2c554cd48c3 Assembly-CSharp.dll:.UpdateWorldMappingStatus
+4dd25e6afec830e965ddc50068deb68e Assembly-CSharp.dll:.StateController
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARAmbient
 bdb279fc616290501fc4f034f354f0eb Assembly-CSharp.dll:HighlightingSystem.Demo.RaycastController
 bf9092984e391e854436c93547ae117f Assembly-CSharp.dll:HighlightingSystem.Demo.HighlightingUpgrade
@@ -238,7 +239,7 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-e50d19fc07c3893679949c419fba4878 Assembly-CSharp.dll:.HighLightingControl
+065126d4776542d088064417322a51f1 Assembly-CSharp.dll:.HighLightingControl
 9298c327ebff903c2048989ac2597ba1 Assembly-CSharp-firstpass.dll:HighlightingSystem.HighlightingBase
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 4903c00541cb6535f2679ebfd987a0ff Assembly-CSharp.dll:.ColorImage
@@ -272,4 +273,3 @@ be05cccf9a5a5ef0737550885f55e634 Assembly-CSharp.dll:.UnityPointCloudExample
 622aa64877982231650b7d8de8ad5f01 Assembly-CSharp.dll:.TongueDetector
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
 55ccd04074c0d9aea690b034ed67015f Assembly-CSharp.dll:HighlightingSystem.Demo.ControlsUI
-4dd25e6afec830e965ddc50068deb68e Assembly-CSharp.dll:.StateController

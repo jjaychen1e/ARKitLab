@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class HighLightingControl : MonoBehaviour
 {
+    public HitResultController hitResultController;
     protected Highlighter h0, h1;
     public GameObject obj1, obj2, speedObj1, speedObj2, massObj1, massObj2, nameObj1, nameObj2, tags, tag1, tag2, SetAttributes;
     private RectTransform rectTag1, rectTag2;
@@ -44,10 +45,11 @@ public class HighLightingControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedObj1.GetComponent<Text>().text = "Velocity: " + obj1.GetComponent<Rigidbody>().velocity.magnitude.ToString();
-        speedObj2.GetComponent<Text>().text = "Velocity: " + obj2.GetComponent<Rigidbody>().velocity.magnitude.ToString();
-        massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString();
-        massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString();
+
+        speedObj1.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(0).ToString("#0.00");
+        speedObj2.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(1).ToString("#0.00");
+        massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString("#0.00");
+        massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString("#0.00");
         nameObj1.GetComponent<Text>().text = "Ball 1";
         nameObj2.GetComponent<Text>().text = "Ball 2";
         position1 = obj1.GetComponent<Transform>().position;

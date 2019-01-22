@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Momentum/Scripts/StateController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Momentum/Scripts/HighLightingControl.cs">
     <Files>
-      <File FileName="Assets/Momentum/Scripts/HitResultController.cs" Line="66" Column="81" />
+      <File FileName="Assets/Momentum/Scripts/HitResultController.cs" Line="7" Column="1" />
       <File FileName="Assets/Momentum/Scripts/touch.cs" Line="5" Column="1" />
       <File FileName="Assets/Momentum/Scripts/ShowSetAttibutes.cs" Line="17" Column="12" />
-      <File FileName="Assets/Momentum/Scripts/HighLightingControl.cs" Line="47" Column="73" />
-      <File FileName="Assets/Momentum/Scripts/ShowMsg.cs" Line="1" Column="1" />
+      <File FileName="Assets/Momentum/Scripts/HighLightingControl.cs" Line="44" Column="1" />
+      <File FileName="Assets/Momentum/Scripts/ShowMsg.cs" Line="20" Column="19" />
       <File FileName="Assets/Momentum/Scripts/PassValue.cs" Line="1" Column="1" />
       <File FileName="Assets/Momentum/Scripts/StateController.cs" Line="28" Column="50" />
     </Files>

@@ -1921,6 +1921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dae6fbb6072340a7916cc46757715d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitResultController: {fileID: 294771742}
   obj1: {fileID: 2145177559}
   obj2: {fileID: 2102932710}
   speedObj1: {fileID: 1069765708}
