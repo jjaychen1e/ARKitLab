@@ -9,13 +9,15 @@ public class HitResultController : MonoBehaviour
 {
     const int MAX = 2;
     public GameObject[] currentObj = new GameObject[MAX];
+    public bool isStart;
     private bool hitTestEnabled = false;
     private float[] velocity = {0.5f,0};    // 两个小球的速度存放在数组中，与currentObj相对应
+
 
     // Use this for initialization
     void Start()
     {
-
+        isStart = false;
     }
 
     // Update is called once per frame
@@ -101,10 +103,12 @@ public class HitResultController : MonoBehaviour
             currentObj[0].GetComponent<Rigidbody>().velocity = direction.normalized * velocity[0];     // Smoothball[0]的速度
             currentObj[1].GetComponent<Rigidbody>().velocity = direction.normalized * velocity[1];     // Smoothball[0]的速度
         }
+        isStart = true;
     }
 
     public void Reset()
     {
+        isStart = false;
         foreach (var item in currentObj)
         {
             if (item.activeSelf == true)

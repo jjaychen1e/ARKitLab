@@ -1,46 +1,4 @@
-Base path: /Applications/Unity2018/Unity2018.app/Contents
-Cmd: initializeCompiler
-Cmd: preprocess
-  insize=724 outsize=301 ok=1
-Cmd: preprocess
-  insize=3552 outsize=350 ok=1
-Cmd: preprocess
-  insize=1733 outsize=572 ok=1
-Cmd: preprocess
-  insize=1455 outsize=1339 ok=1
-Cmd: preprocess
-  insize=1763 outsize=313 ok=1
-Cmd: preprocess
-  insize=1956 outsize=1411 ok=1
-Cmd: preprocess
-  insize=1993 outsize=1119 ok=1
-Cmd: preprocess
-  insize=2465 outsize=665 ok=1
-Cmd: preprocess
-  insize=3271 outsize=1193 ok=1
-Cmd: preprocess
-  insize=1610 outsize=1228 ok=1
-Cmd: preprocess
-  insize=1332 outsize=336 ok=1
-Cmd: preprocess
-  insize=1814 outsize=402 ok=1
-Cmd: preprocess
-  insize=1714 outsize=304 ok=1
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+Base path: /Applications/Unity/Unity2.14.app/Contents
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
