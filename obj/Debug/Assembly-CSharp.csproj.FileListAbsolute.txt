@@ -500,3 +500,7 @@
 /Users/jjaychen/Developer/ARKitLab/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/jjaychen/Developer/ARKitLab/obj/Debug/Assembly-CSharp.dll
 /Users/jjaychen/Developer/ARKitLab/obj/Debug/Assembly-CSharp.pdb
+/Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.dll
+/Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.pdb
