@@ -16,36 +16,50 @@ public class ShowMsg : MonoBehaviour
     private Msg[] msg = new Msg[max_time];
     private int cnt;
     private bool s_lock, c_lock; //只须检测一次
+    private Vector3 direction;
+    private int wait;
 
     // Use this for initialization
     void Start()
     {
         cnt = -1;
+        wait = 0;
         c_lock = true;
         s_lock = true;
     }
 
+    private float GetVel(Vector3 v)
+    {
+        if (Vector3.Dot(v, direction) >= 0)
+        {
+            return v.magnitude;
+        }
+        else
+        {
+            return -1.0f * v.magnitude;
+        }
+    }
     //碰撞前的一次采样
     void OnStart()
     {
         cnt++;
-        c_lock = true;
         if (cnt == max_time)
         {
             cnt = 0;
         }
+        direction = ball1.GetComponent<Rigidbody>().position - ball0.GetComponent<Rigidbody>().position;
         msg[cnt] = new Msg();
         msg[cnt].mass0 = ball0.GetComponent<Rigidbody>().mass;
         msg[cnt].mass1 = ball1.GetComponent<Rigidbody>().mass;
-        msg[cnt].speed0[0] = ball0.GetComponent<Rigidbody>().velocity.magnitude;
-        msg[cnt].speed1[0] = ball1.GetComponent<Rigidbody>().velocity.magnitude;
+        msg[cnt].speed0[0] = GetVel(ball0.GetComponent<Rigidbody>().velocity);
+        msg[cnt].speed1[0] = GetVel(ball1.GetComponent<Rigidbody>().velocity);
     }
 
     //碰撞后的采样
     void OnCollision()
     {
-        msg[cnt].speed0[1] = ball0.GetComponent<Rigidbody>().velocity.magnitude;
-        msg[cnt].speed1[1] = ball1.GetComponent<Rigidbody>().velocity.magnitude;
+        msg[cnt].speed0[1] = GetVel(ball0.GetComponent<Rigidbody>().velocity);
+        msg[cnt].speed1[1] = GetVel(ball1.GetComponent<Rigidbody>().velocity);
     }
 
     // Update is called once per frame
@@ -54,15 +68,22 @@ public class ShowMsg : MonoBehaviour
         if(s_lock && hitTestController.GetComponent<HitResultController>().isStart)
         {
             s_lock = false;//检测之后就进不来了
+            c_lock = true;
             OnStart();
         }
 
         if (c_lock && ball0.GetComponent<IsCollide>().isCollide)
         {
-            hitTestController.GetComponent<HitResultController>().isStart = false;
-            s_lock = true;//碰撞之后第一个锁打开，不过isStart是false，需要等待下一次hit才改
-            c_lock = false;
-            OnCollision();
+            if (wait > 50)
+            {
+                wait = 0;
+                s_lock = true;//碰撞之后第一个锁打开，不过isStart是false，需要等待下一次hit才改
+                c_lock = false;
+                OnCollision();
+                ball0.GetComponent<IsCollide>().isCollide = false;
+                hitTestController.GetComponent<HitResultController>().isStart = false;//结束后让一切都是false
+            }
+            else wait++;
         }
     }
 
