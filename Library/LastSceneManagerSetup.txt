@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Momentum/Scene/UnityARKitScene.unity
+- path: Assets/ConvexLensImaging/Scene/ConvexLensImaging.unity
   isLoaded: 1
   isActive: 1
