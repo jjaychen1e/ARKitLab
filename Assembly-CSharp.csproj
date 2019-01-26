@@ -61,35 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterBase.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterConstant.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterFlashing.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterInteractive.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterOccluder.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlighterSpectrum.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\Deprecated\HighlightingUpgrade.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterFilterAdvanced.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterInteractionDemo.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterRevealer.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterRevealerManager.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterToggle.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlightingPresetLoop.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Basic\HighlighterBasic.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Basic\HighlighterFilterBasic.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Basic\HighlighterHover.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\BehaviourToggle.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\CompoundObjectController.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\GameObjectToggle.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\MovementController.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\RotationController.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\CameraFlyController.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\RaycastController.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\ControlsUI.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\FPSCounter.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\PresetSelector.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\SceneLoader.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\UI.cs" />
-    <Compile Include="Assets\HighlightingSystemDemo\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HandleValueChange.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HighLightingControl.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HitResultController.cs" />
@@ -208,11 +179,8 @@
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\UnityARKitPluginSettings.cs" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileOcclusion.shader" />
-    <None Include="Assets\HighlightingSystemDemo\Assets\Shaders\InstancedSurface.shader" />
-    <None Include="Assets\HighlightingSystemDemo\Assets\Shaders\InstancedTransparent.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
-    <None Include="Assets\HighlightingSystemDemo\Assets\Shaders\Dither.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileARShadow.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
