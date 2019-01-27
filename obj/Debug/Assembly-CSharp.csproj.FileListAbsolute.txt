@@ -504,3 +504,4 @@
 /Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 /Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.dll
 /Users/js/Developer/ARKitLab/obj/Debug/Assembly-CSharp.pdb
+/Users/jjaychen/Developer/ARKitLab/Temp/bin/Debug/Assembly-CSharp-firstpass.pdb

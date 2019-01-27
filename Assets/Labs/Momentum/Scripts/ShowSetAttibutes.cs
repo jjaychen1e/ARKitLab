@@ -18,7 +18,7 @@ public class ShowSetAttibutes : MonoBehaviour {
     public void mShowSetAttibutes()
     {
         ob.SetActive(true);
-        passValue.showMass();
-        passValue.showVelocity();
+        passValue.ShowMass();
+        passValue.ShowVelocity();
     }
 }

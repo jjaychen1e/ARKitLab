@@ -69,7 +69,8 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowMsg.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowSetAttibutes.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
-    <Compile Include="Assets\Labs\Momentum\Scripts\touch.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
+    <Compile Include="Assets\PointerDown.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />

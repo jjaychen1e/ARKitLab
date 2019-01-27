@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 8}
   - component: {fileID: 14}
   - component: {fileID: 15}
+  - component: {fileID: 18}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -337,6 +338,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5587c957048494a2f96db36e0995449e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  m_MaxRayIntersections: 0
 --- !u!4 &20
 Transform:
   m_ObjectHideFlags: 0
@@ -842,18 +858,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 141979104}
-        m_MethodName: passNewMass
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 141979104}
-        m_MethodName: passNewVelocity
+        m_MethodName: OK
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2220,7 +2225,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 294771741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6dae6fbb6072340a7916cc46757715d3, type: 3}
   m_Name: 
@@ -3005,7 +3010,7 @@ GameObject:
   - component: {fileID: 458686861}
   - component: {fileID: 458686859}
   m_Layer: 11
-  m_Name: Mass1
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3232,7 +3237,7 @@ GameObject:
   - component: {fileID: 482041091}
   - component: {fileID: 482041089}
   m_Layer: 11
-  m_Name: Speed2
+  m_Name: Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5144,7 +5149,7 @@ GameObject:
   - component: {fileID: 839522308}
   - component: {fileID: 839522306}
   m_Layer: 11
-  m_Name: Name1
+  m_Name: Mass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6449,7 +6454,7 @@ GameObject:
   - component: {fileID: 1069765711}
   - component: {fileID: 1069765709}
   m_Layer: 11
-  m_Name: Speed1
+  m_Name: Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10221,7 +10226,7 @@ GameObject:
   - component: {fileID: 1754625193}
   - component: {fileID: 1754625192}
   m_Layer: 11
-  m_Name: Mass2
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10760,18 +10765,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1857058384}
-        m_MethodName: passNewMass
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1857058384}
-        m_MethodName: passNewVelocity
+        m_MethodName: OK
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11024,7 +11018,7 @@ GameObject:
   - component: {fileID: 1912175320}
   - component: {fileID: 1912175318}
   m_Layer: 11
-  m_Name: Name2
+  m_Name: Mass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12318,6 +12312,41 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: speedObj
+      value: 
+      objectReference: {fileID: 482041088}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: massObj
+      value: 
+      objectReference: {fileID: 1912175317}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: nameObj
+      value: 
+      objectReference: {fileID: 1754625191}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: Tag
+      value: 
+      objectReference: {fileID: 267793801}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: hitResultController
+      value: 
+      objectReference: {fileID: 294771742}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: passValue
+      value: 
+      objectReference: {fileID: 141979104}
+    - target: {fileID: 23093329500453956, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f4703c1a000ff41dfb95851f1b86d8fb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 817c5ef37785247e48752d916f0a5b75, type: 2}
   m_IsPrefabAsset: 0
@@ -12392,11 +12421,47 @@ MonoBehaviour:
   _constantUseUnscaledTime: 0
   _filterMode: 0
   _filterList: []
+--- !u!114 &2102932713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102932710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2102932715}
+          m_MethodName: PointClickHandler
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!54 &2102932714 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 54885194613888238, guid: 817c5ef37785247e48752d916f0a5b75,
     type: 2}
   m_PrefabInternal: {fileID: 2102932709}
+--- !u!114 &2102932715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+    type: 2}
+  m_PrefabInternal: {fileID: 2102932709}
+  m_Script: {fileID: 11500000, guid: 8fb6d640cc064459291db692c84e3391, type: 3}
 --- !u!1001 &2145177557
 Prefab:
   m_ObjectHideFlags: 0
@@ -12449,6 +12514,46 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: tag
+      value: 
+      objectReference: {fileID: 2004565148}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: speedObj
+      value: 
+      objectReference: {fileID: 1069765708}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: nameObj
+      value: 
+      objectReference: {fileID: 458686858}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: massObj
+      value: 
+      objectReference: {fileID: 839522305}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: hitResultController
+      value: 
+      objectReference: {fileID: 294771742}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: Tag
+      value: 
+      objectReference: {fileID: 2004565148}
+    - target: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: passValue
+      value: 
+      objectReference: {fileID: 1857058384}
+    - target: {fileID: 23093329500453956, guid: 817c5ef37785247e48752d916f0a5b75,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f4703c1a000ff41dfb95851f1b86d8fb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 817c5ef37785247e48752d916f0a5b75, type: 2}
   m_IsPrefabAsset: 0
@@ -12540,3 +12645,39 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 54885194613888238, guid: 817c5ef37785247e48752d916f0a5b75,
     type: 2}
   m_PrefabInternal: {fileID: 2145177557}
+--- !u!114 &2145177563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145177559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2145177564}
+          m_MethodName: PointClickHandler
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &2145177564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114582288353093004, guid: 817c5ef37785247e48752d916f0a5b75,
+    type: 2}
+  m_PrefabInternal: {fileID: 2145177557}
+  m_Script: {fileID: 11500000, guid: 8fb6d640cc064459291db692c84e3391, type: 3}
