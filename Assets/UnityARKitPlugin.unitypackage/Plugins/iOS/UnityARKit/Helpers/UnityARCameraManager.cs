@@ -123,7 +123,7 @@ public class UnityARCameraManager : MonoBehaviour {
         m_session.Pause();
     }
 
-    public void OnCloseDetectionClick(){
+    public void CloseDetection(){
         ARKitWorldTrackingSessionConfiguration config = new ARKitWorldTrackingSessionConfiguration
         {
             planeDetection = UnityARPlaneDetection.None,
