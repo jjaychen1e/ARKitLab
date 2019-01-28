@@ -61,16 +61,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Labs\Momentum\Scripts\BallController.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\Check.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\CheckUIClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HandleValueChange.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HighLightingControl.cs" />
-    <Compile Include="Assets\Labs\Momentum\Scripts\HitResultController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\IsCollide.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\PassValue.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowMsg.cs" />
-    <Compile Include="Assets\Labs\Momentum\Scripts\ShowSetAttibutes.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
-    <Compile Include="Assets\PointerDown.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />

@@ -155,7 +155,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: jjayhen.hittest
+    iOS: jjayhen.hittest0
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0

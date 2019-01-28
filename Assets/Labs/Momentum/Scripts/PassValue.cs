@@ -7,24 +7,28 @@ public class PassValue : MonoBehaviour {
     public Slider MassSlider;
     public Slider VelocitySlider;
     public Rigidbody ball;
-    public GameObject hitController;
-    private int index = 2;
+    public GameObject BallController;
+    public int index = 2;
 
     public delegate void PassValueHanlder();
     public event PassValueHanlder PassValueEvent;
+    public event PassValueHanlder PassValueEvent2;
+    public TagClick TagClick;
 
     void Start () {
         Initiate();
+        PassValueEvent += PassNewMass;
+        PassValueEvent += PassNewVelocity;
+        TagClick.TagClickEvent += ShowMass;
+        TagClick.TagClickEvent += ShowVelocity;
     }
 
     public void OK()
     {
-        PassNewMass();
-        PassNewVelocity();
-        if (PassValueEvent != null)
-        {
+        if (PassValueEvent != null) {
             PassValueEvent();
-        }
+            if (PassValueEvent2 != null) PassValueEvent2();
+        } 
     }
 
     public void PassNewMass() {     
@@ -34,18 +38,18 @@ public class PassValue : MonoBehaviour {
 
     public void PassNewVelocity() { 
         string tmp = VelocitySlider.value.ToString("f1");
-        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp), index);
+        BallController.GetComponent<BallController>().SetVelocity(float.Parse(tmp), index);
     }
 
-    // 在SetAttributes出现后调用，显示小球质量
+
     public void ShowMass() {    
         MassSlider.value = ball.mass;
     }
 
-    // 在SetAttributes出现后调用，显示小球index速度
+
     public void ShowVelocity() {
         if (index > 1) Initiate();
-        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(index);
+        VelocitySlider.value = BallController.GetComponent<BallController>().GetVelocity(index);
     }
 
     private void Initiate()

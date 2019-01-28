@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/HitResultController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/CheckUIClick.cs">
     <Files>
-      <File FileName="Assets/Labs/Momentum/Scripts/Touch.cs" Line="57" Column="28" />
-      <File FileName="Assets/Labs/Momentum/Scripts/HitResultController.cs" Line="8" Column="49" />
+      <File FileName="Assets/Labs/Momentum/Scripts/BallController.cs" Line="45" Column="18" />
+      <File FileName="Assets/Labs/Momentum/Scripts/CheckUIClick.cs" Line="34" Column="63" />
+      <File FileName="Assets/Labs/Momentum/Scripts/Touch.cs" Line="34" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

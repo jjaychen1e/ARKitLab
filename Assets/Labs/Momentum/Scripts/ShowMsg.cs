@@ -10,7 +10,7 @@ public class ShowMsg : MonoBehaviour
 
     public GameObject ball0;
     public GameObject ball1;
-    public GameObject hitTestController;
+    public GameObject BallController;
     public Animator animator;
 
     private Msg[] msg = new Msg[max_time];
@@ -65,7 +65,7 @@ public class ShowMsg : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(s_lock && hitTestController.GetComponent<HitResultController>().isStart)
+        if(s_lock && BallController.GetComponent<BallController>().isStart)
         {
             s_lock = false;//检测之后就进不来了
             c_lock = true;
@@ -81,7 +81,7 @@ public class ShowMsg : MonoBehaviour
                 c_lock = false;
                 OnCollision();
                 ball0.GetComponent<IsCollide>().isCollide = false;
-                hitTestController.GetComponent<HitResultController>().isStart = false;//结束后让一切都是false
+                BallController.GetComponent<BallController>().isStart = false;//结束后让一切都是false
             }
             else wait++;
         }
