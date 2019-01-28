@@ -74,7 +74,7 @@ public class ShowMsg : MonoBehaviour
 
         if (c_lock && ball0.GetComponent<IsCollide>().isCollide)
         {
-            if (wait > 50)
+            if (wait > 25)
             {
                 wait = 0;
                 s_lock = true;//碰撞之后第一个锁打开，不过isStart是false，需要等待下一次hit才改

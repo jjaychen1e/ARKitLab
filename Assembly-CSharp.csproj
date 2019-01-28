@@ -72,7 +72,6 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
-    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
