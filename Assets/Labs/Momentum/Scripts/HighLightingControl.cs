@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class HighLightingControl : MonoBehaviour
 {
-    public HitResultController hitResultController;
+    public BallController BallController;
     protected Highlighter h0, h1;
     public GameObject obj1, obj2, speedObj1, speedObj2, massObj1, massObj2, nameObj1, nameObj2, tags, tag1, tag2, SetAttributes;
     private RectTransform rectTag1, rectTag2;
@@ -46,8 +46,8 @@ public class HighLightingControl : MonoBehaviour
     void Update()
     {
 
-        speedObj1.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(0).ToString("#0.00") + " m/s";
-        speedObj2.GetComponent<Text>().text = "Initial Velocity: " + hitResultController.getVelocity(1).ToString("#0.00") + " m/s";
+        speedObj1.GetComponent<Text>().text = "Initial Velocity: " + BallController.GetVelocity(0).ToString("#0.00") + " m/s";
+        speedObj2.GetComponent<Text>().text = "Initial Velocity: " + BallController.GetVelocity(1).ToString("#0.00") + " m/s";
         massObj1.GetComponent<Text>().text = "Mass: " + obj1.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
         massObj2.GetComponent<Text>().text = "Mass: " + obj2.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
         nameObj1.GetComponent<Text>().text = "Ball 1";
@@ -136,7 +136,6 @@ public class HighLightingControl : MonoBehaviour
                 return true;
             }
         }
-
         return false;
     }
 }

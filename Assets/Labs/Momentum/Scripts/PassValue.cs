@@ -7,39 +7,49 @@ public class PassValue : MonoBehaviour {
     public Slider MassSlider;
     public Slider VelocitySlider;
     public Rigidbody ball;
-    public GameObject hitController;
-    private int index = 2;
-    // Use this for initialization
+    public GameObject BallController;
+    public int index = 2;
+
+    public delegate void PassValueHanlder();
+    public event PassValueHanlder PassValueEvent;
+    public event PassValueHanlder PassValueEvent2;
+    public TagClick TagClick;
+
     void Start () {
         Initiate();
+        PassValueEvent += PassNewMass;
+        PassValueEvent += PassNewVelocity;
+        TagClick.TagClickEvent += ShowMass;
+        TagClick.TagClickEvent += ShowVelocity;
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-	}
+    public void OK()
+    {
+        if (PassValueEvent != null) {
+            PassValueEvent();
+            if (PassValueEvent2 != null) PassValueEvent2();
+        } 
+    }
 
-    // 点击OK时，传递新的质量
-    public void passNewMass() {     
+    public void PassNewMass() {     
         string tmp = MassSlider.value.ToString("f1");
         ball.mass = float.Parse(tmp);
     }
 
-    //// 点击OK时，传递新的速度给SmoothBall\(index)
-    public void passNewVelocity() { 
+    public void PassNewVelocity() { 
         string tmp = VelocitySlider.value.ToString("f1");
-        hitController.GetComponent<HitResultController>().setVelocity(float.Parse(tmp), index);
+        BallController.GetComponent<BallController>().SetVelocity(float.Parse(tmp), index);
     }
 
-    // 在SetAttributes出现后调用，显示小球质量
-    public void showMass() {    
+
+    public void ShowMass() {    
         MassSlider.value = ball.mass;
     }
 
-    // 在SetAttributes出现后调用，显示小球index速度
-    public void showVelocity() {
+
+    public void ShowVelocity() {
         if (index > 1) Initiate();
-        VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(index);
+        VelocitySlider.value = BallController.GetComponent<BallController>().GetVelocity(index);
     }
 
     private void Initiate()
@@ -50,8 +60,4 @@ public class PassValue : MonoBehaviour {
         }
         else index = 1;
     }
-    //// 在SetAttributes出现后调用，显示小球1速度
-    //public void showVelocity1() {
-    //    VelocitySlider.value = hitController.GetComponent<HitResultController>().getVelocity(1);
-    //}
 }
