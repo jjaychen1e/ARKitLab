@@ -9,8 +9,6 @@ public class CheckUIClick : MonoBehaviour {
     PointerEventData m_PointerEventData;
     EventSystem m_EventSystem;
     public GameObject obj;
-    //public delegate void NoneUIClickHandler();
-    //public event NoneUIClickHandler NoneUIClickEvent;
 
     public bool OnClickUI()
     {
@@ -41,7 +39,6 @@ public class CheckUIClick : MonoBehaviour {
             {
                 return true;
             }
-            //if (NoneUIClickEvent != null) NoneUIClickEvent();
         }
         return false;
     }

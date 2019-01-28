@@ -11,10 +11,11 @@ public class BallController : MonoBehaviour
     public GameObject[] currentObj = new GameObject[MAX];
     public Check CheckPanel;
     public CheckUIClick CheckUIClick;
+    public UnityARCameraManager UnityARCameraManager;
     public bool isStart;
-    private bool hitTestEnabled = false;
-    private float[] velocity = {0.5f,0};    // 两个小球的初速度存放在数组中，与currentObj相对应
 
+    private float[] velocity = {0.5f,0};    // 两个小球的初速度存放在数组中，与currentObj相对应
+    private bool flag;
     public delegate void ResetHandler();
     public event ResetHandler ResetEvent;
     public delegate void HitHandler();
@@ -31,6 +32,8 @@ public class BallController : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && CheckPanel.CheckPanel())
         {
+            if (flag == false) { UnityARCameraManager.CloseDetection();  flag = true; }
+            /* == 第一次点击的时候关闭平面检测 */
             Ray mRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit mHit;
             //射线检验  
@@ -41,49 +44,41 @@ public class BallController : MonoBehaviour
             }
             else
             {
-                if (hitTestEnabled)
+                var touch = Input.GetTouch(0); 
+                if (touch.phase == TouchPhase.Began)
                 {
-                    var touch = Input.GetTouch(0); 
-                    if (touch.phase == TouchPhase.Began)
+                    Vector3 screenPos = Camera.main.ScreenToViewportPoint(touch.position);
+                    ARPoint point = new ARPoint
                     {
-                        Vector3 screenPos = Camera.main.ScreenToViewportPoint(touch.position);
-                        ARPoint point = new ARPoint
-                        {
-                            x = screenPos.x,
-                            y = screenPos.y
-                        };
+                        x = screenPos.x,
+                        y = screenPos.y
+                    };
 
-                        List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
-                        if (currentObj[0].activeSelf == false)
-                        {
-                            //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[0].transform.localScale.y;
-                            currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                            currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                            currentObj[0].GetComponent<Touch>().ActiveBall();
+                    List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
+                    if (currentObj[0].activeSelf == false)
+                    {
+                        currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[0].transform.localScale.y*0.1f;
+                        //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        currentObj[0].GetComponent<Touch>().ActiveBall();
 
-                            if (currentObj[1].activeSelf == true) currentObj[0].transform.position = new Vector3(currentObj[0].transform.position.x, currentObj[1].transform.position.y, currentObj[0].transform.position.z);
-                        }
-                        else if (currentObj[1].activeSelf == false)
-                        {
-                            //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[1].transform.localScale.y;
-                            currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                            currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                            currentObj[1].GetComponent<Touch>().ActiveBall();
+                        if (currentObj[1].activeSelf == true) currentObj[0].transform.position = new Vector3(currentObj[0].transform.position.x, currentObj[1].transform.position.y, currentObj[0].transform.position.z);
+                    }
+                    else if (currentObj[1].activeSelf == false)
+                    {
+                        currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[1].transform.localScale.y*0.1f;
+                        //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        currentObj[1].GetComponent<Touch>().ActiveBall();
 
-                            if (currentObj[0].activeSelf == true) currentObj[1].transform.position = new Vector3(currentObj[1].transform.position.x, currentObj[0].transform.position.y, currentObj[1].transform.position.z);
-                        }
-                        else {
-                            if (NoneUIClickEvent != null) NoneUIClickEvent();
-                        }
+                        if (currentObj[0].activeSelf == true) currentObj[1].transform.position = new Vector3(currentObj[1].transform.position.x, currentObj[0].transform.position.y, currentObj[1].transform.position.z);
+                    }
+                    else {
+                        if (NoneUIClickEvent != null) NoneUIClickEvent();
                     }
                 }
             }
         }
-    }
-
-    public void EnableHitTest()
-    {
-        hitTestEnabled = true;
     }
 
     public void HitAnother()
