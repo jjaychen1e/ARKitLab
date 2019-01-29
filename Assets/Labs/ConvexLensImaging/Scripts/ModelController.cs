@@ -7,6 +7,7 @@ public class ModelController : MonoBehaviour {
 
     public UnityARCameraManager UnityARCameraManager;
     public GameObject Model;
+    public GameObject GeneratePlane, FocusSquare;
 
     private bool flag;
 
@@ -27,9 +28,6 @@ public class ModelController : MonoBehaviour {
         if(Model.activeSelf == false)
             if (Input.GetMouseButtonDown(0))
             {
-                if (flag == false) { UnityARCameraManager.CloseDetection(); flag = true; }
-                /* == 第一次点击的时候关闭平面检测 */
-
                 var touch = Input.GetTouch(0);
                 if (touch.phase == TouchPhase.Began)
                 {
@@ -39,7 +37,15 @@ public class ModelController : MonoBehaviour {
                         x = screenPos.x,
                         y = screenPos.y
                     };
-                    List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
+                    List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlane);
+                    if (flag == false && hitTestResults.Count > 0) { 
+                        UnityARCameraManager.CloseDetection();
+                        flag = true;
+                        GeneratePlane.GetComponent<FocusSquare>().enabled = false;
+                        FocusSquare.SetActive(false);
+                    }
+                    /* == 第一次点击的时候关闭平面检测 */
+
                     Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                     Model.transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
                     SetModelActive();

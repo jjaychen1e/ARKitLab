@@ -12,6 +12,7 @@ public class BallController : MonoBehaviour
     public Check CheckPanel;
     public CheckUIClick CheckUIClick;
     public UnityARCameraManager UnityARCameraManager;
+    public GameObject GeneratePlane, FocusSquare;
     public bool isStart;
 
     private float[] velocity = {0.5f,0};    // 两个小球的初速度存放在数组中，与currentObj相对应
@@ -32,8 +33,6 @@ public class BallController : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && CheckPanel.CheckPanel())
         {
-            if (flag == false) { UnityARCameraManager.CloseDetection();  flag = true; }
-            /* == 第一次点击的时候关闭平面检测 */
             Ray mRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit mHit;
             //射线检验  
@@ -54,11 +53,18 @@ public class BallController : MonoBehaviour
                         y = screenPos.y
                     };
 
-                    List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
+                    List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlane);
+                    if (flag == false && hitTestResults.Count > 0) { 
+                        UnityARCameraManager.CloseDetection(); 
+                        flag = true;
+                        GeneratePlane.GetComponent<FocusSquare>().enabled = false;
+                        FocusSquare.SetActive(false);
+                    }
+                    /* == 第一次点击的时候关闭平面检测 */
                     if (currentObj[0].activeSelf == false)
                     {
-                        currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[0].transform.localScale.y*0.1f;
-                        //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[0].transform.localScale.y*0.1f;
+                        currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[0].GetComponent<Touch>().ActiveBall();
 
@@ -66,8 +72,8 @@ public class BallController : MonoBehaviour
                     }
                     else if (currentObj[1].activeSelf == false)
                     {
-                        currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[1].transform.localScale.y*0.1f;
-                        //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[1].transform.localScale.y*0.1f;
+                        currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
                         currentObj[1].GetComponent<Touch>().ActiveBall();
 
