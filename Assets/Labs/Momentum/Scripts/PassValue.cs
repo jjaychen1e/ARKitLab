@@ -12,23 +12,19 @@ public class PassValue : MonoBehaviour {
 
     public delegate void PassValueHanlder();
     public event PassValueHanlder PassValueEvent;
-    public event PassValueHanlder PassValueEvent2;
     public TagClick TagClick;
 
     void Start () {
         Initiate();
-        PassValueEvent += PassNewMass;
-        PassValueEvent += PassNewVelocity;
         TagClick.TagClickEvent += ShowMass;
         TagClick.TagClickEvent += ShowVelocity;
     }
 
     public void OK()
     {
-        if (PassValueEvent != null) {
-            PassValueEvent();
-            if (PassValueEvent2 != null) PassValueEvent2();
-        } 
+        PassNewMass();
+        PassNewVelocity();
+        if (PassValueEvent != null) PassValueEvent();
     }
 
     public void PassNewMass() {     

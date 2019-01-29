@@ -12,7 +12,7 @@ public class StateController : MonoBehaviour {
     public Touch Touch;
 
     void Start () {
-        PassValue.PassValueEvent2 += UpdateState;
+        PassValue.PassValueEvent += UpdateState;
         Touch.ActiveBallEvent += UpdateState;
         BallController.ResetEvent += ClearState;
         Touch.DestroyEvent += ClearState;

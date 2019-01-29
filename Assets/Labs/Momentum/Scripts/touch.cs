@@ -24,7 +24,7 @@ public class Touch : MonoBehaviour {
 
     void Start () {
         Initiate();
-        passValue.PassValueEvent2 += SetTag;
+        passValue.PassValueEvent += SetTag;
         BallClickEvent += Selected;
         DestroyEvent += HideAndRest;
         DestroyEvent += Unselected;
