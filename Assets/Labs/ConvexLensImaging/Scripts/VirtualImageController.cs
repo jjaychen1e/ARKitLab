@@ -7,12 +7,12 @@ public class VirtualImageController  : MonoBehaviour {
     public GameObject Model, RF, Glass, VF;
     public Text text;
     public GameObject Button;
-    private const float focal = 0.1f;
+    private float focal;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        focal = 0.1f * Model.transform.localScale.x;
+    }
 	
 	// Update is called once per frame
 	void Update () {
