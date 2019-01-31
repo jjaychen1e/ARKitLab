@@ -196,7 +196,7 @@ ee3ea6dbb43260ac83153657722e978d Assembly-CSharp.dll:.ColorSliderImage
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 3cf4375471f0cac46cb4f119177e3284 Assembly-CSharp.dll:.SetWorldOriginControl
-6b8aadd80441ad86031fac98d6ccb0b3 Assembly-CSharp.dll:.VirtualImageController
+520aa9d5767d205c87dbfb47132bfa06 Assembly-CSharp.dll:.VirtualImageController
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 9d863b523b577f5c3d915351a74cd338 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -250,3 +250,4 @@ bf5cbeb343b015b4fda69d21e2bd78be Assembly-CSharp.dll:.ReflectionProbeGameObject
 be05cccf9a5a5ef0737550885f55e634 Assembly-CSharp.dll:.UnityPointCloudExample
 622aa64877982231650b7d8de8ad5f01 Assembly-CSharp.dll:.TongueDetector
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
+9a04828b9e803f2ebeef15e6563d2954 Assembly-CSharp.dll:.DrawLines
