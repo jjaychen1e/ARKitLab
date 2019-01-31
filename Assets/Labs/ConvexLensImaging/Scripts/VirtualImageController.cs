@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class VirtualImageController  : MonoBehaviour {
     public GameObject Model, RF, Glass, VF;
+    public GameObject HorizontalLine, LightLine;
     public Text text;
     public GameObject Button;
     private float focal;
@@ -17,15 +18,16 @@ public class VirtualImageController  : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //在拖动实现之后通过委托事件来实现，现在通过Update实现/
-        //float times = VF.transform.localScale.magnitude / RF.transform.localScale.magnitude;
-        float u = (Glass.transform.position - RF.transform.position).magnitude;
-        float scale = focal / (u - focal);
-        VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
-        VF.transform.localScale = RF.transform.localScale * scale;
-
-        if (Model.activeSelf) Button.SetActive(true);
+        if (Model.activeSelf) {
+            Button.SetActive(true);
+            float u = (Glass.transform.position - RF.transform.position).magnitude;
+            float scale = focal / (u - focal);
+            VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
+            VF.transform.localScale = RF.transform.localScale * scale;
+            HorizontalLine.GetComponent<DrawLines>().DrawHorizontalLine();
+            LightLine.GetComponent<DrawLines>().DrawLight();
+        }
         else Button.SetActive(false);
-
     }
 
     public void ShowImageOrNot()
@@ -34,11 +36,15 @@ public class VirtualImageController  : MonoBehaviour {
         {
             VF.SetActive(false);
             text.text = "OFF";
+            HorizontalLine.SetActive(false);
+            LightLine.SetActive(false);
         }
         else
         {
             VF.SetActive(true);
             text.text = "ON ";
+            HorizontalLine.SetActive(true);
+            LightLine.SetActive(true);
         }
     }
 }
