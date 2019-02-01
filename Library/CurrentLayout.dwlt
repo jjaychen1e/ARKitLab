@@ -366,14 +366,14 @@ MonoBehaviour:
     height: 364
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 18.10652196407318
-  m_2DMode: 1
+  lastFramingTime: 1453.0173199176788
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1015.73486, y: 941.8303, z: 1.2511845}
+    m_Target: {x: -0.00000003839523, y: 0.13598067, z: -0.008000003}
     speed: 2
-    m_Value: {x: 1015.73486, y: 941.8303, z: 1.2511845}
+    m_Value: {x: -0.00000003839523, y: 0.13598067, z: -0.008000003}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -397,23 +397,23 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.053642727, y: -0.649615, z: 0.04613267, w: -0.7569841}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: -0.053641915, y: -0.64960515, z: 0.046131972, w: -0.7569727}
   m_Size:
-    m_Target: 2310.96
+    m_Target: 0.30663976
     speed: 2
-    m_Value: 2310.96
+    m_Value: 0.30663976
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.12775227, y: 0.6043592, z: -0.098962076, w: -0.7801603}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -446,23 +446,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae310000
-    m_LastClickedID: 12718
-    m_ExpandedIDs: e4fbffff00000000
+    m_SelectedIDs: 90f6ffff
+    m_LastClickedID: -2416
+    m_ExpandedIDs: 92f6ffff94f6ffffa2f6ffff00000000a0350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Screen
+      m_OriginalName: Screen
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -2490
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -509,20 +509,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UnityARKitPlugin.unitypackage/Plugins/iOS/UnityARKit/Editor
+    - Assets/Labs/ConvexLensImaging/Material
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/UnityARKitPlugin.unitypackage/Plugins/iOS/UnityARKit/Editor
+  - Assets/Labs/ConvexLensImaging/Material
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/jjaychen/Developer/ARKitLab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 242d0000
-    m_LastClickedID: 11556
-    m_ExpandedIDs: 00000000062b00003c2b0000c42b0000ec2c0000622d00006e2d0000de2d0000042e00003a2e0000182f0000742f0000922f0000ae2f0000783000005433000056330000583300005a3300005c3300005e3300006033000062330000643300006633000068330000
+    m_SelectedIDs: bc330000
+    m_LastClickedID: 13244
+    m_ExpandedIDs: 000000003e2f0000722f0000f82f0000923100009e3100000e320000343200006a320000443300009e330000bc330000d8330000b6340000d4360000d6360000d8360000da360000dc360000de360000e0360000e2360000e4360000e6360000e8360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000062b00003c2b0000c42b0000622d00006e2d0000de2d0000042e00003a2e0000182f0000742f0000922f0000ae2f0000783000005433000056330000583300005a3300005c3300005e3300006033000062330000643300006633000068330000
+    m_ExpandedIDs: 000000003e2f0000722f0000f82f00001c310000923100009e3100000e320000343200006a320000443300009e330000bc330000d8330000a2340000d4360000d6360000d8360000da360000dc360000de360000e0360000e2360000e4360000e6360000e8360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 522c0000622c0000642c0000de3700008e38000010390000000000003439000076360000ee2e000016320000b0320000b62e00001ab1ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
