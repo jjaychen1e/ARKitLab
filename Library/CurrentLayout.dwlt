@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 98
+  controlID: 120
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 99
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -281,8 +281,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 708
-    y: 94
+    x: 0
+    y: 479
     width: 706
     height: 345
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -332,7 +332,7 @@ MonoBehaviour:
       width: 2204.0977
       height: 1024
     m_MinimalGUI: 1
-  m_defaultScale: 0.3203125
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1412, y: 690}
@@ -366,14 +366,14 @@ MonoBehaviour:
     height: 364
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 788.1387209892273
-  m_2DMode: 0
+  lastFramingTime: 1708.8388570547104
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.3632, y: 0.1354, z: -0.008000001}
+    m_Target: {x: 961.5475, y: 1118.4427, z: -41.927692}
     speed: 2
-    m_Value: {x: -0.3632, y: 0.1354, z: -0.008000001}
+    m_Value: {x: 961.5475, y: 1118.4427, z: -41.927692}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -393,28 +393,28 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.035504397, y: -0.82302034, z: 0.05199379, w: 0.5645341}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.03550395, y: -0.82300997, z: 0.051993135, w: 0.564527}
+    m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 0.36676708
+    m_Target: 4071.269
     speed: 2
-    m_Value: 0.36676708
+    m_Value: 4071.269
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: -0.25348568, y: 0.03945423, z: -0.010345835, w: -0.96647894}
+  m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: d4fbffffd6fbffffe4fbffff00000000
+    m_SelectedIDs: 3a320000
+    m_LastClickedID: 12858
+    m_ExpandedIDs: e4fbffff00000000e8310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,20 +509,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Labs/ConvexLensImaging/Scripts
+    - Assets/Labs/ConvexLensImaging/Material
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Labs/ConvexLensImaging/Scripts
+  - Assets/Labs/ConvexLensImaging/Material
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/jjaychen/Developer/ARKitLab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60300000
-    m_LastClickedID: 12384
-    m_ExpandedIDs: 000000000c2b0000422b0000ca2b0000702d00007c2d0000ec2d0000142e00004c2e00002a2f0000882f0000c22f0000a2300000823300008433000086330000883300008a3300008c3300008e33000090330000923300009433000096330000
+    m_SelectedIDs: a82f0000
+    m_LastClickedID: 12200
+    m_ExpandedIDs: 000000000e2b0000442b0000cc2b0000722d00007e2d0000ee2d0000162e00004e2e00002c2f00008a2f0000c42f000090300000a43000008c3300008e33000090330000923300009433000096330000983300009a3300009c3300009e330000a0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c2b0000422b0000ca2b0000702d00007c2d0000ec2d0000142e00004c2e00002a2f0000882f0000c22f0000a2300000823300008433000086330000883300008a3300008c3300008e33000090330000923300009433000096330000
+    m_ExpandedIDs: 000000000e2b0000442b0000cc2b0000722d00007e2d0000ee2d0000162e00004e2e00002c2f00008a2f0000c42f000090300000a43000008c3300008e33000090330000923300009433000096330000983300009a3300009c3300009e330000a0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -581,18 +581,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 522c0000622c0000642c0000de3700008e38000010390000000000003439000076360000ee2e000016320000b0320000b62e00001ab1ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CameraFilterPack_Blur_Movie2
+      m_OriginalName: CameraFilterPack_Blur_Movie2
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 17716
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:

@@ -8,10 +8,10 @@ public class VirtualImageController  : MonoBehaviour {
     public GameObject HorizontalLine, LightLine;
     public Text text;
     public GameObject Button;
-    private float focal;
+    public float focal;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         focal = 0.1f * Model.transform.localScale.x;
     }
 	

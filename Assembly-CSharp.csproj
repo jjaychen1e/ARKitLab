@@ -62,9 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie2.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\MirrorCamera.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ModelController.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ScreenImageController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\VirtualImageController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallCollision.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallController.cs" />
@@ -185,8 +187,9 @@
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\NativeInterface\ARWorldMap.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\UnityARKitPluginSettings.cs" />
+    <None Include="Assets\Labs\ConvexLensImaging\Material\Caemra2.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileOcclusion.shader" />
-    <None Include="Assets\Labs\ConvexLensImaging\Material\mohu.shader" />
+    <None Include="Assets\Labs\ConvexLensImaging\Material\Camera3.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileARShadow.shader" />
