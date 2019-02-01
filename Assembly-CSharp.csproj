@@ -65,6 +65,7 @@
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\MirrorCamera.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ModelController.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ScreenImageController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\VirtualImageController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallCollision.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallController.cs" />
