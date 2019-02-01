@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/Compiled-CameraFilterPack-Blur_Movie.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/VirtualImageController.cs">
     <Files>
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/VirtualImageController.cs" Line="46" Column="44" />
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/DrawLines.cs" Line="5" Column="45" />
-      <File FileName="Temp/Compiled-CameraFilterPack-Blur_Movie.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

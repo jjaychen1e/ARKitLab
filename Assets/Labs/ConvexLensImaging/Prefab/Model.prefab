@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4950248286084576}
   - component: {fileID: 20225358858287322}
   - component: {fileID: 81493773165821028}
+  - component: {fileID: 114641859630128932}
   m_Layer: 0
   m_Name: Camera_2
   m_TagString: Untagged
@@ -221,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4490807677696420}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: VAlphaF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,6 +307,7 @@ GameObject:
   - component: {fileID: 20859171414247510}
   - component: {fileID: 81650391441060014}
   - component: {fileID: 114136458725555204}
+  - component: {fileID: 114769584339528590}
   m_Layer: 0
   m_Name: Camera_3
   m_TagString: Untagged
@@ -323,7 +325,7 @@ GameObject:
   - component: {fileID: 4436297802700792}
   - component: {fileID: 33685931652853502}
   - component: {fileID: 23801514169830166}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4451288511207498}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: VPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1016,7 +1018,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 7223
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 37978c0f9c72a4339979a3ffce14edc2, type: 2}
   m_TargetDisplay: 0
@@ -1056,7 +1058,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 7223
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 4df87d0ee1a2d477c90e1d078b535a9c, type: 2}
   m_TargetDisplay: 0
@@ -1934,6 +1936,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1f10793d93b4e0485698a2fbc74059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114641859630128932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015598186500358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaaab4771ab544e3e95814ea73c1ffc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SCShader: {fileID: 4800000, guid: 3d03e2062b74547b8a431d6a996338b3, type: 3}
+  Radius: 1000
+  Factor: 0
+  FastFilter: 3
+--- !u!114 &114769584339528590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1529762620627024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaaab4771ab544e3e95814ea73c1ffc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SCShader: {fileID: 4800000, guid: 3d03e2062b74547b8a431d6a996338b3, type: 3}
+  Radius: 1000
+  Factor: 0
+  FastFilter: 3
 --- !u!136 &136133300847183838
 CapsuleCollider:
   m_ObjectHideFlags: 1
