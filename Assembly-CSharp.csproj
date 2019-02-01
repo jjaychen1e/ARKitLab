@@ -61,7 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\MirrorCamera.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ModelController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\VirtualImageController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallCollision.cs" />
@@ -74,7 +76,7 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowMsg.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
-    <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\touch.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
@@ -184,6 +186,7 @@
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\UnityARKitPluginSettings.cs" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileOcclusion.shader" />
+    <None Include="Assets\Labs\ConvexLensImaging\Material\mohu.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileARShadow.shader" />
