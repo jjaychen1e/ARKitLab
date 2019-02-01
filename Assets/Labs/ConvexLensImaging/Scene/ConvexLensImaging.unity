@@ -795,7 +795,7 @@ GameObject:
   m_PrefabInternal: {fileID: 916933916}
 --- !u!1 &916933918 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1493209047886584, guid: 6411792a76a8c4d65873f91af8ebdb4a,
+  m_CorrespondingSourceObject: {fileID: 1860036025828058, guid: 6411792a76a8c4d65873f91af8ebdb4a,
     type: 2}
   m_PrefabInternal: {fileID: 916933916}
 --- !u!1 &916933919 stripped
@@ -1772,6 +1772,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2115612117 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1690332356300934, guid: 6411792a76a8c4d65873f91af8ebdb4a,
+  m_CorrespondingSourceObject: {fileID: 1360642354878086, guid: 6411792a76a8c4d65873f91af8ebdb4a,
     type: 2}
   m_PrefabInternal: {fileID: 916933916}
