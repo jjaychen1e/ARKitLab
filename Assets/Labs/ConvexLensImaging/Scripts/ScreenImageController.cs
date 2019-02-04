@@ -7,11 +7,12 @@ public class ScreenImageController : MonoBehaviour {
     private float distance, focal, degree;
     // Use this for initialization
 	void Start () {
-        focal = this.gameObject.GetComponent<VirtualImageController>().focal;
+
     }
 	
 	// Update is called once per frame
 	void Update () {
+        focal = this.gameObject.GetComponent<VirtualImageController>().focal;
         distance = (Center.transform.position - VF.transform.position).magnitude;
         if (distance > 0.25f * focal) degree = 8;
         else degree = 28 * distance/focal + 1;
