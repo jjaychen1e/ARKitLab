@@ -7,6 +7,7 @@ public class ModelController : MonoBehaviour {
 
     public UnityARCameraManager UnityARCameraManager;
     public GameObject Model;
+    public GameObject Button;
     public GameObject GeneratePlane, FocusSquare;
 
     private bool flag;
@@ -25,6 +26,8 @@ public class ModelController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         ResetHandlerEvent += SetModelInactive;
+        ResetHandlerEvent += HideButton;
+        ResetHandlerEvent += SetAdjustableTrue;
     }
 	
 	// Update is called once per frame
@@ -55,6 +58,7 @@ public class ModelController : MonoBehaviour {
                     Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
                     Model.transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
                     SetModelActive();
+                    Button.SetActive(true);
                 }
             }
         }else if(adjustable)
@@ -73,7 +77,6 @@ public class ModelController : MonoBehaviour {
                     };
                     List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlane);
                     Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                    Model.transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
                 }
                 
                 //保证重新开始双指触摸记录的初始位置不是松开手时的位置，而是初始触摸的位置
@@ -137,8 +140,18 @@ public class ModelController : MonoBehaviour {
         if (ResetHandlerEvent != null) ResetHandlerEvent();
     }
 
-    public void SetAdjustable()
+    public void SetAdjustableFalse()
     {
         adjustable = false;
+    }
+
+    public void SetAdjustableTrue()
+    {
+        adjustable = true;
+    }
+
+    public void HideButton()
+    {
+        Button.SetActive(false);
     }
 }
