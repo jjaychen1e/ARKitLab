@@ -114,6 +114,15 @@ public class ModelController : MonoBehaviour {
                     oldPosition1 = tempPosition1;
                     oldPosition2 = tempPosition2;
                 }
+
+                //if (Vector2.Dot(touch1.deltaPosition,touch2.deltaPosition)<=0 && touch1.position.y < touch2.position.y)
+                //{
+                //    Model.transform.Rotate(Vector3.down * touch1.deltaPosition.x * 0.75f, Space.World);
+                //}
+                //else if (Vector2.Dot(touch1.deltaPosition, touch2.deltaPosition) <= 0 && touch1.position.y > touch2.position.y)
+                //{
+                //    Model.transform.Rotate(Vector3.down * touch2.deltaPosition.x * 0.75f, Space.World);
+                //}
             }
             else if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
             {
