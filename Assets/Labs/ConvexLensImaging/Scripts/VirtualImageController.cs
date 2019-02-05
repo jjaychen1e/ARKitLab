@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class VirtualImageController  : MonoBehaviour {
     public GameObject Model, RF, Glass, VF;
     public GameObject HorizontalLine, LightLine;
+    public ModelController ModelController;
     public Text text;
     public GameObject Button;
     public float focal;
@@ -13,6 +14,7 @@ public class VirtualImageController  : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         focal = 0.1f * Model.transform.localScale.x;
+        ModelController.ResetHandlerEvent += HideLineAndVF;
     }
 	
 	// Update is called once per frame
@@ -35,17 +37,27 @@ public class VirtualImageController  : MonoBehaviour {
     {
         if (VF.activeSelf)
         {
-            VF.SetActive(false);
             text.text = "OFF";
-            HorizontalLine.SetActive(false);
-            LightLine.SetActive(false);
+            HideLineAndVF();
         }
         else
         {
-            VF.SetActive(true);
             text.text = "ON ";
-            HorizontalLine.SetActive(true);
-            LightLine.SetActive(true);
+            ShowLineAndVF();
         }
+    }
+
+    public void HideLineAndVF()
+    {
+        VF.SetActive(false);
+        HorizontalLine.SetActive(false);
+        LightLine.SetActive(false);
+    }
+
+    public void ShowLineAndVF()
+    {
+        VF.SetActive(true);
+        HorizontalLine.SetActive(true);
+        LightLine.SetActive(true);
     }
 }
