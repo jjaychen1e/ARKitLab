@@ -9,7 +9,7 @@ public class VirtualImageController  : MonoBehaviour {
     public ModelController ModelController;
     public Text text;
     public GameObject Button;
-    public float focal;
+    public float focal,scale;
 
 	// Use this for initialization
 	void Awake () {
@@ -24,7 +24,7 @@ public class VirtualImageController  : MonoBehaviour {
         if (Model.activeSelf) {
             Button.SetActive(true);
             float u = (Glass.transform.position - RF.transform.position).magnitude;
-            float scale = focal / (u - focal);
+            scale = focal / (u - focal);
             VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
             VF.transform.localScale = RF.transform.localScale * scale;
             HorizontalLine.GetComponent<DrawLines>().DrawHorizontalLine();
