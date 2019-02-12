@@ -10,6 +10,11 @@ public class ModelController : MonoBehaviour {
     public GameObject Button;
     public GameObject GeneratePlane, FocusSquare;
 
+    public Vector3 transforme; // remove vector
+    public GameObject obj1, obj2;
+    public float distance;
+    public Vector3 oldRemove1, oldRemove2;
+
     private bool flag;
     private bool adjustable = true;
 
@@ -32,6 +37,7 @@ public class ModelController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        CheckButton();
         if (Model.activeSelf == false)
         {
             if (Input.GetMouseButtonDown(0))
@@ -152,6 +158,10 @@ public class ModelController : MonoBehaviour {
     public void SetAdjustableFalse()
     {
         adjustable = false;
+        transforme = obj1.transform.position - obj2.transform.position;
+        oldRemove1 = obj1.transform.position;
+        oldRemove2 = obj2.transform.position;
+        distance = Vector3.Distance(obj1.transform.position, obj2.transform.position);
     }
 
     public void SetAdjustableTrue()
@@ -162,5 +172,10 @@ public class ModelController : MonoBehaviour {
     public void HideButton()
     {
         Button.SetActive(false);
+    }
+    public bool CheckButton()
+    {
+        if (!adjustable) return true;
+        return false;
     }
 }

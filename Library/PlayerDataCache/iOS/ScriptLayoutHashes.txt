@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/jjaychen/Developer/OutToXcode
+/Users/cherrier/Developer/Xcode/ARtest2
 SceneListBegin?
 Assets/Labs/ConvexLensImaging/Scene/ConvexLensImaging.unity
 SceneListEnd?
@@ -216,7 +216,7 @@ af0330195ee2952276420a5a79b1ac01 Assembly-CSharp.dll:.ObjectText
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 fa20481299461e1b327b099ee2b59ed4 Assembly-CSharp.dll:.HitCreateEnvironmentProbe
 d43a1c664da41a0b47220482b3bd95a8 Assembly-CSharp.dll:.HexColorField
-5622d33159b63e0f6ec9f31129ae1076 Assembly-CSharp.dll:.ModelController
+ae06e039cd6c5d64b12b29f127359449 Assembly-CSharp.dll:.ModelController
 7d79e7fa70111081e920b7b746ed9b1f Assembly-CSharp.dll:.TagClick
 d1ab8151fc5334319ef3691f9a36f251 Assembly-CSharp.dll:.FocusSquare
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -254,3 +254,4 @@ bf5cbeb343b015b4fda69d21e2bd78be Assembly-CSharp.dll:.ReflectionProbeGameObject
 be05cccf9a5a5ef0737550885f55e634 Assembly-CSharp.dll:.UnityPointCloudExample
 622aa64877982231650b7d8de8ad5f01 Assembly-CSharp.dll:.TongueDetector
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UnityARCameraNearFar
+b261d99ea4468df80d117b4ecd7002fb Assembly-CSharp.dll:.RemoveController
