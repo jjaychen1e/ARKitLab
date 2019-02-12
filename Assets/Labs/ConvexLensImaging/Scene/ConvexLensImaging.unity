@@ -1114,6 +1114,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1122950966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1559158010298626, guid: 6411792a76a8c4d65873f91af8ebdb4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1667264768}
 --- !u!1 &1165620429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1227610582001204, guid: 6411792a76a8c4d65873f91af8ebdb4a,
@@ -1302,6 +1307,9 @@ MonoBehaviour:
   transforme: {x: 0, y: 0, z: 0}
   obj1: {fileID: 770848792}
   obj2: {fileID: 2090712467}
+  obj3: {fileID: 1122950966}
+  distance1: 0
+  distance2: 0
   distance: 0
   oldRemove1: {x: 0, y: 0, z: 0}
   oldRemove2: {x: 0, y: 0, z: 0}
@@ -1332,6 +1340,7 @@ MonoBehaviour:
   modelController: {fileID: 1460315672}
   alphaBase: {fileID: 770848792}
   screenBase: {fileID: 2090712467}
+  magnifierBase: {fileID: 1122950966}
 --- !u!1 &1571929233
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,11 +6,11 @@ using HighlightingSystem;
 public class RemoveController : MonoBehaviour {
     Highlighter h1, h2;
     public ModelController modelController;
-    public GameObject alphaBase, screenBase;
+    public GameObject alphaBase, screenBase, magnifierBase;
     private bool alphaBaseFlag = false;
     private bool screenBaseFlag = false;
     private Vector3 transformed;
-    private float distances;
+    private float distance1,distance2;
     private Vector3 oldPosition1, oldPosition2;
 	// Use this for initialization
 	void Start () {
@@ -23,7 +23,8 @@ public class RemoveController : MonoBehaviour {
         if (modelController.CheckButton())
         {
             transformed = modelController.transforme;
-            distances = modelController.distance;
+            distance1 = modelController.distance1;
+            distance2 = modelController.distance2;
             oldPosition1 = modelController.oldRemove1;
             oldPosition2 = modelController.oldRemove2;
             if (Input.GetMouseButtonDown(0))
@@ -53,32 +54,30 @@ public class RemoveController : MonoBehaviour {
             {
                 Vector2 deltaposition = Input.GetTouch(0).deltaPosition;
                 Vector3 translated = Vector3.Project(deltaposition, transformed);
-                Vector3 removeFlag1 = oldPosition1 - alphaBase.transform.position;
-                Vector3 removeFlag2 = oldPosition2 - screenBase.transform.position;
-                if (alphaBaseFlag && (Vector3.Distance(oldPosition1,alphaBase.transform.position)< 0.3 * distances))
+                if (alphaBaseFlag && (Vector3.Distance(oldPosition1,alphaBase.transform.position)< 0.6 * distance1))
                 {
                     alphaBase.transform.Translate(translated * 0.0005f, Space.World);
                 }
-                else if(alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.3 * distances && removeFlag1.x<0))
-                { 
-                    alphaBase.transform.Translate(-transformed * 0.005f, Space.World);
-                }
-                else if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.3 * distances)&& removeFlag1.x>0)
-                {
-                    alphaBase.transform.Translate(transformed * 0.005f, Space.World);
-                }
-                else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) < 0.3 * distances))
+                else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) < 0.6 * distance2))
                 {
                     screenBase.transform.Translate(translated * 0.0005f, Space.World);
                 }
-                else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.3 * distances) && removeFlag2.x<0)
-                {
-                    screenBase.transform.Translate(-transformed * 0.005f, Space.World);
-                }
-                else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.3 * distances) && removeFlag2.x>0)
-                {
-                    screenBase.transform.Translate(transformed * 0.005f, Space.World);
-                }
+            }
+            if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.6 * distance1) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) < distance1))
+            {
+                alphaBase.transform.Translate(transformed * 0.005f, Space.World);
+            }
+            else if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.6 * distance1) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) > distance1))
+            {
+                alphaBase.transform.Translate(-transformed * 0.005f, Space.World);
+            }
+            else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.6 * distance2) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) < distance2))
+            {
+                screenBase.transform.Translate(-transformed * 0.005f, Space.World);
+            }
+            else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.6 * distance2) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) > distance2))
+            {
+                screenBase.transform.Translate(transformed * 0.005f, Space.World);
             }
         }
     }

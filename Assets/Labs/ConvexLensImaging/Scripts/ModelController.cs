@@ -11,8 +11,8 @@ public class ModelController : MonoBehaviour {
     public GameObject GeneratePlane, FocusSquare;
 
     public Vector3 transforme; // remove vector
-    public GameObject obj1, obj2;
-    public float distance;
+    public GameObject obj1, obj2, obj3;
+    public float distance1,distance2,distance;
     public Vector3 oldRemove1, oldRemove2;
 
     private bool flag;
@@ -161,7 +161,8 @@ public class ModelController : MonoBehaviour {
         transforme = obj1.transform.position - obj2.transform.position;
         oldRemove1 = obj1.transform.position;
         oldRemove2 = obj2.transform.position;
-        distance = Vector3.Distance(obj1.transform.position, obj2.transform.position);
+        distance1 = Vector3.Distance(obj1.transform.position, obj3.transform.position);
+        distance2 = Vector3.Distance(obj2.transform.position, obj3.transform.position);
     }
 
     public void SetAdjustableTrue()

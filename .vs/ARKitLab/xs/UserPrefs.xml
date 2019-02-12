@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs">
     <Files>
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="35" Column="23" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/removeController.cs" Line="25" Column="67" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="165" Column="88" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/removeController.cs" Line="74" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
