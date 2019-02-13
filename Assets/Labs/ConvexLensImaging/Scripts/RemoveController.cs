@@ -56,11 +56,11 @@ public class RemoveController : MonoBehaviour {
                 Vector3 translated = Vector3.Project(deltaposition, transformed);
                 if (alphaBaseFlag && (Vector3.Distance(oldPosition1,alphaBase.transform.position)< 0.6 * distance1))
                 {
-                    alphaBase.transform.Translate(translated * 0.0005f, Space.World);
+                    alphaBase.transform.Translate(translated * 0.0002f, Space.World);
                 }
                 else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) < 0.6 * distance2))
                 {
-                    screenBase.transform.Translate(translated * 0.0005f, Space.World);
+                    screenBase.transform.Translate(translated * 0.0002f, Space.World);
                 }
             }
             if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.6 * distance1) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) < distance1))
@@ -78,6 +78,14 @@ public class RemoveController : MonoBehaviour {
             else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.6 * distance2) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) > distance2))
             {
                 screenBase.transform.Translate(transformed * 0.005f, Space.World);
+            }
+
+            if(Input.touchCount > 1)
+            {
+                h1.ConstantOffImmediate();
+                h2.ConstantOffImmediate();
+                alphaBaseFlag = false;
+                screenBaseFlag = false;
             }
         }
     }
