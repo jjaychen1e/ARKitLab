@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/Visible.cs">
     <Files>
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="165" Column="88" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/removeController.cs" Line="74" Column="26" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/VirtualImageController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ScreenImageController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/DrawLines.cs" Line="1" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/Record.cs" Line="62" Column="38" />
+      <File FileName="Assets/Labs/Momentum/Scripts/ShowMsg.cs" Line="1" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/Visible.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
