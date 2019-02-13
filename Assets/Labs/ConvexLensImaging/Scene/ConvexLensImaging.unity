@@ -2291,6 +2291,20 @@ Prefab:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 4451135756944500, guid: 6411792a76a8c4d65873f91af8ebdb4a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.202
+      objectReference: {fileID: 0}
+    - target: {fileID: 114769584339528590, guid: 6411792a76a8c4d65873f91af8ebdb4a,
+        type: 2}
+      propertyPath: FastFilter
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609594693085732, guid: 6411792a76a8c4d65873f91af8ebdb4a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6411792a76a8c4d65873f91af8ebdb4a, type: 2}
   m_IsPrefabAsset: 0
@@ -2896,6 +2910,7 @@ MonoBehaviour:
   VF: {fileID: 2115612117}
   Camera3: {fileID: 1046456789}
   Plane: {fileID: 2020393427}
+  Model: {fileID: 1839149014}
   VirtualImageController: {fileID: 2114594085}
 --- !u!1 &2115612117 stripped
 GameObject:

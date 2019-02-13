@@ -10,9 +10,9 @@ public class CameraFilterPack_Blur_Movie : MonoBehaviour
     private Vector4 ScreenResolution;
     private Material SCMaterial;
     [Range(0, 1000)]
-    public float Radius = 150.0f;
+    public float Radius = 1000.0f;
     [Range(0, 1000)]
-    public float Factor = 200.0f;
+    public float Factor = 0.0f;
     [Range(1, 8)]
     public int FastFilter = 2;
 
@@ -94,7 +94,7 @@ public class CameraFilterPack_Blur_Movie : MonoBehaviour
     void Update()
     {
         if (Application.isPlaying)
-        {
+    {
             Radius = ChangeRadius;
             Factor = ChangeFactor;
             FastFilter = ChangeFastFilter;
