@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class ShowMsg : MonoBehaviour
+public class ShowMsg : NetworkBehaviour
 {
     private const int max_time = 5;
 
@@ -13,7 +14,9 @@ public class ShowMsg : MonoBehaviour
     public GameObject BallController;
     public Animator animator;
 
+    [SyncVar]
     private Msg[] msg = new Msg[max_time];
+
     private int cnt;
     private bool s_lock, c_lock; //只须检测一次
     private Vector3 direction;
