@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.XR.iOS;
 using UnityEngine.UI;
 using HighlightingSystem;
+using UnityEngine.Networking;
 
-public class BallController : MonoBehaviour
+public class BallController : NetworkBehaviour
 {
     const int MAX = 2;
     public GameObject[] currentObj = new GameObject[MAX];
@@ -64,20 +65,30 @@ public class BallController : MonoBehaviour
                     if (currentObj[0].activeSelf == false)
                     {
                         //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[0].transform.localScale.y*0.1f;
-                        currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        currentObj[0].GetComponent<Touch>().ActiveBall();
 
-                        if (currentObj[1].activeSelf == true) currentObj[0].transform.position = new Vector3(currentObj[0].transform.position.x, currentObj[1].transform.position.y, currentObj[0].transform.position.z);
+                        //currentObj[0].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        //currentObj[0].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
+
+                        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                        CmdChangeTransform(0, UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform), UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform));
+                        //currentObj[0].GetComponent<Touch>().ActiveBall();
+
+                        //if (currentObj[1].activeSelf == true) currentObj[0].transform.position = new Vector3(currentObj[0].transform.position.x, currentObj[1].transform.position.y, currentObj[0].transform.position.z);
                     }
                     else if (currentObj[1].activeSelf == false)
                     {
                         //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform) + Vector3.up * currentObj[1].transform.localScale.y*0.1f;
-                        currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                        currentObj[1].GetComponent<Touch>().ActiveBall();
 
-                        if (currentObj[0].activeSelf == true) currentObj[1].transform.position = new Vector3(currentObj[1].transform.position.x, currentObj[0].transform.position.y, currentObj[1].transform.position.z);
+                        //currentObj[1].transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                        //currentObj[1].transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
+
+                        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                        CmdChangeTransform(1, UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform), UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform));
+                        //currentObj[1].GetComponent<Touch>().ActiveBall();
+
+                        //if (currentObj[0].activeSelf == true) currentObj[1].transform.position = new Vector3(currentObj[1].transform.position.x, currentObj[0].transform.position.y, currentObj[1].transform.position.z);
                     }
                     else {
                         if (NoneUIClickEvent != null) NoneUIClickEvent();
@@ -88,6 +99,50 @@ public class BallController : MonoBehaviour
     }
 
     public void HitAnother()
+    {
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        CmdHitAnother();
+    }
+
+    public void Reset()
+    {
+        CmdReset();
+    }
+
+    public void SetVelocity(float v,int i) { 
+        this.velocity[i] = v;
+    }
+
+    public float GetVelocity(int i) {
+        return this.velocity[i];
+    }
+
+    /* UNET */
+    [Command]
+    public void CmdChangeTransform(int index, Vector3 position, Quaternion rotation)
+    {
+        RpcChangeTransform(index, position, rotation);
+    }
+
+    [ClientRpc]
+    public void RpcChangeTransform(int index, Vector3 position, Quaternion rotation)
+    {
+        Debug.Log("调用成功");
+        currentObj[index].transform.position = position;
+        currentObj[index].transform.rotation = rotation;
+        currentObj[index].GetComponent<Touch>().ActiveBall();
+        if (currentObj[1-index].activeSelf == true) currentObj[index].transform.position = new Vector3(currentObj[index].transform.position.x, currentObj[1-index].transform.position.y, currentObj[index].transform.position.z);
+    }
+
+    [Command]
+    public void CmdHitAnother()
+    {
+        RpcHitAnother();
+    }
+
+    [ClientRpc]
+    public void RpcHitAnother()
     {
         if (currentObj[0].activeSelf == true && currentObj[1].activeSelf == true)
         {
@@ -101,7 +156,14 @@ public class BallController : MonoBehaviour
         isStart = true;
     }
 
-    public void Reset()
+    [Command]
+    public void CmdReset()
+    {
+        RpcReset();
+    }
+
+    [ClientRpc]
+    public void RpcReset()
     {
         isStart = false;
         if (ResetEvent != null)
@@ -109,13 +171,4 @@ public class BallController : MonoBehaviour
             ResetEvent();
         }
     }
-
-    public void SetVelocity(float v,int i) { 
-        this.velocity[i] = v;
-    }
-
-    public float GetVelocity(int i) {
-        return this.velocity[i];
-    }
 }
-

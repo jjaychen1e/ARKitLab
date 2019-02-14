@@ -27,8 +27,11 @@ public class VirtualImageController  : MonoBehaviour {
             scale = focal / (u - focal);
             VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
             VF.transform.localScale = RF.transform.localScale * scale;
-            HorizontalLine.GetComponent<DrawLines>().DrawHorizontalLine();
-            LightLine.GetComponent<DrawLines>().DrawLight();
+            if (VF.activeSelf)
+            {
+                HorizontalLine.GetComponent<DrawLines>().DrawHorizontalLine();
+                LightLine.GetComponent<DrawLines>().DrawLight();
+            }
         }
         else Button.SetActive(false);
     }
