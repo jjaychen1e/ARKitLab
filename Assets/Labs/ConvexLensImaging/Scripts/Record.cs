@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Networking;
 
-public class Record : MonoBehaviour {
+public class Record : NetworkBehaviour
+{
     public GameObject Obj1;
     public GameObject Obj2;
 
@@ -19,9 +21,14 @@ public class Record : MonoBehaviour {
         cnt = 1;
 	}
 
+    [Command]
+    public void CmdRecord()
+    {
+        RpcRecord();
+    }
 
-
-    public void record()
+    [ClientRpc]
+    public void RpcRecord()
     {
         double dis = Math.Round((pos1.position - pos2.position).magnitude, 2);
         double focal = Math.Round(GameObject.Find("VirtualImageController").GetComponent<VirtualImageController>().focal, 2);
