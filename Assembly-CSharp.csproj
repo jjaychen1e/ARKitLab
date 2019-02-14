@@ -61,14 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Icon\iOSUI\ContentCtrl.cs" />
+    <Compile Include="Assets\Icon\iOSUI\Identity.cs" />
+    <Compile Include="Assets\Icon\iOSUI\SegmentCtrl.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie2.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\MirrorCamera.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ModelController.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\NetworkManager_custom.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\Player.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\Record.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\RemoveController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ScreenImageController.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\SettingControl.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\VirtualImageController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\Visible.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallCollision.cs" />
@@ -81,7 +87,7 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowMsg.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
-    <Compile Include="Assets\Labs\Momentum\Scripts\touch.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />

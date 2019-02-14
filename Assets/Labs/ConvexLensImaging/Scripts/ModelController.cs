@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;
+using UnityEngine.Networking;
 
-public class ModelController : MonoBehaviour {
+public class ModelController : NetworkBehaviour {
 
     public UnityARCameraManager UnityARCameraManager;
     public GameObject Model;
@@ -37,7 +38,7 @@ public class ModelController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        CheckButton();
+        //CheckButton();
         if (Model.activeSelf == false)
         {
             if (Input.GetMouseButtonDown(0))
@@ -61,10 +62,15 @@ public class ModelController : MonoBehaviour {
                     }
                     /* == 第一次点击的时候关闭平面检测 */
 
-                    Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                    Model.transform.rotation = UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform);
-                    SetModelActive();
-                    Button.SetActive(true);
+                    /* UNET */
+                    var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                    player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                    CmdChangeTransform(UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform), UnityARMatrixOps.GetRotation(hitTestResults[hitTestResults.Count - 1].worldTransform));
+                    CmdSetModelActive();
+                    CmdSetConfirmButtonActive();
+                    /* == UNET */
+
+                    //Button.SetActive(true);
                 }
             }
         }else if(adjustable)
@@ -82,9 +88,15 @@ public class ModelController : MonoBehaviour {
                         y = screenPos.y
                     };
                     List<ARHitTestResult> hitTestResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest(point, ARHitTestResultType.ARHitTestResultTypeExistingPlane);
-                    Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+                    //Model.transform.position = UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform);
+
+                    /* UNET */
+                    var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                    player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                    CmdChangeTransform(UnityARMatrixOps.GetPosition(hitTestResults[hitTestResults.Count - 1].worldTransform), Model.transform.rotation);
+                    /* == UNET */
                 }
-                
+
                 //保证重新开始双指触摸记录的初始位置不是松开手时的位置，而是初始触摸的位置
                 if (Input.GetTouch(0).phase == TouchPhase.Began || Input.GetTouch(1).phase == TouchPhase.Began)
                 {
@@ -113,7 +125,10 @@ public class ModelController : MonoBehaviour {
                     //在什么情况下进行缩放
                     if (scale.x >= 0.2f && scale.y >= 0.2f && scale.z >= 0.2f)
                     {
-                        Model.transform.localScale = scale;
+                        //Model.transform.localScale = scale;
+                        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                        CmdChangeScale(scale);
                     }
                     //备份上一次触摸点的位置，用于对比
                     //也是松开手时的位置
@@ -133,16 +148,13 @@ public class ModelController : MonoBehaviour {
             else if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
             {
                 Vector2 deltaPos = Input.GetTouch(0).deltaPosition;
-                Model.transform.Rotate(Vector3.down * deltaPos.x * 0.5f, Space.World);
+                //Model.transform.Rotate(Vector3.down * deltaPos.x * 0.5f, Space.World);
+                var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+                player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+                CmdRotate(deltaPos);
             }
         }
 }
-
-    void SetModelActive()
-    {
-        Model.SetActive(true);
-        if (SetModelActiveEvent != null) SetModelActiveEvent();
-    }
 
     void SetModelInactive()
     {
@@ -152,7 +164,15 @@ public class ModelController : MonoBehaviour {
 
     public void  Reset()
     {
-        if (ResetHandlerEvent != null) ResetHandlerEvent();
+        //if (ResetHandlerEvent != null) ResetHandlerEvent();
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        CmdReset();
+    }
+
+    public void Confirm()
+    {
+        CmdConfirm();
     }
 
     public void SetAdjustableFalse()
@@ -178,5 +198,94 @@ public class ModelController : MonoBehaviour {
     {
         if (!adjustable) return true;
         return false;
+    }
+
+    /* UNET */
+
+    [Command]
+    public void CmdChangeTransform(Vector3 position, Quaternion rotation)
+    {
+        RpcChangeTransform(position, rotation);
+    }
+
+    [ClientRpc]
+    public void RpcChangeTransform(Vector3 position, Quaternion rotation)
+    {
+        Model.transform.position = position;
+        Model.transform.rotation = rotation;
+    }
+
+    [Command]
+    public void CmdChangeScale(Vector3 scale)
+    {
+        RpcChangeScale(scale);
+    }
+
+    [ClientRpc]
+    public void RpcChangeScale(Vector3 scale)
+    {
+        Model.transform.localScale = scale;
+    }
+
+    [Command]
+    public void CmdRotate(Vector3 deltaPos)
+    {
+        RpcRotate(deltaPos);
+    }
+
+    [ClientRpc]
+    public void RpcRotate(Vector3 deltaPos)
+    {
+        Model.transform.Rotate(Vector3.down * deltaPos.x * 0.5f, Space.World);
+    }
+
+    [Command]
+    void CmdSetModelActive()
+    {
+        RpcSetModelActive();
+    }
+
+    [ClientRpc]
+    void RpcSetModelActive()
+    {
+        Model.SetActive(true);
+        if (SetModelActiveEvent != null) SetModelActiveEvent();
+    }
+
+    [Command]
+    void CmdSetConfirmButtonActive()
+    {
+        RpcSetConfirmButtonActive();
+    }
+
+    [ClientRpc]
+    void RpcSetConfirmButtonActive()
+    {
+        Button.SetActive(true);
+    }
+
+    [Command]
+    void CmdConfirm()
+    {
+        RpcConfirm();
+    }
+
+    [ClientRpc]
+    void RpcConfirm()
+    {
+        SetAdjustableFalse();
+        HideButton();
+    }
+
+    [Command]
+    public void CmdReset()
+    {
+        RpcReset();
+    }
+
+    [ClientRpc]
+    public void RpcReset()
+    {
+        if (ResetHandlerEvent != null) ResetHandlerEvent();
     }
 }
