@@ -1689,7 +1689,6 @@ GameObject:
   - component: {fileID: 223974445}
   - component: {fileID: 223974444}
   - component: {fileID: 223974443}
-  - component: {fileID: 223974442}
   m_Layer: 5
   m_Name: MassInputField
   m_TagString: Untagged
@@ -1717,19 +1716,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &223974442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 223974440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1559146983}
-  input: {fileID: 223974443}
 --- !u!114 &223974443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,7 +1770,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 223974442}
+      - m_Target: {fileID: 1232435885}
         m_MethodName: onInputFieldValueChanged
         m_Mode: 1
         m_Arguments:
@@ -2459,7 +2445,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 448.9, y: 622}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322201313
 MonoBehaviour:
@@ -2882,6 +2868,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 425007988}
+  - component: {fileID: 425007990}
+  - component: {fileID: 425007989}
   m_Layer: 0
   m_Name: Velocity
   m_TagString: Untagged
@@ -2904,6 +2892,51 @@ Transform:
   m_Father: {fileID: 459104871}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &425007989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425007987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1883223254}
+  input: {fileID: 1377513037}
+--- !u!114 &425007990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425007987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &445951680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,8 +3797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360.4, y: 622}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 392.7, y: 622}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537352153
 MonoBehaviour:
@@ -4538,6 +4571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641628021}
   - component: {fileID: 641628020}
+  - component: {fileID: 641628022}
   m_Layer: 5
   m_Name: SetAttributes1
   m_TagString: Untagged
@@ -4581,6 +4615,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &641628022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 641628019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &664944942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5946,8 +6012,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 272.6, y: 622}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 332.8, y: 622}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968521153
 MonoBehaviour:
@@ -7184,7 +7250,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1140274720}
   - component: {fileID: 1140274718}
-  - component: {fileID: 1140274719}
   m_Layer: 5
   m_Name: VelocitySlider
   m_TagString: Untagged
@@ -7238,7 +7303,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1140274719}
+      - m_Target: {fileID: 1163670287}
         m_MethodName: onSliderValueChanged
         m_Mode: 1
         m_Arguments:
@@ -7251,19 +7316,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1140274719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1140274717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1140274718}
-  input: {fileID: 1401915174}
 --- !u!224 &1140274720
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7368,6 +7420,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1163670286}
+  - component: {fileID: 1163670288}
+  - component: {fileID: 1163670287}
   m_Layer: 0
   m_Name: Velocity
   m_TagString: Untagged
@@ -7390,6 +7444,51 @@ Transform:
   m_Father: {fileID: 120634961}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1163670287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1163670285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1140274718}
+  input: {fileID: 1401915174}
+--- !u!114 &1163670288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1163670285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &1178086150
 GameObject:
   m_ObjectHideFlags: 0
@@ -7474,7 +7573,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1187286209}
   - component: {fileID: 1187286207}
-  - component: {fileID: 1187286208}
   m_Layer: 5
   m_Name: MassSlider
   m_TagString: Untagged
@@ -7528,7 +7626,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187286208}
+      - m_Target: {fileID: 1710456622}
         m_MethodName: onSliderValueChanged
         m_Mode: 1
         m_Arguments:
@@ -7541,19 +7639,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1187286208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1187286206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1187286207}
-  input: {fileID: 1517087941}
 --- !u!224 &1187286209
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7617,6 +7702,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232435884}
+  - component: {fileID: 1232435886}
+  - component: {fileID: 1232435885}
   m_Layer: 0
   m_Name: Mass
   m_TagString: Untagged
@@ -7639,6 +7726,51 @@ Transform:
   m_Father: {fileID: 459104871}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232435885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232435883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1559146983}
+  input: {fileID: 223974443}
+--- !u!114 &1232435886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232435883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &1248361796
 GameObject:
   m_ObjectHideFlags: 0
@@ -8481,7 +8613,6 @@ GameObject:
   - component: {fileID: 1377513039}
   - component: {fileID: 1377513038}
   - component: {fileID: 1377513037}
-  - component: {fileID: 1377513036}
   m_Layer: 5
   m_Name: VelocityInputField
   m_TagString: Untagged
@@ -8509,19 +8640,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1377513036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1377513034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1883223254}
-  input: {fileID: 1377513037}
 --- !u!114 &1377513037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8576,7 +8694,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1377513036}
+      - m_Target: {fileID: 425007989}
         m_MethodName: onInputFieldValueChanged
         m_Mode: 1
         m_Arguments:
@@ -8839,7 +8957,6 @@ GameObject:
   - component: {fileID: 1401915178}
   - component: {fileID: 1401915177}
   - component: {fileID: 1401915174}
-  - component: {fileID: 1401915175}
   m_Layer: 5
   m_Name: VelocityInputField
   m_TagString: Untagged
@@ -8901,7 +9018,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1401915175}
+      - m_Target: {fileID: 1163670287}
         m_MethodName: onInputFieldValueChanged
         m_Mode: 1
         m_Arguments:
@@ -8921,19 +9038,6 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
---- !u!114 &1401915175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1401915173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1140274718}
-  input: {fileID: 1401915174}
 --- !u!224 &1401915176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9358,7 +9462,6 @@ GameObject:
   - component: {fileID: 1517087945}
   - component: {fileID: 1517087944}
   - component: {fileID: 1517087941}
-  - component: {fileID: 1517087942}
   m_Layer: 5
   m_Name: MassInputField
   m_TagString: Untagged
@@ -9420,7 +9523,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517087942}
+      - m_Target: {fileID: 1710456622}
         m_MethodName: onInputFieldValueChanged
         m_Mode: 1
         m_Arguments:
@@ -9440,19 +9543,6 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
---- !u!114 &1517087942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1517087940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1187286207}
-  input: {fileID: 1517087941}
 --- !u!224 &1517087943
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9673,7 +9763,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1559146985}
   - component: {fileID: 1559146983}
-  - component: {fileID: 1559146984}
   m_Layer: 5
   m_Name: MassSlider
   m_TagString: Untagged
@@ -9727,7 +9816,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1559146984}
+      - m_Target: {fileID: 1232435885}
         m_MethodName: onSliderValueChanged
         m_Mode: 1
         m_Arguments:
@@ -9740,19 +9829,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1559146984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559146982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1559146983}
-  input: {fileID: 223974443}
 --- !u!224 &1559146985
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10195,6 +10271,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1710456621}
+  - component: {fileID: 1710456623}
+  - component: {fileID: 1710456622}
   m_Layer: 0
   m_Name: Mass
   m_TagString: Untagged
@@ -10217,6 +10295,51 @@ Transform:
   m_Father: {fileID: 120634961}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1710456622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1710456620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1187286207}
+  input: {fileID: 1517087941}
+--- !u!114 &1710456623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1710456620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1001 &1725839681
 Prefab:
   m_ObjectHideFlags: 0
@@ -10872,7 +10995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1883223252}
   - component: {fileID: 1883223254}
-  - component: {fileID: 1883223253}
   m_Layer: 5
   m_Name: VelocitySlider
   m_TagString: Untagged
@@ -10901,19 +11023,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1883223253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1883223251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9ae9e46a9a4644897b7920d8db46aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1883223254}
-  input: {fileID: 1377513037}
 --- !u!114 &1883223254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10960,7 +11069,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1883223253}
+      - m_Target: {fileID: 425007989}
         m_MethodName: onSliderValueChanged
         m_Mode: 1
         m_Arguments:
@@ -11559,6 +11668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993755088}
   - component: {fileID: 1993755087}
+  - component: {fileID: 1993755089}
   m_Layer: 5
   m_Name: SetAttributes2
   m_TagString: Untagged
@@ -11602,6 +11712,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1993755089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1993755086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &1997520169
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class ShowMsg : NetworkBehaviour
     public GameObject BallController;
     public Animator animator;
 
-    [SyncVar]
+    //[SyncLis<Msg>]
     private Msg[] msg = new Msg[max_time];
 
     private int cnt;
