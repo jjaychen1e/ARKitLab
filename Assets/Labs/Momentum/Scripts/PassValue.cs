@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class PassValue : MonoBehaviour {
+public class PassValue : NetworkBehaviour {
     public Slider MassSlider;
     public Slider VelocitySlider;
     public Rigidbody ball;
@@ -22,9 +23,9 @@ public class PassValue : MonoBehaviour {
 
     public void OK()
     {
-        PassNewMass();
-        PassNewVelocity();
-        if (PassValueEvent != null) PassValueEvent();
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>()); 
+        CmdOK();
     }
 
     public void PassNewMass() {     
@@ -55,5 +56,22 @@ public class PassValue : MonoBehaviour {
             index = 0;
         }
         else index = 1;
+    }
+
+    /* UNET */
+
+    [Command]
+    
+    public void CmdOK()
+    {
+        RpcOK();
+    }
+
+    [ClientRpc]
+    public void RpcOK()
+    {
+        PassNewMass();
+        PassNewVelocity();
+        if (PassValueEvent != null) PassValueEvent();
     }
 }
