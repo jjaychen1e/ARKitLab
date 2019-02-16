@@ -26,6 +26,7 @@ public class Player : NetworkBehaviour
     [Command]
     public void Cmd_SetAuthority(NetworkIdentity objectId, NetworkIdentity player)
     {
+        Debug.Log(isServer.ToString());
         var otherOwner = objectId.clientAuthorityOwner;
         if (otherOwner == player.connectionToClient)
         {

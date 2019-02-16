@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class HandleValueChange : NetworkBehaviour {
+public class HandleValueChange : NetworkBehaviour
+{
     public Slider slider;
     public InputField input;
 

@@ -34,6 +34,7 @@ public class BallController : NetworkBehaviour
     {
         if(Input.GetMouseButtonDown(0) && CheckPanel.CheckPanel())
         {
+            Debug.Log("1");
             Ray mRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit mHit;
             //射线检验  
@@ -47,6 +48,7 @@ public class BallController : NetworkBehaviour
                 var touch = Input.GetTouch(0); 
                 if (touch.phase == TouchPhase.Began)
                 {
+                    Debug.Log("2");
                     Vector3 screenPos = Camera.main.ScreenToViewportPoint(touch.position);
                     ARPoint point = new ARPoint
                     {

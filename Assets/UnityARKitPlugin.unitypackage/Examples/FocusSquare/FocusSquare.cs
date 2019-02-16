@@ -47,7 +47,7 @@ public class FocusSquare : MonoBehaviour {
 			foreach (var hitResult in hitResults) {
 				foundSquare.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 				foundSquare.transform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
-				Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.transform.position.x, foundSquare.transform.position.y, foundSquare.transform.position.z));
+				//Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.transform.position.x, foundSquare.transform.position.y, foundSquare.transform.position.z));
 				return true;
 			}
 		}
