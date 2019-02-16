@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/PassValue.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/HandleValueChange.cs">
     <Files>
-      <File FileName="Assets/Labs/Momentum/Scripts/PassValue.cs" Line="18" Column="5" />
-      <File FileName="Assets/Labs/Momentum/Scripts/HandleValueChange.cs" Line="13" Column="50" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/Player.cs" Line="35" Column="13" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs" Line="7" Column="49" />
-      <File FileName="Assets/Labs/Momentum/Scripts/BallController.cs" Line="127" Column="9" />
-      <File FileName="Assets/Labs/Momentum/Scripts/StateController.cs" Line="24" Column="62" />
+      <File FileName="Assets/Labs/Momentum/Scripts/HandleValueChange.cs" Line="30" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
