@@ -79,6 +79,7 @@
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\Visible.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallCollision.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\BallController.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\BallUnet.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\Check.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\CheckUIClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HandleValueChange.cs" />

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using HighlightingSystem;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class Touch : MonoBehaviour {
+public class Touch : NetworkBehaviour {
 
     public BallController BallController;
     public PassValue passValue;
     public Check CheckPanel;
+    public BallUnet BallUnet;
     public CheckUIClick CheckUIClick;
     public GameObject speedObj, massObj,nameObj, Tag;
 
@@ -41,7 +43,8 @@ public class Touch : MonoBehaviour {
             t1 = Time.realtimeSinceStartup;
             if (t1 - t0 < 0.2f)
             {
-                Destroy();
+                //Destroy();//双击让球消失
+                BallUnet.Destroy();
             }
             else
             {
@@ -78,7 +81,7 @@ public class Touch : MonoBehaviour {
     }
 
     /*摧毁球*/
-    private void Destroy()
+    public void Destroy()
     {
         this.gameObject.SetActive(false);
         if (DestroyEvent != null)
@@ -144,4 +147,6 @@ public class Touch : MonoBehaviour {
             Tag.GetComponent<RectTransform>().position = new Vector2(screenPos.x, screenPos.y + 300);
         }
 	}
+
+
 }
