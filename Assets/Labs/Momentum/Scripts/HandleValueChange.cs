@@ -19,53 +19,43 @@ public class HandleValueChange : NetworkBehaviour
     }
 
     public void onSliderValueChanged() {
-        cmdOnSliderValueChanged();
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        CmdOnSliderValueChanged(slider.value.ToString("f1"));
     }
 
     public void onInputFieldValueChanged() {
-        cmdOnInputFieldValueChanged();
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        CmdOnInputFieldValueChanged(input.text);
     }
 
     /* UNET */
 
-    void cmdOnSliderValueChanged()
-    {
-        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
-        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-        CmdOnSliderValueChanged();
-    }
-
-    void cmdOnInputFieldValueChanged()
-    {
-        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
-        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-        CmdOnInputFieldValueChanged();
-    }
-
     [Command]
 
-    public void CmdOnSliderValueChanged()
+    public void CmdOnSliderValueChanged(string s)
     {
-        RpcOnSliderValueChanged();
+        RpcOnSliderValueChanged(s);
     }
 
     [ClientRpc]
-    public void RpcOnSliderValueChanged()
+    public void RpcOnSliderValueChanged(string s)
     {
-        if (input.name.Contains("Velocity")) input.text = input.text = slider.value.ToString("f1") + " m/s";
-        else input.text = input.text = input.text = slider.value.ToString("f1") + " kg";
+        if (input.name.Contains("Velocity")) input.text = input.text = s + " m/s";
+        else input.text = input.text = input.text = s + " kg";
     }
 
     [Command]
-    public void CmdOnInputFieldValueChanged()
+    public void CmdOnInputFieldValueChanged(string s)
     {
-        RpcOnInputFieldValueChanged();
+        RpcOnInputFieldValueChanged(s);
     }
 
     [ClientRpc]
-    public void RpcOnInputFieldValueChanged()
+    public void RpcOnInputFieldValueChanged(string s)
     {
-        slider.value = float.Parse(input.text); // InputField的值改变，Slider的值也相应改变
+        slider.value = float.Parse(s); // InputField的值改变，Slider的值也相应改变
     }
 
 }
