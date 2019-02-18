@@ -77,25 +77,25 @@ public class RemoveController : NetworkBehaviour
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdAlphaBaseTranslateForward(transformed);
+                CmdAlphaBaseTranslateForward(transformed.x * Vector3.back);
             }
             else if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) >= 0.64 * distance1) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) > distance1))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdAlphaBaseTranslateBack(transformed);
+                CmdAlphaBaseTranslateBack(transformed.x * Vector3.back);
             }
             else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.64 * distance2) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) < distance2))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdScreenBaseTranslateBack(transformed);
+                CmdScreenBaseTranslateBack(transformed.x * Vector3.back);
             }
             else if (screenBaseFlag && (Vector3.Distance(oldPosition2, screenBase.transform.position) >= 0.64 * distance2) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) > distance2))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdScreenBaseTranslateForward(transformed);
+                CmdScreenBaseTranslateForward(transformed.x * Vector3.back);
             }
 
             if (Input.touchCount > 1)
