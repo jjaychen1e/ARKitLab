@@ -178,7 +178,7 @@ public class ModelController : NetworkBehaviour {
     public void SetAdjustableFalse()
     {
         adjustable = false;
-        transforme = obj1.transform.position - obj2.transform.position;
+        transforme = obj1.transform.localPosition - obj2.transform.localPosition;
         oldRemove1 = obj1.transform.position;
         oldRemove2 = obj2.transform.position;
         distance1 = Vector3.Distance(obj1.transform.position, obj3.transform.position);
