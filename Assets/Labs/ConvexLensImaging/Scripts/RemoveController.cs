@@ -57,7 +57,9 @@ public class RemoveController : NetworkBehaviour
             if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved)
             {
                 Vector2 deltaposition = Input.GetTouch(0).deltaPosition;
-                Vector3 translated = Vector3.Project(deltaposition, transformed);
+                //
+                Vector3 translated = Vector3.Project(deltaposition, transformed).x * Vector3.back; 
+
                 if (alphaBaseFlag && (Vector3.Distance(oldPosition1, alphaBase.transform.position) < 0.64 * distance1))
                 {
                     var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
@@ -114,7 +116,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslate(Vector3 translated)
     {
-        alphaBase.transform.Translate(translated * 0.0002f, Space.World);
+        alphaBase.transform.Translate(translated * 0.0002f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -125,7 +127,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslate(Vector3 translated)
     {
-        screenBase.transform.Translate(translated * 0.0002f, Space.World);
+        screenBase.transform.Translate(translated * 0.0002f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -136,7 +138,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslateBack(Vector3 translated)
     {
-        alphaBase.transform.Translate(-translated * 0.005f, Space.World);
+        alphaBase.transform.Translate(-translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -147,7 +149,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslateBack(Vector3 translated)
     {
-        screenBase.transform.Translate(-translated * 0.005f, Space.World);
+        screenBase.transform.Translate(-translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -158,7 +160,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslateForward(Vector3 translated)
     {
-        alphaBase.transform.Translate(translated * 0.005f, Space.World);
+        alphaBase.transform.Translate(translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -169,6 +171,6 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslateForward(Vector3 translated)
     {
-        screenBase.transform.Translate(translated * 0.005f, Space.World);
+        screenBase.transform.Translate(translated * 0.005f, Space.Self);
     }
 }
