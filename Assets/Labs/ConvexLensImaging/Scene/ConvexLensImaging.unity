@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44981813, g: 0.49988544, b: 0.5755968, a: 1}
+  m_IndirectSpecularColor: {r: 0.44981855, g: 0.49988562, b: 0.5755972, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2046,6 +2046,7 @@ GameObject:
   - component: {fileID: 1465215047}
   - component: {fileID: 1465215046}
   - component: {fileID: 1465215045}
+  - component: {fileID: 1465215049}
   m_Layer: 5
   m_Name: Record
   m_TagString: Untagged
@@ -2128,7 +2129,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1465215045}
-        m_MethodName: record
+        m_MethodName: RecordButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2176,6 +2177,38 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1465215043}
   m_CullTransparentMesh: 0
+--- !u!114 &1465215049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1465215043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 89
+    i1: 89
+    i2: 147
+    i3: 245
+    i4: 173
+    i5: 7
+    i6: 100
+    i7: 125
+    i8: 25
+    i9: 105
+    i10: 79
+    i11: 242
+    i12: 12
+    i13: 125
+    i14: 209
+    i15: 199
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!1 &1522797571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1555773839973286, guid: 8e3d9b252ea694c8d87e748ba409e903,
