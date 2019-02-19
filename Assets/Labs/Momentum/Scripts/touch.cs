@@ -56,6 +56,7 @@ public class Touch : NetworkBehaviour {
 
     public void Selected()
     {
+        ActiveTag();
         SetTag();
         SetHighLight();
     }
@@ -94,11 +95,17 @@ public class Touch : NetworkBehaviour {
     /*让设置Tag参数*/
     void SetTag()
     {
-        Tag.SetActive(true);
         speedObj.GetComponent<Text>().text = "Initial Velocity: " + BallController.GetVelocity(index).ToString("#0.00") + " m/s";
         massObj.GetComponent<Text>().text = "Mass: " + this.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
         nameObj.GetComponent<Text>().text = "Ball " + index.ToString();
     }
+
+    /*显示Tag*/
+    void ActiveTag()
+    {
+        Tag.SetActive(true);
+    }
+
 
     /*隐藏Tag*/
     void HideTag()

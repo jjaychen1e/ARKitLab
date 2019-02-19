@@ -10,6 +10,7 @@ public class PassValue : NetworkBehaviour {
     public Rigidbody ball;
     public GameObject BallController;
     public int index = 2;
+    public HandleValueChange HandleValueChangeMass, HandleValueChangeVelocity;
 
     public delegate void PassValueHanlder();
     public event PassValueHanlder PassValueEvent;
@@ -24,7 +25,9 @@ public class PassValue : NetworkBehaviour {
     public void OK()
     {
         var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
-        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>()); 
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        HandleValueChangeMass.PassSliderAndInputfield();
+        HandleValueChangeVelocity.PassSliderAndInputfield();
         CmdOK();
     }
 
