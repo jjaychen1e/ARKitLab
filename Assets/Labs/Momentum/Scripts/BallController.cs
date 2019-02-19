@@ -15,6 +15,12 @@ public class BallController : NetworkBehaviour
     public UnityARCameraManager UnityARCameraManager;
     public GameObject GeneratePlane, FocusSquare;
     public bool isStart;
+    /* JJAYCHEN */
+    public HintController HintController;
+    private float time = 0.0f;
+    public float thresholdTime;
+    private bool hintFinished = false;
+    /* == JJAYCHEN */
 
     private float[] velocity = {0.5f,0};    // 两个小球的初速度存放在数组中，与currentObj相对应
     private bool flag;
@@ -60,7 +66,13 @@ public class BallController : NetworkBehaviour
                         flag = true;
                         GeneratePlane.GetComponent<FocusSquare>().enabled = false;
                         FocusSquare.SetActive(false);
+                        HintController.ShowElement(3);
+                    }else if(flag && hitTestResults.Count > 0)
+                    {
+                        HintController.ShowElement(4);
+                        hintFinished = true;
                     }
+
                     /* == 第一次点击的时候关闭平面检测 */
                     if (currentObj[0].activeSelf == false)
                     {
@@ -96,6 +108,17 @@ public class BallController : NetworkBehaviour
                 }
             }
         }
+
+        if (hintFinished)
+        {
+            time += Time.deltaTime;
+            if (time > thresholdTime)
+            {
+                HintController.HideElement();
+                hintFinished = false;// not really unfinished
+            }
+        }
+
     }
 
     public void HitAnother()

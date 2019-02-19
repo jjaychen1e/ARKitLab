@@ -80,6 +80,7 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\Check.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\CheckUIClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\HandleValueChange.cs" />
+    <Compile Include="Assets\Labs\Momentum\Scripts\HintController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\IsCollide.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\PassValue.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\ShowMsg.cs" />
@@ -200,6 +201,7 @@
     <None Include="Assets\Labs\ConvexLensImaging\Material\Caemra2.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileOcclusion.shader" />
     <None Include="Assets\Labs\ConvexLensImaging\Material\Camera3.shader" />
+    <None Include="Assets\UI\GaussianBlur.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKITREMOTE.txt" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
     <None Include="Assets\UnityARKitPlugin.unitypackage\Examples\Common\Shaders\MobileARShadow.shader" />
