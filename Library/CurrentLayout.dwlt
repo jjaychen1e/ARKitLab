@@ -372,9 +372,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1289.759, y: 1222.1729, z: -11.521956}
+    m_Target: {x: 772.0445, y: 1144.01, z: -12.741786}
     speed: 2
-    m_Value: {x: 1289.759, y: 1222.1729, z: -11.521956}
+    m_Value: {x: 772.0445, y: 1144.01, z: -12.741786}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -406,9 +406,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2405.952
+    m_Target: 2517.723
     speed: 2
-    m_Value: 2405.952
+    m_Value: 2517.723
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 3a2e00005c2f0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6497fefffe97feffc699feff52dffeffeedffeffb6e1feffe4fbffff000000007c320000de320000fe3200001c3300005033000092330000223400004a3400005e3400003e370000
+    m_ExpandedIDs: c8fbffff000000005633000098330000d43400006036000022370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,20 +569,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Labs/Momentum/Scripts
+    - Assets/Labs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Labs/Momentum/Scripts
+  - Assets/Labs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/jjaychen/Developer/ARKitLab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 622f0000
-    m_LastClickedID: 12130
-    m_ExpandedIDs: 00000000262b00005e2b0000f62b0000522d0000be2d0000ca2d0000422e00006a2e0000a62e0000a02f0000023000004030000020310000383100007439000076390000783900007a3900007c3900007e3900008039000082390000843900008639000088390000
+    m_SelectedIDs: 40310000
+    m_LastClickedID: 12608
+    m_ExpandedIDs: 000000002e2b0000662b0000fe2b0000c62d00004a2e0000722e0000ae2e0000a82f00000a30000048300000283100007a3900007c3900007e39000080390000823900008439000086390000883900008a3900008c3900008e390000fc3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,7 +598,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -610,7 +610,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000262b00005e2b0000f62b0000522d0000be2d0000ca2d0000422e00006a2e0000a62e0000a02f0000023000004030000020310000383100007439000076390000783900007a3900007c3900007e3900008039000082390000843900008639000088390000
+    m_ExpandedIDs: 000000002e2b0000662b0000fe2b00005a2d0000c62d0000d22d00004a2e0000722e0000ae2e0000a82f00000a3000004830000028310000403100007a3900007c3900007e39000080390000823900008439000086390000883900008a3900008c3900008e390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 522c0000622c0000642c0000de3700008e38000010390000000000003439000076360000ee2e000016320000b0320000b62e00001ab1ffff38310000a631000056380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -654,7 +654,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

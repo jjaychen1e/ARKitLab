@@ -61,9 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Icon\iOSUI\ContentCtrl.cs" />
-    <Compile Include="Assets\Icon\iOSUI\Identity.cs" />
-    <Compile Include="Assets\Icon\iOSUI\SegmentCtrl.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie2.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
@@ -89,6 +86,9 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\Touch.cs" />
+    <Compile Include="Assets\UI\UIScript\ContentCtrl.cs" />
+    <Compile Include="Assets\UI\UIScript\Identity.cs" />
+    <Compile Include="Assets\UI\UIScript\SegmentCtrl.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin.unitypackage\ARKitRemote\CompressionHelper.cs" />
