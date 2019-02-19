@@ -10,14 +10,23 @@ public class ModelController : NetworkBehaviour {
     public GameObject Model;
     public GameObject Button;
     public GameObject GeneratePlane, FocusSquare;
-
+    [HideInInspector]
     public Vector3 transforme; // remove vector
     public GameObject obj1, obj2, obj3;
+    [HideInInspector]
     public float distance1,distance2,distance;
+    [HideInInspector]
     public Vector3 oldRemove1, oldRemove2;
 
     private bool flag;
     private bool adjustable = true;
+
+    /* JJAYCHEN */
+    public HintController HintController;
+    private float time = 0.0f;
+    public float thresholdTime;
+    private bool hintFinished = false;
+    /* == JJAYCHEN */
 
     public delegate void SetModelActiveHandler();
     public event SetModelActiveHandler SetModelActiveEvent;
@@ -59,6 +68,7 @@ public class ModelController : NetworkBehaviour {
                         flag = true;
                         GeneratePlane.GetComponent<FocusSquare>().enabled = false;
                         FocusSquare.SetActive(false);
+                        HintController.ShowElement(3);
                     }
                     /* == 第一次点击的时候关闭平面检测 */
 
@@ -154,7 +164,16 @@ public class ModelController : NetworkBehaviour {
                 CmdRotate(deltaPos);
             }
         }
-}
+        if (hintFinished)
+        {
+            time += Time.deltaTime;
+            if (time > thresholdTime)
+            {
+                HintController.HideElement();
+                hintFinished = false;// not really unfinished
+            }
+        }
+    }
 
     void SetModelInactive()
     {
@@ -275,6 +294,8 @@ public class ModelController : NetworkBehaviour {
     {
         SetAdjustableFalse();
         HideButton();
+        HintController.ShowElement(4);
+        hintFinished = true;
     }
 
     [Command]
