@@ -14,8 +14,12 @@ public class FocusSquare : MonoBehaviour {
 	public GameObject findingSquare;
 	public GameObject foundSquare;
 
-	//for editor version
-	public float maxRayDistance = 30.0f;
+    /* JJAYCHEN */
+    public HintController HintController;
+    /* == JJAYCHEN */
+
+    //for editor version
+    public float maxRayDistance = 30.0f;
 	public LayerMask collisionLayerMask;
 	public float findingSquareDist = 0.5f;
 
@@ -78,7 +82,7 @@ public class FocusSquare : MonoBehaviour {
 		}
 
 
-		#else
+        #else
 		var screenPosition = Camera.main.ScreenToViewportPoint(center);
 		ARPoint point = new ARPoint {
 			x = screenPosition.x,
@@ -99,14 +103,14 @@ public class FocusSquare : MonoBehaviour {
 			if (HitTestWithResultType (point, resultType))
 			{
 				SquareState = FocusState.Found;
+                HintController.ShowElement(2);
 				return;
 			}
 		}
 
-		#endif
-
-		//if you got here, we have not found a plane, so if camera is facing below horizon, display the focus "finding" square
-		if (trackingInitialized) {
+        #endif
+        //if you got here, we have not found a plane, so if camera is facing below horizon, display the focus "finding" square
+        if (trackingInitialized) {
 			SquareState = FocusState.Finding;
 
 			//check camera forward is facing downward
