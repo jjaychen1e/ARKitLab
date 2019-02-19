@@ -21,6 +21,13 @@ public class Record : NetworkBehaviour
         cnt = 1;
 	}
 
+    public void RecordButtonClick()
+    {
+        var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
+        player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
+        CmdRecord();
+    }
+
     [Command]
     public void CmdRecord()
     {
