@@ -81,7 +81,7 @@ public class ShowMsg : NetworkBehaviour
     public void RpcOnCollision(float speed0, float speed1)
     {
         msg[cnt].speed0[1] = speed0;
-        msg[cnt].speed1[0] = speed1;
+        msg[cnt].speed1[1] = speed1;
     }
 
     // Update is called once per frame 
@@ -147,12 +147,14 @@ public class ShowMsg : NetworkBehaviour
             this.GetComponent<CanvasGroup>().alpha = 0.0f;
             this.GetComponent<CanvasGroup>().interactable = false;
             this.GetComponent<CanvasGroup>().blocksRaycasts = false;
+            isHiden = true;
         }
         else
         {
             this.GetComponent<CanvasGroup>().alpha = 1.0f;
             this.GetComponent<CanvasGroup>().interactable = true;
             this.GetComponent<CanvasGroup>().blocksRaycasts = true;
+            isHiden = false;
         }
 
 
