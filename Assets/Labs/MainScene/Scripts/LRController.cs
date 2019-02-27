@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LRController : MonoBehaviour {
     public GameObject cards;
@@ -73,5 +74,19 @@ public class LRController : MonoBehaviour {
     void Awake()
     {
         Application.targetFrameRate = 60;
+    }
+
+    public void LoadIn()
+    {
+        int i;
+        for(i = 0; i < count; i++)
+        {
+            if(objs[i].GetComponent<AnimationState>().state == 0 && objs[i].name != "More")
+            {
+                Debug.Log(objs[i].name + " in");
+                SceneManager.LoadSceneAsync("Labs/" + objs[i].name + "/Scene/" + objs[i].name);
+            }
+        }
+        //SceneManager.LoadSceneAsync("");
     }
 }
