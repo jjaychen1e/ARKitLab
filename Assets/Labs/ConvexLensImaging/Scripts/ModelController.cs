@@ -48,6 +48,7 @@ public class ModelController : NetworkBehaviour {
 	// Update is called once per frame
 	void Update () {
         //CheckButton();
+        //Debug.Log("模型ActiveFalse");
         if (Model.activeSelf == false)
         {
             if (Input.GetMouseButtonDown(0))
@@ -55,6 +56,7 @@ public class ModelController : NetworkBehaviour {
                 var touch = Input.GetTouch(0);
                 if (touch.phase == TouchPhase.Began)
                 {
+                    //Debug.Log("执行HitTest");
                     Vector3 screenPos = Camera.main.ScreenToViewportPoint(touch.position);
                     ARPoint point = new ARPoint
                     {
@@ -71,6 +73,8 @@ public class ModelController : NetworkBehaviour {
                         HintController.ShowElement(3);
                     }
                     /* == 第一次点击的时候关闭平面检测 */
+
+                    //Debug.Log("放置模型");
 
                     /* UNET */
                     var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();

@@ -8602,6 +8602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0819af0324fcf4ce2a73e4d9d4a9b7e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aRCameraManager: {fileID: 1121666030}
+  NetworkManager_custom: {fileID: 51418752}
 --- !u!114 &1069695075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14661,6 +14663,11 @@ Prefab:
       propertyPath: inputField
       value: 
       objectReference: {fileID: 482529147}
+    - target: {fileID: 114978182746891406, guid: 802c2e04b99b0414eaf7813ba9c5d3d0,
+        type: 2}
+      propertyPath: m_DontDestroyOnLoad
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 802c2e04b99b0414eaf7813ba9c5d3d0, type: 2}
   m_IsPrefabAsset: 0
