@@ -90,6 +90,7 @@
     <Compile Include="Assets\Labs\Momentum\Scripts\StateController.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\TagClick.cs" />
     <Compile Include="Assets\Labs\Momentum\Scripts\touch.cs" />
+    <Compile Include="Assets\UI\UIScript\BackLoad.cs" />
     <Compile Include="Assets\UI\UIScript\ContentCtrl.cs" />
     <Compile Include="Assets\UI\UIScript\Identity.cs" />
     <Compile Include="Assets\UI\UIScript\SegmentCtrl.cs" />

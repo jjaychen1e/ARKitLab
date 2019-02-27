@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Labs/MainScene/MainScene.unity
+- path: Assets/Labs/Momentum/Scene/Momentum.unity
   isLoaded: 1
   isActive: 1
