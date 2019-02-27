@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/Record.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/MainScene/Scripts/LRController.cs">
     <Files>
       <File FileName="Assets/Labs/Momentum/Scripts/BallController.cs" Line="112" Column="1" />
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="294" Column="6" />
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/Record.cs" Line="46" Column="24" />
       <File FileName="Assets/Labs/Momentum/Scripts/ShowMsg.cs" Line="8" Column="37" />
+      <File FileName="Assets/Labs/MainScene/Scripts/AnimationState.cs" Line="17" Column="6" />
+      <File FileName="Assets/Labs/MainScene/Scripts/LRController.cs" Line="8" Column="30" />
+      <File FileName="Assets/Labs/MainScene/Scripts/LabCount.cs" Line="8" Column="1" />
+      <File FileName="Assets/Labs/Momentum/Scripts/HintController.cs" Line="7" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
