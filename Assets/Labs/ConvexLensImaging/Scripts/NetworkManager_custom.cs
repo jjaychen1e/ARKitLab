@@ -14,7 +14,11 @@ public class NetworkManager_custom : NetworkManager
 
     private void Start()
     {
+
+        //M_Disconnect();
+        Debug.Log("123");
         M_StartHost();
+
     }
 
     public void M_StartCheck()

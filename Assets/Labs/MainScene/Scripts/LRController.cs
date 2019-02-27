@@ -84,9 +84,9 @@ public class LRController : MonoBehaviour {
             if(objs[i].GetComponent<AnimationState>().state == 0 && objs[i].name != "More")
             {
                 Debug.Log(objs[i].name + " in");
-                SceneManager.LoadSceneAsync("Labs/" + objs[i].name + "/Scene/" + objs[i].name);
+                SceneManager.LoadScene("Labs/" + objs[i].name + "/Scene/" + objs[i].name);
             }
         }
-        //SceneManager.LoadSceneAsync("");
+        //SceneManager.LoadScene("");
     }
 }

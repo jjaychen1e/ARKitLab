@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.iOS;
 
 public class BackLoad : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public UnityARCameraManager aRCameraManager;
+    public NetworkManager_custom NetworkManager_custom;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -17,6 +20,10 @@ public class BackLoad : MonoBehaviour {
 
     public void LoadBack()
     {
-        SceneManager.LoadSceneAsync("Labs/MainScene/Scene/MainScene");
+        ARKitWorldTrackingSessionConfiguration configuration = aRCameraManager.sessionConfiguration;
+        UnityARSessionRunOption option = UnityARSessionRunOption.ARSessionRunOptionRemoveExistingAnchors | UnityARSessionRunOption.ARSessionRunOptionResetTracking;
+        UnityARSessionNativeInterface.GetARSessionNativeInterface().RunWithConfigAndOptions(configuration, option);
+        NetworkManager_custom.M_Disconnect();
+        SceneManager.LoadScene("Labs/MainScene/Scene/MainScene");
     }
 }
