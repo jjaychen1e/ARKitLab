@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\CameraFilterPack_Blur_Movie2.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ChangeScale.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\DrawLines.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\MirrorCamera.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ModelController.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\RemoveController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ScreenImageController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\SettingControl.cs" />
+    <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\ShowDistance.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\VirtualImageController.cs" />
     <Compile Include="Assets\Labs\ConvexLensImaging\Scripts\Visible.cs" />
     <Compile Include="Assets\Labs\MainScene\Scripts\AnimationState.cs" />
