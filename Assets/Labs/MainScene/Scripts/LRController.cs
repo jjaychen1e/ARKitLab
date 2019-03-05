@@ -26,6 +26,7 @@ public class LRController : MonoBehaviour {
                 ChangeHintPoint(i + 1);
             }
         }
+        if(isAble)
         {
             for(i = 0; i < count; i++)
             {
@@ -83,10 +84,20 @@ public class LRController : MonoBehaviour {
         {
             if(objs[i].GetComponent<AnimationState>().state == 0 && objs[i].name != "More")
             {
-                Debug.Log(objs[i].name + " in");
-                SceneManager.LoadScene("Labs/" + objs[i].name + "/Scene/" + objs[i].name);
+                GameObject.Find("Canvas/INTRODUCTION/" + objs[i].name).SetActive(true);
+                return;
             }
         }
-        //SceneManager.LoadScene("");
+    }
+
+    public void LoadInMomentum()
+    {
+        SceneManager.LoadScene("Labs/Momentum/Scene/Momentum");
+        GameObject.Find("Canvas/INTRODUCTION/Momentum").SetActive(false);
+    }
+    public void LoadInConvexLensImaging()
+    {
+        SceneManager.LoadScene("Labs/ConvexLensImaging/Scene/ConvexLensImaging");
+        GameObject.Find("Canvas/INTRODUCTION/ConvexLensImaging").SetActive(false);
     }
 }
