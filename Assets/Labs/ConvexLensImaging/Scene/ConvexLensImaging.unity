@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44981813, g: 0.49988544, b: 0.5755968, a: 1}
+  m_IndirectSpecularColor: {r: 0.44981855, g: 0.49988562, b: 0.5755972, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5
+  m_Text: 
 --- !u!222 &17077878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4435,7 +4435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 
 --- !u!222 &745077019
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6954,7 +6954,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6CE8:\u5F53\u50CF\u8DDD\u4E3A\u6B63\u65F6\u8868\u793A\u5B9E\u7269\u4E0E\u50CF\u5F02\u4FA7\uFF0C\u4E3A\u8D1F\u8868\u793A\u4E3A\u540C\u4FA7\u3002\u50CF\u8DDD\u7684\u7EDD\u5BF9\u503C\u8868\u793A\u8DDD\u79BB\u3002"
+  m_Text: "\u6CE8:\u5F53\u50CF\u8DDD\u4E3A\u6B63\u65F6\u8868\u793A\u5B9E\u7269\u4E0E\u50CF\u5F02\u4FA7\uFF0C\u4E3A\u8D1F\u8868\u793A\u4E3A\u540C\u4FA7\u3002\u50CF\u8DDD\u7684\u7EDD\u5BF9\u503C\u8868\u793A\u8DDD\u79BB\u3002\u5176\u4E2D\u8DDD\u79BB\u7684\u5355\u4F4D\u4E3Acm\u3002"
 --- !u!222 &1295038110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7706,7 +7706,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 
 --- !u!222 &1456423687
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9714,7 +9714,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1719761573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10657,7 +10657,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: 
 --- !u!222 &1842863157
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12586,7 +12586,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &2138397229
 CanvasRenderer:
   m_ObjectHideFlags: 0
