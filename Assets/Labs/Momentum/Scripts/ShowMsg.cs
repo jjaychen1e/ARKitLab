@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 
 public class ShowMsg : NetworkBehaviour
 {
-    private const int max_time = 5;
+    private const int max_time = 8;
 
     public GameObject ball0;
     public GameObject ball1;
@@ -118,6 +118,9 @@ public class ShowMsg : NetworkBehaviour
     {
         for (int i = 0; i <= cnt; i++)
         {
+
+            GameObject Num = GameObject.Find("Canvas/ShowMsg/Lists/" + (i + 1).ToString() + "/Num");
+            Num.GetComponent<Text>().text = (cnt + 1).ToString();
 
             GameObject Mass0 = GameObject.Find("Canvas/ShowMsg/Lists/" + (i + 1).ToString() + "/Mass 1");
             Mass0.GetComponent<Text>().text = msg[i].mass0.ToString();

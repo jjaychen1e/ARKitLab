@@ -37,16 +37,18 @@ public class Record : NetworkBehaviour
     [ClientRpc]
     public void RpcRecord()
     {
-        double dis = Math.Round((pos1.position - pos2.position).magnitude, 2);
-        double focal = Math.Round(GameObject.Find("VirtualImageController").GetComponent<VirtualImageController>().focal, 2);
+        double dis = (pos1.position - pos2.position).magnitude * 100;
+        double focal = GameObject.Find("VirtualImageController").GetComponent<VirtualImageController>().focal * 100;
         if (cnt > 6)
         {
             cnt = 1;
         }
+        GameObject num = GameObject.Find("Canvas/Summary/Lists/" + cnt.ToString() + "/num");
+        num.GetComponent<Text>().text = cnt.ToString();
         GameObject u = GameObject.Find("Canvas/Summary/Lists/" + cnt.ToString() + "/u");
-        u.GetComponent<Text>().text = Math.Round(dis, 2).ToString();
+        u.GetComponent<Text>().text = (dis).ToString("f2");
         GameObject v = GameObject.Find("Canvas/Summary/Lists/" + cnt.ToString() + "/v");
-        v.GetComponent<Text>().text = Math.Round(1.0f / (1.0f / focal - 1.0f / dis), 2).ToString();
+        v.GetComponent<Text>().text = (1.0f / (1.0f / focal - 1.0f / dis)).ToString("f2");
         GameObject stand = GameObject.Find("Canvas/Summary/Lists/" + cnt.ToString() + "/stand");
         if(dis < focal)
         {
@@ -95,7 +97,7 @@ public class Record : NetworkBehaviour
             really.GetComponent<Text>().text = "——";
         }
         GameObject focus = GameObject.Find("Canvas/Summary/Lists/" + cnt.ToString() + "/focus");
-        focus.GetComponent<Text>().text = Math.Round(focal, 2).ToString();
+        focus.GetComponent<Text>().text = (focal).ToString("f2");
         cnt++;
     }
 
