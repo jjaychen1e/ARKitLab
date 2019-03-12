@@ -95,9 +95,8 @@ public class Touch : NetworkBehaviour {
     /*让设置Tag参数*/
     void SetTag()
     {
-        speedObj.GetComponent<Text>().text = "Initial Velocity: " + BallController.GetVelocity(index).ToString("#0.00") + " m/s";
-        massObj.GetComponent<Text>().text = "Mass: " + this.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
-        nameObj.GetComponent<Text>().text = "Ball " + index.ToString();
+        speedObj.GetComponent<Text>().text = BallController.GetVelocity(index).ToString("#0.00") + " m/s";
+        massObj.GetComponent<Text>().text = this.GetComponent<Rigidbody>().mass.ToString("#0.00") + " kg";
     }
 
     /*显示Tag*/
