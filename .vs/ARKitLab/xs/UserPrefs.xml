@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/Touch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Momentum/Scripts/ShowMsg.cs">
     <Files>
       <File FileName="Assets/Labs/Momentum/Scripts/ShowMsg.cs" Line="119" Column="39" />
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/Record.cs" Line="43" Column="10" />

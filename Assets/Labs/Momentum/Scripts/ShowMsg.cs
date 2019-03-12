@@ -120,7 +120,7 @@ public class ShowMsg : NetworkBehaviour
         {
 
             GameObject Num = GameObject.Find("Canvas/ShowMsg/Lists/" + (i + 1).ToString() + "/Num");
-            Num.GetComponent<Text>().text = (cnt + 1).ToString();
+            Num.GetComponent<Text>().text = (i + 1).ToString();
 
             GameObject Mass0 = GameObject.Find("Canvas/ShowMsg/Lists/" + (i + 1).ToString() + "/Mass 1");
             Mass0.GetComponent<Text>().text = msg[i].mass0.ToString();
