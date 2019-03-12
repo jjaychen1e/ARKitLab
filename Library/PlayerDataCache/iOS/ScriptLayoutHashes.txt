@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/js/Developer/build
+/Users/jjaychen/Developer/ARKitLab/2Xcode
 SceneListBegin?
 Assets/Labs/MainScene/Scene/MainScene.unity
 Assets/Labs/Momentum/Scene/Momentum.unity
@@ -9,6 +9,7 @@ SceneListEnd?
 01fbe634c91ab2760e5b9cdaa54d709b Assembly-CSharp.dll:.NetworkManager_custom
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+f4fe4c0783209c12db4d59ac8cb44d8c Assembly-CSharp.dll:.Touch
 a97745634b523349a1a8b9c7595e43f4 Assembly-CSharp.dll:.PointCloudParticleExample
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
