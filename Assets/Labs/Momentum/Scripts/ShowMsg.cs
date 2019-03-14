@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 
 public class ShowMsg : NetworkBehaviour
 {
-    private const int max_time = 8;
+    private const int max_time = 7;
 
     public GameObject ball0;
     public GameObject ball1;
@@ -47,6 +47,7 @@ public class ShowMsg : NetworkBehaviour
         float mass0, mass1, speed0, speed1;
         mass0 = ball0.GetComponent<Rigidbody>().mass;
         mass1 = ball1.GetComponent<Rigidbody>().mass;
+        direction = ball1.GetComponent<Rigidbody>().position - ball0.GetComponent<Rigidbody>().position;
         speed0 = GetVel(ball0.GetComponent<Rigidbody>().velocity);
         speed1 = GetVel(ball1.GetComponent<Rigidbody>().velocity);
         RpcOnStart(mass0, mass1, speed0, speed1);
@@ -60,7 +61,6 @@ public class ShowMsg : NetworkBehaviour
         {
             cnt = 0;
         }
-        direction = ball1.GetComponent<Rigidbody>().position - ball0.GetComponent<Rigidbody>().position;
         msg[cnt] = new Msg();
         msg[cnt].mass0 = mass0;
         msg[cnt].mass1 = mass1;
