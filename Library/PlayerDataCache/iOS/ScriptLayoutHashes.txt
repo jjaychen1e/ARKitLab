@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/js/Developer/build
+/Users/jjaychen/Developer/2Xcode
 SceneListBegin?
 Assets/Labs/MainScene/Scene/MainScene.unity
 Assets/Labs/Momentum/Scene/Momentum.unity
@@ -168,7 +168,7 @@ e4a70cc0cac0f508282cb46eb8e142d7 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityRem
 0a414ff269c3ee6b410dedd2662ec9f5 Assembly-CSharp.dll:.RelocalizationControl
 dfbd7ecdda14a746f56b6cd7e1f3b522 Assembly-CSharp.dll:.AR3DOFCameraManager
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:HighlightingSystem.HighlightingBlitter
-c6162fed8378ea2b6087daae0627bd7a Assembly-CSharp.dll:.RemoveController
+0de6550ae575dec4d49ed4033f68d85e Assembly-CSharp.dll:.RemoveController
 fe43c78381311242b7d41580cc74902b Assembly-CSharp.dll:.Ballz
 e71f74b3e56219660de4f2c554cd48c3 Assembly-CSharp.dll:.UpdateWorldMappingStatus
 2045af2c049d33dc5c2f10d6d8c2f197 Assembly-CSharp.dll:.StateController
@@ -236,6 +236,7 @@ af0330195ee2952276420a5a79b1ac01 Assembly-CSharp.dll:.ObjectText
 fa20481299461e1b327b099ee2b59ed4 Assembly-CSharp.dll:.HitCreateEnvironmentProbe
 d43a1c664da41a0b47220482b3bd95a8 Assembly-CSharp.dll:.HexColorField
 e379ba4417e3f84dbe006a241fe98bb9 Assembly-CSharp.dll:.ModelController
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Back
 7d79e7fa70111081e920b7b746ed9b1f Assembly-CSharp.dll:.TagClick
 de397d17c826db7d1d3c084067eac994 Assembly-CSharp.dll:.FocusSquare
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
