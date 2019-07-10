@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/jjaychen/Developer/2Xcode
+/Repository/ARkitLabXcode
 SceneListBegin?
 Assets/Labs/MainScene/Scene/MainScene.unity
 Assets/Labs/Momentum/Scene/Momentum.unity
