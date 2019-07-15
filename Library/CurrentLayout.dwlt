@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1
     y: 45
     width: 1440
     height: 808
@@ -170,6 +170,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 908
+    height: 896
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 1584
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -296,7 +320,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
@@ -396,15 +420,17 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1107526405440013492, guid: c0488d94437ab447683181fa1f11d3ee, type: 2}
     - {fileID: 1107599997659029544, guid: 29d0395f3a7004525803e342ed191a36, type: 2}
+    - {fileID: 1107306326340436518, guid: 77f9e0bde46d546489d1983c7dd28f4a, type: 2}
+    - {fileID: 1107355083598701106, guid: c9e28b406c1e44a7cad7d2bf23d0a1d9, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.6535985
+    - e00: 0.56526315
       e01: 0
       e02: 0
-      e03: -113.726105
+      e03: -13.263153
       e10: 0
-      e11: 0.6535985
+      e11: 0.56526315
       e12: 0
-      e13: 144.41226
+      e13: 114.82
       e20: 0
       e21: 0
       e22: 1
@@ -416,11 +442,43 @@ MonoBehaviour:
     - e00: 0.56526315
       e01: 0
       e02: 0
-      e03: -13.263123
+      e03: -13.263092
       e10: 0
       e11: 0.56526315
       e12: 0
-      e13: 145.17606
+      e13: 167.51071
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.51833975
+      e01: 0
+      e02: 0
+      e03: 33.660233
+      e10: 0
+      e11: 0.51833975
+      e12: 0
+      e13: 160.34653
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.6265683
+      e01: 0
+      e02: 0
+      e03: 139.09822
+      e10: 0
+      e11: 0.6265683
+      e12: 0
+      e13: 7.987274
       e20: 0
       e21: 0
       e22: 1
@@ -491,7 +549,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Cell
+  - MainScene
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -683,7 +741,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1
     y: 94
     width: 670
     height: 388
@@ -736,7 +794,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.003969745, y: 0.9777102, z: -0.20931503, w: 0.017202288}
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
