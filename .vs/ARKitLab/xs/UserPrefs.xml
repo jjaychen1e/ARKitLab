@@ -1,14 +1,33 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/Cell/Scripts/ARController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/MainScene/Scripts/LRController.cs">
     <Files>
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="12" Column="5" />
-      <File FileName="Assets/Labs/Cell/Scripts/ARController.cs" Line="73" Column="35" />
-      <File FileName="Assets/UnityARKitPlugin.unitypackage/Plugins/iOS/UnityARKit/Editor/UnityARBuildPostprocessor.cs" Line="187" Column="1" />
+      <File FileName="Assets/Labs/Cell/Scripts/ARController.cs" Line="76" Column="1" />
+      <File FileName="Assets/Labs/MainScene/Scripts/LRController.cs" Line="93" Column="33" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ARKitLab" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Labs" expanded="True">
+                <Node name="Cell" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="MainScene" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="LRController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6f063eef-823f-432a-8d47-8e96ccb0b3cc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
