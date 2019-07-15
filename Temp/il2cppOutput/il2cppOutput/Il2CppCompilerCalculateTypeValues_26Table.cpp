@@ -2488,6 +2488,65 @@ struct UnityARLightData_t2160616730_marshaled_com
 	UnityARDirectionalLightEstimate_t2924556994 * ___arDirectonalLightEstimate_2;
 };
 #endif // UNITYARLIGHTDATA_T2160616730_H
+#ifndef UNITYAROBJECTANCHORDATA_T600005231_H
+#define UNITYAROBJECTANCHORDATA_T600005231_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.UnityARObjectAnchorData
+struct  UnityARObjectAnchorData_t600005231 
+{
+public:
+	// System.IntPtr UnityEngine.XR.iOS.UnityARObjectAnchorData::ptrIdentifier
+	intptr_t ___ptrIdentifier_0;
+	// UnityEngine.XR.iOS.UnityARMatrix4x4 UnityEngine.XR.iOS.UnityARObjectAnchorData::transform
+	UnityARMatrix4x4_t4073345847  ___transform_1;
+	// System.IntPtr UnityEngine.XR.iOS.UnityARObjectAnchorData::referenceObjectNamePtr
+	intptr_t ___referenceObjectNamePtr_2;
+	// System.IntPtr UnityEngine.XR.iOS.UnityARObjectAnchorData::referenceObjectPtr
+	intptr_t ___referenceObjectPtr_3;
+
+public:
+	inline static int32_t get_offset_of_ptrIdentifier_0() { return static_cast<int32_t>(offsetof(UnityARObjectAnchorData_t600005231, ___ptrIdentifier_0)); }
+	inline intptr_t get_ptrIdentifier_0() const { return ___ptrIdentifier_0; }
+	inline intptr_t* get_address_of_ptrIdentifier_0() { return &___ptrIdentifier_0; }
+	inline void set_ptrIdentifier_0(intptr_t value)
+	{
+		___ptrIdentifier_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transform_1() { return static_cast<int32_t>(offsetof(UnityARObjectAnchorData_t600005231, ___transform_1)); }
+	inline UnityARMatrix4x4_t4073345847  get_transform_1() const { return ___transform_1; }
+	inline UnityARMatrix4x4_t4073345847 * get_address_of_transform_1() { return &___transform_1; }
+	inline void set_transform_1(UnityARMatrix4x4_t4073345847  value)
+	{
+		___transform_1 = value;
+	}
+
+	inline static int32_t get_offset_of_referenceObjectNamePtr_2() { return static_cast<int32_t>(offsetof(UnityARObjectAnchorData_t600005231, ___referenceObjectNamePtr_2)); }
+	inline intptr_t get_referenceObjectNamePtr_2() const { return ___referenceObjectNamePtr_2; }
+	inline intptr_t* get_address_of_referenceObjectNamePtr_2() { return &___referenceObjectNamePtr_2; }
+	inline void set_referenceObjectNamePtr_2(intptr_t value)
+	{
+		___referenceObjectNamePtr_2 = value;
+	}
+
+	inline static int32_t get_offset_of_referenceObjectPtr_3() { return static_cast<int32_t>(offsetof(UnityARObjectAnchorData_t600005231, ___referenceObjectPtr_3)); }
+	inline intptr_t get_referenceObjectPtr_3() const { return ___referenceObjectPtr_3; }
+	inline intptr_t* get_address_of_referenceObjectPtr_3() { return &___referenceObjectPtr_3; }
+	inline void set_referenceObjectPtr_3(intptr_t value)
+	{
+		___referenceObjectPtr_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYAROBJECTANCHORDATA_T600005231_H
 #ifndef UNITYARUSERANCHORDATA_T1976826249_H
 #define UNITYARUSERANCHORDATA_T1976826249_H
 #ifdef __clang__
@@ -2615,6 +2674,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UNITYARKITPLUGINSETTINGS_T2201217663_H
+#ifndef AROBJECTANCHOR_T2741797199_H
+#define AROBJECTANCHOR_T2741797199_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.ARObjectAnchor
+struct  ARObjectAnchor_t2741797199  : public RuntimeObject
+{
+public:
+	// UnityEngine.XR.iOS.UnityARObjectAnchorData UnityEngine.XR.iOS.ARObjectAnchor::objectAnchorData
+	UnityARObjectAnchorData_t600005231  ___objectAnchorData_0;
+
+public:
+	inline static int32_t get_offset_of_objectAnchorData_0() { return static_cast<int32_t>(offsetof(ARObjectAnchor_t2741797199, ___objectAnchorData_0)); }
+	inline UnityARObjectAnchorData_t600005231  get_objectAnchorData_0() const { return ___objectAnchorData_0; }
+	inline UnityARObjectAnchorData_t600005231 * get_address_of_objectAnchorData_0() { return &___objectAnchorData_0; }
+	inline void set_objectAnchorData_0(UnityARObjectAnchorData_t600005231  value)
+	{
+		___objectAnchorData_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // AROBJECTANCHOR_T2741797199_H
 #ifndef ARPLANEANCHOR_T2049372221_H
 #define ARPLANEANCHOR_T2049372221_H
 #ifdef __clang__
@@ -2940,8 +3028,33 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2600 = { sizeof (UnityARAnchorData_t1157236668)+ sizeof (RuntimeObject), sizeof(UnityARAnchorData_t1157236668 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2600[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2600 = { sizeof (UnityARObjectAnchorData_t600005231)+ sizeof (RuntimeObject), sizeof(UnityARObjectAnchorData_t600005231 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2600[4] = 
+{
+	UnityARObjectAnchorData_t600005231::get_offset_of_ptrIdentifier_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARObjectAnchorData_t600005231::get_offset_of_transform_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARObjectAnchorData_t600005231::get_offset_of_referenceObjectNamePtr_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARObjectAnchorData_t600005231::get_offset_of_referenceObjectPtr_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2601 = { sizeof (ARObjectAnchor_t2741797199), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2601[1] = 
+{
+	ARObjectAnchor_t2741797199::get_offset_of_objectAnchorData_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2602 = { sizeof (UnityARPlaneGeometry_t1646881137)+ sizeof (RuntimeObject), sizeof(UnityARPlaneGeometry_t1646881137 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2602[8] = 
+{
+	UnityARPlaneGeometry_t1646881137::get_offset_of_vertexCount_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_vertices_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_textureCoordinateCount_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_textureCoordinates_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_triangleCount_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_triangleIndices_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_boundaryVertexCount_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	UnityARPlaneGeometry_t1646881137::get_offset_of_boundaryVertices_7() + static_cast<int32_t>(sizeof(RuntimeObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2603 = { sizeof (UnityARAnchorData_t1157236668)+ sizeof (RuntimeObject), sizeof(UnityARAnchorData_t1157236668 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2603[6] = 
 {
 	UnityARAnchorData_t1157236668::get_offset_of_ptrIdentifier_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARAnchorData_t1157236668::get_offset_of_transform_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -2950,48 +3063,48 @@ extern const int32_t g_FieldOffsetTable2600[6] =
 	UnityARAnchorData_t1157236668::get_offset_of_extent_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARAnchorData_t1157236668::get_offset_of_planeGeometry_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2601 = { sizeof (ARPlaneGeometry_t1169415986), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2601[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2604 = { sizeof (ARPlaneGeometry_t1169415986), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2604[1] = 
 {
 	ARPlaneGeometry_t1169415986::get_offset_of_uPlaneGeometry_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2602 = { sizeof (ARPlaneAnchor_t2049372221), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2602[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2605 = { sizeof (ARPlaneAnchor_t2049372221), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2605[2] = 
 {
 	ARPlaneAnchor_t2049372221::get_offset_of_planeAnchorData_0(),
 	ARPlaneAnchor_t2049372221::get_offset_of_U3CidentifierStrU3Ek__BackingField_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2603 = { sizeof (ARPlaneAnchorAlignment_t2311256121)+ sizeof (RuntimeObject), sizeof(int64_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2603[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2606 = { sizeof (ARPlaneAnchorAlignment_t2311256121)+ sizeof (RuntimeObject), sizeof(int64_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2606[3] = 
 {
 	ARPlaneAnchorAlignment_t2311256121::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2604 = { sizeof (ARPoint_t499615819)+ sizeof (RuntimeObject), sizeof(ARPoint_t499615819 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2604[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2607 = { sizeof (ARPoint_t499615819)+ sizeof (RuntimeObject), sizeof(ARPoint_t499615819 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2607[2] = 
 {
 	ARPoint_t499615819::get_offset_of_x_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARPoint_t499615819::get_offset_of_y_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2605 = { sizeof (ARPointCloud_t1982788317), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2605[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2608 = { sizeof (ARPointCloud_t1982788317), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2608[1] = 
 {
 	ARPointCloud_t1982788317::get_offset_of_m_Ptr_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2606 = { sizeof (ARRect_t1366620727)+ sizeof (RuntimeObject), sizeof(ARRect_t1366620727 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2606[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2609 = { sizeof (ARRect_t1366620727)+ sizeof (RuntimeObject), sizeof(ARRect_t1366620727 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2609[2] = 
 {
 	ARRect_t1366620727::get_offset_of_origin_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARRect_t1366620727::get_offset_of_size_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2607 = { sizeof (ARReferenceObject_t1065366714), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2607[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2610 = { sizeof (ARReferenceObject_t1065366714), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2610[1] = 
 {
 	ARReferenceObject_t1065366714::get_offset_of_m_Ptr_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2608 = { sizeof (ARKitObjectScanningSessionConfiguration_t573542873)+ sizeof (RuntimeObject), sizeof(ARKitObjectScanningSessionConfiguration_t573542873_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2608[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2611 = { sizeof (ARKitObjectScanningSessionConfiguration_t573542873)+ sizeof (RuntimeObject), sizeof(ARKitObjectScanningSessionConfiguration_t573542873_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2611[5] = 
 {
 	ARKitObjectScanningSessionConfiguration_t573542873::get_offset_of_alignment_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitObjectScanningSessionConfiguration_t573542873::get_offset_of_planeDetection_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -2999,30 +3112,30 @@ extern const int32_t g_FieldOffsetTable2608[5] =
 	ARKitObjectScanningSessionConfiguration_t573542873::get_offset_of_enableLightEstimation_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitObjectScanningSessionConfiguration_t573542873::get_offset_of_enableAutoFocus_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2609 = { sizeof (serializableARReferenceObject_t2711648110), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2609[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2612 = { sizeof (serializableARReferenceObject_t2711648110), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2612[1] = 
 {
 	serializableARReferenceObject_t2711648110::get_offset_of_arReferenceObjectData_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2610 = { sizeof (ARSize_t208719028)+ sizeof (RuntimeObject), sizeof(ARSize_t208719028 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2610[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2613 = { sizeof (ARSize_t208719028)+ sizeof (RuntimeObject), sizeof(ARSize_t208719028 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2613[2] = 
 {
 	ARSize_t208719028::get_offset_of_width_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARSize_t208719028::get_offset_of_height_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2611 = { sizeof (ARTextureHandles_t852411561), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2611[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2614 = { sizeof (ARTextureHandles_t852411561), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2614[1] = 
 {
 	ARTextureHandles_t852411561::get_offset_of_m_ARTextureHandlesStruct_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2612 = { sizeof (ARTextureHandlesStruct_t1104702727)+ sizeof (RuntimeObject), sizeof(ARTextureHandlesStruct_t1104702727 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2612[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2615 = { sizeof (ARTextureHandlesStruct_t1104702727)+ sizeof (RuntimeObject), sizeof(ARTextureHandlesStruct_t1104702727 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2615[2] = 
 {
 	ARTextureHandlesStruct_t1104702727::get_offset_of_textureY_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARTextureHandlesStruct_t1104702727::get_offset_of_textureCbCr_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2613 = { sizeof (ARTrackingQuality_t1229573376)+ sizeof (RuntimeObject), sizeof(int64_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2613[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2616 = { sizeof (ARTrackingQuality_t1229573376)+ sizeof (RuntimeObject), sizeof(int64_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2616[5] = 
 {
 	ARTrackingQuality_t1229573376::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -3030,16 +3143,16 @@ extern const int32_t g_FieldOffsetTable2613[5] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2614 = { sizeof (ARTrackingState_t3182235352)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2614[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2617 = { sizeof (ARTrackingState_t3182235352)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2617[4] = 
 {
 	ARTrackingState_t3182235352::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2615 = { sizeof (ARTrackingStateReason_t2348933773)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2615[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2618 = { sizeof (ARTrackingStateReason_t2348933773)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2618[6] = 
 {
 	ARTrackingStateReason_t2348933773::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -3048,14 +3161,14 @@ extern const int32_t g_FieldOffsetTable2615[6] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2616 = { sizeof (ARUserAnchor_t1406831531)+ sizeof (RuntimeObject), sizeof(ARUserAnchor_t1406831531_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2616[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2619 = { sizeof (ARUserAnchor_t1406831531)+ sizeof (RuntimeObject), sizeof(ARUserAnchor_t1406831531_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2619[2] = 
 {
 	ARUserAnchor_t1406831531::get_offset_of_identifier_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARUserAnchor_t1406831531::get_offset_of_transform_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2617 = { sizeof (UnityARVideoFormat_t1944454781)+ sizeof (RuntimeObject), sizeof(UnityARVideoFormat_t1944454781 ), sizeof(UnityARVideoFormat_t1944454781_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2617[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2620 = { sizeof (UnityARVideoFormat_t1944454781)+ sizeof (RuntimeObject), sizeof(UnityARVideoFormat_t1944454781 ), sizeof(UnityARVideoFormat_t1944454781_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2620[6] = 
 {
 	UnityARVideoFormat_t1944454781::get_offset_of_videoFormatPtr_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARVideoFormat_t1944454781::get_offset_of_imageResolutionWidth_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3064,9 +3177,9 @@ extern const int32_t g_FieldOffsetTable2617[6] =
 	UnityARVideoFormat_t1944454781_StaticFields::get_offset_of_videoFormatsList_4(),
 	UnityARVideoFormat_t1944454781_StaticFields::get_offset_of_U3CU3Ef__mgU24cache0_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2618 = { sizeof (VideoFormatEnumerator_t3131638505), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2619 = { sizeof (ARWorldMappingStatus_t1606355445)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2619[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2621 = { sizeof (VideoFormatEnumerator_t3131638505), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2622 = { sizeof (ARWorldMappingStatus_t1606355445)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2622[5] = 
 {
 	ARWorldMappingStatus_t1606355445::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -3074,26 +3187,26 @@ extern const int32_t g_FieldOffsetTable2619[5] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2620 = { sizeof (ARWorldMap_t2240790807), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2620[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2623 = { sizeof (ARWorldMap_t2240790807), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2623[1] = 
 {
 	ARWorldMap_t2240790807::get_offset_of_m_Ptr_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2621 = { sizeof (serializableARWorldMap_t2514323794), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2621[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2624 = { sizeof (serializableARWorldMap_t2514323794), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2624[1] = 
 {
 	serializableARWorldMap_t2514323794::get_offset_of_arWorldMapData_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2622 = { sizeof (UnityARMatrix4x4_t4073345847)+ sizeof (RuntimeObject), sizeof(UnityARMatrix4x4_t4073345847 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2622[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2625 = { sizeof (UnityARMatrix4x4_t4073345847)+ sizeof (RuntimeObject), sizeof(UnityARMatrix4x4_t4073345847 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2625[4] = 
 {
 	UnityARMatrix4x4_t4073345847::get_offset_of_column0_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARMatrix4x4_t4073345847::get_offset_of_column1_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARMatrix4x4_t4073345847::get_offset_of_column2_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARMatrix4x4_t4073345847::get_offset_of_column3_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2623 = { sizeof (UnityVideoParams_t4155354995)+ sizeof (RuntimeObject), sizeof(UnityVideoParams_t4155354995 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2623[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2626 = { sizeof (UnityVideoParams_t4155354995)+ sizeof (RuntimeObject), sizeof(UnityVideoParams_t4155354995 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2626[5] = 
 {
 	UnityVideoParams_t4155354995::get_offset_of_yWidth_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityVideoParams_t4155354995::get_offset_of_yHeight_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3101,8 +3214,8 @@ extern const int32_t g_FieldOffsetTable2623[5] =
 	UnityVideoParams_t4155354995::get_offset_of_texCoordScale_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityVideoParams_t4155354995::get_offset_of_cvPixelBufferPtr_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2624 = { sizeof (internal_UnityARCamera_t3920739388)+ sizeof (RuntimeObject), sizeof(internal_UnityARCamera_t3920739388 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2624[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2627 = { sizeof (internal_UnityARCamera_t3920739388)+ sizeof (RuntimeObject), sizeof(internal_UnityARCamera_t3920739388 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2627[10] = 
 {
 	internal_UnityARCamera_t3920739388::get_offset_of_worldTransform_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	internal_UnityARCamera_t3920739388::get_offset_of_projectionMatrix_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3115,8 +3228,8 @@ extern const int32_t g_FieldOffsetTable2624[10] =
 	internal_UnityARCamera_t3920739388::get_offset_of_getLightEstimation_8() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	internal_UnityARCamera_t3920739388::get_offset_of_worldMappngStatus_9() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2625 = { sizeof (UnityARCamera_t2069150450)+ sizeof (RuntimeObject), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2625[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2628 = { sizeof (UnityARCamera_t2069150450)+ sizeof (RuntimeObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2628[9] = 
 {
 	UnityARCamera_t2069150450::get_offset_of_worldTransform_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARCamera_t2069150450::get_offset_of_projectionMatrix_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3128,14 +3241,14 @@ extern const int32_t g_FieldOffsetTable2625[9] =
 	UnityARCamera_t2069150450::get_offset_of_pointCloudData_7() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARCamera_t2069150450::get_offset_of_worldMappingStatus_8() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2626 = { sizeof (UnityARUserAnchorData_t1976826249)+ sizeof (RuntimeObject), sizeof(UnityARUserAnchorData_t1976826249 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2626[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2629 = { sizeof (UnityARUserAnchorData_t1976826249)+ sizeof (RuntimeObject), sizeof(UnityARUserAnchorData_t1976826249 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2629[2] = 
 {
 	UnityARUserAnchorData_t1976826249::get_offset_of_ptrIdentifier_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARUserAnchorData_t1976826249::get_offset_of_transform_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2627 = { sizeof (UnityARHitTestResult_t4176230866)+ sizeof (RuntimeObject), sizeof(UnityARHitTestResult_t4176230866_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2627[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2630 = { sizeof (UnityARHitTestResult_t4176230866)+ sizeof (RuntimeObject), sizeof(UnityARHitTestResult_t4176230866_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2630[6] = 
 {
 	UnityARHitTestResult_t4176230866::get_offset_of_type_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARHitTestResult_t4176230866::get_offset_of_distance_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3144,16 +3257,16 @@ extern const int32_t g_FieldOffsetTable2627[6] =
 	UnityARHitTestResult_t4176230866::get_offset_of_anchor_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	UnityARHitTestResult_t4176230866::get_offset_of_isValid_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2628 = { sizeof (UnityARAlignment_t3792119710)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2628[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2631 = { sizeof (UnityARAlignment_t3792119710)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2631[4] = 
 {
 	UnityARAlignment_t3792119710::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2629 = { sizeof (UnityARPlaneDetection_t1367733575)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2629[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2632 = { sizeof (UnityARPlaneDetection_t1367733575)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2632[5] = 
 {
 	UnityARPlaneDetection_t1367733575::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -3161,15 +3274,15 @@ extern const int32_t g_FieldOffsetTable2629[5] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2630 = { sizeof (ARKitSessionConfiguration_t629136898)+ sizeof (RuntimeObject), sizeof(ARKitSessionConfiguration_t629136898_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2630[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2633 = { sizeof (ARKitSessionConfiguration_t629136898)+ sizeof (RuntimeObject), sizeof(ARKitSessionConfiguration_t629136898_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2633[3] = 
 {
 	ARKitSessionConfiguration_t629136898::get_offset_of_alignment_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitSessionConfiguration_t629136898::get_offset_of_getPointCloudData_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitSessionConfiguration_t629136898::get_offset_of_enableLightEstimation_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2631 = { sizeof (ARKitWorldTrackingSessionConfiguration_t273386347)+ sizeof (RuntimeObject), sizeof(ARKitWorldTrackingSessionConfiguration_t273386347_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2631[12] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2634 = { sizeof (ARKitWorldTrackingSessionConfiguration_t273386347)+ sizeof (RuntimeObject), sizeof(ARKitWorldTrackingSessionConfiguration_t273386347_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2634[12] = 
 {
 	ARKitWorldTrackingSessionConfiguration_t273386347::get_offset_of_alignment_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitWorldTrackingSessionConfiguration_t273386347::get_offset_of_planeDetection_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3184,21 +3297,21 @@ extern const int32_t g_FieldOffsetTable2631[12] =
 	ARKitWorldTrackingSessionConfiguration_t273386347::get_offset_of_dynamicReferenceObjectsPtr_10() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitWorldTrackingSessionConfiguration_t273386347::get_offset_of_m_worldMapPtr_11() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2632 = { sizeof (ARKitFaceTrackingConfiguration_t386387352)+ sizeof (RuntimeObject), sizeof(ARKitFaceTrackingConfiguration_t386387352_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2632[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2635 = { sizeof (ARKitFaceTrackingConfiguration_t386387352)+ sizeof (RuntimeObject), sizeof(ARKitFaceTrackingConfiguration_t386387352_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2635[2] = 
 {
 	ARKitFaceTrackingConfiguration_t386387352::get_offset_of_alignment_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	ARKitFaceTrackingConfiguration_t386387352::get_offset_of_enableLightEstimation_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2633 = { sizeof (UnityARSessionRunOption_t942967030)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2633[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2636 = { sizeof (UnityARSessionRunOption_t942967030)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2636[3] = 
 {
 	UnityARSessionRunOption_t942967030::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2634 = { sizeof (UnityARKitPluginSettings_t2201217663), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2634[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2637 = { sizeof (UnityARKitPluginSettings_t2201217663), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2637[2] = 
 {
 	UnityARKitPluginSettings_t2201217663::get_offset_of_m_ARKitUsesFacetracking_4(),
 	UnityARKitPluginSettings_t2201217663::get_offset_of_AppRequiresARKit_5(),

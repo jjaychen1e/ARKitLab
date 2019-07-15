@@ -878,6 +878,8 @@
 				37AB40C09785198220DF66F3 /* ShellScript */,
 				646A46C58747868E95FB1DE7 /* ShellScript */,
 				23F449F4AF3C17E1E6291991 /* ShellScript */,
+				890E4970B8E65ADBECFF60BD /* ShellScript */,
+				F24C49E0944056B53E1A0FED /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1043,7 +1045,27 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
 		};
+		890E4970B8E65ADBECFF60BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
 		A3A8419981A07FB8D7584A38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		F24C49E0944056B53E1A0FED /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

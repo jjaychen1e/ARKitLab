@@ -42876,17 +42876,17 @@ static void ShaderPropertyID_t567755140_CustomAttributesCacheGenerator(CustomAtt
 static void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DebuggableAttribute_t886312066 * tmp = (DebuggableAttribute_t886312066 *)cache->attributes[0];
-		DebuggableAttribute__ctor_m3124850944(tmp, 2LL, NULL);
+		RuntimeCompatibilityAttribute_t1169614002 * tmp = (RuntimeCompatibilityAttribute_t1169614002 *)cache->attributes[0];
+		RuntimeCompatibilityAttribute__ctor_m1311107907(tmp, NULL);
+		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m2506646892(tmp, true, NULL);
 	}
 	{
 		ExtensionAttribute_t1723066603 * tmp = (ExtensionAttribute_t1723066603 *)cache->attributes[1];
 		ExtensionAttribute__ctor_m1708143005(tmp, NULL);
 	}
 	{
-		RuntimeCompatibilityAttribute_t1169614002 * tmp = (RuntimeCompatibilityAttribute_t1169614002 *)cache->attributes[2];
-		RuntimeCompatibilityAttribute__ctor_m1311107907(tmp, NULL);
-		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m2506646892(tmp, true, NULL);
+		DebuggableAttribute_t886312066 * tmp = (DebuggableAttribute_t886312066 *)cache->attributes[2];
+		DebuggableAttribute__ctor_m3124850944(tmp, 2LL, NULL);
 	}
 }
 static void CameraFilterPack_Blur_Movie_t3779718735_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -42998,12 +42998,12 @@ static void ModelController_t213260968_CustomAttributesCacheGenerator_oldRemove2
 static void ModelController_t213260968_CustomAttributesCacheGenerator_SetModelActiveEvent(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void ModelController_t213260968_CustomAttributesCacheGenerator_SetModelInactiveEvent(CustomAttributesCache* cache)
@@ -43401,12 +43401,12 @@ static void TagClick_t3106854776_CustomAttributesCacheGenerator_TagClickEvent(Cu
 static void Touch_t4199062853_CustomAttributesCacheGenerator_BallClickEvent(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void Touch_t4199062853_CustomAttributesCacheGenerator_DestroyEvent(CustomAttributesCache* cache)
@@ -43423,12 +43423,12 @@ static void Touch_t4199062853_CustomAttributesCacheGenerator_DestroyEvent(Custom
 static void Touch_t4199062853_CustomAttributesCacheGenerator_ActiveBallEvent(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 }
 static void CompressionHelper_t4216677442_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -43483,12 +43483,12 @@ static void GenerateImageAnchor_t3213337420_CustomAttributesCacheGenerator_prefa
 static void VideoFormatButton_t1937817916_CustomAttributesCacheGenerator_FormatButtonPressedEvent(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
 	}
 	{
-		DebuggerBrowsableAttribute_t1026244177 * tmp = (DebuggerBrowsableAttribute_t1026244177 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m28117720(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
 	}
 }
 static void GenerateEnvironmentProbeAnchors_t2290703479_CustomAttributesCacheGenerator_m_ReflectionProbePrefab(CustomAttributesCache* cache)
@@ -43726,12 +43726,12 @@ static void ColorSliderImage_t1393030097_CustomAttributesCacheGenerator(CustomAt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[0];
-		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
+		RequireComponent_t3490506609 * tmp = (RequireComponent_t3490506609 *)cache->attributes[0];
+		RequireComponent__ctor_m886241599(tmp, il2cpp_codegen_type_get_object(RawImage_t3182918964_0_0_0_var), NULL);
 	}
 	{
-		RequireComponent_t3490506609 * tmp = (RequireComponent_t3490506609 *)cache->attributes[1];
-		RequireComponent__ctor_m886241599(tmp, il2cpp_codegen_type_get_object(RawImage_t3182918964_0_0_0_var), NULL);
+		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[1];
+		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
 	}
 }
 static void HexColorField_t944280679_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -43756,12 +43756,12 @@ static void SVBoxSlider_t4192470748_CustomAttributesCacheGenerator(CustomAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		RequireComponent_t3490506609 * tmp = (RequireComponent_t3490506609 *)cache->attributes[0];
-		RequireComponent__ctor_m1154052627(tmp, il2cpp_codegen_type_get_object(BoxSlider_t2380464200_0_0_0_var), il2cpp_codegen_type_get_object(RawImage_t3182918964_0_0_0_var), NULL);
+		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[0];
+		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
 	}
 	{
-		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[1];
-		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
+		RequireComponent_t3490506609 * tmp = (RequireComponent_t3490506609 *)cache->attributes[1];
+		RequireComponent__ctor_m1154052627(tmp, il2cpp_codegen_type_get_object(BoxSlider_t2380464200_0_0_0_var), il2cpp_codegen_type_get_object(RawImage_t3182918964_0_0_0_var), NULL);
 	}
 }
 static void BoxSlider_t2380464200_CustomAttributesCacheGenerator(CustomAttributesCache* cache)

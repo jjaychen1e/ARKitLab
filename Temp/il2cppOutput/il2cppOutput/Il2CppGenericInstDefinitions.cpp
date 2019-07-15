@@ -563,6 +563,7 @@ extern const Il2CppType ObjectText_t3366579983_0_0_0;
 extern const Il2CppType LineRenderer_t3154350270_0_0_0;
 extern const Il2CppType LabCount_t787618913_0_0_0;
 extern const Il2CppType AnimationState_t231353195_0_0_0;
+extern const Il2CppType Index_t1802465813_0_0_0;
 extern const Il2CppType PickBoundingBox_t873364976_0_0_0;
 extern const Il2CppType BallController_t2992829471_0_0_0;
 extern const Il2CppType VirtualImageController_t1421167262_0_0_0;
@@ -2139,6 +2140,8 @@ static const RuntimeType* GenInst_LabCount_t787618913_0_0_0_Types[] = { (&LabCou
 extern const Il2CppGenericInst GenInst_LabCount_t787618913_0_0_0 = { 1, GenInst_LabCount_t787618913_0_0_0_Types };
 static const RuntimeType* GenInst_AnimationState_t231353195_0_0_0_Types[] = { (&AnimationState_t231353195_0_0_0) };
 extern const Il2CppGenericInst GenInst_AnimationState_t231353195_0_0_0 = { 1, GenInst_AnimationState_t231353195_0_0_0_Types };
+static const RuntimeType* GenInst_Index_t1802465813_0_0_0_Types[] = { (&Index_t1802465813_0_0_0) };
+extern const Il2CppGenericInst GenInst_Index_t1802465813_0_0_0 = { 1, GenInst_Index_t1802465813_0_0_0_Types };
 static const RuntimeType* GenInst_PickBoundingBox_t873364976_0_0_0_Types[] = { (&PickBoundingBox_t873364976_0_0_0) };
 extern const Il2CppGenericInst GenInst_PickBoundingBox_t873364976_0_0_0 = { 1, GenInst_PickBoundingBox_t873364976_0_0_0_Types };
 static const RuntimeType* GenInst_BallController_t2992829471_0_0_0_Types[] = { (&BallController_t2992829471_0_0_0) };
@@ -2671,7 +2674,7 @@ static const RuntimeType* GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_L
 extern const Il2CppGenericInst GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0 = { 2, GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0_Types };
 static const RuntimeType* GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types[] = { (&LLEntry_t3405167986_gp_1_0_0_0) };
 extern const Il2CppGenericInst GenInst_LLEntry_t3405167986_gp_1_0_0_0 = { 1, GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[961] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3367,6 +3370,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_LineRenderer_t3154350270_0_0_0,
 	&GenInst_LabCount_t787618913_0_0_0,
 	&GenInst_AnimationState_t231353195_0_0_0,
+	&GenInst_Index_t1802465813_0_0_0,
 	&GenInst_PickBoundingBox_t873364976_0_0_0,
 	&GenInst_BallController_t2992829471_0_0_0,
 	&GenInst_VirtualImageController_t1421167262_0_0_0,
