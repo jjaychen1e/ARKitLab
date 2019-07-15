@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/jjaychen/Developer/2Xcode
+/Repository/ARkitLabXcode
 SceneListBegin?
 Assets/Labs/Cell/Scene/Cell.unity
 SceneListEnd?
@@ -22,6 +22,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+840d1b98c60219fb543dc1062cd62fba Assembly-CSharp.dll:.GlobalControl
 420c389791d5d38fef84de45c61575a4 Assembly-CSharp.dll:.ModeSwitcher
 258bba414faae0d061f4ab6e5a8700af Assembly-CSharp.dll:.SettingControl
 c7ae1c8854f784bca325824b1e9c8236 Assembly-CSharp.dll:.DetectedObjectManager
@@ -139,6 +140,7 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 d0cb676d817ce415854e41eb01baf752 Assembly-CSharp.dll:.ARCameraTracker
 76e1a1157a36db747f02a9445abd7d41 Assembly-CSharp.dll:.SegmentCtrl
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.LoadARScence
 847e503455eb73fb66c7b3c1d839d7f0 Assembly-CSharp.dll:.WorldMapManager
 c8de8747135768410c668b8590ae2a4b Assembly-CSharp.dll:.ShowDistance
 63365b1ba1e0abe7bf97553cbbbf67e9 Assembly-CSharp.dll:.HintController
@@ -238,6 +240,7 @@ e379ba4417e3f84dbe006a241fe98bb9 Assembly-CSharp.dll:.ModelController
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Back
 7d79e7fa70111081e920b7b746ed9b1f Assembly-CSharp.dll:.TagClick
 de397d17c826db7d1d3c084067eac994 Assembly-CSharp.dll:.FocusSquare
+c00867a04c00de5bea0b016b91ff08b5 Assembly-CSharp.dll:.Index
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
