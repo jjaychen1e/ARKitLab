@@ -72,4 +72,6 @@ public class ARController : MonoBehaviour {
     {
         Rerender((index + 1) % 5);
     }
+
+
 }
