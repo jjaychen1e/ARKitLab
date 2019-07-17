@@ -13,8 +13,8 @@ public class LoadARScence : MonoBehaviour {
 		
 	}
 
-    public void GetCellType()
+    public void GetCellType(int index)
     {
-        GlobalControl.Instance.cellType = this.gameObject.GetComponent<Index>().index;
+        GlobalControl.Instance.cellType = index;
     }
 }

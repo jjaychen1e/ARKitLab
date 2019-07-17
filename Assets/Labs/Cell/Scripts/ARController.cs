@@ -7,7 +7,7 @@ public class ARController : MonoBehaviour {
     private UnityARAnchorManager unityARAnchorManager;
     private bool detecting = true;
 
-    private int index = 0;
+    private int index;
 
     private Vector2 oldPoint;
     private Vector3 oldPosition;
@@ -18,6 +18,7 @@ public class ARController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         unityARAnchorManager = new UnityARAnchorManager();
+        index = GlobalControl.Instance.cellType;
     }
 	
 	// Update is called once per frame
