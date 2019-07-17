@@ -102,7 +102,7 @@ public class LRController : MonoBehaviour {
     }
     public void LoadInCell()
     {
-        SceneManager.LoadScene("Labs/ConvexLensImaging/Scene/ConvexLensImaging");
-        GameObject.Find("Canvas/INTRODUCTION/ConvexLensImaging").SetActive(false);
+        SceneManager.LoadScene("Labs/Cell/Scene/Cell");
+        GameObject.Find("Canvas/INTRODUCTION/Cell").SetActive(false);
     }
 }

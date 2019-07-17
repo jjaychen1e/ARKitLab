@@ -23,7 +23,10 @@ public class BackLoad : MonoBehaviour {
         ARKitWorldTrackingSessionConfiguration configuration = aRCameraManager.sessionConfiguration;
         UnityARSessionRunOption option = UnityARSessionRunOption.ARSessionRunOptionRemoveExistingAnchors | UnityARSessionRunOption.ARSessionRunOptionResetTracking;
         UnityARSessionNativeInterface.GetARSessionNativeInterface().RunWithConfigAndOptions(configuration, option);
-        NetworkManager_custom.M_Disconnect();
+        if(NetworkManager_custom)
+        {
+            NetworkManager_custom.M_Disconnect();
+        }
         SceneManager.LoadScene("Labs/MainScene/Scene/MainScene");
     }
 }
