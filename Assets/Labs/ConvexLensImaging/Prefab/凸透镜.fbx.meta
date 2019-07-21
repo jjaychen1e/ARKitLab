@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 03b9fa7fb6a7f4a09b098ec353fd8db8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Active Camera
+    100002: Default
+    100004: //RootNode
+    100006: "\u51F8\u900F\u955C"
+    100008: "\u51F8\u900F\u955C 1"
+    100010: "\u51F8\u900F\u955C 10"
+    100012: "\u51F8\u900F\u955C 11"
+    100014: "\u51F8\u900F\u955C 12"
+    100016: "\u51F8\u900F\u955C 13"
+    100018: "\u51F8\u900F\u955C 14"
+    100020: "\u51F8\u900F\u955C 15"
+    100022: "\u51F8\u900F\u955C 16"
+    100024: "\u51F8\u900F\u955C 17"
+    100026: "\u51F8\u900F\u955C 18"
+    100028: "\u51F8\u900F\u955C 19"
+    100030: "\u51F8\u900F\u955C 2"
+    100032: "\u51F8\u900F\u955C 20"
+    100034: "\u51F8\u900F\u955C 21"
+    100036: "\u51F8\u900F\u955C 22"
+    100038: "\u51F8\u900F\u955C 23"
+    100040: "\u51F8\u900F\u955C 24"
+    100042: "\u51F8\u900F\u955C 25"
+    100044: "\u51F8\u900F\u955C 26"
+    100046: "\u51F8\u900F\u955C 3"
+    100048: "\u51F8\u900F\u955C 4"
+    100050: "\u51F8\u900F\u955C 5"
+    100052: "\u51F8\u900F\u955C 6"
+    100054: "\u51F8\u900F\u955C 7"
+    100056: "\u51F8\u900F\u955C 8"
+    100058: "\u51F8\u900F\u955C 9"
+    400000: Active Camera
+    400002: Default
+    400004: //RootNode
+    400006: "\u51F8\u900F\u955C"
+    400008: "\u51F8\u900F\u955C 1"
+    400010: "\u51F8\u900F\u955C 10"
+    400012: "\u51F8\u900F\u955C 11"
+    400014: "\u51F8\u900F\u955C 12"
+    400016: "\u51F8\u900F\u955C 13"
+    400018: "\u51F8\u900F\u955C 14"
+    400020: "\u51F8\u900F\u955C 15"
+    400022: "\u51F8\u900F\u955C 16"
+    400024: "\u51F8\u900F\u955C 17"
+    400026: "\u51F8\u900F\u955C 18"
+    400028: "\u51F8\u900F\u955C 19"
+    400030: "\u51F8\u900F\u955C 2"
+    400032: "\u51F8\u900F\u955C 20"
+    400034: "\u51F8\u900F\u955C 21"
+    400036: "\u51F8\u900F\u955C 22"
+    400038: "\u51F8\u900F\u955C 23"
+    400040: "\u51F8\u900F\u955C 24"
+    400042: "\u51F8\u900F\u955C 25"
+    400044: "\u51F8\u900F\u955C 26"
+    400046: "\u51F8\u900F\u955C 3"
+    400048: "\u51F8\u900F\u955C 4"
+    400050: "\u51F8\u900F\u955C 5"
+    400052: "\u51F8\u900F\u955C 6"
+    400054: "\u51F8\u900F\u955C 7"
+    400056: "\u51F8\u900F\u955C 8"
+    400058: "\u51F8\u900F\u955C 9"
+    2000000: Active Camera
+    2100000: 'Aluminum Polished #1'
+    2100002: Aluminum Polished
+    2100004: "\u51F8\u900F\u955C_color_160_160_160 #6"
+    2100006: "\u51F8\u900F\u955C_color_160_160_160 #7"
+    2100008: "\u51F8\u900F\u955C_color_160_160_160 #9"
+    2100010: 'Aluminum Polished #2'
+    2100012: 'Clear Rough Plastic Black #1'
+    2100014: "\u51F8\u900F\u955C_color_160_160_160 #11"
+    2100016: 'Plastic Acrylic (Dispersive) #1'
+    2300000: "\u51F8\u900F\u955C 14"
+    2300002: "\u51F8\u900F\u955C 15"
+    2300004: "\u51F8\u900F\u955C 16"
+    2300006: "\u51F8\u900F\u955C 17"
+    2300008: "\u51F8\u900F\u955C 18"
+    2300010: "\u51F8\u900F\u955C 19"
+    2300012: "\u51F8\u900F\u955C 20"
+    2300014: "\u51F8\u900F\u955C 21"
+    2300016: "\u51F8\u900F\u955C 22"
+    2300018: "\u51F8\u900F\u955C 23"
+    2300020: "\u51F8\u900F\u955C 24"
+    2300022: "\u51F8\u900F\u955C 25"
+    2300024: "\u51F8\u900F\u955C 26"
+    3300000: "\u51F8\u900F\u955C 14"
+    3300002: "\u51F8\u900F\u955C 15"
+    3300004: "\u51F8\u900F\u955C 16"
+    3300006: "\u51F8\u900F\u955C 17"
+    3300008: "\u51F8\u900F\u955C 18"
+    3300010: "\u51F8\u900F\u955C 19"
+    3300012: "\u51F8\u900F\u955C 20"
+    3300014: "\u51F8\u900F\u955C 21"
+    3300016: "\u51F8\u900F\u955C 22"
+    3300018: "\u51F8\u900F\u955C 23"
+    3300020: "\u51F8\u900F\u955C 24"
+    3300022: "\u51F8\u900F\u955C 25"
+    3300024: "\u51F8\u900F\u955C 26"
+    4300000: "\u51F8\u900F\u955C"
+    4300002: "\u51F8\u900F\u955C"
+    4300004: "\u51F8\u900F\u955C"
+    4300006: "\u51F8\u900F\u955C"
+    4300008: "\u51F8\u900F\u955C"
+    4300010: "\u51F8\u900F\u955C"
+    4300012: "\u51F8\u900F\u955C"
+    4300014: "\u51F8\u900F\u955C"
+    4300016: "\u51F8\u900F\u955C"
+    4300018: "\u51F8\u900F\u955C"
+    4300020: "\u51F8\u900F\u955C"
+    4300022: "\u51F8\u900F\u955C"
+    4300024: "\u51F8\u900F\u955C"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

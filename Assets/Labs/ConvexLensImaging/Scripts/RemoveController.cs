@@ -58,45 +58,45 @@ public class RemoveController : NetworkBehaviour
             {
                 Vector2 deltaposition = Input.GetTouch(0).deltaPosition;
                 //
-                Vector3 translated = Vector3.Project(deltaposition, transformed).x * Vector3.back;
+                Vector3 translated = Vector3.Project(deltaposition, transformed).x * Vector3.right;
 
-                if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) < 0.3 * Model.transform.localScale.x ) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) > 0.1 * Model.transform.localScale.x))
+                if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) < 0.18 * Model.transform.localScale.x ) && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) > 0.0015 * Model.transform.localScale.x))
                 {
                     var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                     player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
                     CmdAlphaBaseTranslate(translated);
                 }
-                else if (screenBaseFlag && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) < 0.3 * Model.transform.localScale.x ) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) > 0.1 * Model.transform.localScale.x))
+                else if (screenBaseFlag && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) < 0.18 * Model.transform.localScale.x ) && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) > 0.0015 * Model.transform.localScale.x))
                 {
                     var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                     player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
                     CmdScreenBaseTranslate(translated);
                 }
             }
-            if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) >= 0.3 * Model.transform.localScale.x))
+            if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) >= 0.18 * Model.transform.localScale.x))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdAlphaBaseTranslateBack(transformed.x * Vector3.back);
+                CmdAlphaBaseTranslateBack(transformed.x * Vector3.left);
             }
-            else if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) <= 0.1 * Model.transform.localScale.x))
+            else if (alphaBaseFlag && (Vector3.Distance(magnifierBase.transform.position, alphaBase.transform.position) <= 0.0015 * Model.transform.localScale.x))
 
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdAlphaBaseTranslateForward(transformed.x * Vector3.back);
+                CmdAlphaBaseTranslateBack(transformed.x * Vector3.left);
             }
-            else if (screenBaseFlag && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) >= 0.3 * Model.transform.localScale.x))
+            else if (screenBaseFlag && (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) >= 0.18 * Model.transform.localScale.x))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdScreenBaseTranslateForward(transformed.x * Vector3.back);
+                CmdScreenBaseTranslateForward(transformed.x * Vector3.left);
             }
-            else if (screenBaseFlag &&  (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) <= 0.1 * Model.transform.localScale.x))
+            else if (screenBaseFlag &&  (Vector3.Distance(magnifierBase.transform.position, screenBase.transform.position) <= 0.0015 * Model.transform.localScale.x))
             {
                 var player = ClientScene.localPlayers[0].gameObject.GetComponent<Player>();
                 player.CheckAuthority(GetComponent<NetworkIdentity>(), player.GetComponent<NetworkIdentity>());
-                CmdScreenBaseTranslateBack(transformed.x * Vector3.back);
+                CmdScreenBaseTranslateForward(transformed.x * Vector3.left);
             }
 
             if (Input.touchCount > 1)
@@ -117,7 +117,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslate(Vector3 translated)
     {
-        alphaBase.transform.Translate(translated * 0.0002f, Space.Self);
+        alphaBase.transform.parent.gameObject.transform.Translate(translated * 0.0002f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -128,7 +128,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslate(Vector3 translated)
     {
-        screenBase.transform.Translate(translated * 0.0002f, Space.Self);
+        screenBase.transform.parent.gameObject.transform.Translate(translated * 0.0002f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -139,7 +139,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslateBack(Vector3 translated)
     {
-        alphaBase.transform.Translate(-translated * 0.005f, Space.Self);
+        alphaBase.transform.parent.gameObject.transform.Translate(-translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -150,7 +150,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslateBack(Vector3 translated)
     {
-        screenBase.transform.Translate(-translated * 0.005f, Space.Self);
+        screenBase.transform.parent.gameObject.transform.Translate(-translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -161,7 +161,7 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcAlphaBaseTranslateForward(Vector3 translated)
     {
-        alphaBase.transform.Translate(translated * 0.005f, Space.Self);
+        alphaBase.transform.parent.gameObject.transform.Translate(translated * 0.005f, Space.Self);
     }
     [Command]
     /*Unet*/
@@ -172,6 +172,6 @@ public class RemoveController : NetworkBehaviour
     [ClientRpc]
     public void RpcScreenBaseTranslateForward(Vector3 translated)
     {
-        screenBase.transform.Translate(translated * 0.005f, Space.Self);
+        screenBase.transform.parent.gameObject.transform.Translate(translated * 0.005f, Space.Self);
     }
 }

@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{D7661684-514B-E4B7-2543-3A1FB7E43026}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UI/UIScript/BackLoad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs">
     <Files>
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="12" Column="5" />
-      <File FileName="Assets/Labs/Cell/Scripts/ARController.cs" Line="10" Column="22" />
-      <File FileName="Assets/UnityARKitPlugin.unitypackage/Plugins/iOS/UnityARKit/Editor/UnityARBuildPostprocessor.cs" Line="187" Column="1" />
-      <File FileName="Assets/Labs/MainScene/Scripts/LabCount.cs" Line="10" Column="1" />
-      <File FileName="Assets/Labs/MainScene/Scripts/AnimationState.cs" Line="13" Column="26" />
-      <File FileName="Assets/Labs/MainScene/Scripts/LRController.cs" Line="105" Column="56" />
-      <File FileName="Assets/Labs/MainScene/Scripts/GlobalControl.cs" Line="8" Column="1" />
-      <File FileName="Assets/Labs/Cell/Scripts/LoadARScence.cs" Line="18" Column="48" />
-      <File FileName="Assets/Labs/Cell/Scripts/Index.cs" Line="8" Column="1" />
-      <File FileName="Assets/UI/UIScript/BackLoad.cs" Line="27" Column="64" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/VirtualImageController.cs" Line="12" Column="29" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ScreenImageController.cs" Line="1" Column="26" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs" Line="97" Column="92" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="193" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -17,7 +17,7 @@ public class ShowDistance : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         parent.transform.position = (point1.transform.position + point2.transform.position) / 2;
-        Debug.Log(transform.position.ToString());
+        //Debug.Log(transform.position.ToString());
         Vector3 measureX = measure.GetComponent<Transform>().position;
         Vector3 magnifierX = maginifier.GetComponent<Transform>().position;
         distance.text = (100 * Mathf.Abs((magnifierX - measureX).magnitude)).ToString("f1") + "cm";

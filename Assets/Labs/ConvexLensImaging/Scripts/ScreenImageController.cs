@@ -24,11 +24,11 @@ public class ScreenImageController : MonoBehaviour {
 
             if (distance >= 2 * focal) degree = 2;
             else degree = 1 + 1.0f / 2.0f * distance / focal;
-            if (degree * VirtualImageController.scale <= 3.3f)
-                Plane.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f) * degree * VirtualImageController.scale;
+            if (degree * VirtualImageController.scale <= 2.7f)
+                Plane.transform.localScale = new Vector3(0.0055f, 0.0055f, 0.0055f) * degree * VirtualImageController.scale;
             else
             {
-                Plane.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f) * 3.3f;
+                Plane.transform.localScale = new Vector3(0.0055f, 0.0055f, 0.0055f) * 2.7f;
             }
         }
     }
