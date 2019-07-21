@@ -13,17 +13,17 @@ public class VirtualImageController  : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
-        focal = 0.1f * Model.transform.localScale.x;
+        focal = 0.15f * Model.transform.localScale.x;
         ModelController.ResetHandlerEvent += HideLineAndVF;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        focal = 0.1f * Model.transform.localScale.x;
+        focal = 0.15f * Model.transform.localScale.x;
         //在拖动实现之后通过委托事件来实现，现在通过Update实现/
         if (Model.activeSelf) {
             Button.SetActive(true);
-            float u = (Glass.transform.position - RF.transform.position).magnitude;
+            float u = (Glass.transform.position - RF.transform.position).magnitude; // 物距
             scale = focal / (u - focal);
             VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
             VF.transform.localScale = RF.transform.localScale * scale;
