@@ -1,10 +1,7 @@
 iOS
 PlayerPath?
-/Users/js/Developer/build
+/Repository/ARkitLabXcode
 SceneListBegin?
-Assets/Labs/MainScene/Scene/MainScene.unity
-Assets/Labs/Momentum/Scene/Momentum.unity
-Assets/Labs/ConvexLensImaging/Scene/ConvexLensImaging.unity
 Assets/Labs/Cell/Scene/Cell.unity
 SceneListEnd?
 01fbe634c91ab2760e5b9cdaa54d709b Assembly-CSharp.dll:.NetworkManager_custom
