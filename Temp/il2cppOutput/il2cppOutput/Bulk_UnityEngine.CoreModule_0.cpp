@@ -1221,6 +1221,7 @@ extern const uint32_t PersistentCall__ctor_m1217622171_MetadataUsageId;
 extern const uint32_t Plane_Raycast_m62370169_MetadataUsageId;
 extern const uint32_t Plane_ToString_m1879648265_MetadataUsageId;
 extern const uint32_t Plane__ctor_m2890438515_MetadataUsageId;
+extern const uint32_t Plane__ctor_m565138071_MetadataUsageId;
 extern const uint32_t PlayableAsset_Internal_CreatePlayable_m2550417712_MetadataUsageId;
 extern const uint32_t PlayableAsset_get_duration_m3549083384_MetadataUsageId;
 extern const uint32_t PlayableAsset_get_outputs_m2130546921_MetadataUsageId;
@@ -18765,6 +18766,12 @@ extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_Normalize_m2941713846
 extern "C" IL2CPP_METHOD_ATTR float Vector3_Dot_m606404487 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___lhs0, Vector3_t3722313464  ___rhs1, const RuntimeMethod* method);
 // System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void Plane__ctor_m2890438515 (Plane_t1000493321 * __this, Vector3_t3722313464  ___inNormal0, Vector3_t3722313464  ___inPoint1, const RuntimeMethod* method);
+// System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Plane__ctor_m565138071 (Plane_t1000493321 * __this, Vector3_t3722313464  ___inNormal0, float ___d1, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Plane::get_normal()
+extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Plane_get_normal_m2366091158 (Plane_t1000493321 * __this, const RuntimeMethod* method);
+// System.Single UnityEngine.Plane::get_distance()
+extern "C" IL2CPP_METHOD_ATTR float Plane_get_distance_m3054241251 (Plane_t1000493321 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Ray::get_direction()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Ray_get_direction_m761601601 (Ray_t3785851493 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Ray::get_origin()
@@ -32612,6 +32619,23 @@ IL_000e:
 		return L_2;
 	}
 }
+// System.Int32 UnityEngine.Mathf::Abs(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR int32_t Mathf_Abs_m2460432655 (RuntimeObject * __this /* static, unused */, int32_t ___value0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___value0;
+		int32_t L_1 = il2cpp_codegen_abs(L_0);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
 // System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
 extern "C" IL2CPP_METHOD_ATTR float Mathf_Min_m1073399594 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, const RuntimeMethod* method)
 {
@@ -38641,6 +38665,73 @@ extern "C"  void Plane__ctor_m2890438515_AdjustorThunk (RuntimeObject * __this, 
 {
 	Plane_t1000493321 * _thisAdjusted = reinterpret_cast<Plane_t1000493321 *>(__this + 1);
 	Plane__ctor_m2890438515(_thisAdjusted, ___inNormal0, ___inPoint1, method);
+}
+// System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Plane__ctor_m565138071 (Plane_t1000493321 * __this, Vector3_t3722313464  ___inNormal0, float ___d1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Plane__ctor_m565138071_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t3722313464  L_0 = ___inNormal0;
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		Vector3_t3722313464  L_1 = Vector3_Normalize_m2941713846(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_m_Normal_0(L_1);
+		float L_2 = ___d1;
+		__this->set_m_Distance_1(L_2);
+		return;
+	}
+}
+extern "C"  void Plane__ctor_m565138071_AdjustorThunk (RuntimeObject * __this, Vector3_t3722313464  ___inNormal0, float ___d1, const RuntimeMethod* method)
+{
+	Plane_t1000493321 * _thisAdjusted = reinterpret_cast<Plane_t1000493321 *>(__this + 1);
+	Plane__ctor_m565138071(_thisAdjusted, ___inNormal0, ___d1, method);
+}
+// UnityEngine.Vector3 UnityEngine.Plane::get_normal()
+extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Plane_get_normal_m2366091158 (Plane_t1000493321 * __this, const RuntimeMethod* method)
+{
+	Vector3_t3722313464  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector3_t3722313464  L_0 = __this->get_m_Normal_0();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector3_t3722313464  L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  Vector3_t3722313464  Plane_get_normal_m2366091158_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	Plane_t1000493321 * _thisAdjusted = reinterpret_cast<Plane_t1000493321 *>(__this + 1);
+	return Plane_get_normal_m2366091158(_thisAdjusted, method);
+}
+// System.Single UnityEngine.Plane::get_distance()
+extern "C" IL2CPP_METHOD_ATTR float Plane_get_distance_m3054241251 (Plane_t1000493321 * __this, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_m_Distance_1();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  float Plane_get_distance_m3054241251_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	Plane_t1000493321 * _thisAdjusted = reinterpret_cast<Plane_t1000493321 *>(__this + 1);
+	return Plane_get_distance_m3054241251(_thisAdjusted, method);
 }
 // System.Boolean UnityEngine.Plane::Raycast(UnityEngine.Ray,System.Single&)
 extern "C" IL2CPP_METHOD_ATTR bool Plane_Raycast_m62370169 (Plane_t1000493321 * __this, Ray_t3785851493  ___ray0, float* ___enter1, const RuntimeMethod* method)

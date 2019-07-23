@@ -109,6 +109,10 @@ struct InterfaceFuncInvoker0
 
 // Collections.Hybrid.Generic.LinkedListDictionary`2/LLEntry<System.Object,System.Object>[]
 struct LLEntryU5BU5D_t3750045216;
+// HighlightingSystem.HighlighterRenderer/Data[]
+struct DataU5BU5D_t2819638097;
+// HighlightingSystem.HighlightingPreset[]
+struct HighlightingPresetU5BU5D_t2765988374;
 // System.ArgumentException
 struct ArgumentException_t132251570;
 // System.ArgumentNullException
@@ -285,6 +289,14 @@ struct Dictionary_2_t2910066633;
 struct Dictionary_2_t2340256126;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,System.Object>
 struct Dictionary_2_t1966579963;
+// System.Collections.Generic.HashSet`1<System.Int32>
+struct HashSet_1_t1515895227;
+// System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkInstanceId>
+struct HashSet_1_t3646266945;
+// System.Collections.Generic.IComparer`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct IComparer_1_t2533289409;
+// System.Collections.Generic.IComparer`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct IComparer_1_t3198720260;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t2059959053;
 // System.Collections.Generic.IEqualityComparer`1<System.Int16>
@@ -353,6 +365,10 @@ struct List_1_t1260619206;
 struct List_1_t4072576034;
 // System.Collections.Generic.List`1<UnityEngine.Component>
 struct List_1_t3395709193;
+// System.Collections.Generic.List`1<UnityEngine.Networking.NetworkClient>
+struct List_1_t935303414;
+// System.Collections.Generic.List`1<UnityEngine.Networking.NetworkConnection>
+struct List_1_t4177294833;
 // System.Collections.Generic.List`1<UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo>
 struct List_1_t3863375399;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
@@ -373,6 +389,14 @@ struct List_1_t496136383;
 struct List_1_t3416529523;
 // System.Collections.IDictionary
 struct IDictionary_t1363984059;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Networking.NetworkConnection>
+struct ReadOnlyCollection_1_t3917796378;
+// System.Comparison`1<UnityEngine.Vector4>
+struct Comparison_1_t3093960116;
+// System.Comparison`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct Comparison_1_t1053955109;
+// System.Comparison`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct Comparison_1_t1719385960;
 // System.Converter`2<System.Object,System.Object>
 struct Converter_2_t2442480487;
 // System.DelegateData
@@ -399,6 +423,8 @@ struct Int64U5BU5D_t2559172825;
 struct IntPtrU5BU5D_t4013366056;
 // System.InvalidOperationException
 struct InvalidOperationException_t56020091;
+// System.Net.EndPoint
+struct EndPoint_t982345378;
 // System.Object[]
 struct ObjectU5BU5D_t2843939325;
 // System.Predicate`1<System.Object>
@@ -441,8 +467,12 @@ struct Type_t;
 struct TypeU5BU5D_t3940880105;
 // System.UInt16
 struct UInt16_t2177724958;
+// System.UInt32[]
+struct UInt32U5BU5D_t2770800703;
 // System.Void
 struct Void_t1185182177;
+// UnityEngine.BeforeRenderHelper/OrderBlock[]
+struct OrderBlockU5BU5D_t2389202590;
 // UnityEngine.Camera
 struct Camera_t4157153871;
 // UnityEngine.Color32[]
@@ -495,6 +525,8 @@ struct EventFunction_1_t955952873;
 struct EventFunction_1_t1475332338;
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler>
 struct EventFunction_1_t2950825503;
+// UnityEngine.EventSystems.RaycastResult[]
+struct RaycastResultU5BU5D_t1128832444;
 // UnityEngine.Events.UnityAction
 struct UnityAction_t3245792599;
 // UnityEngine.ExecuteInEditMode[]
@@ -509,12 +541,22 @@ struct GameObject_t1113636619;
 struct Material_t340375123;
 // UnityEngine.Mesh
 struct Mesh_t3648964284;
+// UnityEngine.Networking.ChannelPacket[]
+struct ChannelPacketU5BU5D_t3567636667;
+// UnityEngine.Networking.ClientScene/PendingOwner[]
+struct PendingOwnerU5BU5D_t338874727;
+// UnityEngine.Networking.HostTopology
+struct HostTopology_t4059263395;
+// UnityEngine.Networking.LocalClient/InternalMsg[]
+struct InternalMsgU5BU5D_t4292724566;
 // UnityEngine.Networking.NetBuffer
 struct NetBuffer_t2156033743;
 // UnityEngine.Networking.NetworkBehaviour
 struct NetworkBehaviour_t204670959;
 // UnityEngine.Networking.NetworkBroadcastResult[]
 struct NetworkBroadcastResultU5BU5D_t3532964409;
+// UnityEngine.Networking.NetworkClient
+struct NetworkClient_t3758195968;
 // UnityEngine.Networking.NetworkConnection
 struct NetworkConnection_t2705220091;
 // UnityEngine.Networking.NetworkHash128[]
@@ -523,16 +565,44 @@ struct NetworkHash128U5BU5D_t1809987294;
 struct NetworkIdentity_t3299519057;
 // UnityEngine.Networking.NetworkInstanceId[]
 struct NetworkInstanceIdU5BU5D_t1326493510;
+// UnityEngine.Networking.NetworkLobbyManager/PendingPlayer[]
+struct PendingPlayerU5BU5D_t1652396259;
 // UnityEngine.Networking.NetworkMessage
 struct NetworkMessage_t1192515889;
+// UnityEngine.Networking.NetworkMessageDelegate
+struct NetworkMessageDelegate_t360140524;
+// UnityEngine.Networking.NetworkMessageHandlers
+struct NetworkMessageHandlers_t82575973;
 // UnityEngine.Networking.NetworkMigrationManager/ConnectionPendingPlayers[]
 struct ConnectionPendingPlayersU5BU5D_t879618609;
+// UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo[]
+struct PendingPlayerInfoU5BU5D_t2811374060;
 // UnityEngine.Networking.NetworkReader
 struct NetworkReader_t1574750186;
+// UnityEngine.Networking.NetworkScene
+struct NetworkScene_t3519296737;
 // UnityEngine.Networking.NetworkSceneId[]
 struct NetworkSceneIdU5BU5D_t756683003;
+// UnityEngine.Networking.NetworkServer
+struct NetworkServer_t2920297688;
+// UnityEngine.Networking.NetworkServer/ServerSimpleWrapper
+struct ServerSimpleWrapper_t3640015215;
+// UnityEngine.Networking.NetworkServerSimple
+struct NetworkServerSimple_t2785584229;
+// UnityEngine.Networking.NetworkSystem.CRCMessage
+struct CRCMessage_t4148217304;
+// UnityEngine.Networking.NetworkSystem.CRCMessageEntry[]
+struct CRCMessageEntryU5BU5D_t2683386060;
+// UnityEngine.Networking.NetworkSystem.PeerInfoPlayer[]
+struct PeerInfoPlayerU5BU5D_t2287290788;
+// UnityEngine.Networking.NetworkSystem.RemovePlayerMessage
+struct RemovePlayerMessage_t1120190071;
+// UnityEngine.Networking.QosType[]
+struct QosTypeU5BU5D_t1463991255;
 // UnityEngine.Networking.Types.NetworkID[]
 struct NetworkIDU5BU5D_t383006840;
+// UnityEngine.Networking.ULocalConnectionToClient
+struct ULocalConnectionToClient_t1858816613;
 // UnityEngine.Object
 struct Object_t631007953;
 // UnityEngine.Object[]
@@ -541,6 +611,8 @@ struct ObjectU5BU5D_t1417781964;
 struct CreateOutputMethod_t2301811773;
 // UnityEngine.Playables.PlayableBinding[]
 struct PlayableBindingU5BU5D_t829358056;
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1690781147;
 // UnityEngine.RectOffset
 struct RectOffset_t1369453676;
 // UnityEngine.RectTransform
@@ -579,6 +651,12 @@ struct ObjectPool_1_t231414508;
 struct Selectable_t3250028441;
 // UnityEngine.UI.Text
 struct Text_t1901882714;
+// UnityEngine.UICharInfo[]
+struct UICharInfoU5BU5D_t928762055;
+// UnityEngine.UILineInfo[]
+struct UILineInfoU5BU5D_t1655937503;
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_t1981460040;
 // UnityEngine.UnityException
 struct UnityException_t3598173660;
 // UnityEngine.Vector2[]
@@ -609,6 +687,7 @@ extern RuntimeClass* InvalidOperationException_t56020091_il2cpp_TypeInfo_var;
 extern RuntimeClass* ListPool_1_t2953223642_il2cpp_TypeInfo_var;
 extern RuntimeClass* LogFilter_t3573890335_il2cpp_TypeInfo_var;
 extern RuntimeClass* MemoryStream_t94973147_il2cpp_TypeInfo_var;
+extern RuntimeClass* NetworkServer_t2920297688_il2cpp_TypeInfo_var;
 extern RuntimeClass* ObjectU5BU5D_t2843939325_il2cpp_TypeInfo_var;
 extern RuntimeClass* Object_t631007953_il2cpp_TypeInfo_var;
 extern RuntimeClass* String_t_il2cpp_TypeInfo_var;
@@ -994,6 +1073,9 @@ extern const uint32_t JsonUtility_FromJson_TisRuntimeObject_m1405553448_Metadata
 extern const uint32_t Mesh_SetUvsImpl_TisRuntimeObject_m2275316106_MetadataUsageId;
 extern const uint32_t Mesh_SetUvsImpl_TisVector2_t2156229523_m3009194955_MetadataUsageId;
 extern const uint32_t NetworkBehaviour_SetSyncVar_TisRuntimeObject_m4153101883_MetadataUsageId;
+extern const uint32_t NetworkClient_SetNetworkConnectionClass_TisRuntimeObject_m1030808366_MetadataUsageId;
+extern const uint32_t NetworkServerSimple_SetNetworkConnectionClass_TisRuntimeObject_m306409787_MetadataUsageId;
+extern const uint32_t NetworkServer_SetNetworkConnectionClass_TisRuntimeObject_m1536253656_MetadataUsageId;
 extern const uint32_t ObjectSerializationExtension_Deserialize_TisRuntimeObject_m3752543098_MetadataUsageId;
 extern const uint32_t Object_FindObjectsOfType_TisRuntimeObject_m2776316817_MetadataUsageId;
 extern const uint32_t Object_Instantiate_TisRuntimeObject_m1061214600_MetadataUsageId;
@@ -1008,6 +1090,8 @@ struct PlayerLoopSystem_t105772105_marshaled_com;
 struct PlayerLoopSystem_t105772105_marshaled_pinvoke;
 
 struct LLEntryU5BU5D_t3750045216;
+struct DataU5BU5D_t2819638097;
+struct HighlightingPresetU5BU5D_t2765988374;
 struct BooleanU5BU5D_t2897418192;
 struct ByteU5BU5D_t4116647657;
 struct DictionaryEntryU5BU5D_t4217117203;
@@ -1035,15 +1119,30 @@ struct ObjectU5BU5D_t2843939325;
 struct CustomAttributeNamedArgumentU5BU5D_t3710464795;
 struct CustomAttributeTypedArgumentU5BU5D_t1465843424;
 struct SingleU5BU5D_t1444911251;
+struct UInt32U5BU5D_t2770800703;
+struct OrderBlockU5BU5D_t2389202590;
 struct Color32U5BU5D_t3850468773;
+struct RaycastResultU5BU5D_t1128832444;
+struct ChannelPacketU5BU5D_t3567636667;
+struct PendingOwnerU5BU5D_t338874727;
+struct InternalMsgU5BU5D_t4292724566;
 struct NetworkBroadcastResultU5BU5D_t3532964409;
 struct NetworkHash128U5BU5D_t1809987294;
 struct NetworkInstanceIdU5BU5D_t1326493510;
+struct PendingPlayerU5BU5D_t1652396259;
 struct ConnectionPendingPlayersU5BU5D_t879618609;
+struct PendingPlayerInfoU5BU5D_t2811374060;
 struct NetworkSceneIdU5BU5D_t756683003;
+struct CRCMessageEntryU5BU5D_t2683386060;
+struct PeerInfoPlayerU5BU5D_t2287290788;
+struct QosTypeU5BU5D_t1463991255;
 struct NetworkIDU5BU5D_t383006840;
 struct ObjectU5BU5D_t1417781964;
+struct RaycastHitU5BU5D_t1690781147;
 struct TextEditOpU5BU5D_t3070334147;
+struct UICharInfoU5BU5D_t928762055;
+struct UILineInfoU5BU5D_t1655937503;
+struct UIVertexU5BU5D_t1981460040;
 struct Vector2U5BU5D_t1457185986;
 struct Vector3U5BU5D_t1718750761;
 struct Vector4U5BU5D_t934056436;
@@ -5072,6 +5171,435 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NETWORKREADER_T1574750186_H
+#ifndef NETWORKSERVER_T2920297688_H
+#define NETWORKSERVER_T2920297688_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkServer
+struct  NetworkServer_t2920297688  : public RuntimeObject
+{
+public:
+	// System.Boolean UnityEngine.Networking.NetworkServer::m_LocalClientActive
+	bool ___m_LocalClientActive_4;
+	// System.Collections.Generic.List`1<UnityEngine.Networking.NetworkConnection> UnityEngine.Networking.NetworkServer::m_LocalConnectionsFakeList
+	List_1_t4177294833 * ___m_LocalConnectionsFakeList_5;
+	// UnityEngine.Networking.ULocalConnectionToClient UnityEngine.Networking.NetworkServer::m_LocalConnection
+	ULocalConnectionToClient_t1858816613 * ___m_LocalConnection_6;
+	// UnityEngine.Networking.NetworkScene UnityEngine.Networking.NetworkServer::m_NetworkScene
+	NetworkScene_t3519296737 * ___m_NetworkScene_7;
+	// System.Collections.Generic.HashSet`1<System.Int32> UnityEngine.Networking.NetworkServer::m_ExternalConnections
+	HashSet_1_t1515895227 * ___m_ExternalConnections_8;
+	// UnityEngine.Networking.NetworkServer/ServerSimpleWrapper UnityEngine.Networking.NetworkServer::m_SimpleServerSimple
+	ServerSimpleWrapper_t3640015215 * ___m_SimpleServerSimple_9;
+	// System.Single UnityEngine.Networking.NetworkServer::m_MaxDelay
+	float ___m_MaxDelay_10;
+	// System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkInstanceId> UnityEngine.Networking.NetworkServer::m_RemoveList
+	HashSet_1_t3646266945 * ___m_RemoveList_11;
+	// System.Int32 UnityEngine.Networking.NetworkServer::m_RemoveListCount
+	int32_t ___m_RemoveListCount_12;
+
+public:
+	inline static int32_t get_offset_of_m_LocalClientActive_4() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_LocalClientActive_4)); }
+	inline bool get_m_LocalClientActive_4() const { return ___m_LocalClientActive_4; }
+	inline bool* get_address_of_m_LocalClientActive_4() { return &___m_LocalClientActive_4; }
+	inline void set_m_LocalClientActive_4(bool value)
+	{
+		___m_LocalClientActive_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocalConnectionsFakeList_5() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_LocalConnectionsFakeList_5)); }
+	inline List_1_t4177294833 * get_m_LocalConnectionsFakeList_5() const { return ___m_LocalConnectionsFakeList_5; }
+	inline List_1_t4177294833 ** get_address_of_m_LocalConnectionsFakeList_5() { return &___m_LocalConnectionsFakeList_5; }
+	inline void set_m_LocalConnectionsFakeList_5(List_1_t4177294833 * value)
+	{
+		___m_LocalConnectionsFakeList_5 = value;
+		Il2CppCodeGenWriteBarrier((&___m_LocalConnectionsFakeList_5), value);
+	}
+
+	inline static int32_t get_offset_of_m_LocalConnection_6() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_LocalConnection_6)); }
+	inline ULocalConnectionToClient_t1858816613 * get_m_LocalConnection_6() const { return ___m_LocalConnection_6; }
+	inline ULocalConnectionToClient_t1858816613 ** get_address_of_m_LocalConnection_6() { return &___m_LocalConnection_6; }
+	inline void set_m_LocalConnection_6(ULocalConnectionToClient_t1858816613 * value)
+	{
+		___m_LocalConnection_6 = value;
+		Il2CppCodeGenWriteBarrier((&___m_LocalConnection_6), value);
+	}
+
+	inline static int32_t get_offset_of_m_NetworkScene_7() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_NetworkScene_7)); }
+	inline NetworkScene_t3519296737 * get_m_NetworkScene_7() const { return ___m_NetworkScene_7; }
+	inline NetworkScene_t3519296737 ** get_address_of_m_NetworkScene_7() { return &___m_NetworkScene_7; }
+	inline void set_m_NetworkScene_7(NetworkScene_t3519296737 * value)
+	{
+		___m_NetworkScene_7 = value;
+		Il2CppCodeGenWriteBarrier((&___m_NetworkScene_7), value);
+	}
+
+	inline static int32_t get_offset_of_m_ExternalConnections_8() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_ExternalConnections_8)); }
+	inline HashSet_1_t1515895227 * get_m_ExternalConnections_8() const { return ___m_ExternalConnections_8; }
+	inline HashSet_1_t1515895227 ** get_address_of_m_ExternalConnections_8() { return &___m_ExternalConnections_8; }
+	inline void set_m_ExternalConnections_8(HashSet_1_t1515895227 * value)
+	{
+		___m_ExternalConnections_8 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ExternalConnections_8), value);
+	}
+
+	inline static int32_t get_offset_of_m_SimpleServerSimple_9() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_SimpleServerSimple_9)); }
+	inline ServerSimpleWrapper_t3640015215 * get_m_SimpleServerSimple_9() const { return ___m_SimpleServerSimple_9; }
+	inline ServerSimpleWrapper_t3640015215 ** get_address_of_m_SimpleServerSimple_9() { return &___m_SimpleServerSimple_9; }
+	inline void set_m_SimpleServerSimple_9(ServerSimpleWrapper_t3640015215 * value)
+	{
+		___m_SimpleServerSimple_9 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SimpleServerSimple_9), value);
+	}
+
+	inline static int32_t get_offset_of_m_MaxDelay_10() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_MaxDelay_10)); }
+	inline float get_m_MaxDelay_10() const { return ___m_MaxDelay_10; }
+	inline float* get_address_of_m_MaxDelay_10() { return &___m_MaxDelay_10; }
+	inline void set_m_MaxDelay_10(float value)
+	{
+		___m_MaxDelay_10 = value;
+	}
+
+	inline static int32_t get_offset_of_m_RemoveList_11() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_RemoveList_11)); }
+	inline HashSet_1_t3646266945 * get_m_RemoveList_11() const { return ___m_RemoveList_11; }
+	inline HashSet_1_t3646266945 ** get_address_of_m_RemoveList_11() { return &___m_RemoveList_11; }
+	inline void set_m_RemoveList_11(HashSet_1_t3646266945 * value)
+	{
+		___m_RemoveList_11 = value;
+		Il2CppCodeGenWriteBarrier((&___m_RemoveList_11), value);
+	}
+
+	inline static int32_t get_offset_of_m_RemoveListCount_12() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688, ___m_RemoveListCount_12)); }
+	inline int32_t get_m_RemoveListCount_12() const { return ___m_RemoveListCount_12; }
+	inline int32_t* get_address_of_m_RemoveListCount_12() { return &___m_RemoveListCount_12; }
+	inline void set_m_RemoveListCount_12(int32_t value)
+	{
+		___m_RemoveListCount_12 = value;
+	}
+};
+
+struct NetworkServer_t2920297688_StaticFields
+{
+public:
+	// System.Boolean UnityEngine.Networking.NetworkServer::s_Active
+	bool ___s_Active_0;
+	// UnityEngine.Networking.NetworkServer modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngine.Networking.NetworkServer::s_Instance
+	NetworkServer_t2920297688 * ___s_Instance_1;
+	// System.Object UnityEngine.Networking.NetworkServer::s_Sync
+	RuntimeObject * ___s_Sync_2;
+	// System.Boolean UnityEngine.Networking.NetworkServer::m_DontListen
+	bool ___m_DontListen_3;
+	// System.UInt16 UnityEngine.Networking.NetworkServer::maxPacketSize
+	uint16_t ___maxPacketSize_14;
+	// UnityEngine.Networking.NetworkSystem.RemovePlayerMessage UnityEngine.Networking.NetworkServer::s_RemovePlayerMessage
+	RemovePlayerMessage_t1120190071 * ___s_RemovePlayerMessage_15;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache0
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache0_16;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache1
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache1_17;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache2
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache2_18;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache3
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache3_19;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache4
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache4_20;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache5
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache5_21;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache6
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache6_22;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache7
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache7_23;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkServer::<>f__mg$cache8
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache8_24;
+
+public:
+	inline static int32_t get_offset_of_s_Active_0() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___s_Active_0)); }
+	inline bool get_s_Active_0() const { return ___s_Active_0; }
+	inline bool* get_address_of_s_Active_0() { return &___s_Active_0; }
+	inline void set_s_Active_0(bool value)
+	{
+		___s_Active_0 = value;
+	}
+
+	inline static int32_t get_offset_of_s_Instance_1() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___s_Instance_1)); }
+	inline NetworkServer_t2920297688 * get_s_Instance_1() const { return ___s_Instance_1; }
+	inline NetworkServer_t2920297688 ** get_address_of_s_Instance_1() { return &___s_Instance_1; }
+	inline void set_s_Instance_1(NetworkServer_t2920297688 * value)
+	{
+		___s_Instance_1 = value;
+		Il2CppCodeGenWriteBarrier((&___s_Instance_1), value);
+	}
+
+	inline static int32_t get_offset_of_s_Sync_2() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___s_Sync_2)); }
+	inline RuntimeObject * get_s_Sync_2() const { return ___s_Sync_2; }
+	inline RuntimeObject ** get_address_of_s_Sync_2() { return &___s_Sync_2; }
+	inline void set_s_Sync_2(RuntimeObject * value)
+	{
+		___s_Sync_2 = value;
+		Il2CppCodeGenWriteBarrier((&___s_Sync_2), value);
+	}
+
+	inline static int32_t get_offset_of_m_DontListen_3() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___m_DontListen_3)); }
+	inline bool get_m_DontListen_3() const { return ___m_DontListen_3; }
+	inline bool* get_address_of_m_DontListen_3() { return &___m_DontListen_3; }
+	inline void set_m_DontListen_3(bool value)
+	{
+		___m_DontListen_3 = value;
+	}
+
+	inline static int32_t get_offset_of_maxPacketSize_14() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___maxPacketSize_14)); }
+	inline uint16_t get_maxPacketSize_14() const { return ___maxPacketSize_14; }
+	inline uint16_t* get_address_of_maxPacketSize_14() { return &___maxPacketSize_14; }
+	inline void set_maxPacketSize_14(uint16_t value)
+	{
+		___maxPacketSize_14 = value;
+	}
+
+	inline static int32_t get_offset_of_s_RemovePlayerMessage_15() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___s_RemovePlayerMessage_15)); }
+	inline RemovePlayerMessage_t1120190071 * get_s_RemovePlayerMessage_15() const { return ___s_RemovePlayerMessage_15; }
+	inline RemovePlayerMessage_t1120190071 ** get_address_of_s_RemovePlayerMessage_15() { return &___s_RemovePlayerMessage_15; }
+	inline void set_s_RemovePlayerMessage_15(RemovePlayerMessage_t1120190071 * value)
+	{
+		___s_RemovePlayerMessage_15 = value;
+		Il2CppCodeGenWriteBarrier((&___s_RemovePlayerMessage_15), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache0_16() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache0_16)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache0_16() const { return ___U3CU3Ef__mgU24cache0_16; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache0_16() { return &___U3CU3Ef__mgU24cache0_16; }
+	inline void set_U3CU3Ef__mgU24cache0_16(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache0_16 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache0_16), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache1_17() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache1_17)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache1_17() const { return ___U3CU3Ef__mgU24cache1_17; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache1_17() { return &___U3CU3Ef__mgU24cache1_17; }
+	inline void set_U3CU3Ef__mgU24cache1_17(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache1_17 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache1_17), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache2_18() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache2_18)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache2_18() const { return ___U3CU3Ef__mgU24cache2_18; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache2_18() { return &___U3CU3Ef__mgU24cache2_18; }
+	inline void set_U3CU3Ef__mgU24cache2_18(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache2_18 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache2_18), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache3_19() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache3_19)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache3_19() const { return ___U3CU3Ef__mgU24cache3_19; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache3_19() { return &___U3CU3Ef__mgU24cache3_19; }
+	inline void set_U3CU3Ef__mgU24cache3_19(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache3_19 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache3_19), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache4_20() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache4_20)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache4_20() const { return ___U3CU3Ef__mgU24cache4_20; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache4_20() { return &___U3CU3Ef__mgU24cache4_20; }
+	inline void set_U3CU3Ef__mgU24cache4_20(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache4_20 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache4_20), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache5_21() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache5_21)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache5_21() const { return ___U3CU3Ef__mgU24cache5_21; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache5_21() { return &___U3CU3Ef__mgU24cache5_21; }
+	inline void set_U3CU3Ef__mgU24cache5_21(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache5_21 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache5_21), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache6_22() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache6_22)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache6_22() const { return ___U3CU3Ef__mgU24cache6_22; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache6_22() { return &___U3CU3Ef__mgU24cache6_22; }
+	inline void set_U3CU3Ef__mgU24cache6_22(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache6_22 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache6_22), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache7_23() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache7_23)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache7_23() const { return ___U3CU3Ef__mgU24cache7_23; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache7_23() { return &___U3CU3Ef__mgU24cache7_23; }
+	inline void set_U3CU3Ef__mgU24cache7_23(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache7_23 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache7_23), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache8_24() { return static_cast<int32_t>(offsetof(NetworkServer_t2920297688_StaticFields, ___U3CU3Ef__mgU24cache8_24)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache8_24() const { return ___U3CU3Ef__mgU24cache8_24; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache8_24() { return &___U3CU3Ef__mgU24cache8_24; }
+	inline void set_U3CU3Ef__mgU24cache8_24(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache8_24 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache8_24), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NETWORKSERVER_T2920297688_H
+#ifndef NETWORKSERVERSIMPLE_T2785584229_H
+#define NETWORKSERVERSIMPLE_T2785584229_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkServerSimple
+struct  NetworkServerSimple_t2785584229  : public RuntimeObject
+{
+public:
+	// System.Boolean UnityEngine.Networking.NetworkServerSimple::m_Initialized
+	bool ___m_Initialized_0;
+	// System.Int32 UnityEngine.Networking.NetworkServerSimple::m_ListenPort
+	int32_t ___m_ListenPort_1;
+	// System.Int32 UnityEngine.Networking.NetworkServerSimple::m_ServerHostId
+	int32_t ___m_ServerHostId_2;
+	// System.Int32 UnityEngine.Networking.NetworkServerSimple::m_RelaySlotId
+	int32_t ___m_RelaySlotId_3;
+	// System.Boolean UnityEngine.Networking.NetworkServerSimple::m_UseWebSockets
+	bool ___m_UseWebSockets_4;
+	// System.Byte[] UnityEngine.Networking.NetworkServerSimple::m_MsgBuffer
+	ByteU5BU5D_t4116647657* ___m_MsgBuffer_5;
+	// UnityEngine.Networking.NetworkReader UnityEngine.Networking.NetworkServerSimple::m_MsgReader
+	NetworkReader_t1574750186 * ___m_MsgReader_6;
+	// System.Type UnityEngine.Networking.NetworkServerSimple::m_NetworkConnectionClass
+	Type_t * ___m_NetworkConnectionClass_7;
+	// UnityEngine.Networking.HostTopology UnityEngine.Networking.NetworkServerSimple::m_HostTopology
+	HostTopology_t4059263395 * ___m_HostTopology_8;
+	// System.Collections.Generic.List`1<UnityEngine.Networking.NetworkConnection> UnityEngine.Networking.NetworkServerSimple::m_Connections
+	List_1_t4177294833 * ___m_Connections_9;
+	// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Networking.NetworkConnection> UnityEngine.Networking.NetworkServerSimple::m_ConnectionsReadOnly
+	ReadOnlyCollection_1_t3917796378 * ___m_ConnectionsReadOnly_10;
+	// UnityEngine.Networking.NetworkMessageHandlers UnityEngine.Networking.NetworkServerSimple::m_MessageHandlers
+	NetworkMessageHandlers_t82575973 * ___m_MessageHandlers_11;
+
+public:
+	inline static int32_t get_offset_of_m_Initialized_0() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_Initialized_0)); }
+	inline bool get_m_Initialized_0() const { return ___m_Initialized_0; }
+	inline bool* get_address_of_m_Initialized_0() { return &___m_Initialized_0; }
+	inline void set_m_Initialized_0(bool value)
+	{
+		___m_Initialized_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ListenPort_1() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_ListenPort_1)); }
+	inline int32_t get_m_ListenPort_1() const { return ___m_ListenPort_1; }
+	inline int32_t* get_address_of_m_ListenPort_1() { return &___m_ListenPort_1; }
+	inline void set_m_ListenPort_1(int32_t value)
+	{
+		___m_ListenPort_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ServerHostId_2() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_ServerHostId_2)); }
+	inline int32_t get_m_ServerHostId_2() const { return ___m_ServerHostId_2; }
+	inline int32_t* get_address_of_m_ServerHostId_2() { return &___m_ServerHostId_2; }
+	inline void set_m_ServerHostId_2(int32_t value)
+	{
+		___m_ServerHostId_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_RelaySlotId_3() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_RelaySlotId_3)); }
+	inline int32_t get_m_RelaySlotId_3() const { return ___m_RelaySlotId_3; }
+	inline int32_t* get_address_of_m_RelaySlotId_3() { return &___m_RelaySlotId_3; }
+	inline void set_m_RelaySlotId_3(int32_t value)
+	{
+		___m_RelaySlotId_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_UseWebSockets_4() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_UseWebSockets_4)); }
+	inline bool get_m_UseWebSockets_4() const { return ___m_UseWebSockets_4; }
+	inline bool* get_address_of_m_UseWebSockets_4() { return &___m_UseWebSockets_4; }
+	inline void set_m_UseWebSockets_4(bool value)
+	{
+		___m_UseWebSockets_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m_MsgBuffer_5() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_MsgBuffer_5)); }
+	inline ByteU5BU5D_t4116647657* get_m_MsgBuffer_5() const { return ___m_MsgBuffer_5; }
+	inline ByteU5BU5D_t4116647657** get_address_of_m_MsgBuffer_5() { return &___m_MsgBuffer_5; }
+	inline void set_m_MsgBuffer_5(ByteU5BU5D_t4116647657* value)
+	{
+		___m_MsgBuffer_5 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MsgBuffer_5), value);
+	}
+
+	inline static int32_t get_offset_of_m_MsgReader_6() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_MsgReader_6)); }
+	inline NetworkReader_t1574750186 * get_m_MsgReader_6() const { return ___m_MsgReader_6; }
+	inline NetworkReader_t1574750186 ** get_address_of_m_MsgReader_6() { return &___m_MsgReader_6; }
+	inline void set_m_MsgReader_6(NetworkReader_t1574750186 * value)
+	{
+		___m_MsgReader_6 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MsgReader_6), value);
+	}
+
+	inline static int32_t get_offset_of_m_NetworkConnectionClass_7() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_NetworkConnectionClass_7)); }
+	inline Type_t * get_m_NetworkConnectionClass_7() const { return ___m_NetworkConnectionClass_7; }
+	inline Type_t ** get_address_of_m_NetworkConnectionClass_7() { return &___m_NetworkConnectionClass_7; }
+	inline void set_m_NetworkConnectionClass_7(Type_t * value)
+	{
+		___m_NetworkConnectionClass_7 = value;
+		Il2CppCodeGenWriteBarrier((&___m_NetworkConnectionClass_7), value);
+	}
+
+	inline static int32_t get_offset_of_m_HostTopology_8() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_HostTopology_8)); }
+	inline HostTopology_t4059263395 * get_m_HostTopology_8() const { return ___m_HostTopology_8; }
+	inline HostTopology_t4059263395 ** get_address_of_m_HostTopology_8() { return &___m_HostTopology_8; }
+	inline void set_m_HostTopology_8(HostTopology_t4059263395 * value)
+	{
+		___m_HostTopology_8 = value;
+		Il2CppCodeGenWriteBarrier((&___m_HostTopology_8), value);
+	}
+
+	inline static int32_t get_offset_of_m_Connections_9() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_Connections_9)); }
+	inline List_1_t4177294833 * get_m_Connections_9() const { return ___m_Connections_9; }
+	inline List_1_t4177294833 ** get_address_of_m_Connections_9() { return &___m_Connections_9; }
+	inline void set_m_Connections_9(List_1_t4177294833 * value)
+	{
+		___m_Connections_9 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Connections_9), value);
+	}
+
+	inline static int32_t get_offset_of_m_ConnectionsReadOnly_10() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_ConnectionsReadOnly_10)); }
+	inline ReadOnlyCollection_1_t3917796378 * get_m_ConnectionsReadOnly_10() const { return ___m_ConnectionsReadOnly_10; }
+	inline ReadOnlyCollection_1_t3917796378 ** get_address_of_m_ConnectionsReadOnly_10() { return &___m_ConnectionsReadOnly_10; }
+	inline void set_m_ConnectionsReadOnly_10(ReadOnlyCollection_1_t3917796378 * value)
+	{
+		___m_ConnectionsReadOnly_10 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ConnectionsReadOnly_10), value);
+	}
+
+	inline static int32_t get_offset_of_m_MessageHandlers_11() { return static_cast<int32_t>(offsetof(NetworkServerSimple_t2785584229, ___m_MessageHandlers_11)); }
+	inline NetworkMessageHandlers_t82575973 * get_m_MessageHandlers_11() const { return ___m_MessageHandlers_11; }
+	inline NetworkMessageHandlers_t82575973 ** get_address_of_m_MessageHandlers_11() { return &___m_MessageHandlers_11; }
+	inline void set_m_MessageHandlers_11(NetworkMessageHandlers_t82575973 * value)
+	{
+		___m_MessageHandlers_11 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MessageHandlers_11), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NETWORKSERVERSIMPLE_T2785584229_H
 #ifndef RESOURCES_T2942265397_H
 #define RESOURCES_T2942265397_H
 #ifdef __clang__
@@ -8542,6 +9070,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NETWORKSCENEID_T717048590_H
+#ifndef SERVERSIMPLEWRAPPER_T3640015215_H
+#define SERVERSIMPLEWRAPPER_T3640015215_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkServer/ServerSimpleWrapper
+struct  ServerSimpleWrapper_t3640015215  : public NetworkServerSimple_t2785584229
+{
+public:
+	// UnityEngine.Networking.NetworkServer UnityEngine.Networking.NetworkServer/ServerSimpleWrapper::m_Server
+	NetworkServer_t2920297688 * ___m_Server_12;
+
+public:
+	inline static int32_t get_offset_of_m_Server_12() { return static_cast<int32_t>(offsetof(ServerSimpleWrapper_t3640015215, ___m_Server_12)); }
+	inline NetworkServer_t2920297688 * get_m_Server_12() const { return ___m_Server_12; }
+	inline NetworkServer_t2920297688 ** get_address_of_m_Server_12() { return &___m_Server_12; }
+	inline void set_m_Server_12(NetworkServer_t2920297688 * value)
+	{
+		___m_Server_12 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Server_12), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SERVERSIMPLEWRAPPER_T3640015215_H
 #ifndef CRCMESSAGEENTRY_T1041239249_H
 #define CRCMESSAGEENTRY_T1041239249_H
 #ifdef __clang__
@@ -11211,6 +11769,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PENDINGOWNER_T3340073490_H
+#ifndef CONNECTSTATE_T1049972864_H
+#define CONNECTSTATE_T1049972864_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkClient/ConnectState
+struct  ConnectState_t1049972864 
+{
+public:
+	// System.Int32 UnityEngine.Networking.NetworkClient/ConnectState::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ConnectState_t1049972864, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CONNECTSTATE_T1049972864_H
 #ifndef PENDINGPLAYERINFO_T2391300657_H
 #define PENDINGPLAYERINFO_T2391300657_H
 #ifdef __clang__
@@ -13418,6 +14005,274 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MESH_T3648964284_H
+#ifndef NETWORKCLIENT_T3758195968_H
+#define NETWORKCLIENT_T3758195968_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkClient
+struct  NetworkClient_t3758195968  : public RuntimeObject
+{
+public:
+	// System.Type UnityEngine.Networking.NetworkClient::m_NetworkConnectionClass
+	Type_t * ___m_NetworkConnectionClass_0;
+	// UnityEngine.Networking.HostTopology UnityEngine.Networking.NetworkClient::m_HostTopology
+	HostTopology_t4059263395 * ___m_HostTopology_4;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_HostPort
+	int32_t ___m_HostPort_5;
+	// System.Boolean UnityEngine.Networking.NetworkClient::m_UseSimulator
+	bool ___m_UseSimulator_6;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_SimulatedLatency
+	int32_t ___m_SimulatedLatency_7;
+	// System.Single UnityEngine.Networking.NetworkClient::m_PacketLoss
+	float ___m_PacketLoss_8;
+	// System.String UnityEngine.Networking.NetworkClient::m_ServerIp
+	String_t* ___m_ServerIp_9;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_ServerPort
+	int32_t ___m_ServerPort_10;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_ClientId
+	int32_t ___m_ClientId_11;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_ClientConnectionId
+	int32_t ___m_ClientConnectionId_12;
+	// System.Int32 UnityEngine.Networking.NetworkClient::m_StatResetTime
+	int32_t ___m_StatResetTime_13;
+	// System.Net.EndPoint UnityEngine.Networking.NetworkClient::m_RemoteEndPoint
+	EndPoint_t982345378 * ___m_RemoteEndPoint_14;
+	// UnityEngine.Networking.NetworkMessageHandlers UnityEngine.Networking.NetworkClient::m_MessageHandlers
+	NetworkMessageHandlers_t82575973 * ___m_MessageHandlers_16;
+	// UnityEngine.Networking.NetworkConnection UnityEngine.Networking.NetworkClient::m_Connection
+	NetworkConnection_t2705220091 * ___m_Connection_17;
+	// System.Byte[] UnityEngine.Networking.NetworkClient::m_MsgBuffer
+	ByteU5BU5D_t4116647657* ___m_MsgBuffer_18;
+	// UnityEngine.Networking.NetworkReader UnityEngine.Networking.NetworkClient::m_MsgReader
+	NetworkReader_t1574750186 * ___m_MsgReader_19;
+	// UnityEngine.Networking.NetworkClient/ConnectState UnityEngine.Networking.NetworkClient::m_AsyncConnect
+	int32_t ___m_AsyncConnect_20;
+	// System.String UnityEngine.Networking.NetworkClient::m_RequestedServerHost
+	String_t* ___m_RequestedServerHost_21;
+
+public:
+	inline static int32_t get_offset_of_m_NetworkConnectionClass_0() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_NetworkConnectionClass_0)); }
+	inline Type_t * get_m_NetworkConnectionClass_0() const { return ___m_NetworkConnectionClass_0; }
+	inline Type_t ** get_address_of_m_NetworkConnectionClass_0() { return &___m_NetworkConnectionClass_0; }
+	inline void set_m_NetworkConnectionClass_0(Type_t * value)
+	{
+		___m_NetworkConnectionClass_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_NetworkConnectionClass_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_HostTopology_4() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_HostTopology_4)); }
+	inline HostTopology_t4059263395 * get_m_HostTopology_4() const { return ___m_HostTopology_4; }
+	inline HostTopology_t4059263395 ** get_address_of_m_HostTopology_4() { return &___m_HostTopology_4; }
+	inline void set_m_HostTopology_4(HostTopology_t4059263395 * value)
+	{
+		___m_HostTopology_4 = value;
+		Il2CppCodeGenWriteBarrier((&___m_HostTopology_4), value);
+	}
+
+	inline static int32_t get_offset_of_m_HostPort_5() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_HostPort_5)); }
+	inline int32_t get_m_HostPort_5() const { return ___m_HostPort_5; }
+	inline int32_t* get_address_of_m_HostPort_5() { return &___m_HostPort_5; }
+	inline void set_m_HostPort_5(int32_t value)
+	{
+		___m_HostPort_5 = value;
+	}
+
+	inline static int32_t get_offset_of_m_UseSimulator_6() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_UseSimulator_6)); }
+	inline bool get_m_UseSimulator_6() const { return ___m_UseSimulator_6; }
+	inline bool* get_address_of_m_UseSimulator_6() { return &___m_UseSimulator_6; }
+	inline void set_m_UseSimulator_6(bool value)
+	{
+		___m_UseSimulator_6 = value;
+	}
+
+	inline static int32_t get_offset_of_m_SimulatedLatency_7() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_SimulatedLatency_7)); }
+	inline int32_t get_m_SimulatedLatency_7() const { return ___m_SimulatedLatency_7; }
+	inline int32_t* get_address_of_m_SimulatedLatency_7() { return &___m_SimulatedLatency_7; }
+	inline void set_m_SimulatedLatency_7(int32_t value)
+	{
+		___m_SimulatedLatency_7 = value;
+	}
+
+	inline static int32_t get_offset_of_m_PacketLoss_8() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_PacketLoss_8)); }
+	inline float get_m_PacketLoss_8() const { return ___m_PacketLoss_8; }
+	inline float* get_address_of_m_PacketLoss_8() { return &___m_PacketLoss_8; }
+	inline void set_m_PacketLoss_8(float value)
+	{
+		___m_PacketLoss_8 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ServerIp_9() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_ServerIp_9)); }
+	inline String_t* get_m_ServerIp_9() const { return ___m_ServerIp_9; }
+	inline String_t** get_address_of_m_ServerIp_9() { return &___m_ServerIp_9; }
+	inline void set_m_ServerIp_9(String_t* value)
+	{
+		___m_ServerIp_9 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ServerIp_9), value);
+	}
+
+	inline static int32_t get_offset_of_m_ServerPort_10() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_ServerPort_10)); }
+	inline int32_t get_m_ServerPort_10() const { return ___m_ServerPort_10; }
+	inline int32_t* get_address_of_m_ServerPort_10() { return &___m_ServerPort_10; }
+	inline void set_m_ServerPort_10(int32_t value)
+	{
+		___m_ServerPort_10 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ClientId_11() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_ClientId_11)); }
+	inline int32_t get_m_ClientId_11() const { return ___m_ClientId_11; }
+	inline int32_t* get_address_of_m_ClientId_11() { return &___m_ClientId_11; }
+	inline void set_m_ClientId_11(int32_t value)
+	{
+		___m_ClientId_11 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ClientConnectionId_12() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_ClientConnectionId_12)); }
+	inline int32_t get_m_ClientConnectionId_12() const { return ___m_ClientConnectionId_12; }
+	inline int32_t* get_address_of_m_ClientConnectionId_12() { return &___m_ClientConnectionId_12; }
+	inline void set_m_ClientConnectionId_12(int32_t value)
+	{
+		___m_ClientConnectionId_12 = value;
+	}
+
+	inline static int32_t get_offset_of_m_StatResetTime_13() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_StatResetTime_13)); }
+	inline int32_t get_m_StatResetTime_13() const { return ___m_StatResetTime_13; }
+	inline int32_t* get_address_of_m_StatResetTime_13() { return &___m_StatResetTime_13; }
+	inline void set_m_StatResetTime_13(int32_t value)
+	{
+		___m_StatResetTime_13 = value;
+	}
+
+	inline static int32_t get_offset_of_m_RemoteEndPoint_14() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_RemoteEndPoint_14)); }
+	inline EndPoint_t982345378 * get_m_RemoteEndPoint_14() const { return ___m_RemoteEndPoint_14; }
+	inline EndPoint_t982345378 ** get_address_of_m_RemoteEndPoint_14() { return &___m_RemoteEndPoint_14; }
+	inline void set_m_RemoteEndPoint_14(EndPoint_t982345378 * value)
+	{
+		___m_RemoteEndPoint_14 = value;
+		Il2CppCodeGenWriteBarrier((&___m_RemoteEndPoint_14), value);
+	}
+
+	inline static int32_t get_offset_of_m_MessageHandlers_16() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_MessageHandlers_16)); }
+	inline NetworkMessageHandlers_t82575973 * get_m_MessageHandlers_16() const { return ___m_MessageHandlers_16; }
+	inline NetworkMessageHandlers_t82575973 ** get_address_of_m_MessageHandlers_16() { return &___m_MessageHandlers_16; }
+	inline void set_m_MessageHandlers_16(NetworkMessageHandlers_t82575973 * value)
+	{
+		___m_MessageHandlers_16 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MessageHandlers_16), value);
+	}
+
+	inline static int32_t get_offset_of_m_Connection_17() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_Connection_17)); }
+	inline NetworkConnection_t2705220091 * get_m_Connection_17() const { return ___m_Connection_17; }
+	inline NetworkConnection_t2705220091 ** get_address_of_m_Connection_17() { return &___m_Connection_17; }
+	inline void set_m_Connection_17(NetworkConnection_t2705220091 * value)
+	{
+		___m_Connection_17 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Connection_17), value);
+	}
+
+	inline static int32_t get_offset_of_m_MsgBuffer_18() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_MsgBuffer_18)); }
+	inline ByteU5BU5D_t4116647657* get_m_MsgBuffer_18() const { return ___m_MsgBuffer_18; }
+	inline ByteU5BU5D_t4116647657** get_address_of_m_MsgBuffer_18() { return &___m_MsgBuffer_18; }
+	inline void set_m_MsgBuffer_18(ByteU5BU5D_t4116647657* value)
+	{
+		___m_MsgBuffer_18 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MsgBuffer_18), value);
+	}
+
+	inline static int32_t get_offset_of_m_MsgReader_19() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_MsgReader_19)); }
+	inline NetworkReader_t1574750186 * get_m_MsgReader_19() const { return ___m_MsgReader_19; }
+	inline NetworkReader_t1574750186 ** get_address_of_m_MsgReader_19() { return &___m_MsgReader_19; }
+	inline void set_m_MsgReader_19(NetworkReader_t1574750186 * value)
+	{
+		___m_MsgReader_19 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MsgReader_19), value);
+	}
+
+	inline static int32_t get_offset_of_m_AsyncConnect_20() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_AsyncConnect_20)); }
+	inline int32_t get_m_AsyncConnect_20() const { return ___m_AsyncConnect_20; }
+	inline int32_t* get_address_of_m_AsyncConnect_20() { return &___m_AsyncConnect_20; }
+	inline void set_m_AsyncConnect_20(int32_t value)
+	{
+		___m_AsyncConnect_20 = value;
+	}
+
+	inline static int32_t get_offset_of_m_RequestedServerHost_21() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968, ___m_RequestedServerHost_21)); }
+	inline String_t* get_m_RequestedServerHost_21() const { return ___m_RequestedServerHost_21; }
+	inline String_t** get_address_of_m_RequestedServerHost_21() { return &___m_RequestedServerHost_21; }
+	inline void set_m_RequestedServerHost_21(String_t* value)
+	{
+		___m_RequestedServerHost_21 = value;
+		Il2CppCodeGenWriteBarrier((&___m_RequestedServerHost_21), value);
+	}
+};
+
+struct NetworkClient_t3758195968_StaticFields
+{
+public:
+	// System.Collections.Generic.List`1<UnityEngine.Networking.NetworkClient> UnityEngine.Networking.NetworkClient::s_Clients
+	List_1_t935303414 * ___s_Clients_2;
+	// System.Boolean UnityEngine.Networking.NetworkClient::s_IsActive
+	bool ___s_IsActive_3;
+	// UnityEngine.Networking.NetworkSystem.CRCMessage UnityEngine.Networking.NetworkClient::s_CRCMessage
+	CRCMessage_t4148217304 * ___s_CRCMessage_15;
+	// System.AsyncCallback UnityEngine.Networking.NetworkClient::<>f__mg$cache0
+	AsyncCallback_t3962456242 * ___U3CU3Ef__mgU24cache0_22;
+	// UnityEngine.Networking.NetworkMessageDelegate UnityEngine.Networking.NetworkClient::<>f__mg$cache1
+	NetworkMessageDelegate_t360140524 * ___U3CU3Ef__mgU24cache1_23;
+
+public:
+	inline static int32_t get_offset_of_s_Clients_2() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968_StaticFields, ___s_Clients_2)); }
+	inline List_1_t935303414 * get_s_Clients_2() const { return ___s_Clients_2; }
+	inline List_1_t935303414 ** get_address_of_s_Clients_2() { return &___s_Clients_2; }
+	inline void set_s_Clients_2(List_1_t935303414 * value)
+	{
+		___s_Clients_2 = value;
+		Il2CppCodeGenWriteBarrier((&___s_Clients_2), value);
+	}
+
+	inline static int32_t get_offset_of_s_IsActive_3() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968_StaticFields, ___s_IsActive_3)); }
+	inline bool get_s_IsActive_3() const { return ___s_IsActive_3; }
+	inline bool* get_address_of_s_IsActive_3() { return &___s_IsActive_3; }
+	inline void set_s_IsActive_3(bool value)
+	{
+		___s_IsActive_3 = value;
+	}
+
+	inline static int32_t get_offset_of_s_CRCMessage_15() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968_StaticFields, ___s_CRCMessage_15)); }
+	inline CRCMessage_t4148217304 * get_s_CRCMessage_15() const { return ___s_CRCMessage_15; }
+	inline CRCMessage_t4148217304 ** get_address_of_s_CRCMessage_15() { return &___s_CRCMessage_15; }
+	inline void set_s_CRCMessage_15(CRCMessage_t4148217304 * value)
+	{
+		___s_CRCMessage_15 = value;
+		Il2CppCodeGenWriteBarrier((&___s_CRCMessage_15), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache0_22() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968_StaticFields, ___U3CU3Ef__mgU24cache0_22)); }
+	inline AsyncCallback_t3962456242 * get_U3CU3Ef__mgU24cache0_22() const { return ___U3CU3Ef__mgU24cache0_22; }
+	inline AsyncCallback_t3962456242 ** get_address_of_U3CU3Ef__mgU24cache0_22() { return &___U3CU3Ef__mgU24cache0_22; }
+	inline void set_U3CU3Ef__mgU24cache0_22(AsyncCallback_t3962456242 * value)
+	{
+		___U3CU3Ef__mgU24cache0_22 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache0_22), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache1_23() { return static_cast<int32_t>(offsetof(NetworkClient_t3758195968_StaticFields, ___U3CU3Ef__mgU24cache1_23)); }
+	inline NetworkMessageDelegate_t360140524 * get_U3CU3Ef__mgU24cache1_23() const { return ___U3CU3Ef__mgU24cache1_23; }
+	inline NetworkMessageDelegate_t360140524 ** get_address_of_U3CU3Ef__mgU24cache1_23() { return &___U3CU3Ef__mgU24cache1_23; }
+	inline void set_U3CU3Ef__mgU24cache1_23(NetworkMessageDelegate_t360140524 * value)
+	{
+		___U3CU3Ef__mgU24cache1_23 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache1_23), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NETWORKCLIENT_T3758195968_H
 #ifndef PLAYABLEBINDING_T354260709_H
 #define PLAYABLEBINDING_T354260709_H
 #ifdef __clang__
@@ -15142,6 +15997,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TRANSFORM_1_T585500852_H
+#ifndef COMPARISON_1_T3093960116_H
+#define COMPARISON_1_T3093960116_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Comparison`1<UnityEngine.Vector4>
+struct  Comparison_1_t3093960116  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARISON_1_T3093960116_H
+#ifndef COMPARISON_1_T1053955109_H
+#define COMPARISON_1_T1053955109_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Comparison`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  Comparison_1_t1053955109  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARISON_1_T1053955109_H
+#ifndef COMPARISON_1_T1719385960_H
+#define COMPARISON_1_T1719385960_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Comparison`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  Comparison_1_t1719385960  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARISON_1_T1719385960_H
 #ifndef CONVERTER_2_T2442480487_H
 #define CONVERTER_2_T2442480487_H
 #ifdef __clang__
@@ -16030,6 +16945,953 @@ public:
 		m_Items[index] = value;
 	}
 };
+// HighlightingSystem.HighlighterRenderer/Data[]
+struct DataU5BU5D_t2819638097  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Data_t434873072  m_Items[1];
+
+public:
+	inline Data_t434873072  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Data_t434873072 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Data_t434873072  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Data_t434873072  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Data_t434873072 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Data_t434873072  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// HighlightingSystem.HighlightingPreset[]
+struct HighlightingPresetU5BU5D_t2765988374  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) HighlightingPreset_t635619791  m_Items[1];
+
+public:
+	inline HighlightingPreset_t635619791  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline HighlightingPreset_t635619791 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, HighlightingPreset_t635619791  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline HighlightingPreset_t635619791  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline HighlightingPreset_t635619791 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, HighlightingPreset_t635619791  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Boolean[]
+struct BooleanU5BU5D_t2897418192  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) bool m_Items[1];
+
+public:
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Byte[]
+struct ByteU5BU5D_t4116647657  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Int32[]
+struct Int32U5BU5D_t385246372  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t2843939325  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
+
+public:
+	inline RuntimeObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline RuntimeObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Reflection.CustomAttributeNamedArgument[]
+struct CustomAttributeNamedArgumentU5BU5D_t3710464795  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) CustomAttributeNamedArgument_t287865710  m_Items[1];
+
+public:
+	inline CustomAttributeNamedArgument_t287865710  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CustomAttributeNamedArgument_t287865710 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CustomAttributeNamedArgument_t287865710  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline CustomAttributeNamedArgument_t287865710  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CustomAttributeNamedArgument_t287865710 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomAttributeNamedArgument_t287865710  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Reflection.CustomAttributeTypedArgument[]
+struct CustomAttributeTypedArgumentU5BU5D_t1465843424  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) CustomAttributeTypedArgument_t2723150157  m_Items[1];
+
+public:
+	inline CustomAttributeTypedArgument_t2723150157  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CustomAttributeTypedArgument_t2723150157 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CustomAttributeTypedArgument_t2723150157  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline CustomAttributeTypedArgument_t2723150157  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CustomAttributeTypedArgument_t2723150157 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomAttributeTypedArgument_t2723150157  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t1444911251  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) float m_Items[1];
+
+public:
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.UInt32[]
+struct UInt32U5BU5D_t2770800703  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) uint32_t m_Items[1];
+
+public:
+	inline uint32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.BeforeRenderHelper/OrderBlock[]
+struct OrderBlockU5BU5D_t2389202590  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) OrderBlock_t1585977831  m_Items[1];
+
+public:
+	inline OrderBlock_t1585977831  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline OrderBlock_t1585977831 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, OrderBlock_t1585977831  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline OrderBlock_t1585977831  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline OrderBlock_t1585977831 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, OrderBlock_t1585977831  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t3850468773  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Color32_t2600501292  m_Items[1];
+
+public:
+	inline Color32_t2600501292  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Color32_t2600501292 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Color32_t2600501292  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Color32_t2600501292  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Color32_t2600501292 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t2600501292  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.EventSystems.RaycastResult[]
+struct RaycastResultU5BU5D_t1128832444  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) RaycastResult_t3360306849  m_Items[1];
+
+public:
+	inline RaycastResult_t3360306849  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RaycastResult_t3360306849 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RaycastResult_t3360306849  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RaycastResult_t3360306849  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RaycastResult_t3360306849 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastResult_t3360306849  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.ChannelPacket[]
+struct ChannelPacketU5BU5D_t3567636667  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) ChannelPacket_t1579824718  m_Items[1];
+
+public:
+	inline ChannelPacket_t1579824718  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ChannelPacket_t1579824718 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ChannelPacket_t1579824718  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline ChannelPacket_t1579824718  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ChannelPacket_t1579824718 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ChannelPacket_t1579824718  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.ClientScene/PendingOwner[]
+struct PendingOwnerU5BU5D_t338874727  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) PendingOwner_t3340073490  m_Items[1];
+
+public:
+	inline PendingOwner_t3340073490  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PendingOwner_t3340073490 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PendingOwner_t3340073490  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline PendingOwner_t3340073490  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PendingOwner_t3340073490 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PendingOwner_t3340073490  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.LocalClient/InternalMsg[]
+struct InternalMsgU5BU5D_t4292724566  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) InternalMsg_t2371755407  m_Items[1];
+
+public:
+	inline InternalMsg_t2371755407  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline InternalMsg_t2371755407 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, InternalMsg_t2371755407  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline InternalMsg_t2371755407  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline InternalMsg_t2371755407 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, InternalMsg_t2371755407  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.NetworkLobbyManager/PendingPlayer[]
+struct PendingPlayerU5BU5D_t1652396259  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) PendingPlayer_t306375494  m_Items[1];
+
+public:
+	inline PendingPlayer_t306375494  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PendingPlayer_t306375494 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PendingPlayer_t306375494  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline PendingPlayer_t306375494  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PendingPlayer_t306375494 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PendingPlayer_t306375494  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo[]
+struct PendingPlayerInfoU5BU5D_t2811374060  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) PendingPlayerInfo_t2391300657  m_Items[1];
+
+public:
+	inline PendingPlayerInfo_t2391300657  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PendingPlayerInfo_t2391300657 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PendingPlayerInfo_t2391300657  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline PendingPlayerInfo_t2391300657  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PendingPlayerInfo_t2391300657 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PendingPlayerInfo_t2391300657  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.NetworkSystem.CRCMessageEntry[]
+struct CRCMessageEntryU5BU5D_t2683386060  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) CRCMessageEntry_t1041239249  m_Items[1];
+
+public:
+	inline CRCMessageEntry_t1041239249  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CRCMessageEntry_t1041239249 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CRCMessageEntry_t1041239249  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline CRCMessageEntry_t1041239249  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CRCMessageEntry_t1041239249 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CRCMessageEntry_t1041239249  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.NetworkSystem.PeerInfoPlayer[]
+struct PeerInfoPlayerU5BU5D_t2287290788  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) PeerInfoPlayer_t607460057  m_Items[1];
+
+public:
+	inline PeerInfoPlayer_t607460057  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PeerInfoPlayer_t607460057 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PeerInfoPlayer_t607460057  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline PeerInfoPlayer_t607460057  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PeerInfoPlayer_t607460057 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PeerInfoPlayer_t607460057  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Networking.QosType[]
+struct QosTypeU5BU5D_t1463991255  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1690781147  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) RaycastHit_t1056001966  m_Items[1];
+
+public:
+	inline RaycastHit_t1056001966  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RaycastHit_t1056001966 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit_t1056001966  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RaycastHit_t1056001966  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RaycastHit_t1056001966 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastHit_t1056001966  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UICharInfo[]
+struct UICharInfoU5BU5D_t928762055  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) UICharInfo_t75501106  m_Items[1];
+
+public:
+	inline UICharInfo_t75501106  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline UICharInfo_t75501106 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, UICharInfo_t75501106  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline UICharInfo_t75501106  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline UICharInfo_t75501106 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, UICharInfo_t75501106  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UILineInfo[]
+struct UILineInfoU5BU5D_t1655937503  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) UILineInfo_t4195266810  m_Items[1];
+
+public:
+	inline UILineInfo_t4195266810  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline UILineInfo_t4195266810 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, UILineInfo_t4195266810  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline UILineInfo_t4195266810  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline UILineInfo_t4195266810 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, UILineInfo_t4195266810  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_t1981460040  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) UIVertex_t4057497605  m_Items[1];
+
+public:
+	inline UIVertex_t4057497605  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline UIVertex_t4057497605 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, UIVertex_t4057497605  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline UIVertex_t4057497605  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline UIVertex_t4057497605 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, UIVertex_t4057497605  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t1457185986  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Vector2_t2156229523  m_Items[1];
+
+public:
+	inline Vector2_t2156229523  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t2156229523 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t2156229523  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t2156229523  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t2156229523 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2156229523  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1718750761  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Vector3_t3722313464  m_Items[1];
+
+public:
+	inline Vector3_t3722313464  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t3722313464 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t3722313464  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t3722313464  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t3722313464 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t3722313464  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // System.Collections.DictionaryEntry[]
 struct DictionaryEntryU5BU5D_t4217117203  : public RuntimeArray
 {
@@ -16135,43 +17997,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// System.Object[]
-struct ObjectU5BU5D_t2843939325  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
-
-public:
-	inline RuntimeObject * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline RuntimeObject ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, RuntimeObject * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline RuntimeObject * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline RuntimeObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
 // System.Collections.Generic.KeyValuePair`2<System.Int16,System.Object>[]
 struct KeyValuePair_2U5BU5D_t1690253877  : public RuntimeArray
 {
@@ -16203,41 +18028,6 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, KeyValuePair_2_t3373118172  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Int32[]
-struct Int32U5BU5D_t385246372  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-public:
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
 	{
 		m_Items[index] = value;
 	}
@@ -16452,41 +18242,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// System.Boolean[]
-struct BooleanU5BU5D_t2897418192  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) bool m_Items[1];
-
-public:
-	inline bool GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline bool* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, bool value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>[]
 struct KeyValuePair_2U5BU5D_t171748081  : public RuntimeArray
 {
@@ -16658,41 +18413,6 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, KeyValuePair_2_t2530217319  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Single[]
-struct SingleU5BU5D_t1444911251  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) float m_Items[1];
-
-public:
-	inline float GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, float value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
 	{
 		m_Items[index] = value;
 	}
@@ -17152,216 +18872,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t1457185986  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector2_t2156229523  m_Items[1];
-
-public:
-	inline Vector2_t2156229523  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector2_t2156229523  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1718750761  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector3_t3722313464  m_Items[1];
-
-public:
-	inline Vector3_t3722313464  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector3_t3722313464 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t3722313464  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector3_t3722313464  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector3_t3722313464 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t3722313464  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Byte[]
-struct ByteU5BU5D_t4116647657  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) uint8_t m_Items[1];
-
-public:
-	inline uint8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Reflection.CustomAttributeNamedArgument[]
-struct CustomAttributeNamedArgumentU5BU5D_t3710464795  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) CustomAttributeNamedArgument_t287865710  m_Items[1];
-
-public:
-	inline CustomAttributeNamedArgument_t287865710  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline CustomAttributeNamedArgument_t287865710 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, CustomAttributeNamedArgument_t287865710  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline CustomAttributeNamedArgument_t287865710  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline CustomAttributeNamedArgument_t287865710 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomAttributeNamedArgument_t287865710  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Reflection.CustomAttributeTypedArgument[]
-struct CustomAttributeTypedArgumentU5BU5D_t1465843424  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) CustomAttributeTypedArgument_t2723150157  m_Items[1];
-
-public:
-	inline CustomAttributeTypedArgument_t2723150157  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline CustomAttributeTypedArgument_t2723150157 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, CustomAttributeTypedArgument_t2723150157  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline CustomAttributeTypedArgument_t2723150157  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline CustomAttributeTypedArgument_t2723150157 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomAttributeTypedArgument_t2723150157  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t3850468773  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Color32_t2600501292  m_Items[1];
-
-public:
-	inline Color32_t2600501292  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Color32_t2600501292 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Color32_t2600501292  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Color32_t2600501292  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Color32_t2600501292 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t2600501292  value)
-	{
-		m_Items[index] = value;
-	}
-};
 // UnityEngine.Object[]
 struct ObjectU5BU5D_t1417781964  : public RuntimeArray
 {
@@ -17483,6 +18993,8 @@ extern "C" IL2CPP_METHOD_ATTR String_t* String_Concat_m2971454694 (RuntimeObject
 extern "C" IL2CPP_METHOD_ATTR void Debug_Log_m4051431634 (RuntimeObject * __this /* static, unused */, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Void UnityEngine.Networking.NetworkBehaviour::SetDirtyBit(System.UInt32)
 extern "C" IL2CPP_METHOD_ATTR void NetworkBehaviour_SetDirtyBit_m3911198689 (NetworkBehaviour_t204670959 * __this, uint32_t ___dirtyBit0, const RuntimeMethod* method);
+// UnityEngine.Networking.NetworkServer UnityEngine.Networking.NetworkServer::get_instance()
+extern "C" IL2CPP_METHOD_ATTR NetworkServer_t2920297688 * NetworkServer_get_instance_m3022890691 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Boolean System.Boolean::Equals(System.Object)
 extern "C" IL2CPP_METHOD_ATTR bool Boolean_Equals_m2410333903 (bool* __this, RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.LayoutGroup::SetDirty()
@@ -17575,6 +19087,3344 @@ extern "C" IL2CPP_METHOD_ATTR Transform_t3600365921 * GameObject_get_transform_m
 extern "C" IL2CPP_METHOD_ATTR Transform_t3600365921 * Transform_get_parent_m835071599 (Transform_t3600365921 * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 extern "C" IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4071470834 (RuntimeObject * __this /* static, unused */, Object_t631007953 * p0, Object_t631007953 * p1, const RuntimeMethod* method);
+// System.Void System.Array::qsort<UnityEngine.Vector4>(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void Array_qsort_TisVector4_t3319028937_m2158412227_gshared (RuntimeObject * __this /* static, unused */, Vector4U5BU5D_t934056436* ___array0, int32_t ___low01, int32_t ___high02, Comparison_1_t3093960116 * ___comparison3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Vector4_t3319028937  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___low01;
+		int32_t L_1 = ___high02;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		int32_t L_2 = ___low01;
+		V_0 = (int32_t)L_2;
+		int32_t L_3 = ___high02;
+		V_1 = (int32_t)L_3;
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6))/(int32_t)2))));
+		Vector4U5BU5D_t934056436* L_7 = ___array0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		Vector4_t3319028937  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = (Vector4_t3319028937 )L_10;
+	}
+
+IL_001c:
+	{
+		goto IL_0025;
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = ___high02;
+		if ((((int32_t)L_12) >= ((int32_t)L_13)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Comparison_1_t3093960116 * L_14 = ___comparison3;
+		Vector4U5BU5D_t934056436* L_15 = ___array0;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		Vector4_t3319028937  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		Vector4_t3319028937  L_19 = V_3;
+		NullCheck((Comparison_1_t3093960116 *)L_14);
+		int32_t L_20 = ((  int32_t (*) (Comparison_1_t3093960116 *, Vector4_t3319028937 , Vector4_t3319028937 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t3093960116 *)L_14, (Vector4_t3319028937 )L_18, (Vector4_t3319028937 )L_19, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_20) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0040:
+	{
+		goto IL_0049;
+	}
+
+IL_0045:
+	{
+		int32_t L_21 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = ___low01;
+		if ((((int32_t)L_22) <= ((int32_t)L_23)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Comparison_1_t3093960116 * L_24 = ___comparison3;
+		Vector4_t3319028937  L_25 = V_3;
+		Vector4U5BU5D_t934056436* L_26 = ___array0;
+		int32_t L_27 = V_1;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		Vector4_t3319028937  L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		NullCheck((Comparison_1_t3093960116 *)L_24);
+		int32_t L_30 = ((  int32_t (*) (Comparison_1_t3093960116 *, Vector4_t3319028937 , Vector4_t3319028937 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t3093960116 *)L_24, (Vector4_t3319028937 )L_25, (Vector4_t3319028937 )L_29, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_30) < ((int32_t)0)))
+		{
+			goto IL_0045;
+		}
+	}
+
+IL_0064:
+	{
+		int32_t L_31 = V_0;
+		int32_t L_32 = V_1;
+		if ((((int32_t)L_31) > ((int32_t)L_32)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		Vector4U5BU5D_t934056436* L_33 = ___array0;
+		int32_t L_34 = V_0;
+		int32_t L_35 = V_1;
+		((  void (*) (RuntimeObject * /* static, unused */, Vector4U5BU5D_t934056436*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (Vector4U5BU5D_t934056436*)L_33, (int32_t)L_34, (int32_t)L_35, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
+		int32_t L_36 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_36, (int32_t)1));
+		int32_t L_37 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)1));
+		goto IL_0085;
+	}
+
+IL_0080:
+	{
+		goto IL_008a;
+	}
+
+IL_0085:
+	{
+		goto IL_001c;
+	}
+
+IL_008a:
+	{
+		int32_t L_38 = ___low01;
+		int32_t L_39 = V_1;
+		if ((((int32_t)L_38) >= ((int32_t)L_39)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		Vector4U5BU5D_t934056436* L_40 = ___array0;
+		int32_t L_41 = ___low01;
+		int32_t L_42 = V_1;
+		Comparison_1_t3093960116 * L_43 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, Vector4U5BU5D_t934056436*, int32_t, int32_t, Comparison_1_t3093960116 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (Vector4U5BU5D_t934056436*)L_40, (int32_t)L_41, (int32_t)L_42, (Comparison_1_t3093960116 *)L_43, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_009a:
+	{
+		int32_t L_44 = V_0;
+		int32_t L_45 = ___high02;
+		if ((((int32_t)L_44) >= ((int32_t)L_45)))
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		Vector4U5BU5D_t934056436* L_46 = ___array0;
+		int32_t L_47 = V_0;
+		int32_t L_48 = ___high02;
+		Comparison_1_t3093960116 * L_49 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, Vector4U5BU5D_t934056436*, int32_t, int32_t, Comparison_1_t3093960116 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (Vector4U5BU5D_t934056436*)L_46, (int32_t)L_47, (int32_t)L_48, (Comparison_1_t3093960116 *)L_49, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+}
+// System.Void System.Array::qsort<UnityEngine.XR.iOS.ARHitTestResult,UnityEngine.XR.iOS.ARHitTestResult>(K[],V[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<K>)
+extern "C" IL2CPP_METHOD_ATTR void Array_qsort_TisARHitTestResult_t1279023930_TisARHitTestResult_t1279023930_m1118543787_gshared (RuntimeObject * __this /* static, unused */, ARHitTestResultU5BU5D_t3623927455* ___keys0, ARHitTestResultU5BU5D_t3623927455* ___items1, int32_t ___low02, int32_t ___high03, RuntimeObject* ___comparer4, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	ARHitTestResult_t1279023930  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___low02;
+		int32_t L_1 = ___high03;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		int32_t L_2 = ___low02;
+		V_0 = (int32_t)L_2;
+		int32_t L_3 = ___high03;
+		V_1 = (int32_t)L_3;
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6))/(int32_t)2))));
+		ARHitTestResultU5BU5D_t3623927455* L_7 = ___keys0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		ARHitTestResult_t1279023930  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = (ARHitTestResult_t1279023930 )L_10;
+	}
+
+IL_001c:
+	{
+		goto IL_0025;
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = ___high03;
+		if ((((int32_t)L_12) >= ((int32_t)L_13)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_14 = ___keys0;
+		int32_t L_15 = V_0;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		ARHitTestResult_t1279023930  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		ARHitTestResult_t1279023930  L_18 = V_3;
+		RuntimeObject* L_19 = ___comparer4;
+		int32_t L_20 = ((  int32_t (*) (RuntimeObject * /* static, unused */, ARHitTestResult_t1279023930 , ARHitTestResult_t1279023930 , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (ARHitTestResult_t1279023930 )L_17, (ARHitTestResult_t1279023930 )L_18, (RuntimeObject*)L_19, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_20) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0041:
+	{
+		goto IL_004a;
+	}
+
+IL_0046:
+	{
+		int32_t L_21 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1));
+	}
+
+IL_004a:
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = ___low02;
+		if ((((int32_t)L_22) <= ((int32_t)L_23)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		ARHitTestResult_t1279023930  L_24 = V_3;
+		ARHitTestResultU5BU5D_t3623927455* L_25 = ___keys0;
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		ARHitTestResult_t1279023930  L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		RuntimeObject* L_29 = ___comparer4;
+		int32_t L_30 = ((  int32_t (*) (RuntimeObject * /* static, unused */, ARHitTestResult_t1279023930 , ARHitTestResult_t1279023930 , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (ARHitTestResult_t1279023930 )L_24, (ARHitTestResult_t1279023930 )L_28, (RuntimeObject*)L_29, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_30) < ((int32_t)0)))
+		{
+			goto IL_0046;
+		}
+	}
+
+IL_0066:
+	{
+		int32_t L_31 = V_0;
+		int32_t L_32 = V_1;
+		if ((((int32_t)L_31) > ((int32_t)L_32)))
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_33 = ___keys0;
+		ARHitTestResultU5BU5D_t3623927455* L_34 = ___items1;
+		int32_t L_35 = V_0;
+		int32_t L_36 = V_1;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_33, (ARHitTestResultU5BU5D_t3623927455*)L_34, (int32_t)L_35, (int32_t)L_36, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
+		int32_t L_37 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_37, (int32_t)1));
+		int32_t L_38 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_38, (int32_t)1));
+		goto IL_0088;
+	}
+
+IL_0083:
+	{
+		goto IL_008d;
+	}
+
+IL_0088:
+	{
+		goto IL_001c;
+	}
+
+IL_008d:
+	{
+		int32_t L_39 = ___low02;
+		int32_t L_40 = V_1;
+		if ((((int32_t)L_39) >= ((int32_t)L_40)))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_41 = ___keys0;
+		ARHitTestResultU5BU5D_t3623927455* L_42 = ___items1;
+		int32_t L_43 = ___low02;
+		int32_t L_44 = V_1;
+		RuntimeObject* L_45 = ___comparer4;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_41, (ARHitTestResultU5BU5D_t3623927455*)L_42, (int32_t)L_43, (int32_t)L_44, (RuntimeObject*)L_45, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_009f:
+	{
+		int32_t L_46 = V_0;
+		int32_t L_47 = ___high03;
+		if ((((int32_t)L_46) >= ((int32_t)L_47)))
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_48 = ___keys0;
+		ARHitTestResultU5BU5D_t3623927455* L_49 = ___items1;
+		int32_t L_50 = V_0;
+		int32_t L_51 = ___high03;
+		RuntimeObject* L_52 = ___comparer4;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_48, (ARHitTestResultU5BU5D_t3623927455*)L_49, (int32_t)L_50, (int32_t)L_51, (RuntimeObject*)L_52, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_00b1:
+	{
+		return;
+	}
+}
+// System.Void System.Array::qsort<UnityEngine.XR.iOS.ARHitTestResult>(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void Array_qsort_TisARHitTestResult_t1279023930_m3155620_gshared (RuntimeObject * __this /* static, unused */, ARHitTestResultU5BU5D_t3623927455* ___array0, int32_t ___low01, int32_t ___high02, Comparison_1_t1053955109 * ___comparison3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	ARHitTestResult_t1279023930  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___low01;
+		int32_t L_1 = ___high02;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		int32_t L_2 = ___low01;
+		V_0 = (int32_t)L_2;
+		int32_t L_3 = ___high02;
+		V_1 = (int32_t)L_3;
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6))/(int32_t)2))));
+		ARHitTestResultU5BU5D_t3623927455* L_7 = ___array0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		ARHitTestResult_t1279023930  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = (ARHitTestResult_t1279023930 )L_10;
+	}
+
+IL_001c:
+	{
+		goto IL_0025;
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = ___high02;
+		if ((((int32_t)L_12) >= ((int32_t)L_13)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Comparison_1_t1053955109 * L_14 = ___comparison3;
+		ARHitTestResultU5BU5D_t3623927455* L_15 = ___array0;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		ARHitTestResult_t1279023930  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		ARHitTestResult_t1279023930  L_19 = V_3;
+		NullCheck((Comparison_1_t1053955109 *)L_14);
+		int32_t L_20 = ((  int32_t (*) (Comparison_1_t1053955109 *, ARHitTestResult_t1279023930 , ARHitTestResult_t1279023930 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t1053955109 *)L_14, (ARHitTestResult_t1279023930 )L_18, (ARHitTestResult_t1279023930 )L_19, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_20) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0040:
+	{
+		goto IL_0049;
+	}
+
+IL_0045:
+	{
+		int32_t L_21 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = ___low01;
+		if ((((int32_t)L_22) <= ((int32_t)L_23)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Comparison_1_t1053955109 * L_24 = ___comparison3;
+		ARHitTestResult_t1279023930  L_25 = V_3;
+		ARHitTestResultU5BU5D_t3623927455* L_26 = ___array0;
+		int32_t L_27 = V_1;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		ARHitTestResult_t1279023930  L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		NullCheck((Comparison_1_t1053955109 *)L_24);
+		int32_t L_30 = ((  int32_t (*) (Comparison_1_t1053955109 *, ARHitTestResult_t1279023930 , ARHitTestResult_t1279023930 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t1053955109 *)L_24, (ARHitTestResult_t1279023930 )L_25, (ARHitTestResult_t1279023930 )L_29, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_30) < ((int32_t)0)))
+		{
+			goto IL_0045;
+		}
+	}
+
+IL_0064:
+	{
+		int32_t L_31 = V_0;
+		int32_t L_32 = V_1;
+		if ((((int32_t)L_31) > ((int32_t)L_32)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_33 = ___array0;
+		int32_t L_34 = V_0;
+		int32_t L_35 = V_1;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_33, (int32_t)L_34, (int32_t)L_35, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
+		int32_t L_36 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_36, (int32_t)1));
+		int32_t L_37 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)1));
+		goto IL_0085;
+	}
+
+IL_0080:
+	{
+		goto IL_008a;
+	}
+
+IL_0085:
+	{
+		goto IL_001c;
+	}
+
+IL_008a:
+	{
+		int32_t L_38 = ___low01;
+		int32_t L_39 = V_1;
+		if ((((int32_t)L_38) >= ((int32_t)L_39)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_40 = ___array0;
+		int32_t L_41 = ___low01;
+		int32_t L_42 = V_1;
+		Comparison_1_t1053955109 * L_43 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, Comparison_1_t1053955109 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_40, (int32_t)L_41, (int32_t)L_42, (Comparison_1_t1053955109 *)L_43, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_009a:
+	{
+		int32_t L_44 = V_0;
+		int32_t L_45 = ___high02;
+		if ((((int32_t)L_44) >= ((int32_t)L_45)))
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		ARHitTestResultU5BU5D_t3623927455* L_46 = ___array0;
+		int32_t L_47 = V_0;
+		int32_t L_48 = ___high02;
+		Comparison_1_t1053955109 * L_49 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, ARHitTestResultU5BU5D_t3623927455*, int32_t, int32_t, Comparison_1_t1053955109 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (ARHitTestResultU5BU5D_t3623927455*)L_46, (int32_t)L_47, (int32_t)L_48, (Comparison_1_t1053955109 *)L_49, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+}
+// System.Void System.Array::qsort<UnityEngine.XR.iOS.UnityARVideoFormat,UnityEngine.XR.iOS.UnityARVideoFormat>(K[],V[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<K>)
+extern "C" IL2CPP_METHOD_ATTR void Array_qsort_TisUnityARVideoFormat_t1944454781_TisUnityARVideoFormat_t1944454781_m4080323182_gshared (RuntimeObject * __this /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048* ___keys0, UnityARVideoFormatU5BU5D_t3086264048* ___items1, int32_t ___low02, int32_t ___high03, RuntimeObject* ___comparer4, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	UnityARVideoFormat_t1944454781  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___low02;
+		int32_t L_1 = ___high03;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		int32_t L_2 = ___low02;
+		V_0 = (int32_t)L_2;
+		int32_t L_3 = ___high03;
+		V_1 = (int32_t)L_3;
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6))/(int32_t)2))));
+		UnityARVideoFormatU5BU5D_t3086264048* L_7 = ___keys0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		UnityARVideoFormat_t1944454781  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = (UnityARVideoFormat_t1944454781 )L_10;
+	}
+
+IL_001c:
+	{
+		goto IL_0025;
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = ___high03;
+		if ((((int32_t)L_12) >= ((int32_t)L_13)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_14 = ___keys0;
+		int32_t L_15 = V_0;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		UnityARVideoFormat_t1944454781  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		UnityARVideoFormat_t1944454781  L_18 = V_3;
+		RuntimeObject* L_19 = ___comparer4;
+		int32_t L_20 = ((  int32_t (*) (RuntimeObject * /* static, unused */, UnityARVideoFormat_t1944454781 , UnityARVideoFormat_t1944454781 , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormat_t1944454781 )L_17, (UnityARVideoFormat_t1944454781 )L_18, (RuntimeObject*)L_19, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_20) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0041:
+	{
+		goto IL_004a;
+	}
+
+IL_0046:
+	{
+		int32_t L_21 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1));
+	}
+
+IL_004a:
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = ___low02;
+		if ((((int32_t)L_22) <= ((int32_t)L_23)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		UnityARVideoFormat_t1944454781  L_24 = V_3;
+		UnityARVideoFormatU5BU5D_t3086264048* L_25 = ___keys0;
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		UnityARVideoFormat_t1944454781  L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		RuntimeObject* L_29 = ___comparer4;
+		int32_t L_30 = ((  int32_t (*) (RuntimeObject * /* static, unused */, UnityARVideoFormat_t1944454781 , UnityARVideoFormat_t1944454781 , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormat_t1944454781 )L_24, (UnityARVideoFormat_t1944454781 )L_28, (RuntimeObject*)L_29, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_30) < ((int32_t)0)))
+		{
+			goto IL_0046;
+		}
+	}
+
+IL_0066:
+	{
+		int32_t L_31 = V_0;
+		int32_t L_32 = V_1;
+		if ((((int32_t)L_31) > ((int32_t)L_32)))
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_33 = ___keys0;
+		UnityARVideoFormatU5BU5D_t3086264048* L_34 = ___items1;
+		int32_t L_35 = V_0;
+		int32_t L_36 = V_1;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_33, (UnityARVideoFormatU5BU5D_t3086264048*)L_34, (int32_t)L_35, (int32_t)L_36, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
+		int32_t L_37 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_37, (int32_t)1));
+		int32_t L_38 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_38, (int32_t)1));
+		goto IL_0088;
+	}
+
+IL_0083:
+	{
+		goto IL_008d;
+	}
+
+IL_0088:
+	{
+		goto IL_001c;
+	}
+
+IL_008d:
+	{
+		int32_t L_39 = ___low02;
+		int32_t L_40 = V_1;
+		if ((((int32_t)L_39) >= ((int32_t)L_40)))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_41 = ___keys0;
+		UnityARVideoFormatU5BU5D_t3086264048* L_42 = ___items1;
+		int32_t L_43 = ___low02;
+		int32_t L_44 = V_1;
+		RuntimeObject* L_45 = ___comparer4;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_41, (UnityARVideoFormatU5BU5D_t3086264048*)L_42, (int32_t)L_43, (int32_t)L_44, (RuntimeObject*)L_45, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_009f:
+	{
+		int32_t L_46 = V_0;
+		int32_t L_47 = ___high03;
+		if ((((int32_t)L_46) >= ((int32_t)L_47)))
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_48 = ___keys0;
+		UnityARVideoFormatU5BU5D_t3086264048* L_49 = ___items1;
+		int32_t L_50 = V_0;
+		int32_t L_51 = ___high03;
+		RuntimeObject* L_52 = ___comparer4;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_48, (UnityARVideoFormatU5BU5D_t3086264048*)L_49, (int32_t)L_50, (int32_t)L_51, (RuntimeObject*)L_52, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_00b1:
+	{
+		return;
+	}
+}
+// System.Void System.Array::qsort<UnityEngine.XR.iOS.UnityARVideoFormat>(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void Array_qsort_TisUnityARVideoFormat_t1944454781_m2623567753_gshared (RuntimeObject * __this /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048* ___array0, int32_t ___low01, int32_t ___high02, Comparison_1_t1719385960 * ___comparison3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	UnityARVideoFormat_t1944454781  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___low01;
+		int32_t L_1 = ___high02;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		int32_t L_2 = ___low01;
+		V_0 = (int32_t)L_2;
+		int32_t L_3 = ___high02;
+		V_1 = (int32_t)L_3;
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		int32_t L_6 = V_0;
+		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6))/(int32_t)2))));
+		UnityARVideoFormatU5BU5D_t3086264048* L_7 = ___array0;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		UnityARVideoFormat_t1944454781  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_3 = (UnityARVideoFormat_t1944454781 )L_10;
+	}
+
+IL_001c:
+	{
+		goto IL_0025;
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = ___high02;
+		if ((((int32_t)L_12) >= ((int32_t)L_13)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Comparison_1_t1719385960 * L_14 = ___comparison3;
+		UnityARVideoFormatU5BU5D_t3086264048* L_15 = ___array0;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		UnityARVideoFormat_t1944454781  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		UnityARVideoFormat_t1944454781  L_19 = V_3;
+		NullCheck((Comparison_1_t1719385960 *)L_14);
+		int32_t L_20 = ((  int32_t (*) (Comparison_1_t1719385960 *, UnityARVideoFormat_t1944454781 , UnityARVideoFormat_t1944454781 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t1719385960 *)L_14, (UnityARVideoFormat_t1944454781 )L_18, (UnityARVideoFormat_t1944454781 )L_19, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_20) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_0040:
+	{
+		goto IL_0049;
+	}
+
+IL_0045:
+	{
+		int32_t L_21 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = ___low01;
+		if ((((int32_t)L_22) <= ((int32_t)L_23)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Comparison_1_t1719385960 * L_24 = ___comparison3;
+		UnityARVideoFormat_t1944454781  L_25 = V_3;
+		UnityARVideoFormatU5BU5D_t3086264048* L_26 = ___array0;
+		int32_t L_27 = V_1;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		UnityARVideoFormat_t1944454781  L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		NullCheck((Comparison_1_t1719385960 *)L_24);
+		int32_t L_30 = ((  int32_t (*) (Comparison_1_t1719385960 *, UnityARVideoFormat_t1944454781 , UnityARVideoFormat_t1944454781 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Comparison_1_t1719385960 *)L_24, (UnityARVideoFormat_t1944454781 )L_25, (UnityARVideoFormat_t1944454781 )L_29, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		if ((((int32_t)L_30) < ((int32_t)0)))
+		{
+			goto IL_0045;
+		}
+	}
+
+IL_0064:
+	{
+		int32_t L_31 = V_0;
+		int32_t L_32 = V_1;
+		if ((((int32_t)L_31) > ((int32_t)L_32)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_33 = ___array0;
+		int32_t L_34 = V_0;
+		int32_t L_35 = V_1;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_33, (int32_t)L_34, (int32_t)L_35, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
+		int32_t L_36 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_36, (int32_t)1));
+		int32_t L_37 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)1));
+		goto IL_0085;
+	}
+
+IL_0080:
+	{
+		goto IL_008a;
+	}
+
+IL_0085:
+	{
+		goto IL_001c;
+	}
+
+IL_008a:
+	{
+		int32_t L_38 = ___low01;
+		int32_t L_39 = V_1;
+		if ((((int32_t)L_38) >= ((int32_t)L_39)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_40 = ___array0;
+		int32_t L_41 = ___low01;
+		int32_t L_42 = V_1;
+		Comparison_1_t1719385960 * L_43 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, Comparison_1_t1719385960 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_40, (int32_t)L_41, (int32_t)L_42, (Comparison_1_t1719385960 *)L_43, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_009a:
+	{
+		int32_t L_44 = V_0;
+		int32_t L_45 = ___high02;
+		if ((((int32_t)L_44) >= ((int32_t)L_45)))
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		UnityARVideoFormatU5BU5D_t3086264048* L_46 = ___array0;
+		int32_t L_47 = V_0;
+		int32_t L_48 = ___high02;
+		Comparison_1_t1719385960 * L_49 = ___comparison3;
+		((  void (*) (RuntimeObject * /* static, unused */, UnityARVideoFormatU5BU5D_t3086264048*, int32_t, int32_t, Comparison_1_t1719385960 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(NULL /*static, unused*/, (UnityARVideoFormatU5BU5D_t3086264048*)L_46, (int32_t)L_47, (int32_t)L_48, (Comparison_1_t1719385960 *)L_49, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<HighlightingSystem.HighlighterRenderer/Data,HighlightingSystem.HighlighterRenderer/Data>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisData_t434873072_TisData_t434873072_m2590590531_gshared (RuntimeObject * __this /* static, unused */, DataU5BU5D_t2819638097* ___keys0, DataU5BU5D_t2819638097* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	Data_t434873072  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Data_t434873072  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		DataU5BU5D_t2819638097* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Data_t434873072  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Data_t434873072 )L_3;
+		DataU5BU5D_t2819638097* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		DataU5BU5D_t2819638097* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Data_t434873072  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Data_t434873072 )L_9);
+		DataU5BU5D_t2819638097* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		Data_t434873072  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Data_t434873072 )L_12);
+		DataU5BU5D_t2819638097* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		DataU5BU5D_t2819638097* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Data_t434873072  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (Data_t434873072 )L_17;
+		DataU5BU5D_t2819638097* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		DataU5BU5D_t2819638097* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Data_t434873072  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (Data_t434873072 )L_23);
+		DataU5BU5D_t2819638097* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		Data_t434873072  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Data_t434873072 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<HighlightingSystem.HighlighterRenderer/Data>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisData_t434873072_m1885659970_gshared (RuntimeObject * __this /* static, unused */, DataU5BU5D_t2819638097* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	Data_t434873072  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		DataU5BU5D_t2819638097* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Data_t434873072  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Data_t434873072 )L_3;
+		DataU5BU5D_t2819638097* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		DataU5BU5D_t2819638097* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Data_t434873072  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Data_t434873072 )L_9);
+		DataU5BU5D_t2819638097* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		Data_t434873072  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Data_t434873072 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<HighlightingSystem.HighlightingPreset,HighlightingSystem.HighlightingPreset>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisHighlightingPreset_t635619791_TisHighlightingPreset_t635619791_m1142306054_gshared (RuntimeObject * __this /* static, unused */, HighlightingPresetU5BU5D_t2765988374* ___keys0, HighlightingPresetU5BU5D_t2765988374* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	HighlightingPreset_t635619791  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	HighlightingPreset_t635619791  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		HighlightingPresetU5BU5D_t2765988374* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		HighlightingPreset_t635619791  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (HighlightingPreset_t635619791 )L_3;
+		HighlightingPresetU5BU5D_t2765988374* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		HighlightingPresetU5BU5D_t2765988374* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		HighlightingPreset_t635619791  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (HighlightingPreset_t635619791 )L_9);
+		HighlightingPresetU5BU5D_t2765988374* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		HighlightingPreset_t635619791  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (HighlightingPreset_t635619791 )L_12);
+		HighlightingPresetU5BU5D_t2765988374* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		HighlightingPresetU5BU5D_t2765988374* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		HighlightingPreset_t635619791  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (HighlightingPreset_t635619791 )L_17;
+		HighlightingPresetU5BU5D_t2765988374* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		HighlightingPresetU5BU5D_t2765988374* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		HighlightingPreset_t635619791  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (HighlightingPreset_t635619791 )L_23);
+		HighlightingPresetU5BU5D_t2765988374* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		HighlightingPreset_t635619791  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (HighlightingPreset_t635619791 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<HighlightingSystem.HighlightingPreset>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisHighlightingPreset_t635619791_m3695310632_gshared (RuntimeObject * __this /* static, unused */, HighlightingPresetU5BU5D_t2765988374* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	HighlightingPreset_t635619791  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		HighlightingPresetU5BU5D_t2765988374* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		HighlightingPreset_t635619791  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (HighlightingPreset_t635619791 )L_3;
+		HighlightingPresetU5BU5D_t2765988374* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		HighlightingPresetU5BU5D_t2765988374* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		HighlightingPreset_t635619791  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (HighlightingPreset_t635619791 )L_9);
+		HighlightingPresetU5BU5D_t2765988374* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		HighlightingPreset_t635619791  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (HighlightingPreset_t635619791 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Boolean,System.Boolean>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisBoolean_t97287965_TisBoolean_t97287965_m1115288271_gshared (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t2897418192* ___keys0, BooleanU5BU5D_t2897418192* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		BooleanU5BU5D_t2897418192* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		bool L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (bool)L_3;
+		BooleanU5BU5D_t2897418192* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		BooleanU5BU5D_t2897418192* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		bool L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (bool)L_9);
+		BooleanU5BU5D_t2897418192* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		bool L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (bool)L_12);
+		BooleanU5BU5D_t2897418192* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		BooleanU5BU5D_t2897418192* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		bool L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (bool)L_17;
+		BooleanU5BU5D_t2897418192* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		BooleanU5BU5D_t2897418192* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		bool L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (bool)L_23);
+		BooleanU5BU5D_t2897418192* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		bool L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (bool)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Boolean>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisBoolean_t97287965_m2293774148_gshared (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t2897418192* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		BooleanU5BU5D_t2897418192* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		bool L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (bool)L_3;
+		BooleanU5BU5D_t2897418192* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		BooleanU5BU5D_t2897418192* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		bool L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (bool)L_9);
+		BooleanU5BU5D_t2897418192* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		bool L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (bool)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Byte,System.Byte>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisByte_t1134296376_TisByte_t1134296376_m2675032702_gshared (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___keys0, ByteU5BU5D_t4116647657* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	uint8_t V_0 = 0x0;
+	uint8_t V_1 = 0x0;
+	{
+		ByteU5BU5D_t4116647657* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		uint8_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (uint8_t)L_3;
+		ByteU5BU5D_t4116647657* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		ByteU5BU5D_t4116647657* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		uint8_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (uint8_t)L_9);
+		ByteU5BU5D_t4116647657* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		uint8_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint8_t)L_12);
+		ByteU5BU5D_t4116647657* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		ByteU5BU5D_t4116647657* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		uint8_t L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (uint8_t)L_17;
+		ByteU5BU5D_t4116647657* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		ByteU5BU5D_t4116647657* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		uint8_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (uint8_t)L_23);
+		ByteU5BU5D_t4116647657* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		uint8_t L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (uint8_t)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Byte>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisByte_t1134296376_m4273963059_gshared (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	uint8_t V_0 = 0x0;
+	{
+		ByteU5BU5D_t4116647657* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		uint8_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (uint8_t)L_3;
+		ByteU5BU5D_t4116647657* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		ByteU5BU5D_t4116647657* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		uint8_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (uint8_t)L_9);
+		ByteU5BU5D_t4116647657* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		uint8_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint8_t)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Int32,System.Int32>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisInt32_t2950945753_TisInt32_t2950945753_m844545456_gshared (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t385246372* ___keys0, Int32U5BU5D_t385246372* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		Int32U5BU5D_t385246372* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		int32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (int32_t)L_3;
+		Int32U5BU5D_t385246372* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		Int32U5BU5D_t385246372* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (int32_t)L_9);
+		Int32U5BU5D_t385246372* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		int32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)L_12);
+		Int32U5BU5D_t385246372* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Int32U5BU5D_t385246372* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		int32_t L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (int32_t)L_17;
+		Int32U5BU5D_t385246372* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		Int32U5BU5D_t385246372* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		int32_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (int32_t)L_23);
+		Int32U5BU5D_t385246372* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		int32_t L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (int32_t)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Int32>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisInt32_t2950945753_m1434801513_gshared (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t385246372* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		Int32U5BU5D_t385246372* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		int32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (int32_t)L_3;
+		Int32U5BU5D_t385246372* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		Int32U5BU5D_t385246372* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (int32_t)L_9);
+		Int32U5BU5D_t385246372* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		int32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Object,System.Object>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisRuntimeObject_TisRuntimeObject_m3366857751_gshared (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t2843939325* ___keys0, ObjectU5BU5D_t2843939325* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	RuntimeObject * V_1 = NULL;
+	{
+		ObjectU5BU5D_t2843939325* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RuntimeObject * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (RuntimeObject *)L_3;
+		ObjectU5BU5D_t2843939325* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		ObjectU5BU5D_t2843939325* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		RuntimeObject * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RuntimeObject *)L_9);
+		ObjectU5BU5D_t2843939325* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		RuntimeObject * L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RuntimeObject *)L_12);
+		ObjectU5BU5D_t2843939325* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		ObjectU5BU5D_t2843939325* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		RuntimeObject * L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (RuntimeObject *)L_17;
+		ObjectU5BU5D_t2843939325* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		ObjectU5BU5D_t2843939325* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		RuntimeObject * L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (RuntimeObject *)L_23);
+		ObjectU5BU5D_t2843939325* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		RuntimeObject * L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (RuntimeObject *)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Object>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisRuntimeObject_m3281757310_gshared (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t2843939325* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	{
+		ObjectU5BU5D_t2843939325* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RuntimeObject * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (RuntimeObject *)L_3;
+		ObjectU5BU5D_t2843939325* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		ObjectU5BU5D_t2843939325* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		RuntimeObject * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RuntimeObject *)L_9);
+		ObjectU5BU5D_t2843939325* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		RuntimeObject * L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RuntimeObject *)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Reflection.CustomAttributeNamedArgument,System.Reflection.CustomAttributeNamedArgument>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCustomAttributeNamedArgument_t287865710_TisCustomAttributeNamedArgument_t287865710_m881919420_gshared (RuntimeObject * __this /* static, unused */, CustomAttributeNamedArgumentU5BU5D_t3710464795* ___keys0, CustomAttributeNamedArgumentU5BU5D_t3710464795* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	CustomAttributeNamedArgument_t287865710  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	CustomAttributeNamedArgument_t287865710  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CustomAttributeNamedArgument_t287865710  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CustomAttributeNamedArgument_t287865710 )L_3;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CustomAttributeNamedArgument_t287865710  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CustomAttributeNamedArgument_t287865710 )L_9);
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		CustomAttributeNamedArgument_t287865710  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CustomAttributeNamedArgument_t287865710 )L_12);
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		CustomAttributeNamedArgument_t287865710  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (CustomAttributeNamedArgument_t287865710 )L_17;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		CustomAttributeNamedArgument_t287865710  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (CustomAttributeNamedArgument_t287865710 )L_23);
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		CustomAttributeNamedArgument_t287865710  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (CustomAttributeNamedArgument_t287865710 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Reflection.CustomAttributeNamedArgument>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCustomAttributeNamedArgument_t287865710_m2628186452_gshared (RuntimeObject * __this /* static, unused */, CustomAttributeNamedArgumentU5BU5D_t3710464795* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	CustomAttributeNamedArgument_t287865710  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CustomAttributeNamedArgument_t287865710  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CustomAttributeNamedArgument_t287865710 )L_3;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CustomAttributeNamedArgument_t287865710  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CustomAttributeNamedArgument_t287865710 )L_9);
+		CustomAttributeNamedArgumentU5BU5D_t3710464795* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		CustomAttributeNamedArgument_t287865710  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CustomAttributeNamedArgument_t287865710 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Reflection.CustomAttributeTypedArgument,System.Reflection.CustomAttributeTypedArgument>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCustomAttributeTypedArgument_t2723150157_TisCustomAttributeTypedArgument_t2723150157_m365781156_gshared (RuntimeObject * __this /* static, unused */, CustomAttributeTypedArgumentU5BU5D_t1465843424* ___keys0, CustomAttributeTypedArgumentU5BU5D_t1465843424* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	CustomAttributeTypedArgument_t2723150157  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	CustomAttributeTypedArgument_t2723150157  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CustomAttributeTypedArgument_t2723150157  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CustomAttributeTypedArgument_t2723150157 )L_3;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CustomAttributeTypedArgument_t2723150157  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CustomAttributeTypedArgument_t2723150157 )L_9);
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		CustomAttributeTypedArgument_t2723150157  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CustomAttributeTypedArgument_t2723150157 )L_12);
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		CustomAttributeTypedArgument_t2723150157  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (CustomAttributeTypedArgument_t2723150157 )L_17;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		CustomAttributeTypedArgument_t2723150157  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (CustomAttributeTypedArgument_t2723150157 )L_23);
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		CustomAttributeTypedArgument_t2723150157  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (CustomAttributeTypedArgument_t2723150157 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Reflection.CustomAttributeTypedArgument>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCustomAttributeTypedArgument_t2723150157_m399037025_gshared (RuntimeObject * __this /* static, unused */, CustomAttributeTypedArgumentU5BU5D_t1465843424* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	CustomAttributeTypedArgument_t2723150157  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CustomAttributeTypedArgument_t2723150157  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CustomAttributeTypedArgument_t2723150157 )L_3;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CustomAttributeTypedArgument_t2723150157  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CustomAttributeTypedArgument_t2723150157 )L_9);
+		CustomAttributeTypedArgumentU5BU5D_t1465843424* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		CustomAttributeTypedArgument_t2723150157  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CustomAttributeTypedArgument_t2723150157 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Single,System.Single>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisSingle_t1397266774_TisSingle_t1397266774_m3453509928_gshared (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t1444911251* ___keys0, SingleU5BU5D_t1444911251* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		SingleU5BU5D_t1444911251* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		float L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (float)L_3;
+		SingleU5BU5D_t1444911251* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		SingleU5BU5D_t1444911251* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		float L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_9);
+		SingleU5BU5D_t1444911251* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		float L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (float)L_12);
+		SingleU5BU5D_t1444911251* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		SingleU5BU5D_t1444911251* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		float L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (float)L_17;
+		SingleU5BU5D_t1444911251* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		SingleU5BU5D_t1444911251* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		float L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (float)L_23);
+		SingleU5BU5D_t1444911251* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		float L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (float)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.Single>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisSingle_t1397266774_m2114136250_gshared (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t1444911251* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		SingleU5BU5D_t1444911251* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		float L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (float)L_3;
+		SingleU5BU5D_t1444911251* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		SingleU5BU5D_t1444911251* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		float L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_9);
+		SingleU5BU5D_t1444911251* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		float L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (float)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<System.UInt32,System.UInt32>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUInt32_t2560061978_TisUInt32_t2560061978_m328524587_gshared (RuntimeObject * __this /* static, unused */, UInt32U5BU5D_t2770800703* ___keys0, UInt32U5BU5D_t2770800703* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
+	{
+		UInt32U5BU5D_t2770800703* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		uint32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (uint32_t)L_3;
+		UInt32U5BU5D_t2770800703* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		UInt32U5BU5D_t2770800703* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		uint32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (uint32_t)L_9);
+		UInt32U5BU5D_t2770800703* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		uint32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint32_t)L_12);
+		UInt32U5BU5D_t2770800703* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		UInt32U5BU5D_t2770800703* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		uint32_t L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (uint32_t)L_17;
+		UInt32U5BU5D_t2770800703* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		UInt32U5BU5D_t2770800703* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		uint32_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (uint32_t)L_23);
+		UInt32U5BU5D_t2770800703* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		uint32_t L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (uint32_t)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<System.UInt32>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUInt32_t2560061978_m3470817162_gshared (RuntimeObject * __this /* static, unused */, UInt32U5BU5D_t2770800703* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	uint32_t V_0 = 0;
+	{
+		UInt32U5BU5D_t2770800703* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		uint32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (uint32_t)L_3;
+		UInt32U5BU5D_t2770800703* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		UInt32U5BU5D_t2770800703* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		uint32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (uint32_t)L_9);
+		UInt32U5BU5D_t2770800703* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		uint32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint32_t)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.BeforeRenderHelper/OrderBlock,UnityEngine.BeforeRenderHelper/OrderBlock>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisOrderBlock_t1585977831_TisOrderBlock_t1585977831_m1022164620_gshared (RuntimeObject * __this /* static, unused */, OrderBlockU5BU5D_t2389202590* ___keys0, OrderBlockU5BU5D_t2389202590* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	OrderBlock_t1585977831  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	OrderBlock_t1585977831  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		OrderBlockU5BU5D_t2389202590* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		OrderBlock_t1585977831  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (OrderBlock_t1585977831 )L_3;
+		OrderBlockU5BU5D_t2389202590* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		OrderBlockU5BU5D_t2389202590* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		OrderBlock_t1585977831  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (OrderBlock_t1585977831 )L_9);
+		OrderBlockU5BU5D_t2389202590* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		OrderBlock_t1585977831  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (OrderBlock_t1585977831 )L_12);
+		OrderBlockU5BU5D_t2389202590* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		OrderBlockU5BU5D_t2389202590* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		OrderBlock_t1585977831  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (OrderBlock_t1585977831 )L_17;
+		OrderBlockU5BU5D_t2389202590* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		OrderBlockU5BU5D_t2389202590* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		OrderBlock_t1585977831  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (OrderBlock_t1585977831 )L_23);
+		OrderBlockU5BU5D_t2389202590* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		OrderBlock_t1585977831  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (OrderBlock_t1585977831 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.BeforeRenderHelper/OrderBlock>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisOrderBlock_t1585977831_m2373872313_gshared (RuntimeObject * __this /* static, unused */, OrderBlockU5BU5D_t2389202590* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	OrderBlock_t1585977831  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		OrderBlockU5BU5D_t2389202590* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		OrderBlock_t1585977831  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (OrderBlock_t1585977831 )L_3;
+		OrderBlockU5BU5D_t2389202590* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		OrderBlockU5BU5D_t2389202590* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		OrderBlock_t1585977831  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (OrderBlock_t1585977831 )L_9);
+		OrderBlockU5BU5D_t2389202590* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		OrderBlock_t1585977831  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (OrderBlock_t1585977831 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Color32,UnityEngine.Color32>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisColor32_t2600501292_TisColor32_t2600501292_m3946335354_gshared (RuntimeObject * __this /* static, unused */, Color32U5BU5D_t3850468773* ___keys0, Color32U5BU5D_t3850468773* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	Color32_t2600501292  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Color32_t2600501292  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Color32U5BU5D_t3850468773* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Color32_t2600501292  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Color32_t2600501292 )L_3;
+		Color32U5BU5D_t3850468773* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		Color32U5BU5D_t3850468773* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Color32_t2600501292  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Color32_t2600501292 )L_9);
+		Color32U5BU5D_t3850468773* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		Color32_t2600501292  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Color32_t2600501292 )L_12);
+		Color32U5BU5D_t3850468773* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Color32U5BU5D_t3850468773* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Color32_t2600501292  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (Color32_t2600501292 )L_17;
+		Color32U5BU5D_t3850468773* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		Color32U5BU5D_t3850468773* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Color32_t2600501292  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (Color32_t2600501292 )L_23);
+		Color32U5BU5D_t3850468773* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		Color32_t2600501292  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Color32_t2600501292 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Color32>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisColor32_t2600501292_m1370892172_gshared (RuntimeObject * __this /* static, unused */, Color32U5BU5D_t3850468773* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	Color32_t2600501292  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Color32U5BU5D_t3850468773* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Color32_t2600501292  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Color32_t2600501292 )L_3;
+		Color32U5BU5D_t3850468773* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		Color32U5BU5D_t3850468773* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Color32_t2600501292  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Color32_t2600501292 )L_9);
+		Color32U5BU5D_t3850468773* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		Color32_t2600501292  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Color32_t2600501292 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.EventSystems.RaycastResult,UnityEngine.EventSystems.RaycastResult>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisRaycastResult_t3360306849_TisRaycastResult_t3360306849_m3400922624_gshared (RuntimeObject * __this /* static, unused */, RaycastResultU5BU5D_t1128832444* ___keys0, RaycastResultU5BU5D_t1128832444* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	RaycastResult_t3360306849  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastResult_t3360306849  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		RaycastResultU5BU5D_t1128832444* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RaycastResult_t3360306849  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (RaycastResult_t3360306849 )L_3;
+		RaycastResultU5BU5D_t1128832444* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		RaycastResultU5BU5D_t1128832444* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		RaycastResult_t3360306849  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RaycastResult_t3360306849 )L_9);
+		RaycastResultU5BU5D_t1128832444* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		RaycastResult_t3360306849  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RaycastResult_t3360306849 )L_12);
+		RaycastResultU5BU5D_t1128832444* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		RaycastResultU5BU5D_t1128832444* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		RaycastResult_t3360306849  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (RaycastResult_t3360306849 )L_17;
+		RaycastResultU5BU5D_t1128832444* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		RaycastResultU5BU5D_t1128832444* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		RaycastResult_t3360306849  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (RaycastResult_t3360306849 )L_23);
+		RaycastResultU5BU5D_t1128832444* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		RaycastResult_t3360306849  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (RaycastResult_t3360306849 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.EventSystems.RaycastResult>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisRaycastResult_t3360306849_m1471156646_gshared (RuntimeObject * __this /* static, unused */, RaycastResultU5BU5D_t1128832444* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	RaycastResult_t3360306849  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		RaycastResultU5BU5D_t1128832444* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RaycastResult_t3360306849  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (RaycastResult_t3360306849 )L_3;
+		RaycastResultU5BU5D_t1128832444* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		RaycastResultU5BU5D_t1128832444* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		RaycastResult_t3360306849  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RaycastResult_t3360306849 )L_9);
+		RaycastResultU5BU5D_t1128832444* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		RaycastResult_t3360306849  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RaycastResult_t3360306849 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.ChannelPacket,UnityEngine.Networking.ChannelPacket>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisChannelPacket_t1579824718_TisChannelPacket_t1579824718_m1878905677_gshared (RuntimeObject * __this /* static, unused */, ChannelPacketU5BU5D_t3567636667* ___keys0, ChannelPacketU5BU5D_t3567636667* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	ChannelPacket_t1579824718  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	ChannelPacket_t1579824718  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		ChannelPacketU5BU5D_t3567636667* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		ChannelPacket_t1579824718  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (ChannelPacket_t1579824718 )L_3;
+		ChannelPacketU5BU5D_t3567636667* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		ChannelPacketU5BU5D_t3567636667* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		ChannelPacket_t1579824718  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (ChannelPacket_t1579824718 )L_9);
+		ChannelPacketU5BU5D_t3567636667* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		ChannelPacket_t1579824718  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (ChannelPacket_t1579824718 )L_12);
+		ChannelPacketU5BU5D_t3567636667* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		ChannelPacketU5BU5D_t3567636667* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		ChannelPacket_t1579824718  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (ChannelPacket_t1579824718 )L_17;
+		ChannelPacketU5BU5D_t3567636667* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		ChannelPacketU5BU5D_t3567636667* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		ChannelPacket_t1579824718  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (ChannelPacket_t1579824718 )L_23);
+		ChannelPacketU5BU5D_t3567636667* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		ChannelPacket_t1579824718  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (ChannelPacket_t1579824718 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.ChannelPacket>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisChannelPacket_t1579824718_m2055479862_gshared (RuntimeObject * __this /* static, unused */, ChannelPacketU5BU5D_t3567636667* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	ChannelPacket_t1579824718  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		ChannelPacketU5BU5D_t3567636667* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		ChannelPacket_t1579824718  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (ChannelPacket_t1579824718 )L_3;
+		ChannelPacketU5BU5D_t3567636667* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		ChannelPacketU5BU5D_t3567636667* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		ChannelPacket_t1579824718  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (ChannelPacket_t1579824718 )L_9);
+		ChannelPacketU5BU5D_t3567636667* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		ChannelPacket_t1579824718  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (ChannelPacket_t1579824718 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.ClientScene/PendingOwner,UnityEngine.Networking.ClientScene/PendingOwner>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingOwner_t3340073490_TisPendingOwner_t3340073490_m387353615_gshared (RuntimeObject * __this /* static, unused */, PendingOwnerU5BU5D_t338874727* ___keys0, PendingOwnerU5BU5D_t338874727* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	PendingOwner_t3340073490  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	PendingOwner_t3340073490  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		PendingOwnerU5BU5D_t338874727* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingOwner_t3340073490  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingOwner_t3340073490 )L_3;
+		PendingOwnerU5BU5D_t338874727* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		PendingOwnerU5BU5D_t338874727* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingOwner_t3340073490  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingOwner_t3340073490 )L_9);
+		PendingOwnerU5BU5D_t338874727* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		PendingOwner_t3340073490  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingOwner_t3340073490 )L_12);
+		PendingOwnerU5BU5D_t338874727* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		PendingOwnerU5BU5D_t338874727* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		PendingOwner_t3340073490  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (PendingOwner_t3340073490 )L_17;
+		PendingOwnerU5BU5D_t338874727* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		PendingOwnerU5BU5D_t338874727* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		PendingOwner_t3340073490  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (PendingOwner_t3340073490 )L_23);
+		PendingOwnerU5BU5D_t338874727* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		PendingOwner_t3340073490  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (PendingOwner_t3340073490 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.ClientScene/PendingOwner>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingOwner_t3340073490_m3495510804_gshared (RuntimeObject * __this /* static, unused */, PendingOwnerU5BU5D_t338874727* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	PendingOwner_t3340073490  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		PendingOwnerU5BU5D_t338874727* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingOwner_t3340073490  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingOwner_t3340073490 )L_3;
+		PendingOwnerU5BU5D_t338874727* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		PendingOwnerU5BU5D_t338874727* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingOwner_t3340073490  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingOwner_t3340073490 )L_9);
+		PendingOwnerU5BU5D_t338874727* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		PendingOwner_t3340073490  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingOwner_t3340073490 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.LocalClient/InternalMsg,UnityEngine.Networking.LocalClient/InternalMsg>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisInternalMsg_t2371755407_TisInternalMsg_t2371755407_m547542602_gshared (RuntimeObject * __this /* static, unused */, InternalMsgU5BU5D_t4292724566* ___keys0, InternalMsgU5BU5D_t4292724566* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	InternalMsg_t2371755407  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	InternalMsg_t2371755407  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		InternalMsgU5BU5D_t4292724566* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		InternalMsg_t2371755407  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (InternalMsg_t2371755407 )L_3;
+		InternalMsgU5BU5D_t4292724566* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		InternalMsgU5BU5D_t4292724566* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		InternalMsg_t2371755407  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (InternalMsg_t2371755407 )L_9);
+		InternalMsgU5BU5D_t4292724566* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		InternalMsg_t2371755407  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (InternalMsg_t2371755407 )L_12);
+		InternalMsgU5BU5D_t4292724566* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		InternalMsgU5BU5D_t4292724566* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		InternalMsg_t2371755407  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (InternalMsg_t2371755407 )L_17;
+		InternalMsgU5BU5D_t4292724566* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		InternalMsgU5BU5D_t4292724566* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		InternalMsg_t2371755407  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (InternalMsg_t2371755407 )L_23);
+		InternalMsgU5BU5D_t4292724566* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		InternalMsg_t2371755407  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (InternalMsg_t2371755407 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.LocalClient/InternalMsg>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisInternalMsg_t2371755407_m1353379691_gshared (RuntimeObject * __this /* static, unused */, InternalMsgU5BU5D_t4292724566* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	InternalMsg_t2371755407  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		InternalMsgU5BU5D_t4292724566* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		InternalMsg_t2371755407  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (InternalMsg_t2371755407 )L_3;
+		InternalMsgU5BU5D_t4292724566* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		InternalMsgU5BU5D_t4292724566* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		InternalMsg_t2371755407  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (InternalMsg_t2371755407 )L_9);
+		InternalMsgU5BU5D_t4292724566* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		InternalMsg_t2371755407  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (InternalMsg_t2371755407 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkLobbyManager/PendingPlayer,UnityEngine.Networking.NetworkLobbyManager/PendingPlayer>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingPlayer_t306375494_TisPendingPlayer_t306375494_m3603021337_gshared (RuntimeObject * __this /* static, unused */, PendingPlayerU5BU5D_t1652396259* ___keys0, PendingPlayerU5BU5D_t1652396259* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	PendingPlayer_t306375494  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	PendingPlayer_t306375494  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		PendingPlayerU5BU5D_t1652396259* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingPlayer_t306375494  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingPlayer_t306375494 )L_3;
+		PendingPlayerU5BU5D_t1652396259* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		PendingPlayerU5BU5D_t1652396259* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingPlayer_t306375494  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingPlayer_t306375494 )L_9);
+		PendingPlayerU5BU5D_t1652396259* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		PendingPlayer_t306375494  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingPlayer_t306375494 )L_12);
+		PendingPlayerU5BU5D_t1652396259* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		PendingPlayerU5BU5D_t1652396259* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		PendingPlayer_t306375494  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (PendingPlayer_t306375494 )L_17;
+		PendingPlayerU5BU5D_t1652396259* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		PendingPlayerU5BU5D_t1652396259* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		PendingPlayer_t306375494  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (PendingPlayer_t306375494 )L_23);
+		PendingPlayerU5BU5D_t1652396259* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		PendingPlayer_t306375494  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (PendingPlayer_t306375494 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkLobbyManager/PendingPlayer>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingPlayer_t306375494_m3081619911_gshared (RuntimeObject * __this /* static, unused */, PendingPlayerU5BU5D_t1652396259* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	PendingPlayer_t306375494  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		PendingPlayerU5BU5D_t1652396259* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingPlayer_t306375494  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingPlayer_t306375494 )L_3;
+		PendingPlayerU5BU5D_t1652396259* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		PendingPlayerU5BU5D_t1652396259* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingPlayer_t306375494  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingPlayer_t306375494 )L_9);
+		PendingPlayerU5BU5D_t1652396259* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		PendingPlayer_t306375494  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingPlayer_t306375494 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo,UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingPlayerInfo_t2391300657_TisPendingPlayerInfo_t2391300657_m2367056561_gshared (RuntimeObject * __this /* static, unused */, PendingPlayerInfoU5BU5D_t2811374060* ___keys0, PendingPlayerInfoU5BU5D_t2811374060* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	PendingPlayerInfo_t2391300657  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	PendingPlayerInfo_t2391300657  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		PendingPlayerInfoU5BU5D_t2811374060* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingPlayerInfo_t2391300657  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingPlayerInfo_t2391300657 )L_3;
+		PendingPlayerInfoU5BU5D_t2811374060* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		PendingPlayerInfoU5BU5D_t2811374060* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingPlayerInfo_t2391300657  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingPlayerInfo_t2391300657 )L_9);
+		PendingPlayerInfoU5BU5D_t2811374060* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		PendingPlayerInfo_t2391300657  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingPlayerInfo_t2391300657 )L_12);
+		PendingPlayerInfoU5BU5D_t2811374060* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		PendingPlayerInfoU5BU5D_t2811374060* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		PendingPlayerInfo_t2391300657  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (PendingPlayerInfo_t2391300657 )L_17;
+		PendingPlayerInfoU5BU5D_t2811374060* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		PendingPlayerInfoU5BU5D_t2811374060* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		PendingPlayerInfo_t2391300657  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (PendingPlayerInfo_t2391300657 )L_23);
+		PendingPlayerInfoU5BU5D_t2811374060* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		PendingPlayerInfo_t2391300657  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (PendingPlayerInfo_t2391300657 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPendingPlayerInfo_t2391300657_m2171119265_gshared (RuntimeObject * __this /* static, unused */, PendingPlayerInfoU5BU5D_t2811374060* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	PendingPlayerInfo_t2391300657  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		PendingPlayerInfoU5BU5D_t2811374060* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PendingPlayerInfo_t2391300657  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PendingPlayerInfo_t2391300657 )L_3;
+		PendingPlayerInfoU5BU5D_t2811374060* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		PendingPlayerInfoU5BU5D_t2811374060* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PendingPlayerInfo_t2391300657  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PendingPlayerInfo_t2391300657 )L_9);
+		PendingPlayerInfoU5BU5D_t2811374060* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		PendingPlayerInfo_t2391300657  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PendingPlayerInfo_t2391300657 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkSystem.CRCMessageEntry,UnityEngine.Networking.NetworkSystem.CRCMessageEntry>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCRCMessageEntry_t1041239249_TisCRCMessageEntry_t1041239249_m1669825580_gshared (RuntimeObject * __this /* static, unused */, CRCMessageEntryU5BU5D_t2683386060* ___keys0, CRCMessageEntryU5BU5D_t2683386060* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	CRCMessageEntry_t1041239249  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	CRCMessageEntry_t1041239249  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		CRCMessageEntryU5BU5D_t2683386060* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CRCMessageEntry_t1041239249  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CRCMessageEntry_t1041239249 )L_3;
+		CRCMessageEntryU5BU5D_t2683386060* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		CRCMessageEntryU5BU5D_t2683386060* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CRCMessageEntry_t1041239249  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CRCMessageEntry_t1041239249 )L_9);
+		CRCMessageEntryU5BU5D_t2683386060* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		CRCMessageEntry_t1041239249  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CRCMessageEntry_t1041239249 )L_12);
+		CRCMessageEntryU5BU5D_t2683386060* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		CRCMessageEntryU5BU5D_t2683386060* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		CRCMessageEntry_t1041239249  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (CRCMessageEntry_t1041239249 )L_17;
+		CRCMessageEntryU5BU5D_t2683386060* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		CRCMessageEntryU5BU5D_t2683386060* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		CRCMessageEntry_t1041239249  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (CRCMessageEntry_t1041239249 )L_23);
+		CRCMessageEntryU5BU5D_t2683386060* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		CRCMessageEntry_t1041239249  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (CRCMessageEntry_t1041239249 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkSystem.CRCMessageEntry>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisCRCMessageEntry_t1041239249_m1260957503_gshared (RuntimeObject * __this /* static, unused */, CRCMessageEntryU5BU5D_t2683386060* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	CRCMessageEntry_t1041239249  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		CRCMessageEntryU5BU5D_t2683386060* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		CRCMessageEntry_t1041239249  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (CRCMessageEntry_t1041239249 )L_3;
+		CRCMessageEntryU5BU5D_t2683386060* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		CRCMessageEntryU5BU5D_t2683386060* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		CRCMessageEntry_t1041239249  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (CRCMessageEntry_t1041239249 )L_9);
+		CRCMessageEntryU5BU5D_t2683386060* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		CRCMessageEntry_t1041239249  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (CRCMessageEntry_t1041239249 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkSystem.PeerInfoPlayer,UnityEngine.Networking.NetworkSystem.PeerInfoPlayer>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPeerInfoPlayer_t607460057_TisPeerInfoPlayer_t607460057_m180684795_gshared (RuntimeObject * __this /* static, unused */, PeerInfoPlayerU5BU5D_t2287290788* ___keys0, PeerInfoPlayerU5BU5D_t2287290788* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	PeerInfoPlayer_t607460057  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	PeerInfoPlayer_t607460057  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		PeerInfoPlayerU5BU5D_t2287290788* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PeerInfoPlayer_t607460057  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PeerInfoPlayer_t607460057 )L_3;
+		PeerInfoPlayerU5BU5D_t2287290788* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		PeerInfoPlayerU5BU5D_t2287290788* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PeerInfoPlayer_t607460057  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PeerInfoPlayer_t607460057 )L_9);
+		PeerInfoPlayerU5BU5D_t2287290788* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		PeerInfoPlayer_t607460057  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PeerInfoPlayer_t607460057 )L_12);
+		PeerInfoPlayerU5BU5D_t2287290788* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		PeerInfoPlayerU5BU5D_t2287290788* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		PeerInfoPlayer_t607460057  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (PeerInfoPlayer_t607460057 )L_17;
+		PeerInfoPlayerU5BU5D_t2287290788* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		PeerInfoPlayerU5BU5D_t2287290788* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		PeerInfoPlayer_t607460057  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (PeerInfoPlayer_t607460057 )L_23);
+		PeerInfoPlayerU5BU5D_t2287290788* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		PeerInfoPlayer_t607460057  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (PeerInfoPlayer_t607460057 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.NetworkSystem.PeerInfoPlayer>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisPeerInfoPlayer_t607460057_m516934438_gshared (RuntimeObject * __this /* static, unused */, PeerInfoPlayerU5BU5D_t2287290788* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	PeerInfoPlayer_t607460057  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		PeerInfoPlayerU5BU5D_t2287290788* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		PeerInfoPlayer_t607460057  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (PeerInfoPlayer_t607460057 )L_3;
+		PeerInfoPlayerU5BU5D_t2287290788* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		PeerInfoPlayerU5BU5D_t2287290788* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		PeerInfoPlayer_t607460057  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (PeerInfoPlayer_t607460057 )L_9);
+		PeerInfoPlayerU5BU5D_t2287290788* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		PeerInfoPlayer_t607460057  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (PeerInfoPlayer_t607460057 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.QosType,UnityEngine.Networking.QosType>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisQosType_t3566496866_TisQosType_t3566496866_m3835510926_gshared (RuntimeObject * __this /* static, unused */, QosTypeU5BU5D_t1463991255* ___keys0, QosTypeU5BU5D_t1463991255* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		QosTypeU5BU5D_t1463991255* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		int32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (int32_t)L_3;
+		QosTypeU5BU5D_t1463991255* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		QosTypeU5BU5D_t1463991255* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (int32_t)L_9);
+		QosTypeU5BU5D_t1463991255* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		int32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)L_12);
+		QosTypeU5BU5D_t1463991255* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		QosTypeU5BU5D_t1463991255* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		int32_t L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (int32_t)L_17;
+		QosTypeU5BU5D_t1463991255* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		QosTypeU5BU5D_t1463991255* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		int32_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (int32_t)L_23);
+		QosTypeU5BU5D_t1463991255* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		int32_t L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (int32_t)L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Networking.QosType>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisQosType_t3566496866_m3969182562_gshared (RuntimeObject * __this /* static, unused */, QosTypeU5BU5D_t1463991255* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		QosTypeU5BU5D_t1463991255* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		int32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (int32_t)L_3;
+		QosTypeU5BU5D_t1463991255* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		QosTypeU5BU5D_t1463991255* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (int32_t)L_9);
+		QosTypeU5BU5D_t1463991255* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		int32_t L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.RaycastHit>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisRaycastHit_t1056001966_m1004856983_gshared (RuntimeObject * __this /* static, unused */, RaycastHitU5BU5D_t1690781147* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	RaycastHit_t1056001966  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		RaycastHitU5BU5D_t1690781147* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RaycastHit_t1056001966  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (RaycastHit_t1056001966 )L_3;
+		RaycastHitU5BU5D_t1690781147* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		RaycastHitU5BU5D_t1690781147* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		RaycastHit_t1056001966  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RaycastHit_t1056001966 )L_9);
+		RaycastHitU5BU5D_t1690781147* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		RaycastHit_t1056001966  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RaycastHit_t1056001966 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UICharInfo,UnityEngine.UICharInfo>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUICharInfo_t75501106_TisUICharInfo_t75501106_m585514134_gshared (RuntimeObject * __this /* static, unused */, UICharInfoU5BU5D_t928762055* ___keys0, UICharInfoU5BU5D_t928762055* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	UICharInfo_t75501106  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	UICharInfo_t75501106  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		UICharInfoU5BU5D_t928762055* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UICharInfo_t75501106  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UICharInfo_t75501106 )L_3;
+		UICharInfoU5BU5D_t928762055* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		UICharInfoU5BU5D_t928762055* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UICharInfo_t75501106  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UICharInfo_t75501106 )L_9);
+		UICharInfoU5BU5D_t928762055* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		UICharInfo_t75501106  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UICharInfo_t75501106 )L_12);
+		UICharInfoU5BU5D_t928762055* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		UICharInfoU5BU5D_t928762055* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		UICharInfo_t75501106  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (UICharInfo_t75501106 )L_17;
+		UICharInfoU5BU5D_t928762055* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		UICharInfoU5BU5D_t928762055* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		UICharInfo_t75501106  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (UICharInfo_t75501106 )L_23);
+		UICharInfoU5BU5D_t928762055* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		UICharInfo_t75501106  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (UICharInfo_t75501106 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UICharInfo>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUICharInfo_t75501106_m3934244159_gshared (RuntimeObject * __this /* static, unused */, UICharInfoU5BU5D_t928762055* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	UICharInfo_t75501106  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		UICharInfoU5BU5D_t928762055* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UICharInfo_t75501106  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UICharInfo_t75501106 )L_3;
+		UICharInfoU5BU5D_t928762055* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		UICharInfoU5BU5D_t928762055* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UICharInfo_t75501106  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UICharInfo_t75501106 )L_9);
+		UICharInfoU5BU5D_t928762055* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		UICharInfo_t75501106  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UICharInfo_t75501106 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UILineInfo,UnityEngine.UILineInfo>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUILineInfo_t4195266810_TisUILineInfo_t4195266810_m3310375275_gshared (RuntimeObject * __this /* static, unused */, UILineInfoU5BU5D_t1655937503* ___keys0, UILineInfoU5BU5D_t1655937503* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	UILineInfo_t4195266810  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	UILineInfo_t4195266810  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		UILineInfoU5BU5D_t1655937503* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UILineInfo_t4195266810  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UILineInfo_t4195266810 )L_3;
+		UILineInfoU5BU5D_t1655937503* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		UILineInfoU5BU5D_t1655937503* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UILineInfo_t4195266810  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UILineInfo_t4195266810 )L_9);
+		UILineInfoU5BU5D_t1655937503* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		UILineInfo_t4195266810  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UILineInfo_t4195266810 )L_12);
+		UILineInfoU5BU5D_t1655937503* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		UILineInfoU5BU5D_t1655937503* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		UILineInfo_t4195266810  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (UILineInfo_t4195266810 )L_17;
+		UILineInfoU5BU5D_t1655937503* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		UILineInfoU5BU5D_t1655937503* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		UILineInfo_t4195266810  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (UILineInfo_t4195266810 )L_23);
+		UILineInfoU5BU5D_t1655937503* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		UILineInfo_t4195266810  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (UILineInfo_t4195266810 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UILineInfo>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUILineInfo_t4195266810_m270936006_gshared (RuntimeObject * __this /* static, unused */, UILineInfoU5BU5D_t1655937503* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	UILineInfo_t4195266810  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		UILineInfoU5BU5D_t1655937503* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UILineInfo_t4195266810  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UILineInfo_t4195266810 )L_3;
+		UILineInfoU5BU5D_t1655937503* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		UILineInfoU5BU5D_t1655937503* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UILineInfo_t4195266810  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UILineInfo_t4195266810 )L_9);
+		UILineInfoU5BU5D_t1655937503* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		UILineInfo_t4195266810  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UILineInfo_t4195266810 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UIVertex,UnityEngine.UIVertex>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUIVertex_t4057497605_TisUIVertex_t4057497605_m2109706212_gshared (RuntimeObject * __this /* static, unused */, UIVertexU5BU5D_t1981460040* ___keys0, UIVertexU5BU5D_t1981460040* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	UIVertex_t4057497605  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	UIVertex_t4057497605  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		UIVertexU5BU5D_t1981460040* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UIVertex_t4057497605  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UIVertex_t4057497605 )L_3;
+		UIVertexU5BU5D_t1981460040* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		UIVertexU5BU5D_t1981460040* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UIVertex_t4057497605  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UIVertex_t4057497605 )L_9);
+		UIVertexU5BU5D_t1981460040* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		UIVertex_t4057497605  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UIVertex_t4057497605 )L_12);
+		UIVertexU5BU5D_t1981460040* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		UIVertexU5BU5D_t1981460040* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		UIVertex_t4057497605  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (UIVertex_t4057497605 )L_17;
+		UIVertexU5BU5D_t1981460040* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		UIVertexU5BU5D_t1981460040* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		UIVertex_t4057497605  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (UIVertex_t4057497605 )L_23);
+		UIVertexU5BU5D_t1981460040* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		UIVertex_t4057497605  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (UIVertex_t4057497605 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.UIVertex>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisUIVertex_t4057497605_m790807762_gshared (RuntimeObject * __this /* static, unused */, UIVertexU5BU5D_t1981460040* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	UIVertex_t4057497605  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		UIVertexU5BU5D_t1981460040* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		UIVertex_t4057497605  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (UIVertex_t4057497605 )L_3;
+		UIVertexU5BU5D_t1981460040* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		UIVertexU5BU5D_t1981460040* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		UIVertex_t4057497605  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (UIVertex_t4057497605 )L_9);
+		UIVertexU5BU5D_t1981460040* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		UIVertex_t4057497605  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (UIVertex_t4057497605 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Vector2,UnityEngine.Vector2>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector2_t2156229523_TisVector2_t2156229523_m345092822_gshared (RuntimeObject * __this /* static, unused */, Vector2U5BU5D_t1457185986* ___keys0, Vector2U5BU5D_t1457185986* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	Vector2_t2156229523  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2156229523  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Vector2U5BU5D_t1457185986* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Vector2_t2156229523  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Vector2_t2156229523 )L_3;
+		Vector2U5BU5D_t1457185986* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		Vector2U5BU5D_t1457185986* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Vector2_t2156229523  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector2_t2156229523 )L_9);
+		Vector2U5BU5D_t1457185986* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		Vector2_t2156229523  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector2_t2156229523 )L_12);
+		Vector2U5BU5D_t1457185986* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Vector2U5BU5D_t1457185986* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Vector2_t2156229523  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (Vector2_t2156229523 )L_17;
+		Vector2U5BU5D_t1457185986* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		Vector2U5BU5D_t1457185986* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Vector2_t2156229523  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (Vector2_t2156229523 )L_23);
+		Vector2U5BU5D_t1457185986* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		Vector2_t2156229523  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Vector2_t2156229523 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Vector2>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector2_t2156229523_m1892649339_gshared (RuntimeObject * __this /* static, unused */, Vector2U5BU5D_t1457185986* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	Vector2_t2156229523  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector2U5BU5D_t1457185986* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Vector2_t2156229523  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Vector2_t2156229523 )L_3;
+		Vector2U5BU5D_t1457185986* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		Vector2U5BU5D_t1457185986* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Vector2_t2156229523  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector2_t2156229523 )L_9);
+		Vector2U5BU5D_t1457185986* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		Vector2_t2156229523  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector2_t2156229523 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Vector3,UnityEngine.Vector3>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector3_t3722313464_TisVector3_t3722313464_m3112357809_gshared (RuntimeObject * __this /* static, unused */, Vector3U5BU5D_t1718750761* ___keys0, Vector3U5BU5D_t1718750761* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	Vector3_t3722313464  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3722313464  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Vector3U5BU5D_t1718750761* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Vector3_t3722313464  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Vector3_t3722313464 )L_3;
+		Vector3U5BU5D_t1718750761* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		Vector3U5BU5D_t1718750761* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Vector3_t3722313464  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector3_t3722313464 )L_9);
+		Vector3U5BU5D_t1718750761* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		Vector3_t3722313464  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector3_t3722313464 )L_12);
+		Vector3U5BU5D_t1718750761* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Vector3U5BU5D_t1718750761* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Vector3_t3722313464  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (Vector3_t3722313464 )L_17;
+		Vector3U5BU5D_t1718750761* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		Vector3U5BU5D_t1718750761* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Vector3_t3722313464  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (Vector3_t3722313464 )L_23);
+		Vector3U5BU5D_t1718750761* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		Vector3_t3722313464  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Vector3_t3722313464 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Vector3>(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector3_t3722313464_m3753546221_gshared (RuntimeObject * __this /* static, unused */, Vector3U5BU5D_t1718750761* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+{
+	Vector3_t3722313464  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector3U5BU5D_t1718750761* L_0 = ___array0;
+		int32_t L_1 = ___i1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Vector3_t3722313464  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Vector3_t3722313464 )L_3;
+		Vector3U5BU5D_t1718750761* L_4 = ___array0;
+		int32_t L_5 = ___i1;
+		Vector3U5BU5D_t1718750761* L_6 = ___array0;
+		int32_t L_7 = ___j2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Vector3_t3722313464  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector3_t3722313464 )L_9);
+		Vector3U5BU5D_t1718750761* L_10 = ___array0;
+		int32_t L_11 = ___j2;
+		Vector3_t3722313464  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector3_t3722313464 )L_12);
+		return;
+	}
+}
+// System.Void System.Array::swap<UnityEngine.Vector4,UnityEngine.Vector4>(K[],V[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector4_t3319028937_TisVector4_t3319028937_m2655697434_gshared (RuntimeObject * __this /* static, unused */, Vector4U5BU5D_t934056436* ___keys0, Vector4U5BU5D_t934056436* ___items1, int32_t ___i2, int32_t ___j3, const RuntimeMethod* method)
+{
+	Vector4_t3319028937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector4_t3319028937  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Vector4U5BU5D_t934056436* L_0 = ___keys0;
+		int32_t L_1 = ___i2;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Vector4_t3319028937  L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = (Vector4_t3319028937 )L_3;
+		Vector4U5BU5D_t934056436* L_4 = ___keys0;
+		int32_t L_5 = ___i2;
+		Vector4U5BU5D_t934056436* L_6 = ___keys0;
+		int32_t L_7 = ___j3;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Vector4_t3319028937  L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector4_t3319028937 )L_9);
+		Vector4U5BU5D_t934056436* L_10 = ___keys0;
+		int32_t L_11 = ___j3;
+		Vector4_t3319028937  L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector4_t3319028937 )L_12);
+		Vector4U5BU5D_t934056436* L_13 = ___items1;
+		if (!L_13)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Vector4U5BU5D_t934056436* L_14 = ___items1;
+		int32_t L_15 = ___i2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Vector4_t3319028937  L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_1 = (Vector4_t3319028937 )L_17;
+		Vector4U5BU5D_t934056436* L_18 = ___items1;
+		int32_t L_19 = ___i2;
+		Vector4U5BU5D_t934056436* L_20 = ___items1;
+		int32_t L_21 = ___j3;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Vector4_t3319028937  L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (Vector4_t3319028937 )L_23);
+		Vector4U5BU5D_t934056436* L_24 = ___items1;
+		int32_t L_25 = ___j3;
+		Vector4_t3319028937  L_26 = V_1;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Vector4_t3319028937 )L_26);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
 // System.Void System.Array::swap<UnityEngine.Vector4>(T[],System.Int32,System.Int32)
 extern "C" IL2CPP_METHOD_ATTR void Array_swap_TisVector4_t3319028937_m1435064612_gshared (RuntimeObject * __this /* static, unused */, Vector4U5BU5D_t934056436* ___array0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
 {
@@ -29768,6 +34618,23 @@ IL_00c5:
 		return;
 	}
 }
+// System.Void UnityEngine.Networking.NetworkClient::SetNetworkConnectionClass<System.Object>()
+extern "C" IL2CPP_METHOD_ATTR void NetworkClient_SetNetworkConnectionClass_TisRuntimeObject_m1030808366_gshared (NetworkClient_t3758195968 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkClient_SetNetworkConnectionClass_TisRuntimeObject_m1030808366_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeTypeHandle_t3027515415  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, (RuntimeTypeHandle_t3027515415 )L_0, /*hidden argument*/NULL);
+		__this->set_m_NetworkConnectionClass_0(L_1);
+		return;
+	}
+}
 // System.Void UnityEngine.Networking.NetworkMessage::ReadMessage<System.Object>(TMsg)
 extern "C" IL2CPP_METHOD_ATTR void NetworkMessage_ReadMessage_TisRuntimeObject_m1536569678_gshared (NetworkMessage_t1192515889 * __this, RuntimeObject * ___msg0, const RuntimeMethod* method)
 {
@@ -29775,6 +34642,42 @@ extern "C" IL2CPP_METHOD_ATTR void NetworkMessage_ReadMessage_TisRuntimeObject_m
 		NetworkReader_t1574750186 * L_0 = (NetworkReader_t1574750186 *)__this->get_reader_3();
 		NullCheck((MessageBase_t3584795631 *)(___msg0));
 		VirtActionInvoker1< NetworkReader_t1574750186 * >::Invoke(4 /* System.Void UnityEngine.Networking.MessageBase::Deserialize(UnityEngine.Networking.NetworkReader) */, (MessageBase_t3584795631 *)(___msg0), (NetworkReader_t1574750186 *)L_0);
+		return;
+	}
+}
+// System.Void UnityEngine.Networking.NetworkServer::SetNetworkConnectionClass<System.Object>()
+extern "C" IL2CPP_METHOD_ATTR void NetworkServer_SetNetworkConnectionClass_TisRuntimeObject_m1536253656_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkServer_SetNetworkConnectionClass_TisRuntimeObject_m1536253656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(NetworkServer_t2920297688_il2cpp_TypeInfo_var);
+		NetworkServer_t2920297688 * L_0 = NetworkServer_get_instance_m3022890691(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ServerSimpleWrapper_t3640015215 * L_1 = (ServerSimpleWrapper_t3640015215 *)L_0->get_m_SimpleServerSimple_9();
+		NullCheck((NetworkServerSimple_t2785584229 *)L_1);
+		((  void (*) (NetworkServerSimple_t2785584229 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((NetworkServerSimple_t2785584229 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return;
+	}
+}
+// System.Void UnityEngine.Networking.NetworkServerSimple::SetNetworkConnectionClass<System.Object>()
+extern "C" IL2CPP_METHOD_ATTR void NetworkServerSimple_SetNetworkConnectionClass_TisRuntimeObject_m306409787_gshared (NetworkServerSimple_t2785584229 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NetworkServerSimple_SetNetworkConnectionClass_TisRuntimeObject_m306409787_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeTypeHandle_t3027515415  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, (RuntimeTypeHandle_t3027515415 )L_0, /*hidden argument*/NULL);
+		__this->set_m_NetworkConnectionClass_7(L_1);
 		return;
 	}
 }
@@ -34803,6 +39706,27 @@ IL_0021:
 	{
 		RuntimeObject * L_3 = V_1;
 		return L_3;
+	}
+}
+// TMsg UnityEngine.Networking.NetworkReader::ReadMessage<System.Object>()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * NetworkReader_ReadMessage_TisRuntimeObject_m2215483864_gshared (NetworkReader_t1574750186 * __this, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	RuntimeObject * V_1 = NULL;
+	{
+		RuntimeObject * L_0 = ((  RuntimeObject * (*) (RuntimeObject * /* static, unused */, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		V_0 = (RuntimeObject *)L_0;
+		NullCheck((MessageBase_t3584795631 *)(V_0));
+		VirtActionInvoker1< NetworkReader_t1574750186 * >::Invoke(4 /* System.Void UnityEngine.Networking.MessageBase::Deserialize(UnityEngine.Networking.NetworkReader) */, (MessageBase_t3584795631 *)(V_0), (NetworkReader_t1574750186 *)__this);
+		RuntimeObject * L_1 = V_0;
+		V_1 = (RuntimeObject *)L_1;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		RuntimeObject * L_2 = V_1;
+		return L_2;
 	}
 }
 // TOutput[] System.Array::ConvertAll<System.Object,System.Object>(TInput[],System.Converter`2<TInput,TOutput>)

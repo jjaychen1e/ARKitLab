@@ -325,6 +325,10 @@ extern const Il2CppType NetworkIdentity_t3299519057_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1012771504_0_0_0;
 extern const Il2CppType MonoBehaviour_t3962482529_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1232184397_0_0_0;
+extern const Il2CppType NetworkHash128_t2391674535_0_0_0;
+extern const Il2CppType GameObject_t1113636619_0_0_0;
+extern const Il2CppType KeyValuePair_2_t1496265288_0_0_0;
+extern const Il2CppType KeyValuePair_2_t3824763039_0_0_0;
 extern const Il2CppType NetworkSceneId_t717048590_0_0_0;
 extern const Il2CppType KeyValuePair_2_t442960997_0_0_0;
 extern const Il2CppType KeyValuePair_2_t662373890_0_0_0;
@@ -332,22 +336,22 @@ extern const Il2CppType PeerInfoMessage_t1835608005_0_0_0;
 extern const Il2CppType MessageBase_t3584795631_0_0_0;
 extern const Il2CppType PendingOwner_t3340073490_0_0_0;
 extern const Il2CppType PeerInfoPlayer_t607460057_0_0_0;
+extern const Il2CppType NetworkConnection_t2705220091_0_0_0;
 extern const Il2CppType InternalMsg_t2371755407_0_0_0;
 extern const Il2CppType CRCMessageEntry_t1041239249_0_0_0;
 extern const Il2CppType NetworkClient_t3758195968_0_0_0;
 extern const Il2CppType Invoker_t1211476115_0_0_0;
 extern const Il2CppType KeyValuePair_2_t2497861613_0_0_0;
-extern const Il2CppType NetworkConnection_t2705220091_0_0_0;
 extern const Il2CppType Link_t2834380900_0_0_0;
-extern const Il2CppType Link_t915510984_0_0_0;
-extern const Il2CppType ChannelBuffer_t2335345901_0_0_0;
-extern const Il2CppType Link_t3428679866_0_0_0;
 extern const Il2CppType NetworkMessageDelegate_t360140524_0_0_0;
 extern const Il2CppType KeyValuePair_2_t3373118172_0_0_0;
 extern const Il2CppType MulticastDelegate_t_0_0_0;
 extern const Il2CppType KeyValuePair_2_t653152532_0_0_0;
 extern const Il2CppType PacketStat_t3438346144_0_0_0;
 extern const Il2CppType KeyValuePair_2_t3731358152_0_0_0;
+extern const Il2CppType Link_t3428679866_0_0_0;
+extern const Il2CppType Link_t915510984_0_0_0;
+extern const Il2CppType ChannelBuffer_t2335345901_0_0_0;
 extern const Il2CppType NetworkBroadcastResult_t2174414888_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1624526043_0_0_0;
 extern const Il2CppType KeyValuePair_2_t62376058_0_0_0;
@@ -355,16 +359,12 @@ extern const Il2CppType NetworkBehaviour_t204670959_0_0_0;
 extern const Il2CppType Link_t3080106562_0_0_0;
 extern const Il2CppType PendingPlayer_t306375494_0_0_0;
 extern const Il2CppType NetworkLobbyPlayer_t1280660573_0_0_0;
-extern const Il2CppType GameObject_t1113636619_0_0_0;
 extern const Il2CppType Transform_t3600365921_0_0_0;
 extern const Il2CppType QosType_t3566496866_0_0_0;
 extern const Il2CppType ConnectionPendingPlayers_t878091664_0_0_0;
 extern const Il2CppType KeyValuePair_2_t2164477162_0_0_0;
 extern const Il2CppType PendingPlayerInfo_t2391300657_0_0_0;
 extern const Il2CppType Renderer_t2627027031_0_0_0;
-extern const Il2CppType NetworkHash128_t2391674535_0_0_0;
-extern const Il2CppType KeyValuePair_2_t1496265288_0_0_0;
-extern const Il2CppType KeyValuePair_2_t3824763039_0_0_0;
 extern const Il2CppType SpawnDelegate_t1585635496_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1794620_0_0_0;
 extern const Il2CppType UnSpawnDelegate_t851741660_0_0_0;
@@ -730,6 +730,12 @@ extern const Il2CppType NetworkMatch_ProcessMatchResponse_m2562765757_gp_0_0_0_0
 extern const Il2CppType NetworkMatch_ProcessMatchResponse_m2562765757_gp_1_0_0_0;
 extern const Il2CppType U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0;
 extern const Il2CppType U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_1_0_0_0;
+extern const Il2CppType NetworkReader_ReadMessage_m634263081_gp_0_0_0_0;
+extern const Il2CppType NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0;
+extern const Il2CppType SyncListStruct_1_t1478583620_gp_0_0_0_0;
+extern const Il2CppType SyncList_1_t1671643004_gp_0_0_0_0;
+extern const Il2CppType SyncListChanged_t2713013837_gp_0_0_0_0;
+extern const Il2CppType Operation_t80412305_gp_0_0_0_0;
 extern const Il2CppType NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0;
 extern const Il2CppType ExecuteEvents_Execute_m1094039016_gp_0_0_0_0;
 extern const Il2CppType ExecuteEvents_ExecuteHierarchy_m790245648_gp_0_0_0_0;
@@ -1505,6 +1511,28 @@ static const RuntimeType* GenInst_NetworkInstanceId_t786350175_0_0_0_NetworkIden
 extern const Il2CppGenericInst GenInst_NetworkInstanceId_t786350175_0_0_0_NetworkIdentity_t3299519057_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_NetworkInstanceId_t786350175_0_0_0_NetworkIdentity_t3299519057_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t1232184397_0_0_0_Types[] = { (&KeyValuePair_2_t1232184397_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1232184397_0_0_0 = { 1, GenInst_KeyValuePair_2_t1232184397_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&GameObject_t1113636619_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0 = { 2, GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_Types };
+static const RuntimeType* GenInst_KeyValuePair_2_t1496265288_0_0_0_Types[] = { (&KeyValuePair_2_t1496265288_0_0_0) };
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1496265288_0_0_0 = { 1, GenInst_KeyValuePair_2_t1496265288_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0 = { 1, GenInst_NetworkHash128_t2391674535_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&NetworkHash128_t2391674535_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&RuntimeObject_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&KeyValuePair_2_t1496265288_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0_Types };
+static const RuntimeType* GenInst_GameObject_t1113636619_0_0_0_Types[] = { (&GameObject_t1113636619_0_0_0) };
+extern const Il2CppGenericInst GenInst_GameObject_t1113636619_0_0_0 = { 1, GenInst_GameObject_t1113636619_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&GameObject_t1113636619_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
+static const RuntimeType* GenInst_KeyValuePair_2_t3824763039_0_0_0_Types[] = { (&KeyValuePair_2_t3824763039_0_0_0) };
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t3824763039_0_0_0 = { 1, GenInst_KeyValuePair_2_t3824763039_0_0_0_Types };
 static const RuntimeType* GenInst_NetworkSceneId_t717048590_0_0_0_NetworkIdentity_t3299519057_0_0_0_Types[] = { (&NetworkSceneId_t717048590_0_0_0), (&NetworkIdentity_t3299519057_0_0_0) };
 extern const Il2CppGenericInst GenInst_NetworkSceneId_t717048590_0_0_0_NetworkIdentity_t3299519057_0_0_0 = { 2, GenInst_NetworkSceneId_t717048590_0_0_0_NetworkIdentity_t3299519057_0_0_0_Types };
 static const RuntimeType* GenInst_NetworkSceneId_t717048590_0_0_0_RuntimeObject_0_0_0_Types[] = { (&NetworkSceneId_t717048590_0_0_0), (&RuntimeObject_0_0_0) };
@@ -1533,6 +1561,8 @@ static const RuntimeType* GenInst_PendingOwner_t3340073490_0_0_0_Types[] = { (&P
 extern const Il2CppGenericInst GenInst_PendingOwner_t3340073490_0_0_0 = { 1, GenInst_PendingOwner_t3340073490_0_0_0_Types };
 static const RuntimeType* GenInst_PeerInfoPlayer_t607460057_0_0_0_Types[] = { (&PeerInfoPlayer_t607460057_0_0_0) };
 extern const Il2CppGenericInst GenInst_PeerInfoPlayer_t607460057_0_0_0 = { 1, GenInst_PeerInfoPlayer_t607460057_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkConnection_t2705220091_0_0_0_Types[] = { (&NetworkConnection_t2705220091_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkConnection_t2705220091_0_0_0 = { 1, GenInst_NetworkConnection_t2705220091_0_0_0_Types };
 static const RuntimeType* GenInst_InternalMsg_t2371755407_0_0_0_Types[] = { (&InternalMsg_t2371755407_0_0_0) };
 extern const Il2CppGenericInst GenInst_InternalMsg_t2371755407_0_0_0 = { 1, GenInst_InternalMsg_t2371755407_0_0_0_Types };
 static const RuntimeType* GenInst_CRCMessageEntry_t1041239249_0_0_0_Types[] = { (&CRCMessageEntry_t1041239249_0_0_0) };
@@ -1547,16 +1577,8 @@ static const RuntimeType* GenInst_Int32_t2950945753_0_0_0_Invoker_t1211476115_0_
 extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_Invoker_t1211476115_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_Int32_t2950945753_0_0_0_Invoker_t1211476115_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t2497861613_0_0_0_Types[] = { (&KeyValuePair_2_t2497861613_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2497861613_0_0_0 = { 1, GenInst_KeyValuePair_2_t2497861613_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkConnection_t2705220091_0_0_0_Types[] = { (&NetworkConnection_t2705220091_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkConnection_t2705220091_0_0_0 = { 1, GenInst_NetworkConnection_t2705220091_0_0_0_Types };
 static const RuntimeType* GenInst_Link_t2834380900_0_0_0_Types[] = { (&Link_t2834380900_0_0_0) };
 extern const Il2CppGenericInst GenInst_Link_t2834380900_0_0_0 = { 1, GenInst_Link_t2834380900_0_0_0_Types };
-static const RuntimeType* GenInst_Link_t915510984_0_0_0_Types[] = { (&Link_t915510984_0_0_0) };
-extern const Il2CppGenericInst GenInst_Link_t915510984_0_0_0 = { 1, GenInst_Link_t915510984_0_0_0_Types };
-static const RuntimeType* GenInst_ChannelBuffer_t2335345901_0_0_0_Types[] = { (&ChannelBuffer_t2335345901_0_0_0) };
-extern const Il2CppGenericInst GenInst_ChannelBuffer_t2335345901_0_0_0 = { 1, GenInst_ChannelBuffer_t2335345901_0_0_0_Types };
-static const RuntimeType* GenInst_Link_t3428679866_0_0_0_Types[] = { (&Link_t3428679866_0_0_0) };
-extern const Il2CppGenericInst GenInst_Link_t3428679866_0_0_0 = { 1, GenInst_Link_t3428679866_0_0_0_Types };
 static const RuntimeType* GenInst_Int16_t2552820387_0_0_0_NetworkMessageDelegate_t360140524_0_0_0_Types[] = { (&Int16_t2552820387_0_0_0), (&NetworkMessageDelegate_t360140524_0_0_0) };
 extern const Il2CppGenericInst GenInst_Int16_t2552820387_0_0_0_NetworkMessageDelegate_t360140524_0_0_0 = { 2, GenInst_Int16_t2552820387_0_0_0_NetworkMessageDelegate_t360140524_0_0_0_Types };
 static const RuntimeType* GenInst_Int16_t2552820387_0_0_0_RuntimeObject_0_0_0_Types[] = { (&Int16_t2552820387_0_0_0), (&RuntimeObject_0_0_0) };
@@ -1587,6 +1609,12 @@ static const RuntimeType* GenInst_Int16_t2552820387_0_0_0_PacketStat_t3438346144
 extern const Il2CppGenericInst GenInst_Int16_t2552820387_0_0_0_PacketStat_t3438346144_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_Int16_t2552820387_0_0_0_PacketStat_t3438346144_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t3731358152_0_0_0_Types[] = { (&KeyValuePair_2_t3731358152_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t3731358152_0_0_0 = { 1, GenInst_KeyValuePair_2_t3731358152_0_0_0_Types };
+static const RuntimeType* GenInst_Link_t3428679866_0_0_0_Types[] = { (&Link_t3428679866_0_0_0) };
+extern const Il2CppGenericInst GenInst_Link_t3428679866_0_0_0 = { 1, GenInst_Link_t3428679866_0_0_0_Types };
+static const RuntimeType* GenInst_Link_t915510984_0_0_0_Types[] = { (&Link_t915510984_0_0_0) };
+extern const Il2CppGenericInst GenInst_Link_t915510984_0_0_0 = { 1, GenInst_Link_t915510984_0_0_0_Types };
+static const RuntimeType* GenInst_ChannelBuffer_t2335345901_0_0_0_Types[] = { (&ChannelBuffer_t2335345901_0_0_0) };
+extern const Il2CppGenericInst GenInst_ChannelBuffer_t2335345901_0_0_0 = { 1, GenInst_ChannelBuffer_t2335345901_0_0_0_Types };
 static const RuntimeType* GenInst_String_t_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0_Types[] = { (&String_t_0_0_0), (&NetworkBroadcastResult_t2174414888_0_0_0) };
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0 = { 2, GenInst_String_t_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0_Types };
 static const RuntimeType* GenInst_RuntimeObject_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0_Types[] = { (&RuntimeObject_0_0_0), (&NetworkBroadcastResult_t2174414888_0_0_0) };
@@ -1615,8 +1643,6 @@ static const RuntimeType* GenInst_PendingPlayer_t306375494_0_0_0_Types[] = { (&P
 extern const Il2CppGenericInst GenInst_PendingPlayer_t306375494_0_0_0 = { 1, GenInst_PendingPlayer_t306375494_0_0_0_Types };
 static const RuntimeType* GenInst_NetworkLobbyPlayer_t1280660573_0_0_0_Types[] = { (&NetworkLobbyPlayer_t1280660573_0_0_0) };
 extern const Il2CppGenericInst GenInst_NetworkLobbyPlayer_t1280660573_0_0_0 = { 1, GenInst_NetworkLobbyPlayer_t1280660573_0_0_0_Types };
-static const RuntimeType* GenInst_GameObject_t1113636619_0_0_0_Types[] = { (&GameObject_t1113636619_0_0_0) };
-extern const Il2CppGenericInst GenInst_GameObject_t1113636619_0_0_0 = { 1, GenInst_GameObject_t1113636619_0_0_0_Types };
 static const RuntimeType* GenInst_Transform_t3600365921_0_0_0_Types[] = { (&Transform_t3600365921_0_0_0) };
 extern const Il2CppGenericInst GenInst_Transform_t3600365921_0_0_0 = { 1, GenInst_Transform_t3600365921_0_0_0_Types };
 static const RuntimeType* GenInst_QosType_t3566496866_0_0_0_Types[] = { (&QosType_t3566496866_0_0_0) };
@@ -1639,26 +1665,6 @@ static const RuntimeType* GenInst_PendingPlayerInfo_t2391300657_0_0_0_Types[] = 
 extern const Il2CppGenericInst GenInst_PendingPlayerInfo_t2391300657_0_0_0 = { 1, GenInst_PendingPlayerInfo_t2391300657_0_0_0_Types };
 static const RuntimeType* GenInst_Renderer_t2627027031_0_0_0_Types[] = { (&Renderer_t2627027031_0_0_0) };
 extern const Il2CppGenericInst GenInst_Renderer_t2627027031_0_0_0 = { 1, GenInst_Renderer_t2627027031_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&GameObject_t1113636619_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0 = { 2, GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_Types };
-static const RuntimeType* GenInst_KeyValuePair_2_t1496265288_0_0_0_Types[] = { (&KeyValuePair_2_t1496265288_0_0_0) };
-extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1496265288_0_0_0 = { 1, GenInst_KeyValuePair_2_t1496265288_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0 = { 1, GenInst_NetworkHash128_t2391674535_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&NetworkHash128_t2391674535_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&RuntimeObject_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&RuntimeObject_0_0_0), (&KeyValuePair_2_t1496265288_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0_Types };
-static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&GameObject_t1113636619_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
-extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
-static const RuntimeType* GenInst_KeyValuePair_2_t3824763039_0_0_0_Types[] = { (&KeyValuePair_2_t3824763039_0_0_0) };
-extern const Il2CppGenericInst GenInst_KeyValuePair_2_t3824763039_0_0_0 = { 1, GenInst_KeyValuePair_2_t3824763039_0_0_0_Types };
 static const RuntimeType* GenInst_NetworkHash128_t2391674535_0_0_0_SpawnDelegate_t1585635496_0_0_0_Types[] = { (&NetworkHash128_t2391674535_0_0_0), (&SpawnDelegate_t1585635496_0_0_0) };
 extern const Il2CppGenericInst GenInst_NetworkHash128_t2391674535_0_0_0_SpawnDelegate_t1585635496_0_0_0 = { 2, GenInst_NetworkHash128_t2391674535_0_0_0_SpawnDelegate_t1585635496_0_0_0_Types };
 static const RuntimeType* GenInst_SpawnDelegate_t1585635496_0_0_0_Types[] = { (&SpawnDelegate_t1585635496_0_0_0) };
@@ -2173,12 +2179,16 @@ static const RuntimeType* GenInst_Data_t434873072_0_0_0_Data_t434873072_0_0_0_Ty
 extern const Il2CppGenericInst GenInst_Data_t434873072_0_0_0_Data_t434873072_0_0_0 = { 2, GenInst_Data_t434873072_0_0_0_Data_t434873072_0_0_0_Types };
 static const RuntimeType* GenInst_HighlightingPreset_t635619791_0_0_0_HighlightingPreset_t635619791_0_0_0_Types[] = { (&HighlightingPreset_t635619791_0_0_0), (&HighlightingPreset_t635619791_0_0_0) };
 extern const Il2CppGenericInst GenInst_HighlightingPreset_t635619791_0_0_0_HighlightingPreset_t635619791_0_0_0 = { 2, GenInst_HighlightingPreset_t635619791_0_0_0_HighlightingPreset_t635619791_0_0_0_Types };
+static const RuntimeType* GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&Boolean_t97287965_0_0_0), (&Boolean_t97287965_0_0_0) };
+extern const Il2CppGenericInst GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0_Types };
 static const RuntimeType* GenInst_Byte_t1134296376_0_0_0_Byte_t1134296376_0_0_0_Types[] = { (&Byte_t1134296376_0_0_0), (&Byte_t1134296376_0_0_0) };
 extern const Il2CppGenericInst GenInst_Byte_t1134296376_0_0_0_Byte_t1134296376_0_0_0 = { 2, GenInst_Byte_t1134296376_0_0_0_Byte_t1134296376_0_0_0_Types };
 static const RuntimeType* GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0_Types[] = { (&CustomAttributeNamedArgument_t287865710_0_0_0), (&CustomAttributeNamedArgument_t287865710_0_0_0) };
 extern const Il2CppGenericInst GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0 = { 2, GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0_Types };
 static const RuntimeType* GenInst_CustomAttributeTypedArgument_t2723150157_0_0_0_CustomAttributeTypedArgument_t2723150157_0_0_0_Types[] = { (&CustomAttributeTypedArgument_t2723150157_0_0_0), (&CustomAttributeTypedArgument_t2723150157_0_0_0) };
 extern const Il2CppGenericInst GenInst_CustomAttributeTypedArgument_t2723150157_0_0_0_CustomAttributeTypedArgument_t2723150157_0_0_0 = { 2, GenInst_CustomAttributeTypedArgument_t2723150157_0_0_0_CustomAttributeTypedArgument_t2723150157_0_0_0_Types };
+static const RuntimeType* GenInst_UInt32_t2560061978_0_0_0_UInt32_t2560061978_0_0_0_Types[] = { (&UInt32_t2560061978_0_0_0), (&UInt32_t2560061978_0_0_0) };
+extern const Il2CppGenericInst GenInst_UInt32_t2560061978_0_0_0_UInt32_t2560061978_0_0_0 = { 2, GenInst_UInt32_t2560061978_0_0_0_UInt32_t2560061978_0_0_0_Types };
 static const RuntimeType* GenInst_OrderBlock_t1585977831_0_0_0_OrderBlock_t1585977831_0_0_0_Types[] = { (&OrderBlock_t1585977831_0_0_0), (&OrderBlock_t1585977831_0_0_0) };
 extern const Il2CppGenericInst GenInst_OrderBlock_t1585977831_0_0_0_OrderBlock_t1585977831_0_0_0 = { 2, GenInst_OrderBlock_t1585977831_0_0_0_OrderBlock_t1585977831_0_0_0_Types };
 static const RuntimeType* GenInst_Color32_t2600501292_0_0_0_Color32_t2600501292_0_0_0_Types[] = { (&Color32_t2600501292_0_0_0), (&Color32_t2600501292_0_0_0) };
@@ -2249,8 +2259,6 @@ static const RuntimeType* GenInst_KeyValuePair_2_t661213120_0_0_0_KeyValuePair_2
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t661213120_0_0_0_KeyValuePair_2_t661213120_0_0_0 = { 2, GenInst_KeyValuePair_2_t661213120_0_0_0_KeyValuePair_2_t661213120_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t661213120_0_0_0_RuntimeObject_0_0_0_Types[] = { (&KeyValuePair_2_t661213120_0_0_0), (&RuntimeObject_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t661213120_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t661213120_0_0_0_RuntimeObject_0_0_0_Types };
-static const RuntimeType* GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&Boolean_t97287965_0_0_0), (&Boolean_t97287965_0_0_0) };
-extern const Il2CppGenericInst GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t3842366416_0_0_0_KeyValuePair_2_t3842366416_0_0_0_Types[] = { (&KeyValuePair_2_t3842366416_0_0_0), (&KeyValuePair_2_t3842366416_0_0_0) };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t3842366416_0_0_0_KeyValuePair_2_t3842366416_0_0_0 = { 2, GenInst_KeyValuePair_2_t3842366416_0_0_0_KeyValuePair_2_t3842366416_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t3842366416_0_0_0_RuntimeObject_0_0_0_Types[] = { (&KeyValuePair_2_t3842366416_0_0_0), (&RuntimeObject_0_0_0) };
@@ -2635,6 +2643,18 @@ static const RuntimeType* GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014
 extern const Il2CppGenericInst GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_1_0_0_0 = { 2, GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_1_0_0_0_Types };
 static const RuntimeType* GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0_Types[] = { (&U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0 = { 1, GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkReader_ReadMessage_m634263081_gp_0_0_0_0_Types[] = { (&NetworkReader_ReadMessage_m634263081_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkReader_ReadMessage_m634263081_gp_0_0_0_0 = { 1, GenInst_NetworkReader_ReadMessage_m634263081_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0_Types[] = { (&NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0 = { 1, GenInst_NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_SyncListStruct_1_t1478583620_gp_0_0_0_0_Types[] = { (&SyncListStruct_1_t1478583620_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_SyncListStruct_1_t1478583620_gp_0_0_0_0 = { 1, GenInst_SyncListStruct_1_t1478583620_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_SyncList_1_t1671643004_gp_0_0_0_0_Types[] = { (&SyncList_1_t1671643004_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_SyncList_1_t1671643004_gp_0_0_0_0 = { 1, GenInst_SyncList_1_t1671643004_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_SyncListChanged_t2713013837_gp_0_0_0_0_Types[] = { (&SyncListChanged_t2713013837_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_SyncListChanged_t2713013837_gp_0_0_0_0 = { 1, GenInst_SyncListChanged_t2713013837_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_Operation_t80412305_gp_0_0_0_0_Types[] = { (&Operation_t80412305_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_Operation_t80412305_gp_0_0_0_0 = { 1, GenInst_Operation_t80412305_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0_Types[] = { (&NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0 = { 1, GenInst_NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_ExecuteEvents_Execute_m1094039016_gp_0_0_0_0_Types[] = { (&ExecuteEvents_Execute_m1094039016_gp_0_0_0_0) };
@@ -2671,7 +2691,7 @@ static const RuntimeType* GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_L
 extern const Il2CppGenericInst GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0 = { 2, GenInst_LinkedListDictionary_2_t983847087_gp_0_0_0_0_LinkedListDictionary_2_t983847087_gp_1_0_0_0_Types };
 static const RuntimeType* GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types[] = { (&LLEntry_t3405167986_gp_1_0_0_0) };
 extern const Il2CppGenericInst GenInst_LLEntry_t3405167986_gp_1_0_0_0 = { 1, GenInst_LLEntry_t3405167986_gp_1_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[967] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3050,6 +3070,17 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_MonoBehaviour_t3962482529_0_0_0,
 	&GenInst_NetworkInstanceId_t786350175_0_0_0_NetworkIdentity_t3299519057_0_0_0_DictionaryEntry_t3123975638_0_0_0,
 	&GenInst_KeyValuePair_2_t1232184397_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0,
+	&GenInst_KeyValuePair_2_t1496265288_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0,
+	&GenInst_GameObject_t1113636619_0_0_0,
+	&GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0,
+	&GenInst_KeyValuePair_2_t3824763039_0_0_0,
 	&GenInst_NetworkSceneId_t717048590_0_0_0_NetworkIdentity_t3299519057_0_0_0,
 	&GenInst_NetworkSceneId_t717048590_0_0_0_RuntimeObject_0_0_0,
 	&GenInst_KeyValuePair_2_t442960997_0_0_0,
@@ -3064,6 +3095,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_MessageBase_t3584795631_0_0_0,
 	&GenInst_PendingOwner_t3340073490_0_0_0,
 	&GenInst_PeerInfoPlayer_t607460057_0_0_0,
+	&GenInst_NetworkConnection_t2705220091_0_0_0,
 	&GenInst_InternalMsg_t2371755407_0_0_0,
 	&GenInst_CRCMessageEntry_t1041239249_0_0_0,
 	&GenInst_NetworkClient_t3758195968_0_0_0,
@@ -3071,11 +3103,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_Invoker_t1211476115_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0_Invoker_t1211476115_0_0_0_DictionaryEntry_t3123975638_0_0_0,
 	&GenInst_KeyValuePair_2_t2497861613_0_0_0,
-	&GenInst_NetworkConnection_t2705220091_0_0_0,
 	&GenInst_Link_t2834380900_0_0_0,
-	&GenInst_Link_t915510984_0_0_0,
-	&GenInst_ChannelBuffer_t2335345901_0_0_0,
-	&GenInst_Link_t3428679866_0_0_0,
 	&GenInst_Int16_t2552820387_0_0_0_NetworkMessageDelegate_t360140524_0_0_0,
 	&GenInst_Int16_t2552820387_0_0_0_RuntimeObject_0_0_0,
 	&GenInst_KeyValuePair_2_t3373118172_0_0_0,
@@ -3091,6 +3119,9 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_PacketStat_t3438346144_0_0_0,
 	&GenInst_Int16_t2552820387_0_0_0_PacketStat_t3438346144_0_0_0_DictionaryEntry_t3123975638_0_0_0,
 	&GenInst_KeyValuePair_2_t3731358152_0_0_0,
+	&GenInst_Link_t3428679866_0_0_0,
+	&GenInst_Link_t915510984_0_0_0,
+	&GenInst_ChannelBuffer_t2335345901_0_0_0,
 	&GenInst_String_t_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0,
 	&GenInst_RuntimeObject_0_0_0_NetworkBroadcastResult_t2174414888_0_0_0,
 	&GenInst_KeyValuePair_2_t1624526043_0_0_0,
@@ -3105,7 +3136,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_Link_t3080106562_0_0_0,
 	&GenInst_PendingPlayer_t306375494_0_0_0,
 	&GenInst_NetworkLobbyPlayer_t1280660573_0_0_0,
-	&GenInst_GameObject_t1113636619_0_0_0,
 	&GenInst_Transform_t3600365921_0_0_0,
 	&GenInst_QosType_t3566496866_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0_ConnectionPendingPlayers_t878091664_0_0_0,
@@ -3117,16 +3147,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_Int32_t2950945753_0_0_0_ConnectionPendingPlayers_t878091664_0_0_0_KeyValuePair_2_t2164477162_0_0_0,
 	&GenInst_PendingPlayerInfo_t2391300657_0_0_0,
 	&GenInst_Renderer_t2627027031_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0,
-	&GenInst_KeyValuePair_2_t1496265288_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_NetworkHash128_t2391674535_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t1496265288_0_0_0,
-	&GenInst_NetworkHash128_t2391674535_0_0_0_GameObject_t1113636619_0_0_0_DictionaryEntry_t3123975638_0_0_0,
-	&GenInst_KeyValuePair_2_t3824763039_0_0_0,
 	&GenInst_NetworkHash128_t2391674535_0_0_0_SpawnDelegate_t1585635496_0_0_0,
 	&GenInst_SpawnDelegate_t1585635496_0_0_0,
 	&GenInst_NetworkHash128_t2391674535_0_0_0_SpawnDelegate_t1585635496_0_0_0_DictionaryEntry_t3123975638_0_0_0,
@@ -3384,9 +3404,11 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_DrawLines_t4192295860_0_0_0,
 	&GenInst_Data_t434873072_0_0_0_Data_t434873072_0_0_0,
 	&GenInst_HighlightingPreset_t635619791_0_0_0_HighlightingPreset_t635619791_0_0_0,
+	&GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0,
 	&GenInst_Byte_t1134296376_0_0_0_Byte_t1134296376_0_0_0,
 	&GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0,
 	&GenInst_CustomAttributeTypedArgument_t2723150157_0_0_0_CustomAttributeTypedArgument_t2723150157_0_0_0,
+	&GenInst_UInt32_t2560061978_0_0_0_UInt32_t2560061978_0_0_0,
 	&GenInst_OrderBlock_t1585977831_0_0_0_OrderBlock_t1585977831_0_0_0,
 	&GenInst_Color32_t2600501292_0_0_0_Color32_t2600501292_0_0_0,
 	&GenInst_RaycastResult_t3360306849_0_0_0_RaycastResult_t3360306849_0_0_0,
@@ -3422,7 +3444,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_LLEntry_t1211101965_0_0_0_RuntimeObject_0_0_0,
 	&GenInst_KeyValuePair_2_t661213120_0_0_0_KeyValuePair_2_t661213120_0_0_0,
 	&GenInst_KeyValuePair_2_t661213120_0_0_0_RuntimeObject_0_0_0,
-	&GenInst_Boolean_t97287965_0_0_0_Boolean_t97287965_0_0_0,
 	&GenInst_KeyValuePair_2_t3842366416_0_0_0_KeyValuePair_2_t3842366416_0_0_0,
 	&GenInst_KeyValuePair_2_t3842366416_0_0_0_RuntimeObject_0_0_0,
 	&GenInst_KeyValuePair_2_t2401056908_0_0_0_KeyValuePair_2_t2401056908_0_0_0,
@@ -3615,6 +3636,12 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[960] =
 	&GenInst_NetworkMatch_ProcessMatchResponse_m2562765757_gp_0_0_0_0_NetworkMatch_ProcessMatchResponse_m2562765757_gp_1_0_0_0,
 	&GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_1_0_0_0,
 	&GenInst_U3CProcessMatchResponseU3Ec__Iterator0_2_t2014003516_gp_0_0_0_0,
+	&GenInst_NetworkReader_ReadMessage_m634263081_gp_0_0_0_0,
+	&GenInst_NetworkServer_SetNetworkConnectionClass_m246401474_gp_0_0_0_0,
+	&GenInst_SyncListStruct_1_t1478583620_gp_0_0_0_0,
+	&GenInst_SyncList_1_t1671643004_gp_0_0_0_0,
+	&GenInst_SyncListChanged_t2713013837_gp_0_0_0_0,
+	&GenInst_Operation_t80412305_gp_0_0_0_0,
 	&GenInst_NetworkMessage_ReadMessage_m3120153630_gp_0_0_0_0,
 	&GenInst_ExecuteEvents_Execute_m1094039016_gp_0_0_0_0,
 	&GenInst_ExecuteEvents_ExecuteHierarchy_m790245648_gp_0_0_0_0,

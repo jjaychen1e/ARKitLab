@@ -2,14 +2,33 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs">
     <Files>
       <File FileName="Assets/Labs/ConvexLensImaging/Scripts/VirtualImageController.cs" Line="12" Column="29" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ScreenImageController.cs" Line="1" Column="26" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs" Line="97" Column="92" />
-      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" Line="193" Column="20" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ScreenImageController.cs" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/RemoveController.cs" Line="181" Column="1" />
+      <File FileName="Assets/Labs/ConvexLensImaging/Scripts/ModelController.cs" />
+      <File FileName="Assets/UI/GaussianBlur.shader" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ARKitLab" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Labs" expanded="True">
+                <Node name="ConvexLensImaging" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="RemoveController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="UI" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eec80adf-78a5-48e9-8c42-dbdb038e90c0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

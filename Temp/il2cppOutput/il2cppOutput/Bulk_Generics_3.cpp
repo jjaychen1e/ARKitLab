@@ -366,7 +366,7 @@ extern const RuntimeMethod* Dictionary_2_Remove_m2305312133_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_Remove_m2535635334_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_Remove_m2696634805_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_Remove_m3969653276_RuntimeMethod_var;
-extern const RuntimeMethod* Dictionary_2_Remove_m592947645_RuntimeMethod_var;
+extern const RuntimeMethod* Dictionary_2_Remove_m761671973_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_System_Collections_IDictionary_Remove_m1040066363_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_System_Collections_IDictionary_Remove_m1663456313_RuntimeMethod_var;
 extern const RuntimeMethod* Dictionary_2_System_Collections_IDictionary_Remove_m172065657_RuntimeMethod_var;
@@ -520,7 +520,7 @@ extern const uint32_t Dictionary_2_Remove_m2305312133_MetadataUsageId;
 extern const uint32_t Dictionary_2_Remove_m2535635334_MetadataUsageId;
 extern const uint32_t Dictionary_2_Remove_m2696634805_MetadataUsageId;
 extern const uint32_t Dictionary_2_Remove_m3969653276_MetadataUsageId;
-extern const uint32_t Dictionary_2_Remove_m592947645_MetadataUsageId;
+extern const uint32_t Dictionary_2_Remove_m761671973_MetadataUsageId;
 extern const uint32_t Dictionary_2_Resize_m1664577173_MetadataUsageId;
 extern const uint32_t Dictionary_2_Resize_m2057126814_MetadataUsageId;
 extern const uint32_t Dictionary_2_Resize_m2211080015_MetadataUsageId;
@@ -26613,12 +26613,12 @@ IL_00c9:
 	}
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Networking.NetworkHash128,System.Object>::Remove(TKey)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m592947645_gshared (Dictionary_2_t3393560417 * __this, NetworkHash128_t2391674535  ___key0, const RuntimeMethod* method)
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m761671973_gshared (Dictionary_2_t3393560417 * __this, NetworkHash128_t2391674535  ___key0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Dictionary_2_Remove_m592947645_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Dictionary_2_Remove_m761671973_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -26634,7 +26634,7 @@ extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m592947645_gshared (Dicti
 	{
 		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
 		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral2600271970, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, Dictionary_2_Remove_m592947645_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, Dictionary_2_Remove_m761671973_RuntimeMethod_var);
 	}
 
 IL_0016:
