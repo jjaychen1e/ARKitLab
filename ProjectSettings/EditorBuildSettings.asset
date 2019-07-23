@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Labs/Momentum/Scene/Momentum.unity
     guid: c159f2591a9b5c843b0a0442451f78f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Labs/ConvexLensImaging/Scene/ConvexLensImaging.unity
     guid: a3299e1dc7ef04cc39c78e0147b8b597
-  - enabled: 0
+  - enabled: 1
     path: Assets/Labs/Cell/Scene/Cell.unity
     guid: 023e64a3e37764fa6afc16aef47b3300
   - enabled: 0

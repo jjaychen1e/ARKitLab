@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Labs/ConvexLensImaging/Scene/ConvexLensImaging.unity
+- path: Assets/Labs/Cell/Scene/Cell.unity
   isLoaded: 1
   isActive: 1
