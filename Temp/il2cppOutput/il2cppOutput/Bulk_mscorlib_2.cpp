@@ -492,12 +492,14 @@ extern String_t* _stringLiteral1255815265;
 extern String_t* _stringLiteral1340939425;
 extern String_t* _stringLiteral1342583032;
 extern String_t* _stringLiteral1398209066;
+extern String_t* _stringLiteral1407330741;
 extern String_t* _stringLiteral1413877174;
 extern String_t* _stringLiteral1446264756;
 extern String_t* _stringLiteral1446761378;
 extern String_t* _stringLiteral1447312481;
 extern String_t* _stringLiteral1453330949;
 extern String_t* _stringLiteral1487999300;
+extern String_t* _stringLiteral1488400110;
 extern String_t* _stringLiteral1560724100;
 extern String_t* _stringLiteral1671262155;
 extern String_t* _stringLiteral1709038266;
@@ -533,6 +535,7 @@ extern String_t* _stringLiteral2257906669;
 extern String_t* _stringLiteral2278533264;
 extern String_t* _stringLiteral2283438069;
 extern String_t* _stringLiteral2288846099;
+extern String_t* _stringLiteral2295149384;
 extern String_t* _stringLiteral2333226155;
 extern String_t* _stringLiteral2340372691;
 extern String_t* _stringLiteral2344785378;
@@ -842,6 +845,7 @@ extern const RuntimeMethod* Decimal_ThrowAtPos_m1170269346_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal_ThrowInvalidExp_m818482357_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal__ctor_m1842485920_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal__ctor_m1925875020_RuntimeMethod_var;
+extern const RuntimeMethod* Decimal__ctor_m336758058_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal__ctor_m3650533794_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal_op_Explicit_m1639916169_RuntimeMethod_var;
 extern const RuntimeMethod* Decimal_op_Explicit_m1824467517_RuntimeMethod_var;
@@ -1219,6 +1223,7 @@ extern const uint32_t Decimal_ToString_m4018746482_MetadataUsageId;
 extern const uint32_t Decimal__cctor_m834667025_MetadataUsageId;
 extern const uint32_t Decimal__ctor_m1842485920_MetadataUsageId;
 extern const uint32_t Decimal__ctor_m1925875020_MetadataUsageId;
+extern const uint32_t Decimal__ctor_m336758058_MetadataUsageId;
 extern const uint32_t Decimal__ctor_m3650533794_MetadataUsageId;
 extern const uint32_t Decimal_op_Division_m2407964042_MetadataUsageId;
 extern const uint32_t Decimal_op_Equality_m77262825_MetadataUsageId;
@@ -12097,6 +12102,10 @@ extern "C" IL2CPP_METHOD_ATTR bool Double_IsPositiveInfinity_m1245619811 (Runtim
 extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m3828879243 (double* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
 // System.Void System.Decimal::.ctor(System.Double)
 extern "C" IL2CPP_METHOD_ATTR void Decimal__ctor_m1842485920 (Decimal_t2948259380 * __this, double ___value0, const RuntimeMethod* method);
+// System.Int32 System.Array::GetLength(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR int32_t Array_GetLength_m2178203778 (RuntimeArray * __this, int32_t ___dimension0, const RuntimeMethod* method);
+// System.Void System.Decimal::.ctor(System.Int32[])
+extern "C" IL2CPP_METHOD_ATTR void Decimal__ctor_m336758058 (Decimal_t2948259380 * __this, Int32U5BU5D_t385246372* ___bits0, const RuntimeMethod* method);
 // System.Object System.Decimal::System.IConvertible.ToType(System.Type,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Decimal_System_IConvertible_ToType_m2919262279 (Decimal_t2948259380 * __this, Type_t * ___targetType0, RuntimeObject* ___provider1, const RuntimeMethod* method);
 // System.Boolean System.Convert::ToBoolean(System.Decimal)
@@ -35789,6 +35798,103 @@ extern "C"  void Decimal__ctor_m1842485920_AdjustorThunk (RuntimeObject * __this
 {
 	Decimal_t2948259380 * _thisAdjusted = reinterpret_cast<Decimal_t2948259380 *>(__this + 1);
 	Decimal__ctor_m1842485920(_thisAdjusted, ___value0, method);
+}
+// System.Void System.Decimal::.ctor(System.Int32[])
+extern "C" IL2CPP_METHOD_ATTR void Decimal__ctor_m336758058 (Decimal_t2948259380 * __this, Int32U5BU5D_t385246372* ___bits0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Decimal__ctor_m336758058_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t V_0 = 0x0;
+	{
+		Int32U5BU5D_t385246372* L_0 = ___bits0;
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		String_t* L_1 = Locale_GetText_m3374010885(NULL /*static, unused*/, _stringLiteral1407330741, /*hidden argument*/NULL);
+		ArgumentNullException_t1615371798 * L_2 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_2, L_1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, NULL, Decimal__ctor_m336758058_RuntimeMethod_var);
+	}
+
+IL_0016:
+	{
+		Int32U5BU5D_t385246372* L_3 = ___bits0;
+		NullCheck((RuntimeArray *)(RuntimeArray *)L_3);
+		int32_t L_4 = Array_GetLength_m2178203778((RuntimeArray *)(RuntimeArray *)L_3, 0, /*hidden argument*/NULL);
+		if ((((int32_t)L_4) == ((int32_t)4)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		String_t* L_5 = Locale_GetText_m3374010885(NULL /*static, unused*/, _stringLiteral2295149384, /*hidden argument*/NULL);
+		ArgumentException_t132251570 * L_6 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1312628991(L_6, L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, NULL, Decimal__ctor_m336758058_RuntimeMethod_var);
+	}
+
+IL_0033:
+	{
+		Int32U5BU5D_t385246372* L_7 = ___bits0;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		__this->set_lo_7(L_9);
+		Int32U5BU5D_t385246372* L_10 = ___bits0;
+		NullCheck(L_10);
+		int32_t L_11 = 1;
+		int32_t L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		__this->set_mid_8(L_12);
+		Int32U5BU5D_t385246372* L_13 = ___bits0;
+		NullCheck(L_13);
+		int32_t L_14 = 2;
+		int32_t L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		__this->set_hi_6(L_15);
+		Int32U5BU5D_t385246372* L_16 = ___bits0;
+		NullCheck(L_16);
+		int32_t L_17 = 3;
+		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		__this->set_flags_5(L_18);
+		uint32_t L_19 = __this->get_flags_5();
+		V_0 = (uint8_t)(((int32_t)((uint8_t)((int32_t)((uint32_t)L_19>>((int32_t)16))))));
+		uint8_t L_20 = V_0;
+		if ((!(((uint32_t)L_20) <= ((uint32_t)((int32_t)28)))))
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		uint32_t L_21 = __this->get_flags_5();
+		if (!((int32_t)((int32_t)L_21&(int32_t)((int32_t)2130771967))))
+		{
+			goto IL_008b;
+		}
+	}
+
+IL_007b:
+	{
+		String_t* L_22 = Locale_GetText_m3374010885(NULL /*static, unused*/, _stringLiteral1488400110, /*hidden argument*/NULL);
+		ArgumentException_t132251570 * L_23 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1312628991(L_23, L_22, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23, NULL, Decimal__ctor_m336758058_RuntimeMethod_var);
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+extern "C"  void Decimal__ctor_m336758058_AdjustorThunk (RuntimeObject * __this, Int32U5BU5D_t385246372* ___bits0, const RuntimeMethod* method)
+{
+	Decimal_t2948259380 * _thisAdjusted = reinterpret_cast<Decimal_t2948259380 *>(__this + 1);
+	Decimal__ctor_m336758058(_thisAdjusted, ___bits0, method);
 }
 // System.Void System.Decimal::.cctor()
 extern "C" IL2CPP_METHOD_ATTR void Decimal__cctor_m834667025 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)

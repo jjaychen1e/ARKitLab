@@ -42,21 +42,21 @@ extern "C" void SimpleCollator_GetTailContraction_m2377844406 ();
 extern "C" void SimpleCollator_GetTailContraction_m2107754083 ();
 extern "C" void SimpleCollator_GetExtenderType_m407776429 ();
 extern "C" void MSCompatUnicodeTable_GetTailoringInfo_m1575560208 ();
-extern "C" void Kernel_AddSameSign_m3267067385 ();
 extern "C" void Kernel_AddSameSign_m1676432471 ();
-extern "C" void Kernel_LeftShift_m3302851050 ();
+extern "C" void Kernel_AddSameSign_m3267067385 ();
 extern "C" void Kernel_LeftShift_m4140742987 ();
+extern "C" void Kernel_LeftShift_m3302851050 ();
 extern "C" void Kernel_MultiplyByDword_m1266935086 ();
-extern "C" void Kernel_RightShift_m2207393597 ();
 extern "C" void Kernel_RightShift_m3246168448 ();
+extern "C" void Kernel_RightShift_m2207393597 ();
 extern "C" void Kernel_Subtract_m657044818 ();
 extern "C" void Kernel_Subtract_m846005223 ();
-extern "C" void Kernel_modInverse_m3523342258 ();
 extern "C" void Kernel_modInverse_m652700340 ();
-extern "C" void ModulusRing_Difference_m1345688434 ();
+extern "C" void Kernel_modInverse_m3523342258 ();
 extern "C" void ModulusRing_Difference_m3686091506 ();
-extern "C" void ModulusRing_Multiply_m1975391470 ();
+extern "C" void ModulusRing_Difference_m1345688434 ();
 extern "C" void ModulusRing_Multiply_m343333088 ();
+extern "C" void ModulusRing_Multiply_m1975391470 ();
 extern "C" void ModulusRing_Pow_m1124248336 ();
 extern "C" void ModulusRing_Pow_m83007704 ();
 extern "C" void ModulusRing_Pow_m729002192 ();
@@ -65,67 +65,67 @@ extern "C" void BigInteger_GeneratePseudoPrime_m2547138838 ();
 extern "C" void BigInteger_GeneratePseudoPrime_m1941064930 ();
 extern "C" void BigInteger_GenerateRandom_m1790382084 ();
 extern "C" void BigInteger_GenerateRandom_m2556426062 ();
-extern "C" void BigInteger_GenerateRandom_m3872771375 ();
 extern "C" void BigInteger_GenerateRandom_m3141592944 ();
-extern "C" void BigInteger_ModInverse_m2426215562 ();
+extern "C" void BigInteger_GenerateRandom_m3872771375 ();
 extern "C" void BigInteger_ModInverse_m3469244086 ();
-extern "C" void BigInteger_ModPow_m2277842115 ();
+extern "C" void BigInteger_ModInverse_m2426215562 ();
 extern "C" void BigInteger_ModPow_m3776562770 ();
+extern "C" void BigInteger_ModPow_m2277842115 ();
 extern "C" void BigInteger_op_Addition_m1114527046 ();
 extern "C" void BigInteger_op_Addition_m2544206388 ();
-extern "C" void BigInteger_op_Division_m3713793389 ();
 extern "C" void BigInteger_op_Division_m2437128540 ();
-extern "C" void BigInteger_op_Implicit_m2547142909 ();
+extern "C" void BigInteger_op_Division_m3713793389 ();
 extern "C" void BigInteger_op_Implicit_m2847009755 ();
-extern "C" void BigInteger_op_Implicit_m378428706 ();
+extern "C" void BigInteger_op_Implicit_m2547142909 ();
 extern "C" void BigInteger_op_Implicit_m3414367033 ();
-extern "C" void BigInteger_op_LeftShift_m1192375522 ();
+extern "C" void BigInteger_op_Implicit_m378428706 ();
 extern "C" void BigInteger_op_LeftShift_m3681213422 ();
+extern "C" void BigInteger_op_LeftShift_m1192375522 ();
 extern "C" void BigInteger_op_Modulus_m3223754023 ();
 extern "C" void BigInteger_op_Modulus_m2565477533 ();
 extern "C" void BigInteger_op_Multiply_m3801644593 ();
 extern "C" void BigInteger_op_Multiply_m3683746602 ();
 extern "C" void BigInteger_op_Multiply_m3854773313 ();
-extern "C" void BigInteger_op_RightShift_m2934036419 ();
 extern "C" void BigInteger_op_RightShift_m460065452 ();
-extern "C" void BigInteger_op_Subtraction_m4245834512 ();
+extern "C" void BigInteger_op_RightShift_m2934036419 ();
 extern "C" void BigInteger_op_Subtraction_m1575155386 ();
-extern "C" void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m1689384666 ();
+extern "C" void BigInteger_op_Subtraction_m4245834512 ();
 extern "C" void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m907640859 ();
+extern "C" void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m1689384666 ();
 extern "C" void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m533229219 ();
 extern "C" void SequentialSearchPrimeGeneratorBase_GenerateNewPrime_m2891860459 ();
-extern "C" void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_m3595783982 ();
 extern "C" void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_m1918143664 ();
+extern "C" void SequentialSearchPrimeGeneratorBase_GenerateSearchBase_m3595783982 ();
 extern "C" void Kernel_Compare_m2669603547 ();
 extern "C" void Kernel_Compare_m1530940716 ();
 extern "C" void Kernel_DwordDivMod_m631886101 ();
 extern "C" void Kernel_DwordDivMod_m1540317819 ();
-extern "C" void Kernel_multiByteDivide_m4249920547 ();
 extern "C" void Kernel_multiByteDivide_m450694282 ();
+extern "C" void Kernel_multiByteDivide_m4249920547 ();
 extern "C" void PrimeGeneratorBase_get_Confidence_m359324283 ();
 extern "C" void PrimeGeneratorBase_get_Confidence_m3172213559 ();
 extern "C" void PrimeGeneratorBase_get_PrimalityTest_m2487240563 ();
 extern "C" void PrimeGeneratorBase_get_PrimalityTest_m2131070257 ();
-extern "C" void ASN1_Add_m3468571571 ();
 extern "C" void ASN1_Add_m3262603624 ();
+extern "C" void ASN1_Add_m3468571571 ();
 extern "C" void ASN1_Element_m2680269109 ();
 extern "C" void ASN1_Element_m4088315026 ();
 extern "C" void ASN1_get_Item_m3901126023 ();
 extern "C" void ASN1_get_Item_m315148275 ();
 extern "C" void ASN1Convert_FromInt32_m2935389061 ();
 extern "C" void ASN1Convert_FromInt32_m2294771542 ();
-extern "C" void ASN1Convert_FromOid_m3844102704 ();
 extern "C" void ASN1Convert_FromOid_m3740816339 ();
-extern "C" void ContentInfo_GetASN1_m3665489137 ();
+extern "C" void ASN1Convert_FromOid_m3844102704 ();
 extern "C" void ContentInfo_GetASN1_m2535172199 ();
+extern "C" void ContentInfo_GetASN1_m3665489137 ();
 extern "C" void ContentInfo_get_ASN1_m2959326143 ();
 extern "C" void ContentInfo_get_ASN1_m1776225219 ();
 extern "C" void ContentInfo_get_Content_m4053224038 ();
 extern "C" void ContentInfo_get_Content_m1945593776 ();
 extern "C" void PKCS12_CertificateSafeBag_m1505366012 ();
 extern "C" void PKCS12_CertificateSafeBag_m3469173172 ();
-extern "C" void SafeBag_get_ASN1_m3167501969 ();
 extern "C" void SafeBag_get_ASN1_m2293701606 ();
+extern "C" void SafeBag_get_ASN1_m3167501969 ();
 extern "C" void X509Certificate_GetIssuerName_m1142198382 ();
 extern "C" void X509Certificate_GetIssuerName_m4238857993 ();
 extern "C" void X509Certificate_GetSubjectName_m584504796 ();
@@ -208,14 +208,14 @@ extern "C" void X509Store_LoadCertificate_m1587806288 ();
 extern "C" void X509Certificate2_get_MonoCertificate_m4228255308 ();
 extern "C" void SslStreamBase_get_ServerCertificates_m2154373069 ();
 extern "C" void TlsServerSettings_get_Certificates_m3981837031 ();
-extern "C" void PKCS12_get_Certificates_m1630860723 ();
 extern "C" void PKCS12_get_Certificates_m26161562 ();
+extern "C" void PKCS12_get_Certificates_m1630860723 ();
 extern "C" void X509Chain_get_TrustAnchors_m2434696767 ();
 extern "C" void X509Store_BuildCertificatesCollection_m3030935583 ();
 extern "C" void X509Store_get_Certificates_m56224934 ();
 extern "C" void X509StoreManager_get_TrustedRootCertificates_m2180997293 ();
-extern "C" void X509CertificateCollection_GetEnumerator_m92169144 ();
 extern "C" void X509CertificateCollection_GetEnumerator_m4229251522 ();
+extern "C" void X509CertificateCollection_GetEnumerator_m92169144 ();
 extern "C" void X509Chain_get_Status_m348797749 ();
 extern "C" void X509Store_LoadCrl_m1881903843 ();
 extern "C" void X509Chain_FindCrl_m1657810964 ();
@@ -322,37 +322,37 @@ extern "C" void SimpleCollator_QuickCheckPossible_m649925260 ();
 extern "C" void BigInteger_Equals_m63093403 ();
 extern "C" void BigInteger_Equals_m1948500455 ();
 extern "C" void BigInteger_IsProbablePrime_m567194283 ();
-extern "C" void BigInteger_TestBit_m1507066813 ();
 extern "C" void BigInteger_TestBit_m2798226118 ();
+extern "C" void BigInteger_TestBit_m1507066813 ();
 extern "C" void BigInteger_TestBit_m1365094736 ();
 extern "C" void BigInteger_op_Equality_m3263851871 ();
 extern "C" void BigInteger_op_Equality_m1194739960 ();
 extern "C" void BigInteger_op_Equality_m3872814973 ();
 extern "C" void BigInteger_op_Equality_m970226143 ();
-extern "C" void BigInteger_op_GreaterThan_m2062805246 ();
 extern "C" void BigInteger_op_GreaterThan_m2974122765 ();
+extern "C" void BigInteger_op_GreaterThan_m2062805246 ();
 extern "C" void BigInteger_op_GreaterThanOrEqual_m3313329514 ();
 extern "C" void BigInteger_op_GreaterThanOrEqual_m700865613 ();
 extern "C" void BigInteger_op_Inequality_m2365536750 ();
 extern "C" void BigInteger_op_Inequality_m2697143438 ();
-extern "C" void BigInteger_op_Inequality_m2239968970 ();
 extern "C" void BigInteger_op_Inequality_m3469726044 ();
+extern "C" void BigInteger_op_Inequality_m2239968970 ();
 extern "C" void BigInteger_op_LessThan_m463398176 ();
 extern "C" void BigInteger_op_LessThan_m798881406 ();
 extern "C" void BigInteger_op_LessThanOrEqual_m2553515144 ();
 extern "C" void BigInteger_op_LessThanOrEqual_m3925173639 ();
-extern "C" void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m3637196143 ();
 extern "C" void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m1127740833 ();
-extern "C" void PrimalityTest_EndInvoke_m1454743433 ();
+extern "C" void SequentialSearchPrimeGeneratorBase_IsPrimeAcceptable_m3637196143 ();
 extern "C" void PrimalityTest_EndInvoke_m1035389364 ();
-extern "C" void PrimalityTest_Invoke_m2948246884 ();
+extern "C" void PrimalityTest_EndInvoke_m1454743433 ();
 extern "C" void PrimalityTest_Invoke_m476975163 ();
+extern "C" void PrimalityTest_Invoke_m2948246884 ();
 extern "C" void PrimalityTests_RabinMillerTest_m1471415870 ();
 extern "C" void PrimalityTests_RabinMillerTest_m2544317101 ();
 extern "C" void PrimalityTests_SmallPrimeSppTest_m1224130639 ();
 extern "C" void PrimalityTests_Test_m2932837908 ();
-extern "C" void ASN1_CompareArray_m3928975006 ();
 extern "C" void ASN1_CompareArray_m448994814 ();
+extern "C" void ASN1_CompareArray_m3928975006 ();
 extern "C" void ASN1_CompareValue_m251306338 ();
 extern "C" void ASN1_CompareValue_m2846313136 ();
 extern "C" void ARC4Managed_get_CanReuseTransform_m1145713138 ();
@@ -375,13 +375,13 @@ extern "C" void KeyPairPersistence_get_UseMachineKeyStore_m3206839918 ();
 extern "C" void MD5SHA1_VerifySignature_m915115209 ();
 extern "C" void PKCS1_Compare_m2442824967 ();
 extern "C" void PKCS1_Compare_m8562819 ();
-extern "C" void PKCS1_Verify_v15_m4192025173 ();
 extern "C" void PKCS1_Verify_v15_m2816868480 ();
+extern "C" void PKCS1_Verify_v15_m4192025173 ();
 extern "C" void PKCS1_Verify_v15_m400093581 ();
 extern "C" void PKCS1_Verify_v15_m3708133908 ();
 extern "C" void RSAManaged_get_IsCrtPossible_m3949564681 ();
-extern "C" void RSAManaged_get_PublicOnly_m1402405000 ();
 extern "C" void RSAManaged_get_PublicOnly_m595121416 ();
+extern "C" void RSAManaged_get_PublicOnly_m1402405000 ();
 extern "C" void SymmetricTransform_get_CanReuseTransform_m3947311416 ();
 extern "C" void SymmetricTransform_get_CanReuseTransform_m3495714228 ();
 extern "C" void SymmetricTransform_get_KeepLastBlock_m2492071306 ();
@@ -440,8 +440,8 @@ extern "C" void ValidationResult_get_Trusted_m2108852505 ();
 extern "C" void BasicConstraintsExtension_get_CertificateAuthority_m391198292 ();
 extern "C" void KeyUsageExtension_Support_m3508856672 ();
 extern "C" void NetscapeCertTypeExtension_Support_m3981181230 ();
-extern "C" void PKCS12_Compare_m219153845 ();
 extern "C" void PKCS12_Compare_m2975811353 ();
+extern "C" void PKCS12_Compare_m219153845 ();
 extern "C" void X509Certificate_VerifySignature_m2813642028 ();
 extern "C" void X509Certificate_VerifySignature_m3988463526 ();
 extern "C" void X509Certificate_VerifySignature_m3538124832 ();
@@ -450,8 +450,8 @@ extern "C" void X509Certificate_get_IsCurrent_m469817010 ();
 extern "C" void X509Certificate_get_IsSelfSigned_m4064195693 ();
 extern "C" void X509CertificateEnumerator_MoveNext_m2269241175 ();
 extern "C" void X509CertificateEnumerator_MoveNext_m1342258196 ();
-extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m2626270621 ();
 extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m708500216 ();
+extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m2626270621 ();
 extern "C" void X509CertificateCollection_Compare_m3676635762 ();
 extern "C" void X509CertificateCollection_Contains_m743657353 ();
 extern "C" void X509Chain_Build_m2469702749 ();
@@ -462,8 +462,8 @@ extern "C" void X509Crl_Compare_m3418726913 ();
 extern "C" void X509Crl_VerifySignature_m1377612461 ();
 extern "C" void X509Crl_VerifySignature_m1902456590 ();
 extern "C" void X509Crl_VerifySignature_m1808348256 ();
-extern "C" void X509Extension_Equals_m1222951829 ();
 extern "C" void X509Extension_Equals_m1779194186 ();
+extern "C" void X509Extension_Equals_m1222951829 ();
 extern "C" void X509Extension_get_Critical_m171054662 ();
 extern "C" void X509Store_CheckStore_m2045435685 ();
 extern "C" void SmallXmlParser_IsNameChar_m2946368541 ();
@@ -1418,6 +1418,7 @@ extern "C" void MonoBehaviour_get_useGUILayout_m2803119319 ();
 extern "C" void CertificateHandler_ValidateCertificate_m937187171 ();
 extern "C" void CertificateHandler_ValidateCertificateNative_m2315002656 ();
 extern "C" void ChannelBuffer_HandleFragment_m2475725533 ();
+extern "C" void ChannelBuffer_Send_m1164223240 ();
 extern "C" void ChannelBuffer_SendBytes_m2189884084 ();
 extern "C" void ChannelBuffer_SendFragmentBytes_m310289385 ();
 extern "C" void ChannelBuffer_SendInternalBuffer_m916649629 ();
@@ -1429,16 +1430,19 @@ extern "C" void ChannelPacket_SendToTransport_m2626401131_AdjustorThunk ();
 extern "C" void ClientScene_AddPlayer_m2911644505 ();
 extern "C" void ClientScene_AddPlayer_m3842844287 ();
 extern "C" void ClientScene_AddPlayer_m3417868253 ();
+extern "C" void ClientScene_GetPlayerController_m3573385601 ();
 extern "C" void ClientScene_Ready_m3173813555 ();
 extern "C" void ClientScene_RemovePlayer_m670657258 ();
 extern "C" void ClientScene_SendReconnectMessage_m916537842 ();
 extern "C" void ClientScene_get_ready_m1489178736 ();
 extern "C" void ClientScene_hasMigrationPending_m257538718 ();
+extern "C" void ConnectionArray_ContainsPlayer_m3799629025 ();
 extern "C" void ConnectionConfig_get_UsePlatformSpecificProtocols_m1183726116 ();
 extern "C" void ConnectionConfigInternal_MakeChannelsSharedOrder_m1931184124 ();
 extern "C" void LogFilter_get_logDebug_m2124734822 ();
 extern "C" void LogFilter_get_logDev_m1223216080 ();
 extern "C" void LogFilter_get_logError_m2939562087 ();
+extern "C" void LogFilter_get_logFatal_m1186776510 ();
 extern "C" void LogFilter_get_logInfo_m31794908 ();
 extern "C" void LogFilter_get_logWarn_m1931385554 ();
 extern "C" void CreateMatchRequest_get_advertise_m865484440 ();
@@ -1478,12 +1482,18 @@ extern "C" void NetworkCRC_get_scriptCRCCheck_m3340655002 ();
 extern "C" void NetworkClient_Configure_m350626582 ();
 extern "C" void NetworkClient_Configure_m285006740 ();
 extern "C" void NetworkClient_IsValidIpV6_m3712660953 ();
+extern "C" void NetworkClient_ReconnectToNewHost_m2297390373 ();
 extern "C" void NetworkClient_ReconnectToNewHost_m3994425178 ();
 extern "C" void NetworkClient_RemoveClient_m3733044409 ();
 extern "C" void NetworkClient_Send_m492577187 ();
+extern "C" void NetworkClient_SendByChannel_m2735054663 ();
+extern "C" void NetworkClient_SendBytes_m442067300 ();
+extern "C" void NetworkClient_SendUnreliable_m2489784558 ();
+extern "C" void NetworkClient_SendWriter_m2272459965 ();
 extern "C" void NetworkClient_get_active_m761030454 ();
 extern "C" void NetworkClient_get_isConnected_m720763258 ();
 extern "C" void NetworkConnection_CheckChannel_m1611953382 ();
+extern "C" void NetworkConnection_CheckHandler_m31281008 ();
 extern "C" void NetworkConnection_GetPlayerController_m3256084096 ();
 extern "C" void NetworkConnection_InvokeHandler_m39478886 ();
 extern "C" void NetworkConnection_InvokeHandler_m2359044701 ();
@@ -1493,9 +1503,11 @@ extern "C" void NetworkConnection_IsSequencedQoS_m1752670547 ();
 extern "C" void NetworkConnection_Send_m166984615 ();
 extern "C" void NetworkConnection_SendByChannel_m1257527110 ();
 extern "C" void NetworkConnection_SendBytes_m4079423900 ();
+extern "C" void NetworkConnection_SendUnreliable_m817950067 ();
 extern "C" void NetworkConnection_SendWriter_m3885069569 ();
 extern "C" void NetworkConnection_SetChannelOption_m99243817 ();
 extern "C" void NetworkConnection_TransportSend_m3129688800 ();
+extern "C" void NetworkConnection_get_isConnected_m3647282695 ();
 extern "C" void NetworkDiscovery_Initialize_m3815532713 ();
 extern "C" void NetworkDiscovery_StartAsClient_m117797931 ();
 extern "C" void NetworkDiscovery_StartAsServer_m75906747 ();
@@ -1559,11 +1571,16 @@ extern "C" void NetworkScene_GetPrefab_m2921173923 ();
 extern "C" void NetworkScene_GetSpawnHandler_m3163809276 ();
 extern "C" void NetworkScene_InvokeUnSpawnHandler_m2349039059 ();
 extern "C" void NetworkScene_RemoveLocalObject_m919392409 ();
+extern "C" void NetworkScene_RemoveLocalObjectAndDestroy_m2906213919 ();
 extern "C" void NetworkSceneId_Equals_m1179026649_AdjustorThunk ();
 extern "C" void NetworkSceneId_Equals_m1678825077_AdjustorThunk ();
 extern "C" void NetworkSceneId_IsEmpty_m3101903864_AdjustorThunk ();
 extern "C" void NetworkSceneId_op_Equality_m1145879740 ();
+extern "C" void NetworkSceneId_op_Inequality_m1868942360 ();
+extern "C" void NetworkServer_AddExternalConnection_m3404669859 ();
+extern "C" void NetworkServer_AddExternalConnectionInternal_m1022108580 ();
 extern "C" void NetworkServer_AddPlayerForConnection_m2540602479 ();
+extern "C" void NetworkServer_AddPlayerForConnection_m2067368946 ();
 extern "C" void NetworkServer_CheckForPrefab_m2187861140 ();
 extern "C" void NetworkServer_CheckPlayerControllerIdForConnection_m1625492530 ();
 extern "C" void NetworkServer_Configure_m1563315607 ();
@@ -1577,22 +1594,36 @@ extern "C" void NetworkServer_InvokeHandlerOnServer_m645830171 ();
 extern "C" void NetworkServer_Listen_m2876719439 ();
 extern "C" void NetworkServer_Listen_m858913384 ();
 extern "C" void NetworkServer_Listen_m1729443824 ();
+extern "C" void NetworkServer_RemoveExternalConnectionInternal_m2341437052 ();
 extern "C" void NetworkServer_ReplacePlayerForConnection_m2290293581 ();
+extern "C" void NetworkServer_ReplacePlayerForConnection_m1052255766 ();
+extern "C" void NetworkServer_SendByChannelToAll_m1004312820 ();
+extern "C" void NetworkServer_SendByChannelToReady_m1257360395 ();
 extern "C" void NetworkServer_SendToAll_m3661422189 ();
 extern "C" void NetworkServer_SendToObservers_m3269629708 ();
 extern "C" void NetworkServer_SendToReady_m2036073844 ();
+extern "C" void NetworkServer_SendUnreliableToAll_m3232813373 ();
+extern "C" void NetworkServer_SendUnreliableToReady_m3029113505 ();
 extern "C" void NetworkServer_SetupLocalPlayerForConnection_m782629075 ();
 extern "C" void NetworkServer_SpawnObjects_m2517563699 ();
+extern "C" void NetworkServer_SpawnWithClientAuthority_m2332218581 ();
 extern "C" void NetworkServer_SpawnWithClientAuthority_m3386647231 ();
+extern "C" void NetworkServer_SpawnWithClientAuthority_m2972651873 ();
 extern "C" void NetworkServer_ValidateSceneObject_m4241021025 ();
 extern "C" void NetworkServer_VerifyCanSpawn_m2124747984 ();
 extern "C" void NetworkServer_get_active_m2527733392 ();
+extern "C" void NetworkServer_get_dontListen_m1122503710 ();
 extern "C" void NetworkServer_get_localClientActive_m1778516964 ();
+extern "C" void NetworkServer_get_sendPeerInfo_m1141139112 ();
+extern "C" void NetworkServer_get_useWebSockets_m2655052494 ();
 extern "C" void NetworkServerSimple_Configure_m2282993822 ();
 extern "C" void NetworkServerSimple_Configure_m2370734296 ();
+extern "C" void NetworkServerSimple_Listen_m3107637181 ();
+extern "C" void NetworkServerSimple_Listen_m46745217 ();
 extern "C" void NetworkServerSimple_Listen_m1749963343 ();
 extern "C" void NetworkServerSimple_RemoveConnectionAtIndex_m3032825404 ();
 extern "C" void NetworkServerSimple_SetConnectionAtIndex_m2398576895 ();
+extern "C" void NetworkServerSimple_get_useWebSockets_m4205569014 ();
 extern "C" void ClientMoveCallback2D_EndInvoke_m2506226374 ();
 extern "C" void ClientMoveCallback2D_Invoke_m3510372298 ();
 extern "C" void ClientMoveCallback3D_EndInvoke_m2168504064 ();
@@ -1622,13 +1653,16 @@ extern "C" void U3CAddAndCreateU3Ec__AnonStorey1_U3CU3Em__0_m2847856411 ();
 extern "C" void U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m444206473 ();
 extern "C" void U3CUnregisterManagedCallbackU3Ec__AnonStorey2_U3CU3Em__0_m4104626642 ();
 extern "C" void PlayerController_get_IsValid_m3565267537 ();
+extern "C" void SyncListBool_DeserializeItem_m1898196257 ();
 extern "C" void ULocalConnectionToClient_Send_m917486686 ();
 extern "C" void ULocalConnectionToClient_SendByChannel_m1636964758 ();
 extern "C" void ULocalConnectionToClient_SendBytes_m3166529203 ();
+extern "C" void ULocalConnectionToClient_SendUnreliable_m3913064095 ();
 extern "C" void ULocalConnectionToClient_SendWriter_m2957537543 ();
 extern "C" void ULocalConnectionToServer_Send_m2280394388 ();
 extern "C" void ULocalConnectionToServer_SendByChannel_m2848768719 ();
 extern "C" void ULocalConnectionToServer_SendBytes_m3941987877 ();
+extern "C" void ULocalConnectionToServer_SendUnreliable_m2616796310 ();
 extern "C" void ULocalConnectionToServer_SendWriter_m1904869898 ();
 extern "C" void UnityWebRequest_get_disposeCertificateHandlerOnDispose_m4051074453 ();
 extern "C" void UnityWebRequest_get_disposeDownloadHandlerOnDispose_m3413606992 ();
@@ -1988,14 +2022,14 @@ extern "C" void BigInteger_GetBytes_m1259701831 ();
 extern "C" void BigInteger_GetBytes_m997192583 ();
 extern "C" void ASN1_GetBytes_m3305539297 ();
 extern "C" void ASN1_GetBytes_m1968380955 ();
-extern "C" void ASN1_get_Value_m1857007406 ();
 extern "C" void ASN1_get_Value_m3619295991 ();
+extern "C" void ASN1_get_Value_m1857007406 ();
 extern "C" void BitConverterLE_GetBytes_m3350143782 ();
-extern "C" void BitConverterLE_GetBytes_m4130646282 ();
 extern "C" void BitConverterLE_GetBytes_m3268825786 ();
+extern "C" void BitConverterLE_GetBytes_m4130646282 ();
 extern "C" void BitConverterLE_GetBytes_m2590852453 ();
-extern "C" void BitConverterLE_GetUIntBytes_m795219058 ();
 extern "C" void BitConverterLE_GetUIntBytes_m949779219 ();
+extern "C" void BitConverterLE_GetUIntBytes_m795219058 ();
 extern "C" void BitConverterLE_GetULongBytes_m1393773100 ();
 extern "C" void ARC4Managed_TransformFinalBlock_m2223084380 ();
 extern "C" void ARC4Managed_get_Key_m2476146969 ();
@@ -2012,8 +2046,8 @@ extern "C" void HMAC_get_Key_m1410673610 ();
 extern "C" void KeyBuilder_IV_m2230195376 ();
 extern "C" void KeyBuilder_IV_m3340234014 ();
 extern "C" void KeyBuilder_Key_m876696100 ();
-extern "C" void KeyBuilder_Key_m2503211157 ();
 extern "C" void KeyBuilder_Key_m1482371611 ();
+extern "C" void KeyBuilder_Key_m2503211157 ();
 extern "C" void MACAlgorithm_Final_m3756738689 ();
 extern "C" void MD2Managed_HashFinal_m808964912 ();
 extern "C" void MD2Managed_Padding_m1334210368 ();
@@ -2026,40 +2060,40 @@ extern "C" void PKCS1_Encode_v15_m3116793121 ();
 extern "C" void PKCS1_Encrypt_v15_m1016948107 ();
 extern "C" void PKCS1_I2OSP_m1314988212 ();
 extern "C" void PKCS1_I2OSP_m2559784711 ();
-extern "C" void PKCS1_OS2IP_m65970018 ();
 extern "C" void PKCS1_OS2IP_m1443067185 ();
+extern "C" void PKCS1_OS2IP_m65970018 ();
 extern "C" void PKCS1_RSAEP_m594928261 ();
-extern "C" void PKCS1_RSASP1_m3912327535 ();
 extern "C" void PKCS1_RSASP1_m4286349561 ();
-extern "C" void PKCS1_RSAVP1_m43771175 ();
+extern "C" void PKCS1_RSASP1_m3912327535 ();
 extern "C" void PKCS1_RSAVP1_m2014482508 ();
+extern "C" void PKCS1_RSAVP1_m43771175 ();
 extern "C" void PKCS1_Sign_v15_m2719206817 ();
 extern "C" void PKCS1_Sign_v15_m3459793192 ();
 extern "C" void EncryptedPrivateKeyInfo_get_EncryptedData_m491452551 ();
 extern "C" void EncryptedPrivateKeyInfo_get_EncryptedData_m1695265614 ();
 extern "C" void EncryptedPrivateKeyInfo_get_Salt_m1261804721 ();
 extern "C" void EncryptedPrivateKeyInfo_get_Salt_m3453455261 ();
-extern "C" void PrivateKeyInfo_Normalize_m1855800471 ();
 extern "C" void PrivateKeyInfo_Normalize_m2274647848 ();
-extern "C" void PrivateKeyInfo_RemoveLeadingZero_m3921889925 ();
+extern "C" void PrivateKeyInfo_Normalize_m1855800471 ();
 extern "C" void PrivateKeyInfo_RemoveLeadingZero_m3592760008 ();
-extern "C" void PrivateKeyInfo_get_PrivateKey_m2768243057 ();
+extern "C" void PrivateKeyInfo_RemoveLeadingZero_m3921889925 ();
 extern "C" void PrivateKeyInfo_get_PrivateKey_m3647771102 ();
+extern "C" void PrivateKeyInfo_get_PrivateKey_m2768243057 ();
 extern "C" void RC4_get_IV_m2290186270 ();
 extern "C" void RSAManaged_DecryptValue_m1864805746 ();
 extern "C" void RSAManaged_DecryptValue_m1804388365 ();
-extern "C" void RSAManaged_EncryptValue_m799827583 ();
 extern "C" void RSAManaged_EncryptValue_m4149543654 ();
+extern "C" void RSAManaged_EncryptValue_m799827583 ();
 extern "C" void RSAManaged_GetPaddedValue_m2104792084 ();
 extern "C" void RSAManaged_GetPaddedValue_m2182626630 ();
-extern "C" void SymmetricTransform_FinalDecrypt_m764004682 ();
 extern "C" void SymmetricTransform_FinalDecrypt_m1677319445 ();
-extern "C" void SymmetricTransform_FinalEncrypt_m748885414 ();
+extern "C" void SymmetricTransform_FinalDecrypt_m764004682 ();
 extern "C" void SymmetricTransform_FinalEncrypt_m69518647 ();
-extern "C" void SymmetricTransform_TransformFinalBlock_m4059448527 ();
+extern "C" void SymmetricTransform_FinalEncrypt_m748885414 ();
 extern "C" void SymmetricTransform_TransformFinalBlock_m1030888689 ();
-extern "C" void EncryptedData_get_EncryptedContent_m4211024111 ();
+extern "C" void SymmetricTransform_TransformFinalBlock_m4059448527 ();
 extern "C" void EncryptedData_get_EncryptedContent_m3205649670 ();
+extern "C" void EncryptedData_get_EncryptedContent_m4211024111 ();
 extern "C" void CipherSuite_CreatePremasterSecret_m4264566459 ();
 extern "C" void CipherSuite_EncryptRecord_m4196378593 ();
 extern "C" void CipherSuite_Expand_m2729769226 ();
@@ -2111,27 +2145,27 @@ extern "C" void DeriveBytes_Derive_m408582823 ();
 extern "C" void DeriveBytes_Derive_m1232352666 ();
 extern "C" void DeriveBytes_DeriveIV_m973925711 ();
 extern "C" void DeriveBytes_DeriveIV_m3639813821 ();
-extern "C" void DeriveBytes_DeriveKey_m2238010581 ();
 extern "C" void DeriveBytes_DeriveKey_m2933043667 ();
-extern "C" void DeriveBytes_DeriveMAC_m2121691743 ();
+extern "C" void DeriveBytes_DeriveKey_m2238010581 ();
 extern "C" void DeriveBytes_DeriveMAC_m694919248 ();
+extern "C" void DeriveBytes_DeriveMAC_m2121691743 ();
 extern "C" void PKCS12_Decrypt_m3441995779 ();
 extern "C" void PKCS12_Decrypt_m3310864946 ();
-extern "C" void PKCS12_Decrypt_m2241300865 ();
 extern "C" void PKCS12_Decrypt_m1280162536 ();
-extern "C" void PKCS12_Encrypt_m2617413749 ();
+extern "C" void PKCS12_Decrypt_m2241300865 ();
 extern "C" void PKCS12_Encrypt_m3618991685 ();
-extern "C" void PKCS12_GetBytes_m3933153476 ();
+extern "C" void PKCS12_Encrypt_m2617413749 ();
 extern "C" void PKCS12_GetBytes_m415958948 ();
+extern "C" void PKCS12_GetBytes_m3933153476 ();
 extern "C" void PKCS12_MAC_m3401183837 ();
 extern "C" void PKCS12_MAC_m3355614022 ();
 extern "C" void X509Certificate_GetUnsignedBigInteger_m1025066663 ();
 extern "C" void X509Certificate_GetUnsignedBigInteger_m877462855 ();
-extern "C" void X509Certificate_PEM_m2020851166 ();
 extern "C" void X509Certificate_PEM_m1177570576 ();
+extern "C" void X509Certificate_PEM_m2020851166 ();
 extern "C" void X509Certificate_get_Hash_m410033711 ();
-extern "C" void X509Certificate_get_KeyAlgorithmParameters_m3698130868 ();
 extern "C" void X509Certificate_get_KeyAlgorithmParameters_m681676289 ();
+extern "C" void X509Certificate_get_KeyAlgorithmParameters_m3698130868 ();
 extern "C" void X509Certificate_get_PublicKey_m1627137142 ();
 extern "C" void X509Certificate_get_PublicKey_m950835056 ();
 extern "C" void X509Certificate_get_RawData_m2626675988 ();
@@ -2287,6 +2321,7 @@ extern "C" void UInt32_System_IConvertible_ToChar_m1873050533_AdjustorThunk ();
 extern "C" void UInt64_System_IConvertible_ToChar_m2074245892_AdjustorThunk ();
 extern "C" void Uri_HexUnescapeMultiByte_m332853996 ();
 extern "C" void Event_get_character_m1666742088 ();
+extern "C" void NetworkReader_ReadChar_m2156581851 ();
 extern "C" void OnValidateInput_EndInvoke_m504268360 ();
 extern "C" void OnValidateInput_Invoke_m1009124904 ();
 extern "C" void InputField_Validate_m4147207871 ();
@@ -2318,6 +2353,11 @@ extern "C" void Enumerator_get_Entry_m3561948123 ();
 extern "C" void DictionaryNodeEnumerator_get_Entry_m2309234501 ();
 extern "C" void ResourceEnumerator_get_Entry_m1508537883 ();
 extern "C" void DictionaryEnumerator_get_Entry_m1635969600 ();
+extern "C" void NetworkClient_GetConnectionStats_m2632199850 ();
+extern "C" void NetworkClient_GetTotalConnectionStats_m2708914898 ();
+extern "C" void NetworkConnection_get_packetStats_m961274461 ();
+extern "C" void NetworkServer_GetConnectionStats_m3406951394 ();
+extern "C" void NetworkClient_get_handlers_m2899559622 ();
 extern "C" void NetworkMessageHandlers_GetHandlers_m1420895981 ();
 extern "C" void NetworkServer_get_handlers_m3290743187 ();
 extern "C" void NetworkServerSimple_get_handlers_m1225531192 ();
@@ -2331,9 +2371,15 @@ extern "C" void ARFaceAnchor_GetBlendShapesFromNative_m3669941066 ();
 extern "C" void ARFaceAnchor_get_blendShapes_m335066950 ();
 extern "C" void WWWForm_get_headers_m1854290957 ();
 extern "C" void NetworkDiscovery_get_broadcastsReceived_m4081839763 ();
+extern "C" void ClientScene_get_prefabs_m3171159969 ();
+extern "C" void NetworkScene_get_guidToPrefab_m3872473568 ();
+extern "C" void NetworkScene_get_spawnHandlers_m961182505 ();
+extern "C" void NetworkScene_get_unspawnHandlers_m1013094169 ();
 extern "C" void ClientScene_get_objects_m2312412593 ();
 extern "C" void NetworkScene_get_localObjects_m3354309920 ();
 extern "C" void NetworkServer_get_objects_m4236319678 ();
+extern "C" void ClientScene_get_spawnableObjects_m1794313417 ();
+extern "C" void NetworkConnection_get_visList_m796493331 ();
 extern "C" void NetworkConnection_get_clientOwnedObjects_m146181522 ();
 extern "C" void PlayableAsset_get_outputs_m2130546921 ();
 extern "C" void ToggleGroup_ActiveToggles_m3179342002 ();
@@ -2360,6 +2406,8 @@ extern "C" void ConnectionConfig_get_Channels_m1411410508 ();
 extern "C" void HostTopology_get_SpecialConnectionConfigs_m2228393737 ();
 extern "C" void MatchInfoSnapshot_get_directConnectInfos_m4034722686 ();
 extern "C" void NetworkClient_get_allClients_m331736736 ();
+extern "C" void ConnectionArray_get_connections_m1487326212 ();
+extern "C" void ConnectionArray_get_localConnections_m57383345 ();
 extern "C" void NetworkServer_get_localConnections_m4287964894 ();
 extern "C" void ClientScene_get_localPlayers_m195702965 ();
 extern "C" void NetworkConnection_get_playerControllers_m4039005102 ();
@@ -2464,10 +2512,10 @@ extern "C" void NameObjectCollectionBase_get_Keys_m2856825671 ();
 extern "C" void WebHeaderCollection_get_Keys_m910440889 ();
 extern "C" void NameObjectCollectionBase_FindFirstMatchedItem_m840305173 ();
 extern "C" void EditorBrowsableAttribute_get_State_m21497981 ();
-extern "C" void ASN1Convert_ToDateTime_m3103388320 ();
 extern "C" void ASN1Convert_ToDateTime_m1246060840 ();
-extern "C" void X509Certificate_get_ValidFrom_m1469376000 ();
+extern "C" void ASN1Convert_ToDateTime_m3103388320 ();
 extern "C" void X509Certificate_get_ValidFrom_m845748800 ();
+extern "C" void X509Certificate_get_ValidFrom_m1469376000 ();
 extern "C" void X509Certificate_get_ValidUntil_m678342786 ();
 extern "C" void X509Certificate_get_ValidUntil_m1838041919 ();
 extern "C" void X509CrlEntry_get_RevocationDate_m606796547 ();
@@ -2585,6 +2633,8 @@ extern "C" void String_System_IConvertible_ToDecimal_m997069272 ();
 extern "C" void UInt16_System_IConvertible_ToDecimal_m1320731319_AdjustorThunk ();
 extern "C" void UInt32_System_IConvertible_ToDecimal_m675004071_AdjustorThunk ();
 extern "C" void UInt64_System_IConvertible_ToDecimal_m806594027_AdjustorThunk ();
+extern "C" void FloatConversion_ToDecimal_m1233292465 ();
+extern "C" void NetworkReader_ReadDecimal_m4289035430 ();
 extern "C" void Delegate_Combine_m1859655160 ();
 extern "C" void Delegate_Combine_m558799649 ();
 extern "C" void Delegate_CombineImpl_m3572135514 ();
@@ -2667,6 +2717,8 @@ extern "C" void TimeSpan_get_TotalSeconds_m4083325051_AdjustorThunk ();
 extern "C" void UInt16_System_IConvertible_ToDouble_m333121300_AdjustorThunk ();
 extern "C" void UInt32_System_IConvertible_ToDouble_m940039456_AdjustorThunk ();
 extern "C" void UInt64_System_IConvertible_ToDouble_m602078108_AdjustorThunk ();
+extern "C" void FloatConversion_ToDouble_m553820956 ();
+extern "C" void NetworkReader_ReadDouble_m3146784102 ();
 extern "C" void PlayableAsset_get_duration_m3549083384 ();
 extern "C" void Achievement_get_percentCompleted_m2110138160 ();
 extern "C" void ReceiveRecordAsyncResult_get_AsyncException_m631453737 ();
@@ -2843,6 +2895,7 @@ extern "C" void WindowFunction_BeginInvoke_m3381614433 ();
 extern "C" void SkinChangedDelegate_BeginInvoke_m2963887440 ();
 extern "C" void BasicResponseDelegate_BeginInvoke_m1586966129 ();
 extern "C" void CmdDelegate_BeginInvoke_m2119058943 ();
+extern "C" void EventDelegate_BeginInvoke_m179283032 ();
 extern "C" void ClientAuthorityCallback_BeginInvoke_m1682749553 ();
 extern "C" void NetworkMessageDelegate_BeginInvoke_m1156251899 ();
 extern "C" void ClientMoveCallback2D_BeginInvoke_m650381289 ();
@@ -3010,18 +3063,18 @@ extern "C" void SimpleCollator_LastIndexOfOrdinalIgnoreCase_m2984667899 ();
 extern "C" void SimpleCollator_LastIndexOfSortKey_m2864365168 ();
 extern "C" void SimpleCollator_QuickIndexOf_m2519071357 ();
 extern "C" void SortKeyBuffer_GetOptimizedLength_m1735248204 ();
-extern "C" void BigInteger_BitCount_m3710900808 ();
 extern "C" void BigInteger_BitCount_m2055977486 ();
-extern "C" void BigInteger_GetHashCode_m1262812797 ();
+extern "C" void BigInteger_BitCount_m3710900808 ();
 extern "C" void BigInteger_GetHashCode_m1594560121 ();
-extern "C" void BigInteger_LowestSetBit_m1199244228 ();
+extern "C" void BigInteger_GetHashCode_m1262812797 ();
 extern "C" void BigInteger_LowestSetBit_m3082714978 ();
-extern "C" void PrimeGeneratorBase_get_TrialDivisionBounds_m349266641 ();
+extern "C" void BigInteger_LowestSetBit_m1199244228 ();
 extern "C" void PrimeGeneratorBase_get_TrialDivisionBounds_m1980088695 ();
-extern "C" void PrimalityTests_GetSPPRounds_m228447904 ();
+extern "C" void PrimeGeneratorBase_get_TrialDivisionBounds_m349266641 ();
 extern "C" void PrimalityTests_GetSPPRounds_m2558073743 ();
-extern "C" void ASN1_get_Count_m3039939183 ();
+extern "C" void PrimalityTests_GetSPPRounds_m228447904 ();
 extern "C" void ASN1_get_Count_m3580979881 ();
+extern "C" void ASN1_get_Count_m3039939183 ();
 extern "C" void ASN1_get_Length_m1923878580 ();
 extern "C" void ASN1_get_Length_m3581645253 ();
 extern "C" void ASN1Convert_ToInt32_m254930636 ();
@@ -3033,8 +3086,8 @@ extern "C" void CryptoConvert_ToInt32LE_m3340980429 ();
 extern "C" void DSAManaged_get_KeySize_m2738463749 ();
 extern "C" void EncryptedPrivateKeyInfo_get_IterationCount_m2389157423 ();
 extern "C" void EncryptedPrivateKeyInfo_get_IterationCount_m2912222740 ();
-extern "C" void RSAManaged_get_KeySize_m1441482916 ();
 extern "C" void RSAManaged_get_KeySize_m1420503080 ();
+extern "C" void RSAManaged_get_KeySize_m1441482916 ();
 extern "C" void SymmetricTransform_InternalTransformBlock_m1743612142 ();
 extern "C" void SymmetricTransform_InternalTransformBlock_m946892271 ();
 extern "C" void SymmetricTransform_TransformBlock_m851059707 ();
@@ -3059,18 +3112,18 @@ extern "C" void SslStreamBase_get_KeyExchangeStrength_m217695965 ();
 extern "C" void TlsStream_Read_m3392972801 ();
 extern "C" void TlsStream_ReadInt24_m3096782201 ();
 extern "C" void ValidationResult_get_ErrorCode_m1533688152 ();
-extern "C" void PKCS12_get_IterationCount_m626423090 ();
 extern "C" void PKCS12_get_IterationCount_m3005687235 ();
+extern "C" void PKCS12_get_IterationCount_m626423090 ();
 extern "C" void PKCS12_get_MaximumPasswordLength_m3603260090 ();
 extern "C" void PKCS12_get_MaximumPasswordLength_m883183191 ();
 extern "C" void X509Certificate_get_Version_m2908311682 ();
-extern "C" void X509CertificateCollection_Add_m3136524580 ();
 extern "C" void X509CertificateCollection_Add_m2277657976 ();
-extern "C" void X509CertificateCollection_GetHashCode_m324533873 ();
+extern "C" void X509CertificateCollection_Add_m3136524580 ();
 extern "C" void X509CertificateCollection_GetHashCode_m2303492950 ();
+extern "C" void X509CertificateCollection_GetHashCode_m324533873 ();
 extern "C" void X509CertificateCollection_IndexOf_m2003755268 ();
-extern "C" void X509Extension_GetHashCode_m2866442052 ();
 extern "C" void X509Extension_GetHashCode_m1797796679 ();
+extern "C" void X509Extension_GetHashCode_m2866442052 ();
 extern "C" void X509ExtensionCollection_IndexOf_m2996504451 ();
 extern "C" void AttrListImpl_get_Length_m1163071530 ();
 extern "C" void SmallXmlParser_Peek_m1303779789 ();
@@ -3869,6 +3922,7 @@ extern "C" void LayerMask_NameToLayer_m2359665122 ();
 extern "C" void LayerMask_get_value_m1881709263_AdjustorThunk ();
 extern "C" void LayerMask_op_Implicit_m3296792737 ();
 extern "C" void LightProbes_get_count_m2728320420 ();
+extern "C" void Mathf_Abs_m2460432655 ();
 extern "C" void Mathf_CeilToInt_m432108984 ();
 extern "C" void Mathf_Clamp_m2756574208 ();
 extern "C" void Mathf_FloorToInt_m1870542928 ();
@@ -3879,7 +3933,18 @@ extern "C" void Matrix4x4_GetHashCode_m4034747639_AdjustorThunk ();
 extern "C" void Mesh_DefaultDimensionForChannel_m576040980 ();
 extern "C" void Mesh_GetBlendShapeIndex_m3530909155 ();
 extern "C" void Mesh_get_subMeshCount_m3992802841 ();
+extern "C" void ChannelBuffer_get_lastBufferedPerSecond_m1849550687 ();
+extern "C" void ChannelBuffer_get_numBufferedMsgsOut_m5550862 ();
 extern "C" void ChannelBuffer_get_numBufferedPerSecond_m2420372169 ();
+extern "C" void ChannelBuffer_get_numBytesIn_m3426296281 ();
+extern "C" void ChannelBuffer_get_numBytesOut_m3822226714 ();
+extern "C" void ChannelBuffer_get_numMsgsIn_m66066199 ();
+extern "C" void ChannelBuffer_get_numMsgsOut_m4150132133 ();
+extern "C" void ClientScene_get_reconnectId_m725677490 ();
+extern "C" void ConnectionArray_Add_m2069490906 ();
+extern "C" void ConnectionArray_AddLocal_m376987963 ();
+extern "C" void ConnectionArray_get_Count_m4075525745 ();
+extern "C" void ConnectionArray_get_LocalIndex_m2729286566 ();
 extern "C" void ConnectionConfig_get_ChannelCount_m1630695256 ();
 extern "C" void ConnectionConfig_get_SharedOrderChannelCount_m1090156233 ();
 extern "C" void ConnectionConfigInternal_InitSSLCAFilePath_m1966096029 ();
@@ -3889,6 +3954,7 @@ extern "C" void HostTopology_get_MaxDefaultConnections_m1800856148 ();
 extern "C" void HostTopology_get_SpecialConnectionConfigsCount_m2294874456 ();
 extern "C" void HostTopologyInternal_AddSpecialConnectionConfig_m211304006 ();
 extern "C" void HostTopologyInternal_AddSpecialConnectionConfigWrapper_m2878580238 ();
+extern "C" void LogFilter_get_currentLogLevel_m4177191998 ();
 extern "C" void CreateMatchRequest_get_eloScore_m1485273462 ();
 extern "C" void JoinMatchRequest_get_eloScore_m1107868278 ();
 extern "C" void ListMatchRequest_get_eloScore_m2377257860 ();
@@ -3900,8 +3966,11 @@ extern "C" void Request_get_domain_m2533048369 ();
 extern "C" void NetBuffer_get_Length_m1300851124 ();
 extern "C" void NetworkBehaviour_GetDirtyChannel_m3826119736 ();
 extern "C" void NetworkBehaviour_GetNetworkChannel_m3389780934 ();
+extern "C" void NetworkClient_GetRTT_m2101844827 ();
 extern "C" void NetworkClient_get_hostId_m4171430417 ();
+extern "C" void NetworkClient_get_hostPort_m2788072997 ();
 extern "C" void NetworkClient_get_numChannels_m2449351904 ();
+extern "C" void NetworkClient_get_serverPort_m3548388451 ();
 extern "C" void NetworkDiscovery_get_broadcastInterval_m630253457 ();
 extern "C" void NetworkDiscovery_get_broadcastKey_m2393353800 ();
 extern "C" void NetworkDiscovery_get_broadcastPort_m1190877905 ();
@@ -3910,6 +3979,7 @@ extern "C" void NetworkDiscovery_get_broadcastVersion_m1936956601 ();
 extern "C" void NetworkDiscovery_get_hostId_m1330155761 ();
 extern "C" void NetworkDiscovery_get_offsetX_m3621239348 ();
 extern "C" void NetworkDiscovery_get_offsetY_m1282587188 ();
+extern "C" void NetworkHash128_HexToNumber_m3055305112 ();
 extern "C" void NetworkInstanceId_GetHashCode_m1125538287_AdjustorThunk ();
 extern "C" void NetworkLobbyManager_CheckConnectionIsReadyToBegin_m3744982420 ();
 extern "C" void NetworkLobbyManager_get_maxPlayers_m126937953 ();
@@ -3940,6 +4010,7 @@ extern "C" void NetworkTransport_AddHostWithSimulator_m764501553 ();
 extern "C" void NetworkTransport_AddHostWithSimulator_m2523855845 ();
 extern "C" void NetworkTransport_AddHostWrapper_m1104996213 ();
 extern "C" void NetworkTransport_AddHostWrapperWithoutIp_m987964846 ();
+extern "C" void NetworkTransport_AddWebsocketHost_m3608192905 ();
 extern "C" void NetworkTransport_AddWebsocketHost_m3508994088 ();
 extern "C" void NetworkTransport_AddWsHostWrapper_m394737320 ();
 extern "C" void NetworkTransport_AddWsHostWrapperWithoutIp_m565861628 ();
@@ -3948,8 +4019,10 @@ extern "C" void NetworkTransport_ConnectEndPoint_m743044074 ();
 extern "C" void NetworkTransport_ConnectToNetworkPeer_m461204670 ();
 extern "C" void NetworkTransport_ConnectToNetworkPeer_m888142873 ();
 extern "C" void NetworkTransport_ConnectWithSimulator_m2620266349 ();
+extern "C" void NetworkTransport_GetCurrentRTT_m4160272791 ();
 extern "C" void NetworkTransport_GetMaxPacketSize_m4140356182 ();
 extern "C" void NetworkTransport_Internal_ConnectEndPoint_m1433243872 ();
+extern "C" void SyncListInt_DeserializeItem_m4061232961 ();
 extern "C" void NoAllocHelpers_SafeLength_m3994544446 ();
 extern "C" void Object_GetHashCode_m1944636947 ();
 extern "C" void Object_GetInstanceID_m1255174761 ();
@@ -4192,6 +4265,7 @@ extern "C" void TimeSpan_get_Ticks_m2137362016_AdjustorThunk ();
 extern "C" void UInt16_System_IConvertible_ToInt64_m3635199533_AdjustorThunk ();
 extern "C" void UInt32_System_IConvertible_ToInt64_m2261037378_AdjustorThunk ();
 extern "C" void UInt64_System_IConvertible_ToInt64_m4241475606_AdjustorThunk ();
+extern "C" void NetworkReader_ReadInt64_m1422046702 ();
 extern "C" void Score_get_value_m3180422307 ();
 extern "C" void ARReferenceObject_referenceObject_SerializedLength_m4005902061 ();
 extern "C" void ARWorldMap_worldMap_SerializedLength_m852825198 ();
@@ -5148,6 +5222,7 @@ extern "C" void String_System_IConvertible_ToSByte_m945078350 ();
 extern "C" void UInt16_System_IConvertible_ToSByte_m2219828332_AdjustorThunk ();
 extern "C" void UInt32_System_IConvertible_ToSByte_m1061556466_AdjustorThunk ();
 extern "C" void UInt64_System_IConvertible_ToSByte_m30962591_AdjustorThunk ();
+extern "C" void NetworkReader_ReadSByte_m3996600344 ();
 extern "C" void X509BasicConstraintsExtension_Decode_m120598446 ();
 extern "C" void X509EnhancedKeyUsageExtension_Decode_m3726500073 ();
 extern "C" void X509KeyUsageExtension_Decode_m3150759625 ();
@@ -5217,8 +5292,8 @@ extern "C" void CryptoConvert_FromCapiKeyBlob_m1201868338 ();
 extern "C" void CryptoConvert_FromCapiPrivateKeyBlob_m73613828 ();
 extern "C" void CryptoConvert_FromCapiPublicKeyBlob_m184006806 ();
 extern "C" void CryptoConvert_FromCapiPublicKeyBlob_m4073029974 ();
-extern "C" void PrivateKeyInfo_DecodeRSA_m2889346634 ();
 extern "C" void PrivateKeyInfo_DecodeRSA_m4129124827 ();
+extern "C" void PrivateKeyInfo_DecodeRSA_m2889346634 ();
 extern "C" void TlsClientCertificateVerify_getClientCertRSA_m1205662940 ();
 extern "C" void TlsServerSettings_get_CertificateRSA_m597274968 ();
 extern "C" void X509Certificate_get_RSA_m1755006809 ();
@@ -5226,18 +5301,18 @@ extern "C" void StrongNameKeyPair_GetRSA_m2008774769 ();
 extern "C" void RSA_Create_m4065275734 ();
 extern "C" void RSA_Create_m2021570897 ();
 extern "C" void PublicKey_DecodeRSA_m1824703659 ();
-extern "C" void RSAManaged_ExportParameters_m1754454264 ();
 extern "C" void RSAManaged_ExportParameters_m280454101 ();
+extern "C" void RSAManaged_ExportParameters_m1754454264 ();
 extern "C" void TlsServerSettings_get_RsaParameters_m2264301690 ();
 extern "C" void RSACryptoServiceProvider_ExportParameters_m3871179960 ();
 extern "C" void BigInteger_get_Rng_m3283260184 ();
 extern "C" void BigInteger_get_Rng_m4216817480 ();
 extern "C" void DSAManaged_get_Random_m923751780 ();
-extern "C" void KeyBuilder_get_Rng_m3373220441 ();
-extern "C" void KeyBuilder_get_Rng_m983065666 ();
 extern "C" void KeyBuilder_get_Rng_m1353817187 ();
-extern "C" void PKCS12_get_RNG_m64541056 ();
+extern "C" void KeyBuilder_get_Rng_m983065666 ();
+extern "C" void KeyBuilder_get_Rng_m3373220441 ();
 extern "C" void PKCS12_get_RNG_m2649456600 ();
+extern "C" void PKCS12_get_RNG_m64541056 ();
 extern "C" void RandomNumberGenerator_Create_m4162970280 ();
 extern "C" void RandomNumberGenerator_Create_m2019689173 ();
 extern "C" void Rijndael_Create_m3053077028 ();
@@ -5451,6 +5526,7 @@ extern "C" void NetworkBehaviour_GetNetworkSendInterval_m727901570 ();
 extern "C" void NetworkManager_get_maxDelay_m1342076706 ();
 extern "C" void NetworkManager_get_packetLossPercentage_m1104720448 ();
 extern "C" void NetworkReader_ReadSingle_m2704596705 ();
+extern "C" void NetworkServer_get_maxDelay_m1060511186 ();
 extern "C" void NetworkTransform_GetNetworkSendInterval_m2612700881 ();
 extern "C" void NetworkTransform_ReadAngle_m1266769566 ();
 extern "C" void NetworkTransform_UnserializeRotation2D_m2763521727 ();
@@ -5469,6 +5545,8 @@ extern "C" void NetworkTransformChild_get_interpolateRotation_m1528666188 ();
 extern "C" void NetworkTransformChild_get_lastSyncTime_m3424892045 ();
 extern "C" void NetworkTransformChild_get_movementThreshold_m286011546 ();
 extern "C" void NetworkTransformChild_get_sendInterval_m3985886459 ();
+extern "C" void SyncListFloat_DeserializeItem_m1630667112 ();
+extern "C" void Plane_get_distance_m3054241251_AdjustorThunk ();
 extern "C" void Quaternion_Angle_m1586774072 ();
 extern "C" void Quaternion_Dot_m1392781996 ();
 extern "C" void Random_Range_m2202990745 ();
@@ -5635,23 +5713,23 @@ extern "C" void HexColorField_ColorToHex_m2217109832 ();
 extern "C" void HighlightingPreset_get_name_m2442625189_AdjustorThunk ();
 extern "C" void HsvColor_ToString_m2661710913_AdjustorThunk ();
 extern "C" void Locale_GetText_m3520169047 ();
+extern "C" void Locale_GetText_m1626635120 ();
 extern "C" void Locale_GetText_m3875126938 ();
 extern "C" void Locale_GetText_m3374010885 ();
-extern "C" void Locale_GetText_m1626635120 ();
 extern "C" void Locale_GetText_m1601577974 ();
 extern "C" void Locale_GetText_m2427493201 ();
 extern "C" void Locale_GetText_m2640320736 ();
 extern "C" void BigInteger_ToString_m3927393477 ();
 extern "C" void BigInteger_ToString_m3278248272 ();
-extern "C" void BigInteger_ToString_m570257729 ();
 extern "C" void BigInteger_ToString_m3260066955 ();
-extern "C" void BigInteger_ToString_m3475000413 ();
+extern "C" void BigInteger_ToString_m570257729 ();
 extern "C" void BigInteger_ToString_m1181683046 ();
+extern "C" void BigInteger_ToString_m3475000413 ();
 extern "C" void Runtime_GetDisplayName_m2773861196 ();
 extern "C" void ASN1_ToString_m1340204511 ();
 extern "C" void ASN1_ToString_m45458043 ();
-extern "C" void ASN1Convert_ToOid_m1223840396 ();
 extern "C" void ASN1Convert_ToOid_m4290825381 ();
+extern "C" void ASN1Convert_ToOid_m1223840396 ();
 extern "C" void CryptoConvert_ToHex_m2210632265 ();
 extern "C" void KeyPairPersistence_ToXml_m812591779 ();
 extern "C" void KeyPairPersistence_get_ContainerName_m4274536094 ();
@@ -5661,10 +5739,10 @@ extern "C" void KeyPairPersistence_get_MachinePath_m3812267291 ();
 extern "C" void KeyPairPersistence_get_UserPath_m610275969 ();
 extern "C" void EncryptedPrivateKeyInfo_get_Algorithm_m3027828440 ();
 extern "C" void EncryptedPrivateKeyInfo_get_Algorithm_m2142585301 ();
-extern "C" void RSAManaged_ToXmlString_m645792083 ();
 extern "C" void RSAManaged_ToXmlString_m2369501989 ();
-extern "C" void ContentInfo_get_ContentType_m4018261807 ();
+extern "C" void RSAManaged_ToXmlString_m645792083 ();
 extern "C" void ContentInfo_get_ContentType_m275324816 ();
+extern "C" void ContentInfo_get_ContentType_m4018261807 ();
 extern "C" void Alert_GetAlertMessage_m1942367141 ();
 extern "C" void CipherSuite_get_HashAlgorithmName_m3758129154 ();
 extern "C" void CipherSuite_get_Name_m1137568068 ();
@@ -5678,22 +5756,22 @@ extern "C" void GeneralNames_ToString_m489778282 ();
 extern "C" void KeyUsageExtension_ToString_m3134109315 ();
 extern "C" void NetscapeCertTypeExtension_ToString_m1800688476 ();
 extern "C" void SubjectAltNameExtension_ToString_m3628154311 ();
-extern "C" void SafeBag_get_BagOID_m2153399743 ();
 extern "C" void SafeBag_get_BagOID_m2165567310 ();
+extern "C" void SafeBag_get_BagOID_m2153399743 ();
 extern "C" void X501_ToString_m2260475203 ();
 extern "C" void X501_ToString_m4186311521 ();
-extern "C" void X501_ToString_m2278029064 ();
 extern "C" void X501_ToString_m1148552872 ();
-extern "C" void X509Certificate_get_IssuerName_m47554030 ();
+extern "C" void X501_ToString_m2278029064 ();
 extern "C" void X509Certificate_get_IssuerName_m605048065 ();
+extern "C" void X509Certificate_get_IssuerName_m47554030 ();
 extern "C" void X509Certificate_get_KeyAlgorithm_m3935660380 ();
 extern "C" void X509Certificate_get_SignatureAlgorithm_m122054440 ();
 extern "C" void X509Certificate_get_SubjectName_m3160893681 ();
 extern "C" void X509Certificate_get_SubjectName_m3871411396 ();
 extern "C" void X509Crl_GetHashName_m4214678741 ();
 extern "C" void X509Crl_get_IssuerName_m1792797338 ();
-extern "C" void X509Extension_ToString_m3664524823 ();
 extern "C" void X509Extension_ToString_m3727002866 ();
+extern "C" void X509Extension_ToString_m3664524823 ();
 extern "C" void X509Extension_get_Oid_m4107042796 ();
 extern "C" void AttrListImpl_GetName_m2880551319 ();
 extern "C" void AttrListImpl_GetValue_m3657391095 ();
@@ -6325,6 +6403,7 @@ extern "C" void Material_GetTag_m211081835 ();
 extern "C" void Material_GetTagImpl_m420393978 ();
 extern "C" void Matrix4x4_ToString_m2476911929_AdjustorThunk ();
 extern "C" void MonoBehaviour_GetScriptClassName_m1053457852 ();
+extern "C" void ClientScene_GetStringForAssetId_m4132185112 ();
 extern "C" void ConnectionConfig_get_SSLCAFilePath_m1339016177 ();
 extern "C" void ConnectionConfig_get_SSLCertFilePath_m426270519 ();
 extern "C" void ConnectionConfig_get_SSLPrivateKeyFilePath_m1356992015 ();
@@ -6370,6 +6449,7 @@ extern "C" void NetworkBehaviour_GetCmdHashListName_m2520051184 ();
 extern "C" void NetworkBehaviour_GetCmdHashPrefixName_m2543406640 ();
 extern "C" void NetworkBehaviour_GetCmdHashRpcName_m3394410051 ();
 extern "C" void NetworkBehaviour_GetInvoker_m3558525229 ();
+extern "C" void NetworkClient_get_serverIp_m16457713 ();
 extern "C" void PacketStat_ToString_m3012745573 ();
 extern "C" void NetworkConnection_ToString_m3253161358 ();
 extern "C" void NetworkDiscovery_BytesToString_m2755290279 ();
@@ -6383,6 +6463,7 @@ extern "C" void NetworkManager_get_networkAddress_m3400404001 ();
 extern "C" void NetworkManager_get_offlineScene_m1633086089 ();
 extern "C" void NetworkManager_get_onlineScene_m2554235507 ();
 extern "C" void NetworkManager_get_serverBindAddress_m902883983 ();
+extern "C" void NetworkMessage_Dump_m3556558052 ();
 extern "C" void NetworkMigrationManager_get_newHostAddress_m1266646459 ();
 extern "C" void NetworkReader_ReadString_m1528719253 ();
 extern "C" void NetworkReader_ToString_m3897260980 ();
@@ -6391,6 +6472,7 @@ extern "C" void PeerInfoMessage_ToString_m3887802383 ();
 extern "C" void NetworkTransport_GetBroadcastConnectionInfo_m812984813 ();
 extern "C" void NetworkTransport_GetConnectionInfo_m1779074114 ();
 extern "C" void PlayerController_ToString_m451687094 ();
+extern "C" void SyncListString_DeserializeItem_m1647533424 ();
 extern "C" void NetworkAccessToken_GetByteString_m3125030115 ();
 extern "C" void UnityWebRequest_GetWebErrorString_m4076320575 ();
 extern "C" void UnityWebRequest_get_error_m1613086199 ();
@@ -6774,6 +6856,10 @@ extern "C" void Type_internal_from_name_m1721940673 ();
 extern "C" void Type_make_byref_type_m1062593813 ();
 extern "C" void AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m681389990 ();
 extern "C" void AudioExtensionDefinition_GetExtensionType_m1450823952 ();
+extern "C" void DotNetCompatibility_GetBaseType_m4236009197 ();
+extern "C" void NetworkClient_get_networkConnectionClass_m2145086846 ();
+extern "C" void NetworkServer_get_networkConnectionClass_m1595261634 ();
+extern "C" void NetworkServerSimple_get_networkConnectionClass_m558658173 ();
 extern "C" void PlayableHandle_GetPlayableType_m432385838_AdjustorThunk ();
 extern "C" void PlayableHandle_GetPlayableType_Injected_m686992718 ();
 extern "C" void Boolean_GetTypeCode_m403835824_AdjustorThunk ();
@@ -6863,14 +6949,14 @@ extern "C" void HostTopology_get_SentMessagePoolSize_m3561946879 ();
 extern "C" void NetworkReader_ReadUInt16_m2326281171 ();
 extern "C" void IPv6Address_get_Address_m1389170741 ();
 extern "C" void MSCompatUnicodeTable_UInt32FromBytePtr_m2910318928 ();
-extern "C" void Kernel_DwordMod_m3830036736 ();
 extern "C" void Kernel_DwordMod_m4183681925 ();
-extern "C" void Kernel_SingleByteDivideInPlace_m2393683267 ();
+extern "C" void Kernel_DwordMod_m3830036736 ();
 extern "C" void Kernel_SingleByteDivideInPlace_m907158225 ();
+extern "C" void Kernel_SingleByteDivideInPlace_m2393683267 ();
 extern "C" void Kernel_modInverse_m4048046181 ();
 extern "C" void Kernel_modInverse_m668448880 ();
-extern "C" void BigInteger_op_Modulus_m3242311550 ();
 extern "C" void BigInteger_op_Modulus_m1987692259 ();
+extern "C" void BigInteger_op_Modulus_m3242311550 ();
 extern "C" void CryptoConvert_ToUInt32LE_m1043410428 ();
 extern "C" void MD4Managed_F_m2794461001 ();
 extern "C" void MD4Managed_G_m2118206422 ();
@@ -6954,6 +7040,7 @@ extern "C" void NetworkReader_ReadUInt32_m1603550645 ();
 extern "C" void NetworkReader_get_Position_m673994364 ();
 extern "C" void NetworkSceneId_get_Value_m1596061750_AdjustorThunk ();
 extern "C" void NetworkTransformChild_get_childIndex_m3027979396 ();
+extern "C" void SyncListUInt_DeserializeItem_m1375025905 ();
 extern "C" void Context_get_ReadSequenceNumber_m3883329199 ();
 extern "C" void Context_get_WriteSequenceNumber_m1115956887 ();
 extern "C" void Boolean_System_IConvertible_ToUInt64_m1739877596_AdjustorThunk ();
@@ -7002,6 +7089,8 @@ extern "C" void UInt32_System_IConvertible_ToUInt64_m1094958903_AdjustorThunk ()
 extern "C" void UInt64_Parse_m1485858293 ();
 extern "C" void UInt64_Parse_m819899889 ();
 extern "C" void UInt64_System_IConvertible_ToUInt64_m2135047981_AdjustorThunk ();
+extern "C" void NetworkReader_ReadPackedUInt64_m3586052256 ();
+extern "C" void NetworkReader_ReadUInt64_m1416258655 ();
 extern "C" void HttpWebRequest_get_Address_m2672661563 ();
 extern "C" void ServicePoint_get_Address_m4189969258 ();
 extern "C" void WebProxy_GetProxy_m3150838504 ();
@@ -7560,10 +7649,10 @@ extern "C" void SortKeyBuffer_AppendNormal_m2338808729 ();
 extern "C" void SortKeyBuffer_Initialize_m3786111493 ();
 extern "C" void SortKeyBuffer_Reset_m1409351310 ();
 extern "C" void TailoringInfo__ctor_m2283562302 ();
-extern "C" void Kernel_MinusEq_m1955542202 ();
 extern "C" void Kernel_MinusEq_m2152832554 ();
-extern "C" void Kernel_Multiply_m193213393 ();
+extern "C" void Kernel_MinusEq_m1955542202 ();
 extern "C" void Kernel_Multiply_m1995233235 ();
+extern "C" void Kernel_Multiply_m193213393 ();
 extern "C" void Kernel_MultiplyMod2p32pmod_m451690680 ();
 extern "C" void Kernel_MultiplyMod2p32pmod_m4241526284 ();
 extern "C" void Kernel_PlusEq_m136676638 ();
@@ -7576,44 +7665,44 @@ extern "C" void BigInteger__cctor_m562779619 ();
 extern "C" void BigInteger__cctor_m102257529 ();
 extern "C" void BigInteger__ctor_m2108826647 ();
 extern "C" void BigInteger__ctor_m1426225719 ();
-extern "C" void BigInteger__ctor_m224778556 ();
 extern "C" void BigInteger__ctor_m2644482640 ();
+extern "C" void BigInteger__ctor_m224778556 ();
 extern "C" void BigInteger__ctor_m3473491062 ();
 extern "C" void BigInteger__ctor_m397734603 ();
-extern "C" void BigInteger__ctor_m2601366464 ();
 extern "C" void BigInteger__ctor_m3991350270 ();
+extern "C" void BigInteger__ctor_m2601366464 ();
 extern "C" void BigInteger__ctor_m3985126171 ();
 extern "C" void BigInteger__ctor_m2474659844 ();
-extern "C" void BigInteger_Clear_m2995574218 ();
 extern "C" void BigInteger_Clear_m3104012800 ();
+extern "C" void BigInteger_Clear_m2995574218 ();
 extern "C" void BigInteger_Incr2_m1531167978 ();
 extern "C" void BigInteger_Incr2_m2179060417 ();
-extern "C" void BigInteger_Normalize_m3021106862 ();
 extern "C" void BigInteger_Normalize_m4163607703 ();
+extern "C" void BigInteger_Normalize_m3021106862 ();
 extern "C" void BigInteger_Randomize_m2194703121 ();
 extern "C" void BigInteger_Randomize_m410563259 ();
 extern "C" void BigInteger_SetBit_m1985185235 ();
 extern "C" void BigInteger_SetBit_m1387902198 ();
-extern "C" void BigInteger_SetBit_m337653943 ();
 extern "C" void BigInteger_SetBit_m1723423691 ();
+extern "C" void BigInteger_SetBit_m337653943 ();
 extern "C" void PrimeGeneratorBase__ctor_m2973488305 ();
 extern "C" void PrimeGeneratorBase__ctor_m2423671149 ();
-extern "C" void SequentialSearchPrimeGeneratorBase__ctor_m577913576 ();
 extern "C" void SequentialSearchPrimeGeneratorBase__ctor_m3077428553 ();
-extern "C" void PrimalityTest__ctor_m763620166 ();
+extern "C" void SequentialSearchPrimeGeneratorBase__ctor_m577913576 ();
 extern "C" void PrimalityTest__ctor_m2228551695 ();
+extern "C" void PrimalityTest__ctor_m763620166 ();
 extern "C" void ASN1__ctor_m4216617981 ();
 extern "C" void ASN1__ctor_m3727822613 ();
-extern "C" void ASN1__ctor_m3517592395 ();
 extern "C" void ASN1__ctor_m3193227595 ();
+extern "C" void ASN1__ctor_m3517592395 ();
 extern "C" void ASN1__ctor_m1601690794 ();
 extern "C" void ASN1__ctor_m1219137533 ();
 extern "C" void ASN1_Decode_m1695284166 ();
 extern "C" void ASN1_Decode_m1245286596 ();
-extern "C" void ASN1_DecodeTLV_m3927350254 ();
 extern "C" void ASN1_DecodeTLV_m1200977460 ();
-extern "C" void ASN1_set_Value_m2803403806 ();
+extern "C" void ASN1_DecodeTLV_m3927350254 ();
 extern "C" void ASN1_set_Value_m647861841 ();
+extern "C" void ASN1_set_Value_m2803403806 ();
 extern "C" void BitConverterLE_UIntFromBytes_m3974925535 ();
 extern "C" void BitConverterLE_ULongFromBytes_m1677445591 ();
 extern "C" void BitConverterLE_UShortFromBytes_m1253080092 ();
@@ -7677,20 +7766,20 @@ extern "C" void MD4Managed_MD4Transform_m1101832482 ();
 extern "C" void MD5SHA1__ctor_m4081016482 ();
 extern "C" void MD5SHA1_HashCore_m4171647335 ();
 extern "C" void MD5SHA1_Initialize_m675470944 ();
-extern "C" void PKCS1__cctor_m266708662 ();
 extern "C" void PKCS1__cctor_m2848504824 ();
+extern "C" void PKCS1__cctor_m266708662 ();
 extern "C" void EncryptedPrivateKeyInfo__ctor_m3217539356 ();
 extern "C" void EncryptedPrivateKeyInfo__ctor_m3415744930 ();
-extern "C" void EncryptedPrivateKeyInfo__ctor_m25839594 ();
 extern "C" void EncryptedPrivateKeyInfo__ctor_m3274704095 ();
-extern "C" void EncryptedPrivateKeyInfo_Decode_m2516465782 ();
+extern "C" void EncryptedPrivateKeyInfo__ctor_m25839594 ();
 extern "C" void EncryptedPrivateKeyInfo_Decode_m3008916518 ();
-extern "C" void PrivateKeyInfo__ctor_m2811023496 ();
+extern "C" void EncryptedPrivateKeyInfo_Decode_m2516465782 ();
 extern "C" void PrivateKeyInfo__ctor_m3331475997 ();
-extern "C" void PrivateKeyInfo__ctor_m2715455038 ();
+extern "C" void PrivateKeyInfo__ctor_m2811023496 ();
 extern "C" void PrivateKeyInfo__ctor_m2414235375 ();
-extern "C" void PrivateKeyInfo_Decode_m986145117 ();
+extern "C" void PrivateKeyInfo__ctor_m2715455038 ();
 extern "C" void PrivateKeyInfo_Decode_m682813286 ();
+extern "C" void PrivateKeyInfo_Decode_m986145117 ();
 extern "C" void RC4__cctor_m362546962 ();
 extern "C" void RC4__ctor_m3531760091 ();
 extern "C" void RC4_set_IV_m844219403 ();
@@ -7698,49 +7787,49 @@ extern "C" void KeyGeneratedEventHandler__ctor_m1990062371 ();
 extern "C" void KeyGeneratedEventHandler__ctor_m4032730305 ();
 extern "C" void KeyGeneratedEventHandler_EndInvoke_m3057317531 ();
 extern "C" void KeyGeneratedEventHandler_EndInvoke_m2862962495 ();
-extern "C" void KeyGeneratedEventHandler_Invoke_m99769071 ();
 extern "C" void KeyGeneratedEventHandler_Invoke_m2527485594 ();
+extern "C" void KeyGeneratedEventHandler_Invoke_m99769071 ();
 extern "C" void RSAManaged__ctor_m3504773110 ();
 extern "C" void RSAManaged__ctor_m3394311431 ();
 extern "C" void RSAManaged__ctor_m350841446 ();
 extern "C" void RSAManaged_Dispose_m2347279430 ();
 extern "C" void RSAManaged_Dispose_m1863653890 ();
-extern "C" void RSAManaged_Finalize_m297255587 ();
 extern "C" void RSAManaged_Finalize_m3915335854 ();
-extern "C" void RSAManaged_GenerateKeyPair_m2364618953 ();
+extern "C" void RSAManaged_Finalize_m297255587 ();
 extern "C" void RSAManaged_GenerateKeyPair_m2221292703 ();
+extern "C" void RSAManaged_GenerateKeyPair_m2364618953 ();
 extern "C" void RSAManaged_ImportParameters_m1844641996 ();
 extern "C" void RSAManaged_ImportParameters_m1117427048 ();
 extern "C" void RSAManaged_add_KeyGenerated_m3688329863 ();
 extern "C" void RSAManaged_remove_KeyGenerated_m2046909903 ();
-extern "C" void SymmetricTransform__ctor_m25459519 ();
 extern "C" void SymmetricTransform__ctor_m2693628991 ();
+extern "C" void SymmetricTransform__ctor_m25459519 ();
 extern "C" void SymmetricTransform_CBC_m435753239 ();
 extern "C" void SymmetricTransform_CBC_m3648398454 ();
 extern "C" void SymmetricTransform_CFB_m1051508796 ();
 extern "C" void SymmetricTransform_CFB_m1755507252 ();
-extern "C" void SymmetricTransform_CTS_m2571643614 ();
 extern "C" void SymmetricTransform_CTS_m764800021 ();
+extern "C" void SymmetricTransform_CTS_m2571643614 ();
 extern "C" void SymmetricTransform_CheckInput_m2092289040 ();
 extern "C" void SymmetricTransform_CheckInput_m1829858759 ();
-extern "C" void SymmetricTransform_Dispose_m3894715243 ();
 extern "C" void SymmetricTransform_Dispose_m375394407 ();
+extern "C" void SymmetricTransform_Dispose_m3894715243 ();
 extern "C" void SymmetricTransform_Finalize_m1463466895 ();
 extern "C" void SymmetricTransform_Finalize_m4129642865 ();
-extern "C" void SymmetricTransform_OFB_m3842617151 ();
 extern "C" void SymmetricTransform_OFB_m3690147804 ();
+extern "C" void SymmetricTransform_OFB_m3842617151 ();
 extern "C" void SymmetricTransform_Random_m3740038270 ();
 extern "C" void SymmetricTransform_Random_m2004892672 ();
-extern "C" void SymmetricTransform_System_IDisposable_Dispose_m3657987482 ();
 extern "C" void SymmetricTransform_System_IDisposable_Dispose_m3676111272 ();
+extern "C" void SymmetricTransform_System_IDisposable_Dispose_m3657987482 ();
 extern "C" void SymmetricTransform_ThrowBadPaddingException_m2926778011 ();
 extern "C" void SymmetricTransform_ThrowBadPaddingException_m2898061954 ();
-extern "C" void SymmetricTransform_Transform_m3073016850 ();
 extern "C" void SymmetricTransform_Transform_m1683494363 ();
-extern "C" void ContentInfo__ctor_m28146633 ();
+extern "C" void SymmetricTransform_Transform_m3073016850 ();
 extern "C" void ContentInfo__ctor_m1955840786 ();
-extern "C" void ContentInfo__ctor_m3397951412 ();
+extern "C" void ContentInfo__ctor_m28146633 ();
 extern "C" void ContentInfo__ctor_m2639021892 ();
+extern "C" void ContentInfo__ctor_m3397951412 ();
 extern "C" void ContentInfo__ctor_m2928874476 ();
 extern "C" void ContentInfo__ctor_m1888388023 ();
 extern "C" void ContentInfo__ctor_m3072134336 ();
@@ -7749,8 +7838,8 @@ extern "C" void ContentInfo_set_Content_m2581255245 ();
 extern "C" void ContentInfo_set_Content_m2745521966 ();
 extern "C" void ContentInfo_set_ContentType_m3848100294 ();
 extern "C" void ContentInfo_set_ContentType_m3961495440 ();
-extern "C" void EncryptedData__ctor_m257803736 ();
 extern "C" void EncryptedData__ctor_m3841552120 ();
+extern "C" void EncryptedData__ctor_m257803736 ();
 extern "C" void EncryptedData__ctor_m2497911783 ();
 extern "C" void EncryptedData__ctor_m4001546383 ();
 extern "C" void Alert__ctor_m3135936936 ();
@@ -8018,18 +8107,18 @@ extern "C" void NetscapeCertTypeExtension__ctor_m323882095 ();
 extern "C" void NetscapeCertTypeExtension_Decode_m251886799 ();
 extern "C" void SubjectAltNameExtension__ctor_m1991362362 ();
 extern "C" void SubjectAltNameExtension_Decode_m2617923884 ();
-extern "C" void DeriveBytes__cctor_m3019062497 ();
 extern "C" void DeriveBytes__cctor_m1212925033 ();
-extern "C" void DeriveBytes__ctor_m2211845228 ();
+extern "C" void DeriveBytes__cctor_m3019062497 ();
 extern "C" void DeriveBytes__ctor_m3611803810 ();
+extern "C" void DeriveBytes__ctor_m2211845228 ();
 extern "C" void DeriveBytes_Adjust_m1814768799 ();
 extern "C" void DeriveBytes_Adjust_m640796917 ();
-extern "C" void DeriveBytes_set_HashName_m3612196732 ();
 extern "C" void DeriveBytes_set_HashName_m3752780137 ();
-extern "C" void DeriveBytes_set_IterationCount_m3824132378 ();
+extern "C" void DeriveBytes_set_HashName_m3612196732 ();
 extern "C" void DeriveBytes_set_IterationCount_m3235108425 ();
-extern "C" void DeriveBytes_set_Password_m4086840123 ();
+extern "C" void DeriveBytes_set_IterationCount_m3824132378 ();
 extern "C" void DeriveBytes_set_Password_m3005258189 ();
+extern "C" void DeriveBytes_set_Password_m4086840123 ();
 extern "C" void DeriveBytes_set_Salt_m1400945044 ();
 extern "C" void DeriveBytes_set_Salt_m441577179 ();
 extern "C" void PKCS12__cctor_m3271060407 ();
@@ -8044,26 +8133,26 @@ extern "C" void PKCS12_AddCertificate_m3857004455 ();
 extern "C" void PKCS12_AddCertificate_m3679554094 ();
 extern "C" void PKCS12_AddCertificate_m3618696508 ();
 extern "C" void PKCS12_AddCertificate_m3820167082 ();
-extern "C" void PKCS12_AddPrivateKey_m1542850936 ();
 extern "C" void PKCS12_AddPrivateKey_m1877554254 ();
-extern "C" void PKCS12_Decode_m163534693 ();
+extern "C" void PKCS12_AddPrivateKey_m1542850936 ();
 extern "C" void PKCS12_Decode_m1913457787 ();
+extern "C" void PKCS12_Decode_m163534693 ();
 extern "C" void PKCS12_Finalize_m507756088 ();
 extern "C" void PKCS12_Finalize_m1390639705 ();
 extern "C" void PKCS12_ReadSafeBag_m1585166574 ();
 extern "C" void PKCS12_ReadSafeBag_m3435973087 ();
 extern "C" void PKCS12_RemoveCertificate_m3555301339 ();
 extern "C" void PKCS12_RemoveCertificate_m1177171903 ();
-extern "C" void PKCS12_RemoveCertificate_m2774912578 ();
 extern "C" void PKCS12_RemoveCertificate_m1421555398 ();
-extern "C" void PKCS12_set_IterationCount_m1399630158 ();
+extern "C" void PKCS12_RemoveCertificate_m2774912578 ();
 extern "C" void PKCS12_set_IterationCount_m2605460921 ();
+extern "C" void PKCS12_set_IterationCount_m1399630158 ();
 extern "C" void PKCS12_set_Password_m3259330454 ();
 extern "C" void PKCS12_set_Password_m4088935795 ();
 extern "C" void SafeBag__ctor_m369012969 ();
 extern "C" void SafeBag__ctor_m3881032521 ();
-extern "C" void X501__cctor_m2428304915 ();
 extern "C" void X501__cctor_m1166912714 ();
+extern "C" void X501__cctor_m2428304915 ();
 extern "C" void X501_AppendEntry_m2479013363 ();
 extern "C" void X501_AppendEntry_m2470239841 ();
 extern "C" void X509Certificate__cctor_m198658613 ();
@@ -8077,14 +8166,14 @@ extern "C" void X509Certificate_Parse_m1106379228 ();
 extern "C" void X509Certificate_set_DSA_m1073880156 ();
 extern "C" void X509Certificate_set_KeyAlgorithmParameters_m2010117999 ();
 extern "C" void X509Certificate_set_RSA_m3534515075 ();
-extern "C" void X509CertificateEnumerator__ctor_m3747779152 ();
 extern "C" void X509CertificateEnumerator__ctor_m85694331 ();
+extern "C" void X509CertificateEnumerator__ctor_m3747779152 ();
 extern "C" void X509CertificateEnumerator_Reset_m1825523691 ();
 extern "C" void X509CertificateEnumerator_Reset_m122774664 ();
-extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m2039524926 ();
 extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m2928805663 ();
-extern "C" void X509CertificateCollection__ctor_m3365535796 ();
+extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m2039524926 ();
 extern "C" void X509CertificateCollection__ctor_m2066277891 ();
+extern "C" void X509CertificateCollection__ctor_m3365535796 ();
 extern "C" void X509CertificateCollection__ctor_m3467061452 ();
 extern "C" void X509CertificateCollection_AddRange_m2165814476 ();
 extern "C" void X509CertificateCollection_Remove_m2199606504 ();
@@ -8099,12 +8188,12 @@ extern "C" void X509Extension__ctor_m1474351312 ();
 extern "C" void X509Extension_Decode_m3172373814 ();
 extern "C" void X509Extension_Decode_m833805412 ();
 extern "C" void X509Extension_Encode_m3152909591 ();
-extern "C" void X509Extension_WriteLine_m1662885247 ();
 extern "C" void X509Extension_WriteLine_m1400196767 ();
+extern "C" void X509Extension_WriteLine_m1662885247 ();
 extern "C" void X509ExtensionCollection__ctor_m2416193357 ();
 extern "C" void X509ExtensionCollection__ctor_m2474799343 ();
-extern "C" void X509ExtensionCollection__ctor_m551870633 ();
 extern "C" void X509ExtensionCollection__ctor_m3315097415 ();
+extern "C" void X509ExtensionCollection__ctor_m551870633 ();
 extern "C" void X509Store__ctor_m2736551756 ();
 extern "C" void X509Stores__ctor_m1786355972 ();
 extern "C" void SecurityParser__ctor_m1786039976 ();
@@ -8701,6 +8790,7 @@ extern "C" void Decimal__cctor_m834667025 ();
 extern "C" void Decimal__ctor_m1842485920_AdjustorThunk ();
 extern "C" void Decimal__ctor_m1256289983_AdjustorThunk ();
 extern "C" void Decimal__ctor_m3650533794_AdjustorThunk ();
+extern "C" void Decimal__ctor_m336758058_AdjustorThunk ();
 extern "C" void Decimal__ctor_m450048609_AdjustorThunk ();
 extern "C" void Decimal__ctor_m1925875020_AdjustorThunk ();
 extern "C" void Decimal__ctor_m572982025_AdjustorThunk ();
@@ -9099,9 +9189,9 @@ extern "C" void MonoEnumInfo__ctor_m3350651181_AdjustorThunk ();
 extern "C" void MonoEnumInfo_GetInfo_m1670492558 ();
 extern "C" void MonoEnumInfo_get_enum_info_m1661176095 ();
 extern "C" void MonoLimitationAttribute__ctor_m3979406774 ();
+extern "C" void MonoTODOAttribute__ctor_m1351510135 ();
 extern "C" void MonoTODOAttribute__ctor_m2269130449 ();
 extern "C" void MonoTODOAttribute__ctor_m2619396706 ();
-extern "C" void MonoTODOAttribute__ctor_m1351510135 ();
 extern "C" void MonoTODOAttribute__ctor_m1298576268 ();
 extern "C" void MonoTODOAttribute__ctor_m3050775643 ();
 extern "C" void MonoTouchAOTHelper__cctor_m3508633665 ();
@@ -11815,20 +11905,28 @@ extern "C" void ChannelBuffer_Dispose_m25949996 ();
 extern "C" void ChannelBuffer_FreePacket_m1477998118 ();
 extern "C" void ChannelBuffer_QueuePacket_m866941538 ();
 extern "C" void ChannelBuffer_set_lastBufferedPerSecond_m2001196701 ();
+extern "C" void ChannelBuffer_set_numBufferedMsgsOut_m2439330621 ();
 extern "C" void ChannelBuffer_set_numBufferedPerSecond_m38374117 ();
+extern "C" void ChannelBuffer_set_numBytesIn_m3648117498 ();
+extern "C" void ChannelBuffer_set_numBytesOut_m3866665313 ();
+extern "C" void ChannelBuffer_set_numMsgsIn_m1070844854 ();
+extern "C" void ChannelBuffer_set_numMsgsOut_m1407231675 ();
 extern "C" void ChannelPacket__ctor_m1594350276_AdjustorThunk ();
 extern "C" void ChannelPacket_Reset_m2045001772_AdjustorThunk ();
 extern "C" void ChannelPacket_Write_m356010932_AdjustorThunk ();
 extern "C" void ChannelQOS__ctor_m1615168101 ();
 extern "C" void ChannelQOS__ctor_m3213155130 ();
 extern "C" void ChannelQOS__ctor_m181222305 ();
+extern "C" void Channels__ctor_m3547205674 ();
 extern "C" void ClientAttribute__ctor_m3844739561 ();
 extern "C" void ClientCallbackAttribute__ctor_m559000472 ();
 extern "C" void ClientRpcAttribute__ctor_m2978088764 ();
 extern "C" void ClientScene__cctor_m1847774488 ();
+extern "C" void ClientScene__ctor_m37547352 ();
 extern "C" void ClientScene_ApplySpawnPayload_m1657698928 ();
 extern "C" void ClientScene_CheckForOwner_m3947301041 ();
 extern "C" void ClientScene_ClearLocalPlayers_m623220345 ();
+extern "C" void ClientScene_ClearSpawners_m3158914164 ();
 extern "C" void ClientScene_DestroyAllClientObjects_m2106716982 ();
 extern "C" void ClientScene_HandleClientDisconnect_m3811879131 ();
 extern "C" void ClientScene_InternalAddPlayer_m1935558233 ();
@@ -11848,11 +11946,19 @@ extern "C" void ClientScene_OnSyncListMessage_m2139360562 ();
 extern "C" void ClientScene_OnUpdateVarsMessage_m3983438769 ();
 extern "C" void ClientScene_PrepareToSpawnSceneObjects_m50641956 ();
 extern "C" void ClientScene_RegisterPrefab_m2646568111 ();
+extern "C" void ClientScene_RegisterPrefab_m876355441 ();
+extern "C" void ClientScene_RegisterPrefab_m3784794118 ();
+extern "C" void ClientScene_RegisterSpawnHandler_m2673732638 ();
 extern "C" void ClientScene_RegisterSystemHandlers_m2301241222 ();
 extern "C" void ClientScene_SetLocalObject_m1547551621 ();
 extern "C" void ClientScene_SetNotReady_m1136648639 ();
 extern "C" void ClientScene_SetReconnectId_m3463000640 ();
+extern "C" void ClientScene_Shutdown_m3103554235 ();
+extern "C" void ClientScene_UnregisterPrefab_m3738032414 ();
+extern "C" void ClientScene_UnregisterSpawnHandler_m884907611 ();
 extern "C" void CommandAttribute__ctor_m2782201816 ();
+extern "C" void ConnectionArray__ctor_m3960505808 ();
+extern "C" void ConnectionArray_Remove_m2446310869 ();
 extern "C" void ConnectionConfig__ctor_m3078028383 ();
 extern "C" void ConnectionConfig__ctor_m2640243122 ();
 extern "C" void ConnectionConfig_Validate_m2712188470 ();
@@ -11894,6 +12000,7 @@ extern "C" void DownloadHandler_Finalize_m3135872287 ();
 extern "C" void DownloadHandler_Release_m3024555697 ();
 extern "C" void DownloadHandlerBuffer__ctor_m914761499 ();
 extern "C" void DownloadHandlerBuffer_InternalCreateBuffer_m301356089 ();
+extern "C" void FloatConversion__ctor_m1446307069 ();
 extern "C" void GlobalConfig__ctor_m3352574105 ();
 extern "C" void GlobalConfig_set_ThreadAwakeTimeout_m4006727376 ();
 extern "C" void GlobalConfigInternal__ctor_m15594627 ();
@@ -11932,6 +12039,7 @@ extern "C" void LocalClient_PostInternalMessage_m475936409 ();
 extern "C" void LocalClient_ProcessInternalMessages_m617992324 ();
 extern "C" void LocalClient_Update_m3502725405 ();
 extern "C" void LogFilter__cctor_m1691679780 ();
+extern "C" void LogFilter__ctor_m4156004390 ();
 extern "C" void LogFilter_set_currentLogLevel_m2755209660 ();
 extern "C" void BasicResponse__ctor_m3021811122 ();
 extern "C" void CreateMatchRequest__ctor_m1120211933 ();
@@ -12013,6 +12121,7 @@ extern "C" void MessageBase__ctor_m2164585239 ();
 extern "C" void MessageBase_Deserialize_m1035729679 ();
 extern "C" void MessageBase_Serialize_m111601375 ();
 extern "C" void MsgType__cctor_m3694788239 ();
+extern "C" void MsgType__ctor_m2717227700 ();
 extern "C" void NetBuffer__ctor_m3439388757 ();
 extern "C" void NetBuffer__ctor_m1859496364 ();
 extern "C" void NetBuffer_FinishMessage_m1626721425 ();
@@ -12022,7 +12131,9 @@ extern "C" void NetBuffer_SeekZero_m818658810 ();
 extern "C" void NetBuffer_WriteByte_m3822302387 ();
 extern "C" void NetBuffer_WriteByte2_m389295316 ();
 extern "C" void NetBuffer_WriteByte4_m2453375265 ();
+extern "C" void NetBuffer_WriteByte8_m1631847787 ();
 extern "C" void NetBuffer_WriteBytes_m3812345676 ();
+extern "C" void NetBuffer_WriteBytesAtOffset_m2613591720 ();
 extern "C" void NetBuffer_WriteCheckForSpace_m3531552874 ();
 extern "C" void NetworkAnimator__cctor_m3380093418 ();
 extern "C" void NetworkAnimator__ctor_m2889264943 ();
@@ -12051,6 +12162,9 @@ extern "C" void NetworkAnimator_set_animator_m3858004350 ();
 extern "C" void CmdDelegate__ctor_m65121049 ();
 extern "C" void CmdDelegate_EndInvoke_m2942823170 ();
 extern "C" void CmdDelegate_Invoke_m1856178505 ();
+extern "C" void EventDelegate__ctor_m7253567 ();
+extern "C" void EventDelegate_EndInvoke_m2882792152 ();
+extern "C" void EventDelegate_Invoke_m1780981051 ();
 extern "C" void Invoker__ctor_m2422611098 ();
 extern "C" void NetworkBehaviour__cctor_m1070794851 ();
 extern "C" void NetworkBehaviour__ctor_m930927820 ();
@@ -12079,9 +12193,11 @@ extern "C" void NetworkBehaviour_set_syncVarHookGuard_m2801855763 ();
 extern "C" void NetworkCRC__ctor_m1395996789 ();
 extern "C" void NetworkCRC_Dump_m367526256 ();
 extern "C" void NetworkCRC_RegisterBehaviour_m2592203650 ();
+extern "C" void NetworkCRC_ReinitializeScriptCRCs_m346978394 ();
 extern "C" void NetworkCRC_set_scriptCRCCheck_m1511340942 ();
 extern "C" void NetworkClient__cctor_m2711728356 ();
 extern "C" void NetworkClient__ctor_m2657672369 ();
+extern "C" void NetworkClient__ctor_m3180665069 ();
 extern "C" void NetworkClient_AddClient_m3599795243 ();
 extern "C" void NetworkClient_Connect_m1420254560 ();
 extern "C" void NetworkClient_Connect_m823985039 ();
@@ -12095,18 +12211,26 @@ extern "C" void NetworkClient_GenerateDataError_m1523293215 ();
 extern "C" void NetworkClient_GenerateDisconnectError_m3968270941 ();
 extern "C" void NetworkClient_GenerateError_m2436110477 ();
 extern "C" void NetworkClient_GetHostAddressesCallback_m977224513 ();
+extern "C" void NetworkClient_GetStatsIn_m2000873841 ();
+extern "C" void NetworkClient_GetStatsOut_m3060882056 ();
 extern "C" void NetworkClient_OnCRC_m4000482700 ();
 extern "C" void NetworkClient_PrepareForConnect_m439621268 ();
 extern "C" void NetworkClient_PrepareForConnect_m3989047867 ();
 extern "C" void NetworkClient_RegisterHandler_m3216283282 ();
 extern "C" void NetworkClient_RegisterHandlerSafe_m646560694 ();
 extern "C" void NetworkClient_RegisterSystemHandlers_m1872984824 ();
+extern "C" void NetworkClient_ResetConnectionStats_m2413707440 ();
 extern "C" void NetworkClient_SetActive_m3697642950 ();
 extern "C" void NetworkClient_SetHandlers_m57729425 ();
+extern "C" void NetworkClient_SetMaxDelay_m1975543023 ();
 extern "C" void NetworkClient_Shutdown_m379636104 ();
+extern "C" void NetworkClient_ShutdownAll_m1368833349 ();
+extern "C" void NetworkClient_UnregisterHandler_m3192917949 ();
 extern "C" void NetworkClient_Update_m2671525332 ();
 extern "C" void NetworkClient_UpdateClients_m2979738810 ();
 extern "C" void NetworkClient_set_hostPort_m3693340210 ();
+extern "C" void PacketStat__ctor_m1696927228 ();
+extern "C" void PacketStat__ctor_m1845655437 ();
 extern "C" void NetworkConnection__ctor_m3056801716 ();
 extern "C" void NetworkConnection_AddOwnedObject_m875365643 ();
 extern "C" void NetworkConnection_AddToVisList_m2855495241 ();
@@ -12115,12 +12239,15 @@ extern "C" void NetworkConnection_Dispose_m3111014432 ();
 extern "C" void NetworkConnection_Dispose_m4138608325 ();
 extern "C" void NetworkConnection_Finalize_m3080531976 ();
 extern "C" void NetworkConnection_FlushChannels_m2930552711 ();
+extern "C" void NetworkConnection_GetStatsIn_m35987257 ();
+extern "C" void NetworkConnection_GetStatsOut_m2398630071 ();
 extern "C" void NetworkConnection_HandleBytes_m2258938841 ();
 extern "C" void NetworkConnection_HandleFragment_m700855682 ();
 extern "C" void NetworkConnection_HandleReader_m368154521 ();
 extern "C" void NetworkConnection_Initialize_m2581532298 ();
 extern "C" void NetworkConnection_LogSend_m2838436226 ();
 extern "C" void NetworkConnection_OnFragment_m1548943729 ();
+extern "C" void NetworkConnection_RegisterHandler_m3752954029 ();
 extern "C" void NetworkConnection_RemoveFromVisList_m947121524 ();
 extern "C" void NetworkConnection_RemoveObservers_m2199218979 ();
 extern "C" void NetworkConnection_RemoveOwnedObject_m3191278270 ();
@@ -12130,6 +12257,8 @@ extern "C" void NetworkConnection_SetHandlers_m2414889268 ();
 extern "C" void NetworkConnection_SetMaxDelay_m2104770809 ();
 extern "C" void NetworkConnection_SetPlayerController_m2394948870 ();
 extern "C" void NetworkConnection_TransportReceive_m1591762639 ();
+extern "C" void NetworkConnection_TransportRecieve_m1164853023 ();
+extern "C" void NetworkConnection_UnregisterHandler_m1123814621 ();
 extern "C" void NetworkConnection_set_lastError_m2079971355 ();
 extern "C" void NetworkDiscovery__ctor_m2871683457 ();
 extern "C" void NetworkDiscovery_OnDestroy_m402079893 ();
@@ -12151,6 +12280,7 @@ extern "C" void NetworkDiscovery_set_offsetY_m329040946 ();
 extern "C" void NetworkDiscovery_set_running_m2119574363 ();
 extern "C" void NetworkDiscovery_set_showGUI_m4117524924 ();
 extern "C" void NetworkDiscovery_set_useNetworkManager_m1480766519 ();
+extern "C" void NetworkHash128_Reset_m1753948449_AdjustorThunk ();
 extern "C" void ClientAuthorityCallback__ctor_m565508165 ();
 extern "C" void ClientAuthorityCallback_EndInvoke_m2275405839 ();
 extern "C" void ClientAuthorityCallback_Invoke_m3610887357 ();
@@ -12361,8 +12491,10 @@ extern "C" void NetworkMessageDelegate__ctor_m1105542957 ();
 extern "C" void NetworkMessageDelegate_EndInvoke_m2456892008 ();
 extern "C" void NetworkMessageDelegate_Invoke_m3713132634 ();
 extern "C" void NetworkMessageHandlers__ctor_m1070494961 ();
+extern "C" void NetworkMessageHandlers_ClearMessageHandlers_m552732940 ();
 extern "C" void NetworkMessageHandlers_RegisterHandler_m3381469844 ();
 extern "C" void NetworkMessageHandlers_RegisterHandlerSafe_m1284849501 ();
+extern "C" void NetworkMessageHandlers_UnregisterHandler_m2230692802 ();
 extern "C" void NetworkMigrationManager__ctor_m642119534 ();
 extern "C" void NetworkMigrationManager_AddPendingPlayer_m4186338702 ();
 extern "C" void NetworkMigrationManager_AssignAuthorityCallback_m2417258423 ();
@@ -12397,6 +12529,7 @@ extern "C" void NetworkProximityChecker__ctor_m2405674686 ();
 extern "C" void NetworkProximityChecker_OnSetLocalVisibility_m3109749712 ();
 extern "C" void NetworkProximityChecker_SetVis_m890338884 ();
 extern "C" void NetworkProximityChecker_Update_m3269073311 ();
+extern "C" void NetworkReader__ctor_m3778789928 ();
 extern "C" void NetworkReader__ctor_m2287963699 ();
 extern "C" void NetworkReader__ctor_m2140526767 ();
 extern "C" void NetworkReader_Initialize_m3858025901 ();
@@ -12405,9 +12538,17 @@ extern "C" void NetworkReader_SeekZero_m416252634 ();
 extern "C" void NetworkScene__cctor_m2808238375 ();
 extern "C" void NetworkScene__ctor_m2199152582 ();
 extern "C" void NetworkScene_ClearLocalObjects_m1554866462 ();
+extern "C" void NetworkScene_ClearSpawners_m2812521202 ();
 extern "C" void NetworkScene_DestroyAllClientObjects_m4004916285 ();
+extern "C" void NetworkScene_DumpAllClientObjects_m493450325 ();
 extern "C" void NetworkScene_RegisterPrefab_m3312006190 ();
+extern "C" void NetworkScene_RegisterPrefab_m341744685 ();
+extern "C" void NetworkScene_RegisterPrefab_m3215296972 ();
+extern "C" void NetworkScene_RegisterSpawnHandler_m127606233 ();
 extern "C" void NetworkScene_SetLocalObject_m902866761 ();
+extern "C" void NetworkScene_Shutdown_m1440947278 ();
+extern "C" void NetworkScene_UnregisterPrefab_m1253569468 ();
+extern "C" void NetworkScene_UnregisterSpawnHandler_m3576255513 ();
 extern "C" void NetworkSceneId__ctor_m1542922088_AdjustorThunk ();
 extern "C" void ServerSimpleWrapper__ctor_m1252250197 ();
 extern "C" void ServerSimpleWrapper_OnConnectError_m165817775 ();
@@ -12420,19 +12561,26 @@ extern "C" void NetworkServer__cctor_m3923991015 ();
 extern "C" void NetworkServer__ctor_m641180249 ();
 extern "C" void NetworkServer_ActivateLocalClientScene_m396925271 ();
 extern "C" void NetworkServer_CheckForNullObjects_m4197306129 ();
+extern "C" void NetworkServer_ClearHandlers_m2683570492 ();
+extern "C" void NetworkServer_ClearLocalObjects_m3107996116 ();
+extern "C" void NetworkServer_ClearSpawners_m405288954 ();
 extern "C" void NetworkServer_Destroy_m1242879337 ();
 extern "C" void NetworkServer_DestroyObject_m2508692628 ();
 extern "C" void NetworkServer_DestroyObject_m3635480988 ();
 extern "C" void NetworkServer_DestroyPlayersForConnection_m1665614656 ();
+extern "C" void NetworkServer_DisconnectAll_m3988243466 ();
 extern "C" void NetworkServer_FinishPlayerForConnection_m1081639995 ();
 extern "C" void NetworkServer_GenerateConnectError_m382427595 ();
 extern "C" void NetworkServer_GenerateDataError_m3807884193 ();
 extern "C" void NetworkServer_GenerateDisconnectError_m1431436634 ();
 extern "C" void NetworkServer_GenerateError_m1818498243 ();
+extern "C" void NetworkServer_GetStatsIn_m30341587 ();
+extern "C" void NetworkServer_GetStatsOut_m2768416650 ();
 extern "C" void NetworkServer_HideForConnection_m39412052 ();
 extern "C" void NetworkServer_InternalDisconnectAll_m1687721541 ();
 extern "C" void NetworkServer_InternalListenRelay_m2762259982 ();
 extern "C" void NetworkServer_InternalSetClientNotReady_m1224571012 ();
+extern "C" void NetworkServer_InternalSetMaxDelay_m3732803324 ();
 extern "C" void NetworkServer_InternalUpdate_m3706218272 ();
 extern "C" void NetworkServer_ListenRelay_m225415673 ();
 extern "C" void NetworkServer_OnClientReadyMessage_m3450883225 ();
@@ -12443,10 +12591,17 @@ extern "C" void NetworkServer_OnDisconnected_m361674127 ();
 extern "C" void NetworkServer_OnRemovePlayerMessage_m1919425274 ();
 extern "C" void NetworkServer_RegisterHandler_m158370360 ();
 extern "C" void NetworkServer_RegisterMessageHandlers_m2901549231 ();
+extern "C" void NetworkServer_RemoveExternalConnection_m2403339982 ();
 extern "C" void NetworkServer_RemoveLocalClient_m3849556821 ();
+extern "C" void NetworkServer_Reset_m157517953 ();
+extern "C" void NetworkServer_ResetConnectionStats_m4052829940 ();
+extern "C" void NetworkServer_SendBytesToPlayer_m3495797524 ();
 extern "C" void NetworkServer_SendBytesToReady_m1439909280 ();
 extern "C" void NetworkServer_SendCrc_m3759899343 ();
+extern "C" void NetworkServer_SendNetworkInfo_m4211955766 ();
 extern "C" void NetworkServer_SendSpawnMessage_m413184605 ();
+extern "C" void NetworkServer_SendToClient_m2957353370 ();
+extern "C" void NetworkServer_SendToClientOfPlayer_m1605004091 ();
 extern "C" void NetworkServer_SendWriterToReady_m1254653874 ();
 extern "C" void NetworkServer_SetAllClientsNotReady_m4268137907 ();
 extern "C" void NetworkServer_SetClientNotReady_m1364410243 ();
@@ -12456,11 +12611,21 @@ extern "C" void NetworkServer_SetLocalObjectOnServer_m1086975469 ();
 extern "C" void NetworkServer_ShowForConnection_m938946801 ();
 extern "C" void NetworkServer_Shutdown_m3462449605 ();
 extern "C" void NetworkServer_Spawn_m2611578250 ();
+extern "C" void NetworkServer_Spawn_m2215516152 ();
 extern "C" void NetworkServer_SpawnObject_m265741080 ();
+extern "C" void NetworkServer_UnSpawn_m4060330913 ();
+extern "C" void NetworkServer_UnSpawnObject_m2235951674 ();
+extern "C" void NetworkServer_UnSpawnObject_m163138033 ();
+extern "C" void NetworkServer_UnregisterHandler_m2114843635 ();
 extern "C" void NetworkServer_Update_m4276180341 ();
 extern "C" void NetworkServer_UpdateServerObjects_m1996158508 ();
+extern "C" void NetworkServer_set_dontListen_m1291124689 ();
+extern "C" void NetworkServer_set_maxDelay_m3917249843 ();
+extern "C" void NetworkServer_set_sendPeerInfo_m90276236 ();
 extern "C" void NetworkServer_set_useWebSockets_m2013369192 ();
 extern "C" void NetworkServerSimple__ctor_m1858652833 ();
+extern "C" void NetworkServerSimple_ClearHandlers_m1686608724 ();
+extern "C" void NetworkServerSimple_Disconnect_m1707618098 ();
 extern "C" void NetworkServerSimple_DisconnectAllConnections_m3683671359 ();
 extern "C" void NetworkServerSimple_HandleConnect_m3979459550 ();
 extern "C" void NetworkServerSimple_HandleData_m2613356198 ();
@@ -12475,10 +12640,16 @@ extern "C" void NetworkServerSimple_OnDisconnectError_m2106971590 ();
 extern "C" void NetworkServerSimple_OnDisconnected_m3941808678 ();
 extern "C" void NetworkServerSimple_RegisterHandler_m461149748 ();
 extern "C" void NetworkServerSimple_RegisterHandlerSafe_m381283172 ();
+extern "C" void NetworkServerSimple_SendBytesTo_m3720030421 ();
+extern "C" void NetworkServerSimple_SendWriterTo_m3089783930 ();
 extern "C" void NetworkServerSimple_Stop_m3961174408 ();
+extern "C" void NetworkServerSimple_UnregisterHandler_m386121506 ();
 extern "C" void NetworkServerSimple_Update_m1186216495 ();
 extern "C" void NetworkServerSimple_UpdateConnections_m920769174 ();
+extern "C" void NetworkServerSimple_set_listenPort_m3178863397 ();
+extern "C" void NetworkServerSimple_set_serverHostId_m3021678354 ();
 extern "C" void NetworkServerSimple_set_useWebSockets_m1361388853 ();
+extern "C" void NetworkSettingsAttribute__ctor_m2272638480 ();
 extern "C" void NetworkStartPosition__ctor_m4062121188 ();
 extern "C" void NetworkStartPosition_Awake_m4104348295 ();
 extern "C" void NetworkStartPosition_OnDestroy_m2657404384 ();
@@ -12526,6 +12697,9 @@ extern "C" void ObjectSpawnMessage_Serialize_m3968742765 ();
 extern "C" void ObjectSpawnSceneMessage__ctor_m1005584195 ();
 extern "C" void ObjectSpawnSceneMessage_Deserialize_m3847944495 ();
 extern "C" void ObjectSpawnSceneMessage_Serialize_m912144042 ();
+extern "C" void OverrideTransformMessage__ctor_m1317227922 ();
+extern "C" void OverrideTransformMessage_Deserialize_m1999136243 ();
+extern "C" void OverrideTransformMessage_Serialize_m488494557 ();
 extern "C" void OwnerMessage__ctor_m2602482133 ();
 extern "C" void OwnerMessage_Deserialize_m1310493824 ();
 extern "C" void OwnerMessage_Serialize_m852869967 ();
@@ -12545,6 +12719,7 @@ extern "C" void ReconnectMessage_Serialize_m2768541593 ();
 extern "C" void RemovePlayerMessage__ctor_m1822371910 ();
 extern "C" void RemovePlayerMessage_Deserialize_m2265548774 ();
 extern "C" void RemovePlayerMessage_Serialize_m3532277549 ();
+extern "C" void StringMessage__ctor_m1654746512 ();
 extern "C" void StringMessage__ctor_m1794770051 ();
 extern "C" void StringMessage_Deserialize_m2167977832 ();
 extern "C" void StringMessage_Serialize_m3108650819 ();
@@ -12635,6 +12810,7 @@ extern "C" void NetworkTransport_InitWithParameters_m1136955565 ();
 extern "C" void NetworkTransport_SetBroadcastCredentials_m1961897762 ();
 extern "C" void NetworkTransport_SetConnectionReadyForSendCallback_m306589348 ();
 extern "C" void NetworkTransport_SetNetworkEventAvailableCallback_m3998650185 ();
+extern "C" void NetworkTransport_Shutdown_m2784069691 ();
 extern "C" void NetworkTransport_StopBroadcastDiscovery_m3847658116 ();
 extern "C" void NetworkWriter__ctor_m18760743 ();
 extern "C" void NetworkWriter__ctor_m824815027 ();
@@ -12643,22 +12819,41 @@ extern "C" void NetworkWriter_SeekZero_m4052279075 ();
 extern "C" void NetworkWriter_StartMessage_m841875667 ();
 extern "C" void NetworkWriter_Write_m2977220184 ();
 extern "C" void NetworkWriter_Write_m524839711 ();
+extern "C" void NetworkWriter_Write_m2507998834 ();
+extern "C" void NetworkWriter_Write_m3133882443 ();
+extern "C" void NetworkWriter_Write_m1266427311 ();
+extern "C" void NetworkWriter_Write_m3035096652 ();
+extern "C" void NetworkWriter_Write_m2878035860 ();
 extern "C" void NetworkWriter_Write_m297525087 ();
 extern "C" void NetworkWriter_Write_m2267024627 ();
+extern "C" void NetworkWriter_Write_m1460652181 ();
+extern "C" void NetworkWriter_Write_m2671232307 ();
 extern "C" void NetworkWriter_Write_m189730350 ();
 extern "C" void NetworkWriter_Write_m2410084080 ();
 extern "C" void NetworkWriter_Write_m413412595 ();
 extern "C" void NetworkWriter_Write_m2780906429 ();
+extern "C" void NetworkWriter_Write_m3168402614 ();
+extern "C" void NetworkWriter_Write_m259584188 ();
+extern "C" void NetworkWriter_Write_m517046788 ();
+extern "C" void NetworkWriter_Write_m2295136255 ();
+extern "C" void NetworkWriter_Write_m983228899 ();
+extern "C" void NetworkWriter_Write_m4236632238 ();
 extern "C" void NetworkWriter_Write_m426356230 ();
 extern "C" void NetworkWriter_Write_m1946185738 ();
 extern "C" void NetworkWriter_Write_m2257467436 ();
 extern "C" void NetworkWriter_Write_m3340287509 ();
+extern "C" void NetworkWriter_Write_m3013698952 ();
 extern "C" void NetworkWriter_Write_m2449292798 ();
+extern "C" void NetworkWriter_Write_m2596080445 ();
+extern "C" void NetworkWriter_Write_m2526662752 ();
+extern "C" void NetworkWriter_Write_m1337490735 ();
 extern "C" void NetworkWriter_Write_m13017049 ();
 extern "C" void NetworkWriter_Write_m13082585 ();
+extern "C" void NetworkWriter_Write_m12623833 ();
 extern "C" void NetworkWriter_WriteBytesAndSize_m542866276 ();
 extern "C" void NetworkWriter_WriteBytesFull_m804870477 ();
 extern "C" void NetworkWriter_WritePackedUInt32_m3131691200 ();
+extern "C" void NetworkWriter_WritePackedUInt64_m797187740 ();
 extern "C" void MessageEventArgs__ctor_m14798785 ();
 extern "C" void U3CBlockUntilRecvMsgU3Ec__AnonStorey2__ctor_m1575056730 ();
 extern "C" void U3CBlockUntilRecvMsgU3Ec__AnonStorey2_U3CU3Em__0_m2225790220 ();
@@ -12687,11 +12882,40 @@ extern "C" void PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m2094591
 extern "C" void PlayerEditorConnectionEvents_UnregisterManagedCallback_m400366024 ();
 extern "C" void PlayerController__ctor_m3978748274 ();
 extern "C" void PlayerController__ctor_m1563370273 ();
+extern "C" void ServerAttribute__ctor_m1722638297 ();
+extern "C" void ServerCallbackAttribute__ctor_m1582116148 ();
 extern "C" void SpawnDelegate__ctor_m3439234033 ();
+extern "C" void SyncEventAttribute__ctor_m3286595593 ();
+extern "C" void SyncListBool__ctor_m4271378930 ();
+extern "C" void SyncListBool_ReadReference_m3578578461 ();
+extern "C" void SyncListBool_SerializeItem_m238978743 ();
+extern "C" void SyncListBool_WriteInstance_m2961228772 ();
+extern "C" void SyncListFloat__ctor_m3007803704 ();
+extern "C" void SyncListFloat_ReadReference_m3907681595 ();
+extern "C" void SyncListFloat_SerializeItem_m3523510761 ();
+extern "C" void SyncListFloat_WriteInstance_m2399586300 ();
+extern "C" void SyncListInt__ctor_m1747608816 ();
+extern "C" void SyncListInt_ReadReference_m2130258271 ();
+extern "C" void SyncListInt_SerializeItem_m3942093871 ();
+extern "C" void SyncListInt_WriteInstance_m3879054733 ();
+extern "C" void SyncListString__ctor_m3133147658 ();
+extern "C" void SyncListString_ReadReference_m3451015765 ();
+extern "C" void SyncListString_SerializeItem_m721181722 ();
+extern "C" void SyncListString_WriteInstance_m2960124210 ();
+extern "C" void SyncListUInt__ctor_m3640746336 ();
+extern "C" void SyncListUInt_ReadReference_m191287357 ();
+extern "C" void SyncListUInt_SerializeItem_m2107528284 ();
+extern "C" void SyncListUInt_WriteInstance_m3270047898 ();
+extern "C" void SyncVarAttribute__ctor_m417388672 ();
+extern "C" void TargetRpcAttribute__ctor_m2822923366 ();
 extern "C" void NetworkAccessToken__ctor_m969521192 ();
 extern "C" void NetworkAccessToken__ctor_m1548906336 ();
 extern "C" void ULocalConnectionToClient__ctor_m3225125635 ();
+extern "C" void ULocalConnectionToClient_GetStatsIn_m2137886024 ();
+extern "C" void ULocalConnectionToClient_GetStatsOut_m3661569277 ();
 extern "C" void ULocalConnectionToServer__ctor_m130825988 ();
+extern "C" void ULocalConnectionToServer_GetStatsIn_m2164877839 ();
+extern "C" void ULocalConnectionToServer_GetStatsOut_m2678485750 ();
 extern "C" void UnSpawnDelegate__ctor_m1746387355 ();
 extern "C" void UnSpawnDelegate_EndInvoke_m1927378850 ();
 extern "C" void UnSpawnDelegate_Invoke_m948252931 ();
@@ -12755,6 +12979,7 @@ extern "C" void ParticleSystem_Internal_EmitOld_m3511379528 ();
 extern "C" void ParticleSystem_SetParticles_m1018124896 ();
 extern "C" void Physics2D__cctor_m143866755 ();
 extern "C" void Physics2D_Raycast_Internal_Injected_m1647830047 ();
+extern "C" void Plane__ctor_m565138071_AdjustorThunk ();
 extern "C" void Plane__ctor_m2890438515_AdjustorThunk ();
 extern "C" void Playable__cctor_m464525928 ();
 extern "C" void Playable__ctor_m3175303195_AdjustorThunk ();
@@ -14588,6 +14813,7 @@ extern "C" void Color_op_Multiply_m2887457390 ();
 extern "C" void GUISettings_get_cursorColor_m1142243417 ();
 extern "C" void GUISettings_get_selectionColor_m689844895 ();
 extern "C" void Gradient_Evaluate_m1761152518 ();
+extern "C" void NetworkReader_ReadColor_m783205024 ();
 extern "C" void Texture2D_GetPixelBilinear_m1950540195 ();
 extern "C" void Texture2D_GetPixelBilinearImpl_m3066735611 ();
 extern "C" void ColorBlock_get_disabledColor_m4200465259_AdjustorThunk ();
@@ -14602,6 +14828,7 @@ extern "C" void InputField_get_caretColor_m2973283772 ();
 extern "C" void InputField_get_selectionColor_m2548343601 ();
 extern "C" void Shadow_get_effectColor_m911451105 ();
 extern "C" void Color32_op_Implicit_m2658259763 ();
+extern "C" void NetworkReader_ReadColor32_m2255530963 ();
 extern "C" void Mesh_get_colors32_m1253190811 ();
 extern "C" void QualitySettings_get_activeColorSpace_m2902748248 ();
 extern "C" void Component_GetComponent_m886226392 ();
@@ -14748,6 +14975,7 @@ extern "C" void NetworkLobbyManager_OnLobbyServerCreateLobbyPlayer_m235469666 ()
 extern "C" void NetworkLobbyManager_get_gamePlayerPrefab_m2196759525 ();
 extern "C" void NetworkManager_get_playerPrefab_m1305774661 ();
 extern "C" void NetworkMigrationManager_FindPendingPlayer_m274417815 ();
+extern "C" void NetworkReader_ReadGameObject_m2956602494 ();
 extern "C" void NetworkScene_FindLocalObject_m2522959393 ();
 extern "C" void NetworkServer_FindLocalObject_m2800748537 ();
 extern "C" void NetworkTransformVisualizer_get_visualizerPrefab_m3168581260 ();
@@ -14815,6 +15043,7 @@ extern "C" void Matrix4x4_Scale_m1924903112 ();
 extern "C" void Matrix4x4_TRS_m3801934620 ();
 extern "C" void Matrix4x4_get_identity_m1406790249 ();
 extern "C" void Matrix4x4_op_Multiply_m1876492807 ();
+extern "C" void NetworkReader_ReadMatrix4x4_m3911503902 ();
 extern "C" void Transform_get_localToWorldMatrix_m4155710351 ();
 extern "C" void Transform_get_worldToLocalMatrix_m399704877 ();
 extern "C" void AREnvironmentProbeAnchor_get_transform_m3704036191 ();
@@ -14839,6 +15068,7 @@ extern "C" void HostTopology_get_DefaultConfig_m230960067 ();
 extern "C" void NetworkManager_get_connectionConfig_m891108641 ();
 extern "C" void UnityWebRequest_get_downloadHandler_m534911913 ();
 extern "C" void NetworkManager_get_globalConfig_m541749048 ();
+extern "C" void NetworkClient_get_hostTopology_m2506977879 ();
 extern "C" void NetworkServer_get_hostTopology_m2002915247 ();
 extern "C" void NetworkServerSimple_get_hostTopology_m27147039 ();
 extern "C" void ULocalConnectionToClient_get_localClient_m3517974156 ();
@@ -14859,6 +15089,8 @@ extern "C" void NetworkMigrationManager_get_client_m1759803490 ();
 extern "C" void NetworkServer_BecomeHost_m4238353986 ();
 extern "C" void NetworkServer_BecomeHostInternal_m45955482 ();
 extern "C" void ClientScene_get_readyConnection_m1213877119 ();
+extern "C" void ConnectionArray_Get_m1437473710 ();
+extern "C" void ConnectionArray_GetUnsafe_m4287093923 ();
 extern "C" void NetworkBehaviour_get_connectionToClient_m638343263 ();
 extern "C" void NetworkBehaviour_get_connectionToServer_m3297682103 ();
 extern "C" void NetworkClient_get_connection_m1681148294 ();
@@ -14869,6 +15101,7 @@ extern "C" void NetworkServerSimple_FindConnection_m90257722 ();
 extern "C" void NetworkConnection_get_lastError_m726521396 ();
 extern "C" void NetworkTransport_ReceiveFromHost_m245759866 ();
 extern "C" void NetworkTransport_ReceiveRelayEventFromHost_m2308363197 ();
+extern "C" void NetworkHash128_Parse_m1438543136 ();
 extern "C" void NetworkIdentity_get_assetId_m3868585626 ();
 extern "C" void NetworkReader_ReadNetworkHash128_m4142791195 ();
 extern "C" void ClientScene_SpawnSceneObject_m1837061875 ();
@@ -14882,9 +15115,11 @@ extern "C" void NetworkReader_ReadNetworkId_m1117804330 ();
 extern "C" void NetworkLobbyManager_get_lobbyPlayerPrefab_m2729974159 ();
 extern "C" void NetworkMessageHandlers_GetHandler_m1082666220 ();
 extern "C" void NetworkManager_get_migrationManager_m93416903 ();
+extern "C" void NetworkServerSimple_get_messageReader_m2000110306 ();
 extern "C" void NetworkIdentity_get_sceneId_m1422595186 ();
 extern "C" void NetworkReader_ReadSceneId_m3537241608 ();
 extern "C" void NetworkServer_get_instance_m3022890691 ();
+extern "C" void NetworkClient_get_peers_m1560039798 ();
 extern "C" void NetworkMigrationManager_get_peers_m3546494144 ();
 extern "C" void NetworkTransform_get_syncRotationAxis_m375318554 ();
 extern "C" void NetworkTransformChild_get_syncRotationAxis_m2926896441 ();
@@ -14900,6 +15135,11 @@ extern "C" void NetworkManager_get_playerSpawnMethod_m3694568189 ();
 extern "C" void ChannelQOS_get_QOS_m209007790 ();
 extern "C" void ConnectionConfig_GetChannel_m2188161631 ();
 extern "C" void GlobalConfig_get_ReactorModel_m2253578453 ();
+extern "C" void SyncListBool_ReadInstance_m820966434 ();
+extern "C" void SyncListFloat_ReadInstance_m1361610567 ();
+extern "C" void SyncListInt_ReadInstance_m702108680 ();
+extern "C" void SyncListString_ReadInstance_m2797657582 ();
+extern "C" void SyncListUInt_ReadInstance_m568257550 ();
 extern "C" void Utility_GetAccessTokenForNetwork_m3460910439 ();
 extern "C" void DestroyMatchRequest_get_networkId_m1753108237 ();
 extern "C" void DropConnectionRequest_get_networkId_m2906146404 ();
@@ -14938,6 +15178,7 @@ extern "C" void Object_FindObjectsOfType_m2295101757 ();
 extern "C" void Resources_FindObjectsOfTypeAll_m3764733868 ();
 extern "C" void SystemInfo_GetOperatingSystemFamily_m1440411909 ();
 extern "C" void SystemInfo_get_operatingSystemFamily_m4256884728 ();
+extern "C" void NetworkReader_ReadPlane_m2685970952 ();
 extern "C" void Playable_get_Null_m3556999077 ();
 extern "C" void AnimationClipPlayable_GetHandle_m3441351653_AdjustorThunk ();
 extern "C" void AnimationLayerMixerPlayable_GetHandle_m3854437798_AdjustorThunk ();
@@ -14989,6 +15230,7 @@ extern "C" void TouchScreenKeyboard_get_selection_m3453176589 ();
 extern "C" void Camera_ScreenPointToRay_m3401628776 ();
 extern "C" void Camera_ScreenPointToRay_m3764635188 ();
 extern "C" void Camera_ScreenPointToRay_m2119345216 ();
+extern "C" void NetworkReader_ReadRay_m1087019118 ();
 extern "C" void RectTransformUtility_ScreenPointToRay_m85042072 ();
 extern "C" void Physics2D_Raycast_m2341153778 ();
 extern "C" void Physics2D_Raycast_m2082490717 ();
@@ -15021,6 +15263,7 @@ extern "C" void Camera_get_pixelRect_m2283183456 ();
 extern "C" void GUILayoutUtility_DoGetRect_m3125143831 ();
 extern "C" void GUILayoutUtility_GetRect_m1923267526 ();
 extern "C" void GUILayoutUtility_Internal_GetWindowRect_m2131267775 ();
+extern "C" void NetworkReader_ReadRect_m1298681867 ();
 extern "C" void Rect_OrderMinMax_m3383942098 ();
 extern "C" void Rect_get_zero_m4034156123 ();
 extern "C" void RectOffset_Remove_m923691646 ();
@@ -15148,6 +15391,7 @@ extern "C" void Input_get_touches_m1702694043 ();
 extern "C" void Component_get_transform_m3162698980 ();
 extern "C" void GameObject_get_transform_m1369836730 ();
 extern "C" void NetworkManager_GetStartPosition_m4279079628 ();
+extern "C" void NetworkReader_ReadTransform_m533564875 ();
 extern "C" void NetworkTransformChild_get_target_m3273026023 ();
 extern "C" void Transform_GetChild_m1092972975 ();
 extern "C" void Transform_GetParent_m1669681345 ();
@@ -15356,6 +15600,7 @@ extern "C" void NetworkTransform_UnserializeVelocity3D_m2585810748 ();
 extern "C" void NetworkTransform_get_targetSyncPosition_m3939799000 ();
 extern "C" void NetworkTransform_get_targetSyncVelocity_m3799605955 ();
 extern "C" void NetworkTransformChild_get_targetSyncPosition_m3460165376 ();
+extern "C" void Plane_get_normal_m2366091158_AdjustorThunk ();
 extern "C" void Quaternion_Internal_MakePositive_m3555600883 ();
 extern "C" void Quaternion_Internal_ToEulerRad_m1503250752 ();
 extern "C" void Quaternion_get_eulerAngles_m3425202016_AdjustorThunk ();
@@ -15432,6 +15677,7 @@ extern "C" void serializablePointCloud_op_Implicit_m3100839470 ();
 extern "C" void Color_op_Implicit_m986621988 ();
 extern "C" void Material_GetTextureScaleAndOffsetImpl_m3294627975 ();
 extern "C" void Matrix4x4_GetColumn_m461504848_AdjustorThunk ();
+extern "C" void NetworkReader_ReadVector4_m3078734786 ();
 extern "C" void Sprite_GetInnerUVs_m3161811504 ();
 extern "C" void Sprite_GetOuterUVs_m716993212 ();
 extern "C" void Sprite_GetPadding_m3912085217 ();
@@ -15503,7 +15749,7 @@ extern "C" void serializableUnityARMatrix4x4_op_Implicit_m4130895361 ();
 extern "C" void serializableUnityARPlaneAnchor_op_Implicit_m1833342500 ();
 extern "C" void serializableARReferenceObject_op_Implicit_m2151343210 ();
 extern "C" void serializableARWorldMap_op_Implicit_m1798102707 ();
-extern const Il2CppMethodPointer g_MethodPointers[15484] = 
+extern const Il2CppMethodPointer g_MethodPointers[15730] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -17079,6 +17325,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	Decimal__ctor_m593929528_AdjustorThunk,
 	Decimal__ctor_m1925875020_AdjustorThunk,
 	Decimal__ctor_m1842485920_AdjustorThunk,
+	Decimal__ctor_m336758058_AdjustorThunk,
 	Decimal__cctor_m834667025,
 	Decimal_System_IConvertible_ToType_m2919262279_AdjustorThunk,
 	Decimal_System_IConvertible_ToBoolean_m1123794670_AdjustorThunk,
@@ -24378,6 +24625,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	Mathf_Acos_m3996105394,
 	Mathf_Sqrt_m3337154061,
 	Mathf_Abs_m3281243566,
+	Mathf_Abs_m2460432655,
 	Mathf_Min_m1073399594,
 	Mathf_Min_m18103608,
 	Mathf_Max_m3146388979,
@@ -24578,6 +24826,9 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	Object__cctor_m2398773973,
 	Object_Internal_InstantiateSingle_Injected_m3863904036,
 	Plane__ctor_m2890438515_AdjustorThunk,
+	Plane__ctor_m565138071_AdjustorThunk,
+	Plane_get_normal_m2366091158_AdjustorThunk,
+	Plane_get_distance_m3054241251_AdjustorThunk,
 	Plane_Raycast_m62370169_AdjustorThunk,
 	Plane_ToString_m1879648265_AdjustorThunk,
 	Playable__ctor_m3175303195_AdjustorThunk,
@@ -26593,10 +26844,12 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkTransport_Init_m3007042076,
 	NetworkTransport_InitWithNoParameters_m1152096323,
 	NetworkTransport_InitWithParameters_m1136955565,
+	NetworkTransport_Shutdown_m2784069691,
 	NetworkTransport_ConnectAsNetworkHost_m2353972988,
 	NetworkTransport_ReceiveRelayEventFromHost_m2308363197,
 	NetworkTransport_ConnectToNetworkPeer_m888142873,
 	NetworkTransport_ConnectToNetworkPeer_m461204670,
+	NetworkTransport_GetCurrentRTT_m4160272791,
 	NetworkTransport_GetConnectionInfo_m2259616706,
 	NetworkTransport_GetConnectionInfo_m1779074114,
 	NetworkTransport_GetMaxPacketSize_m4140356182,
@@ -26604,6 +26857,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkTransport_AddWsHostWrapper_m394737320,
 	NetworkTransport_AddWsHostWrapperWithoutIp_m565861628,
 	NetworkTransport_IsPortOpen_m2487963042,
+	NetworkTransport_AddWebsocketHost_m3608192905,
 	NetworkTransport_AddWebsocketHost_m3508994088,
 	NetworkTransport_AddHostWrapper_m1104996213,
 	NetworkTransport_AddHostWrapperWithoutIp_m987964846,
@@ -26661,14 +26915,26 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	XRSettings_get_eyeTextureDesc_m4145342175,
 	XRSettings_get_eyeTextureDesc_Injected_m3654382551,
 	ChannelBuffer__ctor_m2992287844,
+	ChannelBuffer_get_numMsgsOut_m4150132133,
+	ChannelBuffer_set_numMsgsOut_m1407231675,
+	ChannelBuffer_get_numBufferedMsgsOut_m5550862,
+	ChannelBuffer_set_numBufferedMsgsOut_m2439330621,
+	ChannelBuffer_get_numBytesOut_m3822226714,
+	ChannelBuffer_set_numBytesOut_m3866665313,
+	ChannelBuffer_get_numMsgsIn_m66066199,
+	ChannelBuffer_set_numMsgsIn_m1070844854,
+	ChannelBuffer_get_numBytesIn_m3426296281,
+	ChannelBuffer_set_numBytesIn_m3648117498,
 	ChannelBuffer_get_numBufferedPerSecond_m2420372169,
 	ChannelBuffer_set_numBufferedPerSecond_m38374117,
+	ChannelBuffer_get_lastBufferedPerSecond_m1849550687,
 	ChannelBuffer_set_lastBufferedPerSecond_m2001196701,
 	ChannelBuffer_Dispose_m1510518612,
 	ChannelBuffer_Dispose_m25949996,
 	ChannelBuffer_SetOption_m1946040390,
 	ChannelBuffer_CheckInternalBuffer_m1946625694,
 	ChannelBuffer_SendWriter_m1188634083,
+	ChannelBuffer_Send_m1164223240,
 	ChannelBuffer_HandleFragment_m2475725533,
 	ChannelBuffer_SendFragmentBytes_m310289385,
 	ChannelBuffer_SendBytes_m2189884084,
@@ -26683,16 +26949,23 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	ChannelPacket_Write_m356010932_AdjustorThunk,
 	ChannelPacket_HasSpace_m607960202_AdjustorThunk,
 	ChannelPacket_SendToTransport_m2626401131_AdjustorThunk,
+	Channels__ctor_m3547205674,
 	ClientAttribute__ctor_m3844739561,
 	ClientCallbackAttribute__ctor_m559000472,
 	ClientRpcAttribute__ctor_m2978088764,
+	ClientScene__ctor_m37547352,
 	ClientScene_hasMigrationPending_m257538718,
 	ClientScene_SetReconnectId_m3463000640,
 	ClientScene_SetNotReady_m1136648639,
 	ClientScene_get_localPlayers_m195702965,
 	ClientScene_get_ready_m1489178736,
 	ClientScene_get_readyConnection_m1213877119,
+	ClientScene_get_reconnectId_m725677490,
 	ClientScene_get_objects_m2312412593,
+	ClientScene_get_prefabs_m3171159969,
+	ClientScene_get_spawnableObjects_m1794313417,
+	ClientScene_Shutdown_m3103554235,
+	ClientScene_GetPlayerController_m3573385601,
 	ClientScene_InternalAddPlayer_m1935558233,
 	ClientScene_AddPlayer_m2911644505,
 	ClientScene_AddPlayer_m3842844287,
@@ -26707,7 +26980,14 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	ClientScene_PrepareToSpawnSceneObjects_m50641956,
 	ClientScene_SpawnSceneObject_m1837061875,
 	ClientScene_RegisterSystemHandlers_m2301241222,
+	ClientScene_GetStringForAssetId_m4132185112,
+	ClientScene_RegisterPrefab_m876355441,
 	ClientScene_RegisterPrefab_m2646568111,
+	ClientScene_RegisterPrefab_m3784794118,
+	ClientScene_UnregisterPrefab_m3738032414,
+	ClientScene_RegisterSpawnHandler_m2673732638,
+	ClientScene_UnregisterSpawnHandler_m884907611,
+	ClientScene_ClearSpawners_m3158914164,
 	ClientScene_DestroyAllClientObjects_m2106716982,
 	ClientScene_SetLocalObject_m1547551621,
 	ClientScene_FindLocalObject_m321081258,
@@ -26729,9 +27009,24 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	ClientScene_CheckForOwner_m3947301041,
 	ClientScene__cctor_m1847774488,
 	CommandAttribute__ctor_m2782201816,
+	ConnectionArray__ctor_m3960505808,
+	ConnectionArray_get_localConnections_m57383345,
+	ConnectionArray_get_connections_m1487326212,
+	ConnectionArray_get_Count_m4075525745,
+	ConnectionArray_get_LocalIndex_m2729286566,
+	ConnectionArray_Add_m2069490906,
+	ConnectionArray_Get_m1437473710,
+	ConnectionArray_GetUnsafe_m4287093923,
+	ConnectionArray_Remove_m2446310869,
+	ConnectionArray_AddLocal_m376987963,
+	ConnectionArray_ContainsPlayer_m3799629025,
 	DotNetCompatibility_GetMethodName_m2333481201,
+	DotNetCompatibility_GetBaseType_m4236009197,
 	DotNetCompatibility_GetErrorCode_m3544253606,
+	FloatConversion__ctor_m1446307069,
 	FloatConversion_ToSingle_m2327925862,
+	FloatConversion_ToDouble_m553820956,
+	FloatConversion_ToDecimal_m1233292465,
 	LocalClient__ctor_m4129426866,
 	LocalClient_Disconnect_m3358468083,
 	LocalClient_InternalConnectLocalServer_m470121409,
@@ -26742,16 +27037,20 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	LocalClient_ProcessInternalMessages_m617992324,
 	LocalClient_InvokeHandlerOnClient_m480158021,
 	LocalClient_InvokeBytesOnClient_m4098541965,
+	LogFilter__ctor_m4156004390,
+	LogFilter_get_currentLogLevel_m4177191998,
 	LogFilter_set_currentLogLevel_m2755209660,
 	LogFilter_get_logDev_m1223216080,
 	LogFilter_get_logDebug_m2124734822,
 	LogFilter_get_logInfo_m31794908,
 	LogFilter_get_logWarn_m1931385554,
 	LogFilter_get_logError_m2939562087,
+	LogFilter_get_logFatal_m1186776510,
 	LogFilter__cctor_m1691679780,
 	MessageBase__ctor_m2164585239,
 	MessageBase_Deserialize_m1035729679,
 	MessageBase_Serialize_m111601375,
+	MsgType__ctor_m2717227700,
 	MsgType_MsgTypeToString_m1952892581,
 	MsgType__cctor_m3694788239,
 	NetBuffer__ctor_m3439388757,
@@ -26764,6 +27063,8 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetBuffer_WriteByte_m3822302387,
 	NetBuffer_WriteByte2_m389295316,
 	NetBuffer_WriteByte4_m2453375265,
+	NetBuffer_WriteByte8_m1631847787,
+	NetBuffer_WriteBytesAtOffset_m2613591720,
 	NetBuffer_WriteBytes_m3812345676,
 	NetBuffer_WriteCheckForSpace_m3531552874,
 	NetBuffer_FinishMessage_m1626721425,
@@ -26867,6 +27168,10 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	CmdDelegate_Invoke_m1856178505,
 	CmdDelegate_BeginInvoke_m2119058943,
 	CmdDelegate_EndInvoke_m2942823170,
+	EventDelegate__ctor_m7253567,
+	EventDelegate_Invoke_m1780981051,
+	EventDelegate_BeginInvoke_m179283032,
+	EventDelegate_EndInvoke_m2882792152,
 	Invoker__ctor_m2422611098,
 	Invoker_DebugString_m1024850320,
 	NetworkCRC__ctor_m1395996789,
@@ -26874,23 +27179,33 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkCRC_get_scripts_m2131711196,
 	NetworkCRC_get_scriptCRCCheck_m3340655002,
 	NetworkCRC_set_scriptCRCCheck_m1511340942,
+	NetworkCRC_ReinitializeScriptCRCs_m346978394,
 	NetworkCRC_RegisterBehaviour_m2592203650,
 	NetworkCRC_Validate_m3229278865,
 	NetworkCRC_ValidateInternal_m1408206719,
 	NetworkCRC_Dump_m367526256,
 	NetworkClient__ctor_m2657672369,
+	NetworkClient__ctor_m3180665069,
 	NetworkClient_get_allClients_m331736736,
 	NetworkClient_get_active_m761030454,
 	NetworkClient_SetHandlers_m57729425,
+	NetworkClient_get_serverIp_m16457713,
+	NetworkClient_get_serverPort_m3548388451,
 	NetworkClient_get_connection_m1681148294,
+	NetworkClient_get_peers_m1560039798,
 	NetworkClient_get_hostId_m4171430417,
+	NetworkClient_get_handlers_m2899559622,
 	NetworkClient_get_numChannels_m2449351904,
+	NetworkClient_get_hostTopology_m2506977879,
+	NetworkClient_get_hostPort_m2788072997,
 	NetworkClient_set_hostPort_m3693340210,
 	NetworkClient_get_isConnected_m720763258,
+	NetworkClient_get_networkConnectionClass_m2145086846,
 	NetworkClient_Configure_m350626582,
 	NetworkClient_Configure_m285006740,
 	NetworkClient_Connect_m3937715985,
 	NetworkClient_ReconnectToNewHost_m3994425178,
+	NetworkClient_ReconnectToNewHost_m2297390373,
 	NetworkClient_ConnectWithSimulator_m3749377415,
 	NetworkClient_IsValidIpV6_m3712660953,
 	NetworkClient_Connect_m823985039,
@@ -26902,26 +27217,42 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkClient_ConnectWithRelay_m4223727757,
 	NetworkClient_Disconnect_m2743190860,
 	NetworkClient_Send_m492577187,
+	NetworkClient_SendWriter_m2272459965,
+	NetworkClient_SendBytes_m442067300,
+	NetworkClient_SendUnreliable_m2489784558,
+	NetworkClient_SendByChannel_m2735054663,
+	NetworkClient_SetMaxDelay_m1975543023,
 	NetworkClient_Shutdown_m379636104,
 	NetworkClient_Update_m2671525332,
 	NetworkClient_GenerateConnectError_m3304506724,
 	NetworkClient_GenerateDataError_m1523293215,
 	NetworkClient_GenerateDisconnectError_m3968270941,
 	NetworkClient_GenerateError_m2436110477,
+	NetworkClient_GetStatsOut_m3060882056,
+	NetworkClient_GetStatsIn_m2000873841,
+	NetworkClient_GetConnectionStats_m2632199850,
+	NetworkClient_ResetConnectionStats_m2413707440,
+	NetworkClient_GetRTT_m2101844827,
 	NetworkClient_RegisterSystemHandlers_m1872984824,
 	NetworkClient_OnCRC_m4000482700,
 	NetworkClient_RegisterHandler_m3216283282,
 	NetworkClient_RegisterHandlerSafe_m646560694,
+	NetworkClient_UnregisterHandler_m3192917949,
+	NetworkClient_GetTotalConnectionStats_m2708914898,
 	NetworkClient_AddClient_m3599795243,
 	NetworkClient_RemoveClient_m3733044409,
 	NetworkClient_UpdateClients_m2979738810,
+	NetworkClient_ShutdownAll_m1368833349,
 	NetworkClient_SetActive_m3697642950,
 	NetworkClient__cctor_m2711728356,
 	NetworkConnection__ctor_m3056801716,
+	NetworkConnection_get_visList_m796493331,
 	NetworkConnection_get_playerControllers_m4039005102,
 	NetworkConnection_get_clientOwnedObjects_m146181522,
+	NetworkConnection_get_isConnected_m3647282695,
 	NetworkConnection_get_lastError_m726521396,
 	NetworkConnection_set_lastError_m2079971355,
+	NetworkConnection_get_packetStats_m961274461,
 	NetworkConnection_Initialize_m2581532298,
 	NetworkConnection_Finalize_m3080531976,
 	NetworkConnection_Dispose_m3111014432,
@@ -26931,16 +27262,20 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkConnection_SetChannelOption_m99243817,
 	NetworkConnection_Disconnect_m577439597,
 	NetworkConnection_SetHandlers_m2414889268,
+	NetworkConnection_CheckHandler_m31281008,
 	NetworkConnection_InvokeHandlerNoData_m4224731998,
 	NetworkConnection_InvokeHandler_m39478886,
 	NetworkConnection_InvokeHandler_m2359044701,
 	NetworkConnection_HandleFragment_m700855682,
+	NetworkConnection_RegisterHandler_m3752954029,
+	NetworkConnection_UnregisterHandler_m1123814621,
 	NetworkConnection_SetPlayerController_m2394948870,
 	NetworkConnection_RemovePlayerController_m2944105009,
 	NetworkConnection_GetPlayerController_m3256084096,
 	NetworkConnection_FlushChannels_m2930552711,
 	NetworkConnection_SetMaxDelay_m2104770809,
 	NetworkConnection_Send_m166984615,
+	NetworkConnection_SendUnreliable_m817950067,
 	NetworkConnection_SendByChannel_m1257527110,
 	NetworkConnection_SendBytes_m4079423900,
 	NetworkConnection_SendWriter_m3885069569,
@@ -26949,15 +27284,20 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkConnection_ResetStats_m3466983887,
 	NetworkConnection_HandleBytes_m2258938841,
 	NetworkConnection_HandleReader_m368154521,
+	NetworkConnection_GetStatsOut_m2398630071,
+	NetworkConnection_GetStatsIn_m35987257,
 	NetworkConnection_ToString_m3253161358,
 	NetworkConnection_AddToVisList_m2855495241,
 	NetworkConnection_RemoveFromVisList_m947121524,
 	NetworkConnection_RemoveObservers_m2199218979,
 	NetworkConnection_TransportReceive_m1591762639,
+	NetworkConnection_TransportRecieve_m1164853023,
 	NetworkConnection_TransportSend_m3129688800,
 	NetworkConnection_AddOwnedObject_m875365643,
 	NetworkConnection_RemoveOwnedObject_m3191278270,
 	NetworkConnection_OnFragment_m1548943729,
+	PacketStat__ctor_m1696927228,
+	PacketStat__ctor_m1845655437,
 	PacketStat_ToString_m3012745573,
 	NetworkDiscovery__ctor_m2871683457,
 	NetworkDiscovery_get_broadcastPort_m1190877905,
@@ -26999,7 +27339,10 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkDiscovery_OnDestroy_m402079893,
 	NetworkDiscovery_OnReceivedBroadcast_m736186844,
 	NetworkDiscovery_OnGUI_m2510093258,
+	NetworkHash128_Reset_m1753948449_AdjustorThunk,
 	NetworkHash128_IsValid_m224537288_AdjustorThunk,
+	NetworkHash128_HexToNumber_m3055305112,
+	NetworkHash128_Parse_m1438543136,
 	NetworkHash128_ToString_m1126310379_AdjustorThunk,
 	NetworkIdentity__ctor_m2362372770,
 	NetworkIdentity_get_isClient_m1584164737,
@@ -27298,6 +27641,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkManagerHUD_Update_m672028305,
 	NetworkManagerHUD_OnGUI_m674252805,
 	NetworkMessage__ctor_m3000501697,
+	NetworkMessage_Dump_m3556558052,
 	NetworkMessageDelegate__ctor_m1105542957,
 	NetworkMessageDelegate_Invoke_m3713132634,
 	NetworkMessageDelegate_BeginInvoke_m1156251899,
@@ -27305,8 +27649,10 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkMessageHandlers__ctor_m1070494961,
 	NetworkMessageHandlers_RegisterHandlerSafe_m1284849501,
 	NetworkMessageHandlers_RegisterHandler_m3381469844,
+	NetworkMessageHandlers_UnregisterHandler_m2230692802,
 	NetworkMessageHandlers_GetHandler_m1082666220,
 	NetworkMessageHandlers_GetHandlers_m1420895981,
+	NetworkMessageHandlers_ClearMessageHandlers_m552732940,
 	NetworkMigrationManager__ctor_m642119534,
 	NetworkMigrationManager_AddPendingPlayer_m4186338702,
 	NetworkMigrationManager_FindPendingPlayer_m274417815,
@@ -27363,6 +27709,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkProximityChecker_OnRebuildObservers_m1952771541,
 	NetworkProximityChecker_OnSetLocalVisibility_m3109749712,
 	NetworkProximityChecker_SetVis_m890338884,
+	NetworkReader__ctor_m3778789928,
 	NetworkReader__ctor_m2140526767,
 	NetworkReader__ctor_m2287963699,
 	NetworkReader_Initialize_m3858025901,
@@ -27371,36 +27718,64 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkReader_SeekZero_m416252634,
 	NetworkReader_Replace_m1628983838,
 	NetworkReader_ReadPackedUInt32_m1668516449,
+	NetworkReader_ReadPackedUInt64_m3586052256,
 	NetworkReader_ReadNetworkId_m1117804330,
 	NetworkReader_ReadSceneId_m3537241608,
 	NetworkReader_ReadByte_m735744747,
+	NetworkReader_ReadSByte_m3996600344,
 	NetworkReader_ReadInt16_m2638377632,
 	NetworkReader_ReadUInt16_m2326281171,
 	NetworkReader_ReadInt32_m3309847898,
 	NetworkReader_ReadUInt32_m1603550645,
+	NetworkReader_ReadInt64_m1422046702,
+	NetworkReader_ReadUInt64_m1416258655,
+	NetworkReader_ReadDecimal_m4289035430,
 	NetworkReader_ReadSingle_m2704596705,
+	NetworkReader_ReadDouble_m3146784102,
 	NetworkReader_ReadString_m1528719253,
+	NetworkReader_ReadChar_m2156581851,
 	NetworkReader_ReadBoolean_m3855332856,
 	NetworkReader_ReadBytes_m1601396544,
 	NetworkReader_ReadBytesAndSize_m2467253557,
 	NetworkReader_ReadVector2_m4151988315,
 	NetworkReader_ReadVector3_m2097563330,
+	NetworkReader_ReadVector4_m3078734786,
+	NetworkReader_ReadColor_m783205024,
+	NetworkReader_ReadColor32_m2255530963,
 	NetworkReader_ReadQuaternion_m1467983897,
+	NetworkReader_ReadRect_m1298681867,
+	NetworkReader_ReadPlane_m2685970952,
+	NetworkReader_ReadRay_m1087019118,
+	NetworkReader_ReadMatrix4x4_m3911503902,
 	NetworkReader_ReadNetworkHash128_m4142791195,
+	NetworkReader_ReadTransform_m533564875,
+	NetworkReader_ReadGameObject_m2956602494,
 	NetworkReader_ReadNetworkIdentity_m2591177805,
 	NetworkReader_ToString_m3897260980,
 	NetworkScene__ctor_m2199152582,
 	NetworkScene_get_localObjects_m3354309920,
+	NetworkScene_get_guidToPrefab_m3872473568,
+	NetworkScene_get_spawnHandlers_m961182505,
+	NetworkScene_get_unspawnHandlers_m1013094169,
+	NetworkScene_Shutdown_m1440947278,
 	NetworkScene_SetLocalObject_m902866761,
 	NetworkScene_FindLocalObject_m2522959393,
 	NetworkScene_GetNetworkIdentity_m1478953422,
 	NetworkScene_RemoveLocalObject_m919392409,
+	NetworkScene_RemoveLocalObjectAndDestroy_m2906213919,
 	NetworkScene_ClearLocalObjects_m1554866462,
+	NetworkScene_RegisterPrefab_m341744685,
 	NetworkScene_RegisterPrefab_m3312006190,
 	NetworkScene_GetPrefab_m2921173923,
+	NetworkScene_ClearSpawners_m2812521202,
+	NetworkScene_UnregisterSpawnHandler_m3576255513,
+	NetworkScene_RegisterSpawnHandler_m127606233,
+	NetworkScene_UnregisterPrefab_m1253569468,
+	NetworkScene_RegisterPrefab_m3215296972,
 	NetworkScene_GetSpawnHandler_m3163809276,
 	NetworkScene_InvokeUnSpawnHandler_m2349039059,
 	NetworkScene_DestroyAllClientObjects_m4004916285,
+	NetworkScene_DumpAllClientObjects_m493450325,
 	NetworkScene__cctor_m2808238375,
 	NetworkSceneId__ctor_m1542922088_AdjustorThunk,
 	NetworkSceneId_IsEmpty_m3101903864_AdjustorThunk,
@@ -27408,6 +27783,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkSceneId_Equals_m1179026649_AdjustorThunk,
 	NetworkSceneId_Equals_m1678825077_AdjustorThunk,
 	NetworkSceneId_op_Equality_m1145879740,
+	NetworkSceneId_op_Inequality_m1868942360,
 	NetworkSceneId_ToString_m2244013616_AdjustorThunk,
 	NetworkSceneId_get_Value_m1596061750_AdjustorThunk,
 	NetworkServer__ctor_m641180249,
@@ -27418,13 +27794,22 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServer_get_handlers_m3290743187,
 	NetworkServer_get_hostTopology_m2002915247,
 	NetworkServer_get_objects_m4236319678,
+	NetworkServer_get_sendPeerInfo_m1141139112,
+	NetworkServer_set_sendPeerInfo_m90276236,
+	NetworkServer_get_dontListen_m1122503710,
+	NetworkServer_set_dontListen_m1291124689,
+	NetworkServer_get_useWebSockets_m2655052494,
 	NetworkServer_set_useWebSockets_m2013369192,
 	NetworkServer_get_instance_m3022890691,
 	NetworkServer_get_active_m2527733392,
 	NetworkServer_get_localClientActive_m1778516964,
 	NetworkServer_get_numChannels_m1380409644,
+	NetworkServer_get_maxDelay_m1060511186,
+	NetworkServer_set_maxDelay_m3917249843,
+	NetworkServer_get_networkConnectionClass_m1595261634,
 	NetworkServer_Configure_m1563315607,
 	NetworkServer_Configure_m3242383447,
+	NetworkServer_Reset_m157517953,
 	NetworkServer_Shutdown_m3462449605,
 	NetworkServer_Listen_m1729443824,
 	NetworkServer_RegisterMessageHandlers_m2901549231,
@@ -27435,6 +27820,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServer_InternalListen_m664909545,
 	NetworkServer_BecomeHost_m4238353986,
 	NetworkServer_BecomeHostInternal_m45955482,
+	NetworkServer_InternalSetMaxDelay_m3732803324,
 	NetworkServer_AddLocalClient_m3705215350,
 	NetworkServer_RemoveLocalClient_m3849556821,
 	NetworkServer_SetLocalObjectOnServer_m1086975469,
@@ -27444,6 +27830,12 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServer_SendToReady_m2036073844,
 	NetworkServer_SendWriterToReady_m1254653874,
 	NetworkServer_SendBytesToReady_m1439909280,
+	NetworkServer_SendBytesToPlayer_m3495797524,
+	NetworkServer_SendUnreliableToAll_m3232813373,
+	NetworkServer_SendUnreliableToReady_m3029113505,
+	NetworkServer_SendByChannelToAll_m1004312820,
+	NetworkServer_SendByChannelToReady_m1257360395,
+	NetworkServer_DisconnectAll_m3988243466,
 	NetworkServer_InternalDisconnectAll_m1687721541,
 	NetworkServer_Update_m4276180341,
 	NetworkServer_UpdateServerObjects_m1996158508,
@@ -27457,7 +27849,16 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServer_GenerateDisconnectError_m1431436634,
 	NetworkServer_GenerateError_m1818498243,
 	NetworkServer_RegisterHandler_m158370360,
+	NetworkServer_UnregisterHandler_m2114843635,
+	NetworkServer_ClearHandlers_m2683570492,
+	NetworkServer_ClearSpawners_m405288954,
+	NetworkServer_GetStatsOut_m2768416650,
+	NetworkServer_GetStatsIn_m30341587,
+	NetworkServer_SendToClientOfPlayer_m1605004091,
+	NetworkServer_SendToClient_m2957353370,
+	NetworkServer_ReplacePlayerForConnection_m1052255766,
 	NetworkServer_ReplacePlayerForConnection_m2290293581,
+	NetworkServer_AddPlayerForConnection_m2067368946,
 	NetworkServer_AddPlayerForConnection_m2540602479,
 	NetworkServer_InternalAddPlayerForConnection_m907734781,
 	NetworkServer_CheckPlayerControllerIdForConnection_m1625492530,
@@ -27478,19 +27879,33 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServer_SpawnObject_m265741080,
 	NetworkServer_SendSpawnMessage_m413184605,
 	NetworkServer_DestroyPlayersForConnection_m1665614656,
+	NetworkServer_UnSpawnObject_m2235951674,
+	NetworkServer_UnSpawnObject_m163138033,
 	NetworkServer_DestroyObject_m2508692628,
 	NetworkServer_DestroyObject_m3635480988,
+	NetworkServer_ClearLocalObjects_m3107996116,
 	NetworkServer_Spawn_m2611578250,
 	NetworkServer_CheckForPrefab_m2187861140,
 	NetworkServer_VerifyCanSpawn_m2124747984,
+	NetworkServer_SpawnWithClientAuthority_m2332218581,
 	NetworkServer_SpawnWithClientAuthority_m3386647231,
+	NetworkServer_SpawnWithClientAuthority_m2972651873,
+	NetworkServer_Spawn_m2215516152,
 	NetworkServer_Destroy_m1242879337,
+	NetworkServer_UnSpawn_m4060330913,
 	NetworkServer_InvokeBytes_m3498919961,
 	NetworkServer_InvokeHandlerOnServer_m645830171,
 	NetworkServer_FindLocalObject_m2800748537,
+	NetworkServer_GetConnectionStats_m3406951394,
+	NetworkServer_ResetConnectionStats_m4052829940,
+	NetworkServer_AddExternalConnection_m3404669859,
+	NetworkServer_AddExternalConnectionInternal_m1022108580,
+	NetworkServer_RemoveExternalConnection_m2403339982,
+	NetworkServer_RemoveExternalConnectionInternal_m2341437052,
 	NetworkServer_ValidateSceneObject_m4241021025,
 	NetworkServer_SpawnObjects_m2517563699,
 	NetworkServer_SendCrc_m3759899343,
+	NetworkServer_SendNetworkInfo_m4211955766,
 	NetworkServer__cctor_m3923991015,
 	ServerSimpleWrapper__ctor_m1252250197,
 	ServerSimpleWrapper_OnConnectError_m165817775,
@@ -27501,20 +27916,29 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	ServerSimpleWrapper_OnData_m3616347437,
 	NetworkServerSimple__ctor_m1858652833,
 	NetworkServerSimple_get_listenPort_m4143065365,
+	NetworkServerSimple_set_listenPort_m3178863397,
 	NetworkServerSimple_get_serverHostId_m4128191472,
+	NetworkServerSimple_set_serverHostId_m3021678354,
 	NetworkServerSimple_get_hostTopology_m27147039,
+	NetworkServerSimple_get_useWebSockets_m4205569014,
 	NetworkServerSimple_set_useWebSockets_m1361388853,
 	NetworkServerSimple_get_connections_m2943775607,
 	NetworkServerSimple_get_handlers_m1225531192,
 	NetworkServerSimple_get_messageBuffer_m3320885230,
+	NetworkServerSimple_get_messageReader_m2000110306,
+	NetworkServerSimple_get_networkConnectionClass_m558658173,
 	NetworkServerSimple_Initialize_m3710521888,
 	NetworkServerSimple_Configure_m2282993822,
 	NetworkServerSimple_Configure_m2370734296,
 	NetworkServerSimple_Listen_m1749963343,
+	NetworkServerSimple_Listen_m3107637181,
+	NetworkServerSimple_Listen_m46745217,
 	NetworkServerSimple_ListenRelay_m2347389492,
 	NetworkServerSimple_Stop_m3961174408,
 	NetworkServerSimple_RegisterHandlerSafe_m381283172,
 	NetworkServerSimple_RegisterHandler_m461149748,
+	NetworkServerSimple_UnregisterHandler_m386121506,
+	NetworkServerSimple_ClearHandlers_m1686608724,
 	NetworkServerSimple_UpdateConnections_m920769174,
 	NetworkServerSimple_Update_m1186216495,
 	NetworkServerSimple_FindConnection_m90257722,
@@ -27523,6 +27947,9 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServerSimple_HandleConnect_m3979459550,
 	NetworkServerSimple_HandleDisconnect_m1062525677,
 	NetworkServerSimple_HandleData_m2613356198,
+	NetworkServerSimple_SendBytesTo_m3720030421,
+	NetworkServerSimple_SendWriterTo_m3089783930,
+	NetworkServerSimple_Disconnect_m1707618098,
 	NetworkServerSimple_DisconnectAllConnections_m3683671359,
 	NetworkServerSimple_OnConnectError_m2251665568,
 	NetworkServerSimple_OnDataError_m3995482754,
@@ -27530,6 +27957,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkServerSimple_OnConnected_m418938850,
 	NetworkServerSimple_OnDisconnected_m3941808678,
 	NetworkServerSimple_OnData_m1816533084,
+	NetworkSettingsAttribute__ctor_m2272638480,
 	NetworkStartPosition__ctor_m4062121188,
 	NetworkStartPosition_Awake_m4104348295,
 	NetworkStartPosition_OnDestroy_m2657404384,
@@ -27577,6 +28005,9 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	ObjectSpawnSceneMessage__ctor_m1005584195,
 	ObjectSpawnSceneMessage_Deserialize_m3847944495,
 	ObjectSpawnSceneMessage_Serialize_m912144042,
+	OverrideTransformMessage__ctor_m1317227922,
+	OverrideTransformMessage_Deserialize_m1999136243,
+	OverrideTransformMessage_Serialize_m488494557,
 	OwnerMessage__ctor_m2602482133,
 	OwnerMessage_Deserialize_m1310493824,
 	OwnerMessage_Serialize_m852869967,
@@ -27597,6 +28028,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	RemovePlayerMessage__ctor_m1822371910,
 	RemovePlayerMessage_Deserialize_m2265548774,
 	RemovePlayerMessage_Serialize_m3532277549,
+	StringMessage__ctor_m1654746512,
 	StringMessage__ctor_m1794770051,
 	StringMessage_Deserialize_m2167977832,
 	StringMessage_Serialize_m3108650819,
@@ -27738,23 +28170,42 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	NetworkWriter_AsArray_m3793159246,
 	NetworkWriter_AsArraySegment_m857312692,
 	NetworkWriter_WritePackedUInt32_m3131691200,
+	NetworkWriter_WritePackedUInt64_m797187740,
 	NetworkWriter_Write_m2257467436,
 	NetworkWriter_Write_m3340287509,
+	NetworkWriter_Write_m1266427311,
 	NetworkWriter_Write_m524839711,
+	NetworkWriter_Write_m2671232307,
 	NetworkWriter_Write_m297525087,
 	NetworkWriter_Write_m413412595,
 	NetworkWriter_Write_m2267024627,
 	NetworkWriter_Write_m2780906429,
+	NetworkWriter_Write_m1460652181,
+	NetworkWriter_Write_m3168402614,
 	NetworkWriter_Write_m189730350,
+	NetworkWriter_Write_m2878035860,
+	NetworkWriter_Write_m3035096652,
 	NetworkWriter_Write_m2410084080,
 	NetworkWriter_Write_m2977220184,
+	NetworkWriter_Write_m2507998834,
+	NetworkWriter_Write_m3133882443,
 	NetworkWriter_WriteBytesAndSize_m542866276,
 	NetworkWriter_WriteBytesFull_m804870477,
 	NetworkWriter_Write_m13017049,
 	NetworkWriter_Write_m13082585,
+	NetworkWriter_Write_m12623833,
+	NetworkWriter_Write_m259584188,
+	NetworkWriter_Write_m517046788,
 	NetworkWriter_Write_m2449292798,
+	NetworkWriter_Write_m2526662752,
+	NetworkWriter_Write_m3013698952,
+	NetworkWriter_Write_m2596080445,
+	NetworkWriter_Write_m983228899,
 	NetworkWriter_Write_m426356230,
 	NetworkWriter_Write_m1946185738,
+	NetworkWriter_Write_m1337490735,
+	NetworkWriter_Write_m2295136255,
+	NetworkWriter_Write_m4236632238,
 	NetworkWriter_SeekZero_m4052279075,
 	NetworkWriter_StartMessage_m841875667,
 	NetworkWriter_FinishMessage_m3971444334,
@@ -27762,21 +28213,62 @@ extern const Il2CppMethodPointer g_MethodPointers[15484] =
 	PlayerController__ctor_m1563370273,
 	PlayerController_get_IsValid_m3565267537,
 	PlayerController_ToString_m451687094,
+	ServerAttribute__ctor_m1722638297,
+	ServerCallbackAttribute__ctor_m1582116148,
 	SpawnDelegate__ctor_m3439234033,
 	SpawnDelegate_Invoke_m2080818349,
 	SpawnDelegate_BeginInvoke_m3131172266,
 	SpawnDelegate_EndInvoke_m3848942832,
+	SyncEventAttribute__ctor_m3286595593,
+	SyncListBool__ctor_m4271378930,
+	SyncListBool_SerializeItem_m238978743,
+	SyncListBool_DeserializeItem_m1898196257,
+	SyncListBool_ReadInstance_m820966434,
+	SyncListBool_ReadReference_m3578578461,
+	SyncListBool_WriteInstance_m2961228772,
+	SyncListFloat__ctor_m3007803704,
+	SyncListFloat_SerializeItem_m3523510761,
+	SyncListFloat_DeserializeItem_m1630667112,
+	SyncListFloat_ReadInstance_m1361610567,
+	SyncListFloat_ReadReference_m3907681595,
+	SyncListFloat_WriteInstance_m2399586300,
+	SyncListInt__ctor_m1747608816,
+	SyncListInt_SerializeItem_m3942093871,
+	SyncListInt_DeserializeItem_m4061232961,
+	SyncListInt_ReadInstance_m702108680,
+	SyncListInt_ReadReference_m2130258271,
+	SyncListInt_WriteInstance_m3879054733,
+	SyncListString__ctor_m3133147658,
+	SyncListString_SerializeItem_m721181722,
+	SyncListString_DeserializeItem_m1647533424,
+	SyncListString_ReadInstance_m2797657582,
+	SyncListString_ReadReference_m3451015765,
+	SyncListString_WriteInstance_m2960124210,
+	SyncListUInt__ctor_m3640746336,
+	SyncListUInt_SerializeItem_m2107528284,
+	SyncListUInt_DeserializeItem_m1375025905,
+	SyncListUInt_ReadInstance_m568257550,
+	SyncListUInt_ReadReference_m191287357,
+	SyncListUInt_WriteInstance_m3270047898,
+	SyncVarAttribute__ctor_m417388672,
+	TargetRpcAttribute__ctor_m2822923366,
 	ULocalConnectionToClient__ctor_m3225125635,
 	ULocalConnectionToClient_get_localClient_m3517974156,
 	ULocalConnectionToClient_Send_m917486686,
+	ULocalConnectionToClient_SendUnreliable_m3913064095,
 	ULocalConnectionToClient_SendByChannel_m1636964758,
 	ULocalConnectionToClient_SendBytes_m3166529203,
 	ULocalConnectionToClient_SendWriter_m2957537543,
+	ULocalConnectionToClient_GetStatsOut_m3661569277,
+	ULocalConnectionToClient_GetStatsIn_m2137886024,
 	ULocalConnectionToServer__ctor_m130825988,
 	ULocalConnectionToServer_Send_m2280394388,
+	ULocalConnectionToServer_SendUnreliable_m2616796310,
 	ULocalConnectionToServer_SendByChannel_m2848768719,
 	ULocalConnectionToServer_SendBytes_m3941987877,
 	ULocalConnectionToServer_SendWriter_m1904869898,
+	ULocalConnectionToServer_GetStatsOut_m2678485750,
+	ULocalConnectionToServer_GetStatsIn_m2164877839,
 	UnSpawnDelegate__ctor_m1746387355,
 	UnSpawnDelegate_Invoke_m948252931,
 	UnSpawnDelegate_BeginInvoke_m2351730414,

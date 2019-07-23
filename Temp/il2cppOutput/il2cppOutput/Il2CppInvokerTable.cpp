@@ -44,6 +44,10 @@ struct CharU5BU5D_t3528271667;
 struct ArrayList_t2718874744;
 // System.Collections.Generic.Dictionary`2<System.Int16,System.Object>
 struct Dictionary_2_t975446005;
+// System.Collections.Generic.Dictionary`2<System.Int16,UnityEngine.Networking.NetworkConnection/PacketStat>
+struct Dictionary_2_t1333685985;
+// System.Collections.Generic.Dictionary`2<System.Int16,UnityEngine.Networking.NetworkMessageDelegate>
+struct Dictionary_2_t2550447661;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
 struct Dictionary_2_t1839659084;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
@@ -80,6 +84,8 @@ struct Dictionary_2_t1966579963;
 struct HashSet_1_t1515895227;
 // System.Collections.Generic.HashSet`1<System.Object>
 struct HashSet_1_t1645055638;
+// System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkIdentity>
+struct HashSet_1_t1864468531;
 // System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkInstanceId>
 struct HashSet_1_t3646266945;
 // System.Collections.Generic.LinkedListNode`1<System.Object>
@@ -90,6 +96,8 @@ struct LinkedList_1_t1919752173;
 struct List_1_t1906947814;
 // System.Collections.Generic.List`1<HighlightingSystem.HighlightingPreset>
 struct List_1_t2107694533;
+// System.Collections.Generic.List`1<System.Boolean>
+struct List_1_t1569362707;
 // System.Collections.Generic.List`1<System.Byte>
 struct List_1_t2606371118;
 // System.Collections.Generic.List`1<System.Int32>
@@ -100,6 +108,10 @@ struct List_1_t257213610;
 struct List_1_t1759940452;
 // System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
 struct List_1_t4195224899;
+// System.Collections.Generic.List`1<System.Single>
+struct List_1_t2869341516;
+// System.Collections.Generic.List`1<System.UInt32>
+struct List_1_t4032136720;
 // System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>
 struct List_1_t3058052573;
 // System.Collections.Generic.List`1<UnityEngine.Color32>
@@ -124,6 +136,8 @@ struct List_1_t3863375399;
 struct List_1_t2513313991;
 // System.Collections.Generic.List`1<UnityEngine.Networking.NetworkSystem.PeerInfoPlayer>
 struct List_1_t2079534799;
+// System.Collections.Generic.List`1<UnityEngine.Networking.PlayerController>
+struct List_1_t1968562558;
 // System.Collections.Generic.List`1<UnityEngine.Networking.QosType>
 struct List_1_t743604312;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
@@ -256,6 +270,8 @@ struct TypeU5BU5D_t3940880105;
 struct UInt16_t2177724958;
 // System.UInt16[]
 struct UInt16U5BU5D_t3326319531;
+// System.UInt32[]
+struct UInt32U5BU5D_t2770800703;
 // System.UriFormatException
 struct UriFormatException_t953270471;
 // System.Void
@@ -294,6 +310,8 @@ struct Font_t1956802104;
 struct GameObject_t1113636619;
 // UnityEngine.Material
 struct Material_t340375123;
+// UnityEngine.Networking.ChannelBuffer[]
+struct ChannelBufferU5BU5D_t2631829696;
 // UnityEngine.Networking.ChannelPacket[]
 struct ChannelPacketU5BU5D_t3567636667;
 // UnityEngine.Networking.ClientScene/PendingOwner[]
@@ -314,6 +332,10 @@ struct NetworkIdentity_t3299519057;
 struct ClientAuthorityCallback_t1145534953;
 // UnityEngine.Networking.NetworkLobbyManager/PendingPlayer[]
 struct PendingPlayerU5BU5D_t1652396259;
+// UnityEngine.Networking.NetworkMessage
+struct NetworkMessage_t1192515889;
+// UnityEngine.Networking.NetworkMessageHandlers
+struct NetworkMessageHandlers_t82575973;
 // UnityEngine.Networking.NetworkMigrationManager/PendingPlayerInfo[]
 struct PendingPlayerInfoU5BU5D_t2811374060;
 // UnityEngine.Networking.NetworkReader
@@ -384,6 +406,7 @@ struct DataU5BU5D_t2819638097;
 struct HighlightingPresetU5BU5D_t2765988374;
 struct ContractionU5BU5D_t838556799;
 struct Level2MapU5BU5D_t3973367379;
+struct BooleanU5BU5D_t2897418192;
 struct ByteU5BU5D_t4116647657;
 struct CharU5BU5D_t3528271667;
 struct Int32U5BU5D_t385246372;
@@ -394,6 +417,7 @@ struct CustomAttributeTypedArgumentU5BU5D_t1465843424;
 struct HeaderU5BU5D_t204812840;
 struct SingleU5BU5D_t1444911251;
 struct StringU5BU5D_t1281789340;
+struct UInt32U5BU5D_t2770800703;
 struct OrderBlockU5BU5D_t2389202590;
 struct Color32U5BU5D_t3850468773;
 struct RaycastResultU5BU5D_t1128832444;
@@ -2746,6 +2770,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENUMERATOR_T139379724_H
+#ifndef ENUMERATOR_T3458606584_H
+#define ENUMERATOR_T3458606584_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<System.Boolean>
+struct  Enumerator_t3458606584 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1569362707 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	bool ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t3458606584, ___l_0)); }
+	inline List_1_t1569362707 * get_l_0() const { return ___l_0; }
+	inline List_1_t1569362707 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t1569362707 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t3458606584, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t3458606584, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t3458606584, ___current_3)); }
+	inline bool get_current_3() const { return ___current_3; }
+	inline bool* get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(bool value)
+	{
+		___current_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T3458606584_H
 #ifndef ENUMERATOR_T200647699_H
 #define ENUMERATOR_T200647699_H
 #ifdef __clang__
@@ -2927,6 +3011,126 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENUMERATOR_T2146457487_H
+#ifndef ENUMERATOR_T463618097_H
+#define ENUMERATOR_T463618097_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<System.Single>
+struct  Enumerator_t463618097 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t2869341516 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	float ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t463618097, ___l_0)); }
+	inline List_1_t2869341516 * get_l_0() const { return ___l_0; }
+	inline List_1_t2869341516 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t2869341516 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t463618097, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t463618097, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t463618097, ___current_3)); }
+	inline float get_current_3() const { return ___current_3; }
+	inline float* get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(float value)
+	{
+		___current_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T463618097_H
+#ifndef ENUMERATOR_T1626413301_H
+#define ENUMERATOR_T1626413301_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<System.UInt32>
+struct  Enumerator_t1626413301 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t4032136720 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	uint32_t ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1626413301, ___l_0)); }
+	inline List_1_t4032136720 * get_l_0() const { return ___l_0; }
+	inline List_1_t4032136720 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t4032136720 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1626413301, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1626413301, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1626413301, ___current_3)); }
+	inline uint32_t get_current_3() const { return ___current_3; }
+	inline uint32_t* get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(uint32_t value)
+	{
+		___current_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T1626413301_H
 #ifndef ENUMERATOR_T3588277760_H
 #define ENUMERATOR_T3588277760_H
 #ifdef __clang__
@@ -9374,35 +9578,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // EXTENDERTYPE_T2449612322_H
-#ifndef SIGN_T3338384038_H
-#define SIGN_T3338384038_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mono.Math.BigInteger/Sign
-struct  Sign_t3338384038 
-{
-public:
-	// System.Int32 Mono.Math.BigInteger/Sign::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Sign_t3338384038, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SIGN_T3338384038_H
 #ifndef SIGN_T3338384039_H
 #define SIGN_T3338384039_H
 #ifdef __clang__
@@ -9432,23 +9607,23 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SIGN_T3338384039_H
-#ifndef CONFIDENCEFACTOR_T2516000285_H
-#define CONFIDENCEFACTOR_T2516000285_H
+#ifndef SIGN_T3338384038_H
+#define SIGN_T3338384038_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// Mono.Math.Prime.ConfidenceFactor
-struct  ConfidenceFactor_t2516000285 
+// Mono.Math.BigInteger/Sign
+struct  Sign_t3338384038 
 {
 public:
-	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
+	// System.Int32 Mono.Math.BigInteger/Sign::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ConfidenceFactor_t2516000285, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Sign_t3338384038, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -9460,7 +9635,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CONFIDENCEFACTOR_T2516000285_H
+#endif // SIGN_T3338384038_H
 #ifndef CONFIDENCEFACTOR_T2516000286_H
 #define CONFIDENCEFACTOR_T2516000286_H
 #ifdef __clang__
@@ -9490,6 +9665,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CONFIDENCEFACTOR_T2516000286_H
+#ifndef CONFIDENCEFACTOR_T2516000285_H
+#define CONFIDENCEFACTOR_T2516000285_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mono.Math.Prime.ConfidenceFactor
+struct  ConfidenceFactor_t2516000285 
+{
+public:
+	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ConfidenceFactor_t2516000285, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CONFIDENCEFACTOR_T2516000285_H
 #ifndef ALERTDESCRIPTION_T1549755611_H
 #define ALERTDESCRIPTION_T1549755611_H
 #ifdef __clang__
@@ -15275,6 +15479,45 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PARTICLE_T1882894987_H
+#ifndef PLANE_T1000493321_H
+#define PLANE_T1000493321_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Plane
+struct  Plane_t1000493321 
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
+	Vector3_t3722313464  ___m_Normal_0;
+	// System.Single UnityEngine.Plane::m_Distance
+	float ___m_Distance_1;
+
+public:
+	inline static int32_t get_offset_of_m_Normal_0() { return static_cast<int32_t>(offsetof(Plane_t1000493321, ___m_Normal_0)); }
+	inline Vector3_t3722313464  get_m_Normal_0() const { return ___m_Normal_0; }
+	inline Vector3_t3722313464 * get_address_of_m_Normal_0() { return &___m_Normal_0; }
+	inline void set_m_Normal_0(Vector3_t3722313464  value)
+	{
+		___m_Normal_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Distance_1() { return static_cast<int32_t>(offsetof(Plane_t1000493321, ___m_Distance_1)); }
+	inline float get_m_Distance_1() const { return ___m_Distance_1; }
+	inline float* get_address_of_m_Distance_1() { return &___m_Distance_1; }
+	inline void set_m_Distance_1(float value)
+	{
+		___m_Distance_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PLANE_T1000493321_H
 #ifndef PLAYABLEGRAPH_T3515989261_H
 #define PLAYABLEGRAPH_T3515989261_H
 #ifdef __clang__
@@ -22133,6 +22376,216 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GAMEOBJECT_T1113636619_H
+#ifndef NETWORKCONNECTION_T2705220091_H
+#define NETWORKCONNECTION_T2705220091_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Networking.NetworkConnection
+struct  NetworkConnection_t2705220091  : public RuntimeObject
+{
+public:
+	// UnityEngine.Networking.ChannelBuffer[] UnityEngine.Networking.NetworkConnection::m_Channels
+	ChannelBufferU5BU5D_t2631829696* ___m_Channels_0;
+	// System.Collections.Generic.List`1<UnityEngine.Networking.PlayerController> UnityEngine.Networking.NetworkConnection::m_PlayerControllers
+	List_1_t1968562558 * ___m_PlayerControllers_1;
+	// UnityEngine.Networking.NetworkMessage UnityEngine.Networking.NetworkConnection::m_NetMsg
+	NetworkMessage_t1192515889 * ___m_NetMsg_2;
+	// System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkIdentity> UnityEngine.Networking.NetworkConnection::m_VisList
+	HashSet_1_t1864468531 * ___m_VisList_3;
+	// UnityEngine.Networking.NetworkWriter UnityEngine.Networking.NetworkConnection::m_Writer
+	NetworkWriter_t3928387057 * ___m_Writer_4;
+	// System.Collections.Generic.Dictionary`2<System.Int16,UnityEngine.Networking.NetworkMessageDelegate> UnityEngine.Networking.NetworkConnection::m_MessageHandlersDict
+	Dictionary_2_t2550447661 * ___m_MessageHandlersDict_5;
+	// UnityEngine.Networking.NetworkMessageHandlers UnityEngine.Networking.NetworkConnection::m_MessageHandlers
+	NetworkMessageHandlers_t82575973 * ___m_MessageHandlers_6;
+	// System.Collections.Generic.HashSet`1<UnityEngine.Networking.NetworkInstanceId> UnityEngine.Networking.NetworkConnection::m_ClientOwnedObjects
+	HashSet_1_t3646266945 * ___m_ClientOwnedObjects_7;
+	// UnityEngine.Networking.NetworkMessage UnityEngine.Networking.NetworkConnection::m_MessageInfo
+	NetworkMessage_t1192515889 * ___m_MessageInfo_8;
+	// UnityEngine.Networking.NetworkError UnityEngine.Networking.NetworkConnection::error
+	int32_t ___error_10;
+	// System.Int32 UnityEngine.Networking.NetworkConnection::hostId
+	int32_t ___hostId_11;
+	// System.Int32 UnityEngine.Networking.NetworkConnection::connectionId
+	int32_t ___connectionId_12;
+	// System.Boolean UnityEngine.Networking.NetworkConnection::isReady
+	bool ___isReady_13;
+	// System.String UnityEngine.Networking.NetworkConnection::address
+	String_t* ___address_14;
+	// System.Single UnityEngine.Networking.NetworkConnection::lastMessageTime
+	float ___lastMessageTime_15;
+	// System.Boolean UnityEngine.Networking.NetworkConnection::logNetworkMessages
+	bool ___logNetworkMessages_16;
+	// System.Collections.Generic.Dictionary`2<System.Int16,UnityEngine.Networking.NetworkConnection/PacketStat> UnityEngine.Networking.NetworkConnection::m_PacketStats
+	Dictionary_2_t1333685985 * ___m_PacketStats_17;
+	// System.Boolean UnityEngine.Networking.NetworkConnection::m_Disposed
+	bool ___m_Disposed_18;
+
+public:
+	inline static int32_t get_offset_of_m_Channels_0() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_Channels_0)); }
+	inline ChannelBufferU5BU5D_t2631829696* get_m_Channels_0() const { return ___m_Channels_0; }
+	inline ChannelBufferU5BU5D_t2631829696** get_address_of_m_Channels_0() { return &___m_Channels_0; }
+	inline void set_m_Channels_0(ChannelBufferU5BU5D_t2631829696* value)
+	{
+		___m_Channels_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Channels_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_PlayerControllers_1() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_PlayerControllers_1)); }
+	inline List_1_t1968562558 * get_m_PlayerControllers_1() const { return ___m_PlayerControllers_1; }
+	inline List_1_t1968562558 ** get_address_of_m_PlayerControllers_1() { return &___m_PlayerControllers_1; }
+	inline void set_m_PlayerControllers_1(List_1_t1968562558 * value)
+	{
+		___m_PlayerControllers_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_PlayerControllers_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_NetMsg_2() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_NetMsg_2)); }
+	inline NetworkMessage_t1192515889 * get_m_NetMsg_2() const { return ___m_NetMsg_2; }
+	inline NetworkMessage_t1192515889 ** get_address_of_m_NetMsg_2() { return &___m_NetMsg_2; }
+	inline void set_m_NetMsg_2(NetworkMessage_t1192515889 * value)
+	{
+		___m_NetMsg_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_NetMsg_2), value);
+	}
+
+	inline static int32_t get_offset_of_m_VisList_3() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_VisList_3)); }
+	inline HashSet_1_t1864468531 * get_m_VisList_3() const { return ___m_VisList_3; }
+	inline HashSet_1_t1864468531 ** get_address_of_m_VisList_3() { return &___m_VisList_3; }
+	inline void set_m_VisList_3(HashSet_1_t1864468531 * value)
+	{
+		___m_VisList_3 = value;
+		Il2CppCodeGenWriteBarrier((&___m_VisList_3), value);
+	}
+
+	inline static int32_t get_offset_of_m_Writer_4() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_Writer_4)); }
+	inline NetworkWriter_t3928387057 * get_m_Writer_4() const { return ___m_Writer_4; }
+	inline NetworkWriter_t3928387057 ** get_address_of_m_Writer_4() { return &___m_Writer_4; }
+	inline void set_m_Writer_4(NetworkWriter_t3928387057 * value)
+	{
+		___m_Writer_4 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Writer_4), value);
+	}
+
+	inline static int32_t get_offset_of_m_MessageHandlersDict_5() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_MessageHandlersDict_5)); }
+	inline Dictionary_2_t2550447661 * get_m_MessageHandlersDict_5() const { return ___m_MessageHandlersDict_5; }
+	inline Dictionary_2_t2550447661 ** get_address_of_m_MessageHandlersDict_5() { return &___m_MessageHandlersDict_5; }
+	inline void set_m_MessageHandlersDict_5(Dictionary_2_t2550447661 * value)
+	{
+		___m_MessageHandlersDict_5 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MessageHandlersDict_5), value);
+	}
+
+	inline static int32_t get_offset_of_m_MessageHandlers_6() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_MessageHandlers_6)); }
+	inline NetworkMessageHandlers_t82575973 * get_m_MessageHandlers_6() const { return ___m_MessageHandlers_6; }
+	inline NetworkMessageHandlers_t82575973 ** get_address_of_m_MessageHandlers_6() { return &___m_MessageHandlers_6; }
+	inline void set_m_MessageHandlers_6(NetworkMessageHandlers_t82575973 * value)
+	{
+		___m_MessageHandlers_6 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MessageHandlers_6), value);
+	}
+
+	inline static int32_t get_offset_of_m_ClientOwnedObjects_7() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_ClientOwnedObjects_7)); }
+	inline HashSet_1_t3646266945 * get_m_ClientOwnedObjects_7() const { return ___m_ClientOwnedObjects_7; }
+	inline HashSet_1_t3646266945 ** get_address_of_m_ClientOwnedObjects_7() { return &___m_ClientOwnedObjects_7; }
+	inline void set_m_ClientOwnedObjects_7(HashSet_1_t3646266945 * value)
+	{
+		___m_ClientOwnedObjects_7 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ClientOwnedObjects_7), value);
+	}
+
+	inline static int32_t get_offset_of_m_MessageInfo_8() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_MessageInfo_8)); }
+	inline NetworkMessage_t1192515889 * get_m_MessageInfo_8() const { return ___m_MessageInfo_8; }
+	inline NetworkMessage_t1192515889 ** get_address_of_m_MessageInfo_8() { return &___m_MessageInfo_8; }
+	inline void set_m_MessageInfo_8(NetworkMessage_t1192515889 * value)
+	{
+		___m_MessageInfo_8 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MessageInfo_8), value);
+	}
+
+	inline static int32_t get_offset_of_error_10() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___error_10)); }
+	inline int32_t get_error_10() const { return ___error_10; }
+	inline int32_t* get_address_of_error_10() { return &___error_10; }
+	inline void set_error_10(int32_t value)
+	{
+		___error_10 = value;
+	}
+
+	inline static int32_t get_offset_of_hostId_11() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___hostId_11)); }
+	inline int32_t get_hostId_11() const { return ___hostId_11; }
+	inline int32_t* get_address_of_hostId_11() { return &___hostId_11; }
+	inline void set_hostId_11(int32_t value)
+	{
+		___hostId_11 = value;
+	}
+
+	inline static int32_t get_offset_of_connectionId_12() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___connectionId_12)); }
+	inline int32_t get_connectionId_12() const { return ___connectionId_12; }
+	inline int32_t* get_address_of_connectionId_12() { return &___connectionId_12; }
+	inline void set_connectionId_12(int32_t value)
+	{
+		___connectionId_12 = value;
+	}
+
+	inline static int32_t get_offset_of_isReady_13() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___isReady_13)); }
+	inline bool get_isReady_13() const { return ___isReady_13; }
+	inline bool* get_address_of_isReady_13() { return &___isReady_13; }
+	inline void set_isReady_13(bool value)
+	{
+		___isReady_13 = value;
+	}
+
+	inline static int32_t get_offset_of_address_14() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___address_14)); }
+	inline String_t* get_address_14() const { return ___address_14; }
+	inline String_t** get_address_of_address_14() { return &___address_14; }
+	inline void set_address_14(String_t* value)
+	{
+		___address_14 = value;
+		Il2CppCodeGenWriteBarrier((&___address_14), value);
+	}
+
+	inline static int32_t get_offset_of_lastMessageTime_15() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___lastMessageTime_15)); }
+	inline float get_lastMessageTime_15() const { return ___lastMessageTime_15; }
+	inline float* get_address_of_lastMessageTime_15() { return &___lastMessageTime_15; }
+	inline void set_lastMessageTime_15(float value)
+	{
+		___lastMessageTime_15 = value;
+	}
+
+	inline static int32_t get_offset_of_logNetworkMessages_16() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___logNetworkMessages_16)); }
+	inline bool get_logNetworkMessages_16() const { return ___logNetworkMessages_16; }
+	inline bool* get_address_of_logNetworkMessages_16() { return &___logNetworkMessages_16; }
+	inline void set_logNetworkMessages_16(bool value)
+	{
+		___logNetworkMessages_16 = value;
+	}
+
+	inline static int32_t get_offset_of_m_PacketStats_17() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_PacketStats_17)); }
+	inline Dictionary_2_t1333685985 * get_m_PacketStats_17() const { return ___m_PacketStats_17; }
+	inline Dictionary_2_t1333685985 ** get_address_of_m_PacketStats_17() { return &___m_PacketStats_17; }
+	inline void set_m_PacketStats_17(Dictionary_2_t1333685985 * value)
+	{
+		___m_PacketStats_17 = value;
+		Il2CppCodeGenWriteBarrier((&___m_PacketStats_17), value);
+	}
+
+	inline static int32_t get_offset_of_m_Disposed_18() { return static_cast<int32_t>(offsetof(NetworkConnection_t2705220091, ___m_Disposed_18)); }
+	inline bool get_m_Disposed_18() const { return ___m_Disposed_18; }
+	inline bool* get_address_of_m_Disposed_18() { return &___m_Disposed_18; }
+	inline void set_m_Disposed_18(bool value)
+	{
+		___m_Disposed_18 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NETWORKCONNECTION_T2705220091_H
 #ifndef EMITPARAMS_T2216423628_H
 #define EMITPARAMS_T2216423628_H
 #ifdef __clang__
@@ -26732,6 +27185,41 @@ public:
 		m_Items[index] = value;
 	}
 };
+// System.Boolean[]
+struct BooleanU5BU5D_t2897418192  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) bool m_Items[1];
+
+public:
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
 // System.Int32[]
 struct Int32U5BU5D_t385246372  : public RuntimeArray
 {
@@ -26833,6 +27321,41 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomAttributeTypedArgument_t2723150157  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.UInt32[]
+struct UInt32U5BU5D_t2770800703  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) uint32_t m_Items[1];
+
+public:
+	inline uint32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint32_t value)
 	{
 		m_Items[index] = value;
 	}
@@ -34743,6 +35266,13 @@ void* RuntimeInvoker_Boolean_t97287965_HitInfo_t3229609740_HitInfo_t3229609740 (
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Void_t1185182177_Vector3_t3722313464_Single_t1397266774 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Vector3_t3722313464  p1, float p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Vector3_t3722313464 *)args[0]), *((float*)args[1]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Boolean_t97287965_Ray_t3785851493_SingleU26_t1922108698 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Ray_t3785851493  p1, float* p2, const RuntimeMethod* method);
@@ -36731,6 +37261,13 @@ void* RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject_Int32_t29
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_ByteU26_t1992107912 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t p1, int32_t p2, uint8_t* p3, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), (uint8_t*)args[2], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int32_t2950945753_StringU26_t181565287_Int32U26_t1369213839_NetworkIDU26_t1286351155_NodeIDU26_t64417697_ByteU26_t1992107912 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t p1, int32_t p2, String_t** p3, int32_t* p4, uint64_t* p5, uint16_t* p6, uint8_t* p7, const RuntimeMethod* method);
@@ -36990,6 +37527,13 @@ void* RuntimeInvoker_Void_t1185182177_RuntimeObject_Int32_t2950945753_SByte_t166
 	return NULL;
 }
 
+void* RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, int16_t p1, RuntimeObject * p2, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, *((int16_t*)args[0]), (RuntimeObject *)args[1], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_ChannelPacket_t1579824718 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef ChannelPacket_t1579824718  (*Func)(void* obj, const RuntimeMethod* method);
@@ -37002,6 +37546,13 @@ void* RuntimeInvoker_Void_t1185182177_ChannelPacket_t1579824718 (Il2CppMethodPoi
 	typedef void (*Func)(void* obj, ChannelPacket_t1579824718  p1, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((ChannelPacket_t1579824718 *)args[0]), methodMetadata);
 	return NULL;
+}
+
+void* RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_PlayerControllerU26_t3461143480 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, int16_t p1, PlayerController_t496487816 ** p2, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, *((int16_t*)args[0]), (PlayerController_t496487816 **)args[1], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
 void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -37025,6 +37576,34 @@ void* RuntimeInvoker_RuntimeObject_NetworkSceneId_t717048590 (Il2CppMethodPointe
 	return ret;
 }
 
+void* RuntimeInvoker_RuntimeObject_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, NetworkHash128_t2391674535  p1, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), methodMetadata);
+	return ret;
+}
+
+void* RuntimeInvoker_Void_t1185182177_RuntimeObject_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RuntimeObject * p1, NetworkHash128_t2391674535  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((NetworkHash128_t2391674535 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, NetworkHash128_t2391674535  p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), (RuntimeObject *)args[1], (RuntimeObject *)args[2], methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, NetworkHash128_t2391674535  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, NetworkInstanceId_t786350175  p1, RuntimeObject * p2, const RuntimeMethod* method);
@@ -37046,18 +37625,25 @@ void* RuntimeInvoker_Void_t1185182177_RuntimeObject_Vector3_t3722313464_RuntimeO
 	return NULL;
 }
 
+void* RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t p1, RuntimeObject * p2, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), (RuntimeObject *)args[1], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkConnectionU26_t1929657789 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RuntimeObject * p1, NetworkConnection_t2705220091 ** p2, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], (NetworkConnection_t2705220091 **)args[1], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1185182177_Int16_t2552820387_RuntimeObject_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int16_t p1, RuntimeObject * p2, int32_t p3, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((int16_t*)args[0]), (RuntimeObject *)args[1], *((int32_t*)args[2]), methodMetadata);
 	return NULL;
-}
-
-void* RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, int16_t p1, RuntimeObject * p2, const RuntimeMethod* method);
-	bool ret = ((Func)methodPointer)(obj, *((int16_t*)args[0]), (RuntimeObject *)args[1], methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
 void* RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -37072,6 +37658,13 @@ void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_Int32_t29
 	typedef bool (*Func)(void* obj, RuntimeObject * p1, int32_t p2, int32_t p3, const RuntimeMethod* method);
 	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Void_t1185182177_Int32U26_t1369213839_Int32U26_t1369213839_Int32U26_t1369213839_Int32U26_t1369213839 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t* p1, int32_t* p2, int32_t* p3, int32_t* p4, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (int32_t*)args[0], (int32_t*)args[1], (int32_t*)args[2], (int32_t*)args[3], methodMetadata);
+	return NULL;
 }
 
 void* RuntimeInvoker_Boolean_t97287965_Int32U26_t1369213839_SingleU26_t1922108698 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -37137,6 +37730,20 @@ void* RuntimeInvoker_ArraySegment_1_t283560987 (Il2CppMethodPointer methodPointe
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Void_t1185182177_RuntimeObject_Int16_t2552820387_Int16_t2552820387 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RuntimeObject * p1, int16_t p2, int16_t p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int16_t*)args[1]), *((int16_t*)args[2]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Decimal_t2948259380_Int64_t3736567304_Int64_t3736567304 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Decimal_t2948259380  (*Func)(void* obj, int64_t p1, int64_t p2, const RuntimeMethod* method);
+	Decimal_t2948259380  ret = ((Func)methodPointer)(obj, *((int64_t*)args[0]), *((int64_t*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1185182177_RuntimeObject_Int32_t2950945753_Int32_t2950945753_Single_t1397266774 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, RuntimeObject * p1, int32_t p2, int32_t p3, float p4, const RuntimeMethod* method);
@@ -37158,17 +37765,17 @@ void* RuntimeInvoker_Boolean_t97287965_Int32_t2950945753_Int32_t2950945753_Int32
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_PlayerControllerU26_t3461143480 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, int16_t p1, PlayerController_t496487816 ** p2, const RuntimeMethod* method);
-	bool ret = ((Func)methodPointer)(obj, *((int16_t*)args[0]), (PlayerController_t496487816 **)args[1], methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
 void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_Int32_t2950945753_ByteU26_t1992107912 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, RuntimeObject * p1, int32_t p2, int32_t p3, uint8_t* p4, const RuntimeMethod* method);
 	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (uint8_t*)args[3], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_NetworkHash128_t2391674535_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef NetworkHash128_t2391674535  (*Func)(void* obj, RuntimeObject * p1, const RuntimeMethod* method);
+	NetworkHash128_t2391674535  ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -37184,13 +37791,6 @@ void* RuntimeInvoker_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPoint
 	typedef NetworkHash128_t2391674535  (*Func)(void* obj, const RuntimeMethod* method);
 	NetworkHash128_t2391674535  ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
-void* RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, NetworkHash128_t2391674535  p1, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), methodMetadata);
-	return NULL;
 }
 
 void* RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -37305,6 +37905,27 @@ void* RuntimeInvoker_Boolean_t97287965_PeerInfoMessageU26_t1891524227_BooleanU26
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Color32_t2600501292 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Color32_t2600501292  (*Func)(void* obj, const RuntimeMethod* method);
+	Color32_t2600501292  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Plane_t1000493321 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Plane_t1000493321  (*Func)(void* obj, const RuntimeMethod* method);
+	Plane_t1000493321  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Ray_t3785851493 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Ray_t3785851493  (*Func)(void* obj, const RuntimeMethod* method);
+	Ray_t3785851493  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175_RuntimeObject_SByte_t1669577662_SByte_t1669577662 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, NetworkInstanceId_t786350175  p1, RuntimeObject * p2, int8_t p3, int8_t p4, const RuntimeMethod* method);
@@ -37368,6 +37989,27 @@ void* RuntimeInvoker_RuntimeObject_RuntimeObject_Int32_t2950945753_RuntimeObject
 	return ret;
 }
 
+void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387_RuntimeObject_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RuntimeObject * p1, int16_t p2, RuntimeObject * p3, int32_t p4, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int16_t*)args[1]), (RuntimeObject *)args[2], *((int32_t*)args[3]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int16_t2552820387_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, int16_t p2, RuntimeObject * p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((int16_t*)args[1]), (RuntimeObject *)args[2], methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_RuntimeObject_Int16_t2552820387_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RuntimeObject * p1, RuntimeObject * p2, int16_t p3, NetworkHash128_t2391674535  p4, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], (RuntimeObject *)args[1], *((int16_t*)args[2]), *((NetworkHash128_t2391674535 *)args[3]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_RuntimeObject_Int16_t2552820387 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, RuntimeObject * p1, RuntimeObject * p2, int16_t p3, const RuntimeMethod* method);
@@ -37382,10 +38024,10 @@ void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkIdentityU26_t3162731
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387_RuntimeObject_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkHash128_t2391674535_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, RuntimeObject * p1, int16_t p2, RuntimeObject * p3, int32_t p4, const RuntimeMethod* method);
-	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int16_t*)args[1]), (RuntimeObject *)args[2], *((int32_t*)args[3]), methodMetadata);
+	typedef bool (*Func)(void* obj, RuntimeObject * p1, NetworkHash128_t2391674535  p2, RuntimeObject * p3, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((NetworkHash128_t2391674535 *)args[1]), (RuntimeObject *)args[2], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -37512,6 +38154,27 @@ void* RuntimeInvoker_Void_t1185182177_NetworkSceneId_t717048590 (Il2CppMethodPoi
 {
 	typedef void (*Func)(void* obj, NetworkSceneId_t717048590  p1, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((NetworkSceneId_t717048590 *)args[0]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_Vector4_t3319028937 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Vector4_t3319028937  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Vector4_t3319028937 *)args[0]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_Plane_t1000493321 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Plane_t1000493321  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Plane_t1000493321 *)args[0]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_Ray_t3785851493 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Ray_t3785851493  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Ray_t3785851493 *)args[0]), methodMetadata);
 	return NULL;
 }
 
@@ -37869,13 +38532,6 @@ void* RuntimeInvoker_EditState_t3741896775_RuntimeObject (Il2CppMethodPointer me
 {
 	typedef int32_t (*Func)(void* obj, RuntimeObject * p1, const RuntimeMethod* method);
 	int32_t ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
-void* RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, int32_t p1, RuntimeObject * p2, const RuntimeMethod* method);
-	int32_t ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), (RuntimeObject *)args[1], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -39629,6 +40285,13 @@ void* RuntimeInvoker_Enumerator_t185561725 (Il2CppMethodPointer methodPointer, c
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Enumerator_t1157622989 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Enumerator_t1157622989  (*Func)(void* obj, const RuntimeMethod* method);
+	Enumerator_t1157622989  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Enumerator_t1056476920 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Enumerator_t1056476920  (*Func)(void* obj, const RuntimeMethod* method);
@@ -39725,13 +40388,6 @@ void* RuntimeInvoker_Boolean_t97287965_NetworkHash128_t2391674535 (Il2CppMethodP
 	typedef bool (*Func)(void* obj, NetworkHash128_t2391674535  p1, const RuntimeMethod* method);
 	bool ret = ((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
-void* RuntimeInvoker_RuntimeObject_NetworkHash128_t2391674535 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef RuntimeObject * (*Func)(void* obj, NetworkHash128_t2391674535  p1, const RuntimeMethod* method);
-	RuntimeObject * ret = ((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), methodMetadata);
-	return ret;
 }
 
 void* RuntimeInvoker_Enumerator_t3092243617 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -39990,13 +40646,6 @@ void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Color32_t2600501292 (Il2
 {
 	typedef void (*Func)(void* obj, int32_t p1, Color32_t2600501292  p2, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Color32_t2600501292 *)args[1]), methodMetadata);
-	return NULL;
-}
-
-void* RuntimeInvoker_Void_t1185182177_Vector4_t3319028937 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Vector4_t3319028937  p1, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, *((Vector4_t3319028937 *)args[0]), methodMetadata);
 	return NULL;
 }
 
@@ -40634,6 +41283,13 @@ void* RuntimeInvoker_Int32_t2950945753_RuntimeObject_CustomAttributeTypedArgumen
 {
 	typedef int32_t (*Func)(void* obj, RuntimeObject * p1, CustomAttributeTypedArgument_t2723150157  p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
 	int32_t ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((CustomAttributeTypedArgument_t2723150157 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Int32_t2950945753_RuntimeObject_Single_t1397266774_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, RuntimeObject * p1, float p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((float*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -41362,6 +42018,13 @@ void* RuntimeInvoker_Int32_t2950945753_CustomAttributeTypedArgument_t2723150157_
 {
 	typedef int32_t (*Func)(void* obj, CustomAttributeTypedArgument_t2723150157  p1, CustomAttributeTypedArgument_t2723150157  p2, RuntimeObject * p3, const RuntimeMethod* method);
 	int32_t ret = ((Func)methodPointer)(obj, *((CustomAttributeTypedArgument_t2723150157 *)args[0]), *((CustomAttributeTypedArgument_t2723150157 *)args[1]), (RuntimeObject *)args[2], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Int32_t2950945753_Single_t1397266774_Single_t1397266774_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, float p1, float p2, RuntimeObject * p3, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), (RuntimeObject *)args[2], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -42450,6 +43113,20 @@ void* RuntimeInvoker_Void_t1185182177_HighlightingPresetU5BU5DU26_t1597538906_In
 	return NULL;
 }
 
+void* RuntimeInvoker_Void_t1185182177_BooleanU5BU5DU26_t3454195888_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, BooleanU5BU5D_t2897418192** p1, int32_t p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (BooleanU5BU5D_t2897418192**)args[0], *((int32_t*)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_BooleanU5BU5DU26_t3454195888_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, BooleanU5BU5D_t2897418192** p1, int32_t p2, int32_t p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (BooleanU5BU5D_t2897418192**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Void_t1185182177_ByteU5BU5DU26_t4057885439_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ByteU5BU5D_t4116647657** p1, int32_t p2, const RuntimeMethod* method);
@@ -42503,6 +43180,27 @@ void* RuntimeInvoker_Void_t1185182177_CustomAttributeTypedArgumentU5BU5DU26_t250
 {
 	typedef void (*Func)(void* obj, CustomAttributeTypedArgumentU5BU5D_t1465843424** p1, int32_t p2, int32_t p3, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, (CustomAttributeTypedArgumentU5BU5D_t1465843424**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_SingleU5BU5DU26_t2684236517_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, SingleU5BU5D_t1444911251** p1, int32_t p2, int32_t p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (SingleU5BU5D_t1444911251**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_UInt32U5BU5DU26_t305418265_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, UInt32U5BU5D_t2770800703** p1, int32_t p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (UInt32U5BU5D_t2770800703**)args[0], *((int32_t*)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1185182177_UInt32U5BU5DU26_t305418265_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, UInt32U5BU5D_t2770800703** p1, int32_t p2, int32_t p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (UInt32U5BU5D_t2770800703**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), methodMetadata);
 	return NULL;
 }
 
@@ -43654,13 +44352,6 @@ void* RuntimeInvoker_OrderBlock_t1585977831 (Il2CppMethodPointer methodPointer, 
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_Color32_t2600501292 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef Color32_t2600501292  (*Func)(void* obj, const RuntimeMethod* method);
-	Color32_t2600501292  ret = ((Func)methodPointer)(obj, methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
 void* RuntimeInvoker_ContactPoint_t3758755253 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef ContactPoint_t3758755253  (*Func)(void* obj, const RuntimeMethod* method);
@@ -43899,6 +44590,13 @@ void* RuntimeInvoker_Int32_t2950945753_CustomAttributeTypedArgument_t2723150157_
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Int32_t2950945753_Single_t1397266774_Single_t1397266774 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, float p1, float p2, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Int32_t2950945753_OrderBlock_t1585977831_OrderBlock_t1585977831 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, OrderBlock_t1585977831  p1, OrderBlock_t1585977831  p2, const RuntimeMethod* method);
@@ -44015,13 +44713,6 @@ void* RuntimeInvoker_Int32_t2950945753_UnityARVideoFormat_t1944454781_UnityARVid
 {
 	typedef int32_t (*Func)(void* obj, UnityARVideoFormat_t1944454781  p1, UnityARVideoFormat_t1944454781  p2, const RuntimeMethod* method);
 	int32_t ret = ((Func)methodPointer)(obj, *((UnityARVideoFormat_t1944454781 *)args[0]), *((UnityARVideoFormat_t1944454781 *)args[1]), methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
-void* RuntimeInvoker_Enumerator_t1157622989 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef Enumerator_t1157622989  (*Func)(void* obj, const RuntimeMethod* method);
-	Enumerator_t1157622989  ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -44512,13 +45203,6 @@ void* RuntimeInvoker_NetworkHash128_t2391674535_NetworkHash128_t2391674535_Runti
 {
 	typedef NetworkHash128_t2391674535  (*Func)(void* obj, NetworkHash128_t2391674535  p1, RuntimeObject * p2, const RuntimeMethod* method);
 	NetworkHash128_t2391674535  ret = ((Func)methodPointer)(obj, *((NetworkHash128_t2391674535 *)args[0]), (RuntimeObject *)args[1], methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
-}
-
-void* RuntimeInvoker_NetworkHash128_t2391674535_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef NetworkHash128_t2391674535  (*Func)(void* obj, RuntimeObject * p1, const RuntimeMethod* method);
-	NetworkHash128_t2391674535  ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -45208,6 +45892,13 @@ void* RuntimeInvoker_Enumerator_t3996938410 (Il2CppMethodPointer methodPointer, 
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Enumerator_t3458606584 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Enumerator_t3458606584  (*Func)(void* obj, const RuntimeMethod* method);
+	Enumerator_t3458606584  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Enumerator_t200647699 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Enumerator_t200647699  (*Func)(void* obj, const RuntimeMethod* method);
@@ -45240,6 +45931,20 @@ void* RuntimeInvoker_Enumerator_t1789501480 (Il2CppMethodPointer methodPointer, 
 {
 	typedef Enumerator_t1789501480  (*Func)(void* obj, const RuntimeMethod* method);
 	Enumerator_t1789501480  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Enumerator_t463618097 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Enumerator_t463618097  (*Func)(void* obj, const RuntimeMethod* method);
+	Enumerator_t463618097  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Enumerator_t1626413301 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Enumerator_t1626413301  (*Func)(void* obj, const RuntimeMethod* method);
+	Enumerator_t1626413301  ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -45523,6 +46228,13 @@ void* RuntimeInvoker_RuntimeObject_CustomAttributeTypedArgument_t2723150157_Cust
 	return ret;
 }
 
+void* RuntimeInvoker_RuntimeObject_Single_t1397266774_Single_t1397266774_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, float p1, float p2, RuntimeObject * p3, RuntimeObject * p4, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), (RuntimeObject *)args[2], (RuntimeObject *)args[3], methodMetadata);
+	return ret;
+}
+
 void* RuntimeInvoker_RuntimeObject_OrderBlock_t1585977831_OrderBlock_t1585977831_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef RuntimeObject * (*Func)(void* obj, OrderBlock_t1585977831  p1, OrderBlock_t1585977831  p2, RuntimeObject * p3, RuntimeObject * p4, const RuntimeMethod* method);
@@ -45698,6 +46410,13 @@ void* RuntimeInvoker_RuntimeObject_CustomAttributeTypedArgument_t2723150157_Runt
 	return ret;
 }
 
+void* RuntimeInvoker_RuntimeObject_Single_t1397266774_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, float p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, *((float*)args[0]), (RuntimeObject *)args[1], (RuntimeObject *)args[2], methodMetadata);
+	return ret;
+}
+
 void* RuntimeInvoker_RuntimeObject_OrderBlock_t1585977831_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef RuntimeObject * (*Func)(void* obj, OrderBlock_t1585977831  p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
@@ -45817,13 +46536,6 @@ void* RuntimeInvoker_RuntimeObject_ARHitTestResult_t1279023930_RuntimeObject_Run
 	return ret;
 }
 
-void* RuntimeInvoker_RuntimeObject_Single_t1397266774_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef RuntimeObject * (*Func)(void* obj, float p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
-	RuntimeObject * ret = ((Func)methodPointer)(obj, *((float*)args[0]), (RuntimeObject *)args[1], (RuntimeObject *)args[2], methodMetadata);
-	return ret;
-}
-
 void* RuntimeInvoker_RuntimeObject_Color_t2555686324_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef RuntimeObject * (*Func)(void* obj, Color_t2555686324  p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
@@ -45835,13 +46547,6 @@ void* RuntimeInvoker_RuntimeObject_Scene_t2348375561_RuntimeObject_RuntimeObject
 {
 	typedef RuntimeObject * (*Func)(void* obj, Scene_t2348375561  p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
 	RuntimeObject * ret = ((Func)methodPointer)(obj, *((Scene_t2348375561 *)args[0]), (RuntimeObject *)args[1], (RuntimeObject *)args[2], methodMetadata);
-	return ret;
-}
-
-void* RuntimeInvoker_RuntimeObject_Single_t1397266774_Single_t1397266774_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef RuntimeObject * (*Func)(void* obj, float p1, float p2, RuntimeObject * p3, RuntimeObject * p4, const RuntimeMethod* method);
-	RuntimeObject * ret = ((Func)methodPointer)(obj, *((float*)args[0]), *((float*)args[1]), (RuntimeObject *)args[2], (RuntimeObject *)args[3], methodMetadata);
 	return ret;
 }
 
@@ -45880,7 +46585,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t1274330004 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2625] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2651] = 
 {
 	RuntimeInvoker_Void_t1185182177,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject,
@@ -46916,6 +47621,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_HitInfo_t3229609740,
 	RuntimeInvoker_Boolean_t97287965_HitInfo_t3229609740,
 	RuntimeInvoker_Boolean_t97287965_HitInfo_t3229609740_HitInfo_t3229609740,
+	RuntimeInvoker_Void_t1185182177_Vector3_t3722313464_Single_t1397266774,
 	RuntimeInvoker_Boolean_t97287965_Ray_t3785851493_SingleU26_t1922108698,
 	RuntimeInvoker_Void_t1185182177_Vector3_t3722313464_Quaternion_t2301928331,
 	RuntimeInvoker_PropertyName_t3749835189_RuntimeObject,
@@ -47200,6 +47906,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_NetworkEventType_t3383948383_Int32_t2950945753_ByteU26_t1992107912,
 	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_UInt64_t4134040092_UInt64_t4134040092_UInt16_t2177724958_Int32_t2950945753_Single_t1397266774_ByteU26_t1992107912,
 	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_UInt64_t4134040092_UInt64_t4134040092_UInt16_t2177724958_ByteU26_t1992107912,
+	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_ByteU26_t1992107912,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int32_t2950945753_StringU26_t181565287_Int32U26_t1369213839_NetworkIDU26_t1286351155_NodeIDU26_t64417697_ByteU26_t1992107912,
 	RuntimeInvoker_RuntimeObject_Int32_t2950945753_Int32_t2950945753_Int32U26_t1369213839_UInt64U26_t1265593412_UInt16U26_t2814738322_ByteU26_t1992107912,
 	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject_Int32_t2950945753_Int32_t2950945753_ByteU26_t1992107912,
@@ -47237,18 +47944,26 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_SByte_t1669577662_SByte_t1669577662_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_RenderTextureDescriptorU26_t171758873,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_Int32_t2950945753_SByte_t1669577662_SByte_t1669577662_SByte_t1669577662,
+	RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject,
 	RuntimeInvoker_ChannelPacket_t1579824718,
 	RuntimeInvoker_Void_t1185182177_ChannelPacket_t1579824718,
+	RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_PlayerControllerU26_t3461143480,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_NetworkSceneId_t717048590,
+	RuntimeInvoker_RuntimeObject_NetworkHash128_t2391674535,
+	RuntimeInvoker_Void_t1185182177_RuntimeObject_NetworkHash128_t2391674535,
+	RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535_RuntimeObject_RuntimeObject,
+	RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535,
 	RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_NetworkInstanceId_t786350175,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_Vector3_t3722313464_RuntimeObject_NetworkInstanceId_t786350175_RuntimeObject,
+	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject,
+	RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkConnectionU26_t1929657789,
 	RuntimeInvoker_Void_t1185182177_Int16_t2552820387_RuntimeObject_Int32_t2950945753,
-	RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject,
 	RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_RuntimeObject_Int32_t2950945753,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_Int32U26_t1369213839_Int32U26_t1369213839_Int32U26_t1369213839_Int32U26_t1369213839,
 	RuntimeInvoker_Boolean_t97287965_Int32U26_t1369213839_SingleU26_t1922108698,
 	RuntimeInvoker_Void_t1185182177_Int16_t2552820387_RuntimeObject,
 	RuntimeInvoker_NetworkInstanceId_t786350175,
@@ -47258,14 +47973,15 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Boolean_t97287965_Int32_t2950945753_Int32_t2950945753_TypeU26_t4078643080_CmdDelegateU26_t1267529797,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_GameObjectU26_t2899084077_Int32_t2950945753_NetworkInstanceIdU26_t1835619577,
 	RuntimeInvoker_ArraySegment_1_t283560987,
+	RuntimeInvoker_Void_t1185182177_RuntimeObject_Int16_t2552820387_Int16_t2552820387,
+	RuntimeInvoker_Decimal_t2948259380_Int64_t3736567304_Int64_t3736567304,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_Int32_t2950945753_Int32_t2950945753_Single_t1397266774,
 	RuntimeInvoker_NetworkError_t2038193525,
 	RuntimeInvoker_Boolean_t97287965_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753,
-	RuntimeInvoker_Boolean_t97287965_Int16_t2552820387_PlayerControllerU26_t3461143480,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_Int32_t2950945753_ByteU26_t1992107912,
+	RuntimeInvoker_NetworkHash128_t2391674535_RuntimeObject,
 	RuntimeInvoker_NetworkSceneId_t717048590,
 	RuntimeInvoker_NetworkHash128_t2391674535,
-	RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535,
 	RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175,
 	RuntimeInvoker_Boolean_t97287965_Int32_t2950945753_RuntimeObject_NetworkBehaviourU26_t3636466665,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_RuntimeObject_SByte_t1669577662_RuntimeObject_RuntimeObject,
@@ -47282,6 +47998,9 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_RuntimeObject_Int32_t2950945753_Int16_t2552820387,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_RuntimeObject_Int32_t2950945753_Int16_t2552820387_RuntimeObject,
 	RuntimeInvoker_Boolean_t97287965_PeerInfoMessageU26_t1891524227_BooleanU26_t4125257963,
+	RuntimeInvoker_Color32_t2600501292,
+	RuntimeInvoker_Plane_t1000493321,
+	RuntimeInvoker_Ray_t3785851493,
 	RuntimeInvoker_Void_t1185182177_NetworkInstanceId_t786350175_RuntimeObject_SByte_t1669577662_SByte_t1669577662,
 	RuntimeInvoker_Boolean_t97287965_NetworkInstanceId_t786350175_NetworkIdentityU26_t3162731479,
 	RuntimeInvoker_Boolean_t97287965_NetworkHash128_t2391674535_GameObjectU26_t2899084077,
@@ -47291,9 +48010,12 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Boolean_t97287965_NetworkSceneId_t717048590_NetworkSceneId_t717048590,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_Int32_t2950945753_UInt64_t4134040092_UInt64_t4134040092_UInt16_t2177724958,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_Int32_t2950945753_RuntimeObject_Int32_t2950945753_RuntimeObject,
+	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387_RuntimeObject_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int16_t2552820387_RuntimeObject,
+	RuntimeInvoker_Boolean_t97287965_RuntimeObject_RuntimeObject_Int16_t2552820387_NetworkHash128_t2391674535,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_RuntimeObject_Int16_t2552820387,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkIdentityU26_t3162731479,
-	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int16_t2552820387_RuntimeObject_Int32_t2950945753,
+	RuntimeInvoker_Boolean_t97287965_RuntimeObject_NetworkHash128_t2391674535_RuntimeObject,
 	RuntimeInvoker_AxisSyncMode_t3537925286,
 	RuntimeInvoker_CompressionSyncMode_t293282462,
 	RuntimeInvoker_TransformSyncMode_t1892665719,
@@ -47312,6 +48034,9 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_RuntimeObject_Vector2U26_t2376273893_Vector2U26_t2376273893_SingleU26_t1922108698_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_Boolean_t97287965_Vector2U26_t2376273893_Vector2U26_t2376273893_SingleU26_t1922108698_RuntimeObject,
 	RuntimeInvoker_Void_t1185182177_NetworkSceneId_t717048590,
+	RuntimeInvoker_Void_t1185182177_Vector4_t3319028937,
+	RuntimeInvoker_Void_t1185182177_Plane_t1000493321,
+	RuntimeInvoker_Void_t1185182177_Ray_t3785851493,
 	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_NetworkHash128_t2391674535,
 	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_NetworkHash128_t2391674535_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_RaycastResult_t3360306849_RaycastResult_t3360306849,
@@ -47363,7 +48088,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Int32_t2950945753_Vector2_t2156229523_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_Vector2_t2156229523,
 	RuntimeInvoker_EditState_t3741896775_RuntimeObject,
-	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_SByte_t1669577662,
 	RuntimeInvoker_Char_t3634460470_RuntimeObject_Int32_t2950945753_Int16_t2552820387,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_Int32_t2950945753_Int16_t2552820387_RuntimeObject_RuntimeObject,
@@ -47614,6 +48338,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Enumerator_t3923002270,
 	RuntimeInvoker_KeyValuePair_2_t71524366,
 	RuntimeInvoker_Enumerator_t185561725,
+	RuntimeInvoker_Enumerator_t1157622989,
 	RuntimeInvoker_Enumerator_t1056476920,
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_NetworkBroadcastResult_t2174414888,
 	RuntimeInvoker_Enumerator_t3703998156,
@@ -47628,7 +48353,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_PeerInfoPlayer_t607460057,
 	RuntimeInvoker_Void_t1185182177_NetworkHash128_t2391674535_RuntimeObject,
 	RuntimeInvoker_Boolean_t97287965_NetworkHash128_t2391674535,
-	RuntimeInvoker_RuntimeObject_NetworkHash128_t2391674535,
 	RuntimeInvoker_Enumerator_t3092243617,
 	RuntimeInvoker_Void_t1185182177_CRCMessageEntry_t1041239249,
 	RuntimeInvoker_RaycastResult_t3360306849_Int32_t2950945753,
@@ -47666,7 +48390,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Vector3_t3722313464_Int32_t2950945753,
 	RuntimeInvoker_Color32_t2600501292_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Color32_t2600501292,
-	RuntimeInvoker_Void_t1185182177_Vector4_t3319028937,
 	RuntimeInvoker_Data_t434873072_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_Data_t434873072,
 	RuntimeInvoker_HighlightingPreset_t635619791_Int32_t2950945753,
@@ -47758,6 +48481,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_CustomAttributeNamedArgument_t287865710_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_CustomAttributeTypedArgument_t2723150157,
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_CustomAttributeTypedArgument_t2723150157_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_Int32_t2950945753_RuntimeObject_Single_t1397266774_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_OrderBlock_t1585977831_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_Color32_t2600501292_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Int32_t2950945753_RuntimeObject_RaycastResult_t3360306849_Int32_t2950945753_Int32_t2950945753,
@@ -47862,6 +48586,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Int32_t2950945753_SByte_t1669577662_SByte_t1669577662_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_CustomAttributeNamedArgument_t287865710_CustomAttributeNamedArgument_t287865710_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_CustomAttributeTypedArgument_t2723150157_CustomAttributeTypedArgument_t2723150157_RuntimeObject,
+	RuntimeInvoker_Int32_t2950945753_Single_t1397266774_Single_t1397266774_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_OrderBlock_t1585977831_OrderBlock_t1585977831_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_Color32_t2600501292_Color32_t2600501292_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_RaycastResult_t3360306849_RaycastResult_t3360306849_RuntimeObject,
@@ -48017,6 +48742,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_DataU5BU5DU26_t2209039063_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_HighlightingPresetU5BU5DU26_t1597538906_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_HighlightingPresetU5BU5DU26_t1597538906_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_BooleanU5BU5DU26_t3454195888_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_BooleanU5BU5DU26_t3454195888_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_ByteU5BU5DU26_t4057885439_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_ByteU5BU5DU26_t4057885439_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_Int32U5BU5DU26_t4279986940_Int32_t2950945753,
@@ -48025,6 +48752,9 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Void_t1185182177_CustomAttributeNamedArgumentU5BU5DU26_t3275540893_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_CustomAttributeTypedArgumentU5BU5DU26_t2503877664_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_CustomAttributeTypedArgumentU5BU5DU26_t2503877664_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_SingleU5BU5DU26_t2684236517_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_UInt32U5BU5DU26_t305418265_Int32_t2950945753,
+	RuntimeInvoker_Void_t1185182177_UInt32U5BU5DU26_t305418265_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_OrderBlockU5BU5DU26_t2778271506_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_OrderBlockU5BU5DU26_t2778271506_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_Color32U5BU5DU26_t3983754147_Int32_t2950945753,
@@ -48189,7 +48919,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Mark_t3471605523,
 	RuntimeInvoker_UriScheme_t722425697,
 	RuntimeInvoker_OrderBlock_t1585977831,
-	RuntimeInvoker_Color32_t2600501292,
 	RuntimeInvoker_ContactPoint_t3758755253,
 	RuntimeInvoker_PlayerLoopSystem_t105772105,
 	RuntimeInvoker_GradientAlphaKey_t2624742626,
@@ -48224,6 +48953,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Int32_t2950945753_Guid_t_Guid_t,
 	RuntimeInvoker_Int32_t2950945753_CustomAttributeNamedArgument_t287865710_CustomAttributeNamedArgument_t287865710,
 	RuntimeInvoker_Int32_t2950945753_CustomAttributeTypedArgument_t2723150157_CustomAttributeTypedArgument_t2723150157,
+	RuntimeInvoker_Int32_t2950945753_Single_t1397266774_Single_t1397266774,
 	RuntimeInvoker_Int32_t2950945753_OrderBlock_t1585977831_OrderBlock_t1585977831,
 	RuntimeInvoker_Int32_t2950945753_Color32_t2600501292_Color32_t2600501292,
 	RuntimeInvoker_Int32_t2950945753_ChannelPacket_t1579824718_ChannelPacket_t1579824718,
@@ -48241,7 +48971,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Int32_t2950945753_Vector4_t3319028937_Vector4_t3319028937,
 	RuntimeInvoker_Int32_t2950945753_ARHitTestResult_t1279023930_ARHitTestResult_t1279023930,
 	RuntimeInvoker_Int32_t2950945753_UnityARVideoFormat_t1944454781_UnityARVideoFormat_t1944454781,
-	RuntimeInvoker_Enumerator_t1157622989,
 	RuntimeInvoker_Enumerator_t2021836068,
 	RuntimeInvoker_Enumerator_t2150996479,
 	RuntimeInvoker_Enumerator_t4243949275,
@@ -48312,7 +49041,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_KeyValuePair_2_t1496265288_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_NetworkHash128_t2391674535_RuntimeObject,
 	RuntimeInvoker_NetworkHash128_t2391674535_NetworkHash128_t2391674535_RuntimeObject,
-	RuntimeInvoker_NetworkHash128_t2391674535_RuntimeObject,
 	RuntimeInvoker_DictionaryEntry_t3123975638_NetworkInstanceId_t786350175_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_NetworkInstanceId_t786350175_RuntimeObject_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_KeyValuePair_2_t1012771504_NetworkInstanceId_t786350175_RuntimeObject,
@@ -48411,11 +49139,14 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_Enumerator_t3796191691,
 	RuntimeInvoker_HighlightingPreset_t635619791_RuntimeObject,
 	RuntimeInvoker_Enumerator_t3996938410,
+	RuntimeInvoker_Enumerator_t3458606584,
 	RuntimeInvoker_Enumerator_t200647699,
 	RuntimeInvoker_CustomAttributeNamedArgument_t287865710_RuntimeObject,
 	RuntimeInvoker_Enumerator_t3649184329,
 	RuntimeInvoker_CustomAttributeTypedArgument_t2723150157_RuntimeObject,
 	RuntimeInvoker_Enumerator_t1789501480,
+	RuntimeInvoker_Enumerator_t463618097,
+	RuntimeInvoker_Enumerator_t1626413301,
 	RuntimeInvoker_OrderBlock_t1585977831_RuntimeObject,
 	RuntimeInvoker_Enumerator_t652329154,
 	RuntimeInvoker_Color32_t2600501292_RuntimeObject,
@@ -48456,6 +49187,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_RuntimeObject_SByte_t1669577662_SByte_t1669577662_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_CustomAttributeNamedArgument_t287865710_CustomAttributeNamedArgument_t287865710_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_CustomAttributeTypedArgument_t2723150157_CustomAttributeTypedArgument_t2723150157_RuntimeObject_RuntimeObject,
+	RuntimeInvoker_RuntimeObject_Single_t1397266774_Single_t1397266774_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_OrderBlock_t1585977831_OrderBlock_t1585977831_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Color32_t2600501292_Color32_t2600501292_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_RaycastResult_t3360306849_RaycastResult_t3360306849_RuntimeObject_RuntimeObject,
@@ -48481,6 +49213,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_RuntimeObject_HighlightingPreset_t635619791_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_CustomAttributeNamedArgument_t287865710_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_CustomAttributeTypedArgument_t2723150157_RuntimeObject_RuntimeObject,
+	RuntimeInvoker_RuntimeObject_Single_t1397266774_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_OrderBlock_t1585977831_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Color32_t2600501292_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_RaycastResult_t3360306849_RuntimeObject_RuntimeObject,
@@ -48498,10 +49231,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2625] =
 	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Vector4_t3319028937_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_ARHitTestResult_t1279023930_RuntimeObject_RuntimeObject,
-	RuntimeInvoker_RuntimeObject_Single_t1397266774_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Color_t2555686324_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Scene_t2348375561_RuntimeObject_RuntimeObject,
-	RuntimeInvoker_RuntimeObject_Single_t1397266774_Single_t1397266774_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Scene_t2348375561_Int32_t2950945753_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Scene_t2348375561_Scene_t2348375561_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Single_t1397266774_Single_t1397266774_Single_t1397266774_RuntimeObject_RuntimeObject,

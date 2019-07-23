@@ -1838,6 +1838,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Networking_NetworkTransport_ConnectWithSimulator();
 		Register_UnityEngine_Networking_NetworkTransport_ConnectWithSimulator();
 
+		//System.Int32 UnityEngine.Networking.NetworkTransport::GetCurrentRTT(System.Int32,System.Int32,System.Byte&)
+		void Register_UnityEngine_Networking_NetworkTransport_GetCurrentRTT();
+		Register_UnityEngine_Networking_NetworkTransport_GetCurrentRTT();
+
 		//System.Int32 UnityEngine.Networking.NetworkTransport::GetMaxPacketSize()
 		void Register_UnityEngine_Networking_NetworkTransport_GetMaxPacketSize();
 		Register_UnityEngine_Networking_NetworkTransport_GetMaxPacketSize();
@@ -1881,6 +1885,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Networking.NetworkTransport::SetNetworkEventAvailableCallback(System.Action`1<System.Int32>)
 		void Register_UnityEngine_Networking_NetworkTransport_SetNetworkEventAvailableCallback();
 		Register_UnityEngine_Networking_NetworkTransport_SetNetworkEventAvailableCallback();
+
+		//System.Void UnityEngine.Networking.NetworkTransport::Shutdown()
+		void Register_UnityEngine_Networking_NetworkTransport_Shutdown();
+		Register_UnityEngine_Networking_NetworkTransport_Shutdown();
 
 		//System.Void UnityEngine.Networking.NetworkTransport::StopBroadcastDiscovery()
 		void Register_UnityEngine_Networking_NetworkTransport_StopBroadcastDiscovery();

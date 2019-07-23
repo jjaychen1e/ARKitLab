@@ -7867,6 +7867,8 @@ extern "C" IL2CPP_METHOD_ATTR void TcpClient__ctor_m1992471411 (TcpClient_t82290
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject* TcpClient_BeginConnect_m2835792999 (TcpClient_t822906377 * __this, String_t* p0, int32_t p1, AsyncCallback_t3962456242 * p2, RuntimeObject * p3, const RuntimeMethod* method);
 // System.Void System.Net.Sockets.TcpClient::EndConnect(System.IAsyncResult)
 extern "C" IL2CPP_METHOD_ATTR void TcpClient_EndConnect_m1433859801 (TcpClient_t822906377 * __this, RuntimeObject* p0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Networking.NetworkTransport::AddWebsocketHost(UnityEngine.Networking.HostTopology,System.Int32,System.String)
+extern "C" IL2CPP_METHOD_ATTR int32_t NetworkTransport_AddWebsocketHost_m3508994088 (RuntimeObject * __this /* static, unused */, HostTopology_t4059263395 * ___topology0, int32_t ___port1, String_t* ___ip2, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Networking.NetworkTransport::IsPortOpen(System.String,System.Int32)
 extern "C" IL2CPP_METHOD_ATTR bool NetworkTransport_IsPortOpen_m2487963042 (RuntimeObject * __this /* static, unused */, String_t* ___ip0, int32_t ___port1, const RuntimeMethod* method);
 // System.String System.String::Concat(System.Object,System.Object,System.Object)
@@ -15292,6 +15294,15 @@ extern "C" IL2CPP_METHOD_ATTR void NetworkTransport_InitWithParameters_m11369555
 	_il2cpp_icall_func = (NetworkTransport_InitWithParameters_m1136955565_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.NetworkTransport::InitWithParameters(UnityEngine.Networking.GlobalConfigInternal)");
 	_il2cpp_icall_func(___config0);
 }
+// System.Void UnityEngine.Networking.NetworkTransport::Shutdown()
+extern "C" IL2CPP_METHOD_ATTR void NetworkTransport_Shutdown_m2784069691 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef void (*NetworkTransport_Shutdown_m2784069691_ftn) ();
+	static NetworkTransport_Shutdown_m2784069691_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (NetworkTransport_Shutdown_m2784069691_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.NetworkTransport::Shutdown()");
+	_il2cpp_icall_func();
+}
 // System.Void UnityEngine.Networking.NetworkTransport::ConnectAsNetworkHost(System.Int32,System.String,System.Int32,UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.SourceID,UnityEngine.Networking.Types.NodeID,System.Byte&)
 extern "C" IL2CPP_METHOD_ATTR void NetworkTransport_ConnectAsNetworkHost_m2353972988 (RuntimeObject * __this /* static, unused */, int32_t ___hostId0, String_t* ___address1, int32_t ___port2, uint64_t ___network3, uint64_t ___source4, uint16_t ___node5, uint8_t* ___error6, const RuntimeMethod* method)
 {
@@ -15345,6 +15356,16 @@ IL_0020:
 		int32_t L_10 = V_0;
 		return L_10;
 	}
+}
+// System.Int32 UnityEngine.Networking.NetworkTransport::GetCurrentRTT(System.Int32,System.Int32,System.Byte&)
+extern "C" IL2CPP_METHOD_ATTR int32_t NetworkTransport_GetCurrentRTT_m4160272791 (RuntimeObject * __this /* static, unused */, int32_t ___hostId0, int32_t ___connectionId1, uint8_t* ___error2, const RuntimeMethod* method)
+{
+	typedef int32_t (*NetworkTransport_GetCurrentRTT_m4160272791_ftn) (int32_t, int32_t, uint8_t*);
+	static NetworkTransport_GetCurrentRTT_m4160272791_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (NetworkTransport_GetCurrentRTT_m4160272791_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.NetworkTransport::GetCurrentRTT(System.Int32,System.Int32,System.Byte&)");
+	int32_t retVal = _il2cpp_icall_func(___hostId0, ___connectionId1, ___error2);
+	return retVal;
 }
 // System.Void UnityEngine.Networking.NetworkTransport::GetConnectionInfo(System.Int32,System.Int32,System.String&,System.Int32&,UnityEngine.Networking.Types.NetworkID&,UnityEngine.Networking.Types.NodeID&,System.Byte&)
 extern "C" IL2CPP_METHOD_ATTR void NetworkTransport_GetConnectionInfo_m2259616706 (RuntimeObject * __this /* static, unused */, int32_t ___hostId0, int32_t ___connectionId1, String_t** ___address2, int32_t* ___port3, uint64_t* ___network4, uint16_t* ___dstNode5, uint8_t* ___error6, const RuntimeMethod* method)
@@ -15659,6 +15680,27 @@ IL_0085:
 	{
 		bool L_17 = V_5;
 		return L_17;
+	}
+}
+// System.Int32 UnityEngine.Networking.NetworkTransport::AddWebsocketHost(UnityEngine.Networking.HostTopology,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR int32_t NetworkTransport_AddWebsocketHost_m3608192905 (RuntimeObject * __this /* static, unused */, HostTopology_t4059263395 * ___topology0, int32_t ___port1, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		V_0 = (String_t*)NULL;
+		HostTopology_t4059263395 * L_0 = ___topology0;
+		int32_t L_1 = ___port1;
+		String_t* L_2 = V_0;
+		int32_t L_3 = NetworkTransport_AddWebsocketHost_m3508994088(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Int32 UnityEngine.Networking.NetworkTransport::AddWebsocketHost(UnityEngine.Networking.HostTopology,System.Int32,System.String)

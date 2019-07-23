@@ -20978,30 +20978,32 @@ public:
 	Highlighter_t672210414 * ___h1_10;
 	// HighlightingSystem.Highlighter RemoveController::h2
 	Highlighter_t672210414 * ___h2_11;
+	// System.Int32 RemoveController::h
+	int32_t ___h_12;
 	// ModelController RemoveController::modelController
-	ModelController_t213260968 * ___modelController_12;
+	ModelController_t213260968 * ___modelController_13;
 	// UnityEngine.GameObject RemoveController::alphaBase
-	GameObject_t1113636619 * ___alphaBase_13;
+	GameObject_t1113636619 * ___alphaBase_14;
 	// UnityEngine.GameObject RemoveController::screenBase
-	GameObject_t1113636619 * ___screenBase_14;
+	GameObject_t1113636619 * ___screenBase_15;
 	// UnityEngine.GameObject RemoveController::magnifierBase
-	GameObject_t1113636619 * ___magnifierBase_15;
+	GameObject_t1113636619 * ___magnifierBase_16;
 	// UnityEngine.GameObject RemoveController::Model
-	GameObject_t1113636619 * ___Model_16;
+	GameObject_t1113636619 * ___Model_17;
 	// System.Boolean RemoveController::alphaBaseFlag
-	bool ___alphaBaseFlag_17;
+	bool ___alphaBaseFlag_18;
 	// System.Boolean RemoveController::screenBaseFlag
-	bool ___screenBaseFlag_18;
+	bool ___screenBaseFlag_19;
 	// UnityEngine.Vector3 RemoveController::transformed
-	Vector3_t3722313464  ___transformed_19;
+	Vector3_t3722313464  ___transformed_20;
 	// System.Single RemoveController::distance1
-	float ___distance1_20;
+	float ___distance1_21;
 	// System.Single RemoveController::distance2
-	float ___distance2_21;
+	float ___distance2_22;
 	// UnityEngine.Vector3 RemoveController::oldPosition1
-	Vector3_t3722313464  ___oldPosition1_22;
+	Vector3_t3722313464  ___oldPosition1_23;
 	// UnityEngine.Vector3 RemoveController::oldPosition2
-	Vector3_t3722313464  ___oldPosition2_23;
+	Vector3_t3722313464  ___oldPosition2_24;
 
 public:
 	inline static int32_t get_offset_of_h1_10() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___h1_10)); }
@@ -21022,105 +21024,113 @@ public:
 		Il2CppCodeGenWriteBarrier((&___h2_11), value);
 	}
 
-	inline static int32_t get_offset_of_modelController_12() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___modelController_12)); }
-	inline ModelController_t213260968 * get_modelController_12() const { return ___modelController_12; }
-	inline ModelController_t213260968 ** get_address_of_modelController_12() { return &___modelController_12; }
-	inline void set_modelController_12(ModelController_t213260968 * value)
+	inline static int32_t get_offset_of_h_12() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___h_12)); }
+	inline int32_t get_h_12() const { return ___h_12; }
+	inline int32_t* get_address_of_h_12() { return &___h_12; }
+	inline void set_h_12(int32_t value)
 	{
-		___modelController_12 = value;
-		Il2CppCodeGenWriteBarrier((&___modelController_12), value);
+		___h_12 = value;
 	}
 
-	inline static int32_t get_offset_of_alphaBase_13() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___alphaBase_13)); }
-	inline GameObject_t1113636619 * get_alphaBase_13() const { return ___alphaBase_13; }
-	inline GameObject_t1113636619 ** get_address_of_alphaBase_13() { return &___alphaBase_13; }
-	inline void set_alphaBase_13(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_modelController_13() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___modelController_13)); }
+	inline ModelController_t213260968 * get_modelController_13() const { return ___modelController_13; }
+	inline ModelController_t213260968 ** get_address_of_modelController_13() { return &___modelController_13; }
+	inline void set_modelController_13(ModelController_t213260968 * value)
 	{
-		___alphaBase_13 = value;
-		Il2CppCodeGenWriteBarrier((&___alphaBase_13), value);
+		___modelController_13 = value;
+		Il2CppCodeGenWriteBarrier((&___modelController_13), value);
 	}
 
-	inline static int32_t get_offset_of_screenBase_14() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___screenBase_14)); }
-	inline GameObject_t1113636619 * get_screenBase_14() const { return ___screenBase_14; }
-	inline GameObject_t1113636619 ** get_address_of_screenBase_14() { return &___screenBase_14; }
-	inline void set_screenBase_14(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_alphaBase_14() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___alphaBase_14)); }
+	inline GameObject_t1113636619 * get_alphaBase_14() const { return ___alphaBase_14; }
+	inline GameObject_t1113636619 ** get_address_of_alphaBase_14() { return &___alphaBase_14; }
+	inline void set_alphaBase_14(GameObject_t1113636619 * value)
 	{
-		___screenBase_14 = value;
-		Il2CppCodeGenWriteBarrier((&___screenBase_14), value);
+		___alphaBase_14 = value;
+		Il2CppCodeGenWriteBarrier((&___alphaBase_14), value);
 	}
 
-	inline static int32_t get_offset_of_magnifierBase_15() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___magnifierBase_15)); }
-	inline GameObject_t1113636619 * get_magnifierBase_15() const { return ___magnifierBase_15; }
-	inline GameObject_t1113636619 ** get_address_of_magnifierBase_15() { return &___magnifierBase_15; }
-	inline void set_magnifierBase_15(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_screenBase_15() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___screenBase_15)); }
+	inline GameObject_t1113636619 * get_screenBase_15() const { return ___screenBase_15; }
+	inline GameObject_t1113636619 ** get_address_of_screenBase_15() { return &___screenBase_15; }
+	inline void set_screenBase_15(GameObject_t1113636619 * value)
 	{
-		___magnifierBase_15 = value;
-		Il2CppCodeGenWriteBarrier((&___magnifierBase_15), value);
+		___screenBase_15 = value;
+		Il2CppCodeGenWriteBarrier((&___screenBase_15), value);
 	}
 
-	inline static int32_t get_offset_of_Model_16() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___Model_16)); }
-	inline GameObject_t1113636619 * get_Model_16() const { return ___Model_16; }
-	inline GameObject_t1113636619 ** get_address_of_Model_16() { return &___Model_16; }
-	inline void set_Model_16(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_magnifierBase_16() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___magnifierBase_16)); }
+	inline GameObject_t1113636619 * get_magnifierBase_16() const { return ___magnifierBase_16; }
+	inline GameObject_t1113636619 ** get_address_of_magnifierBase_16() { return &___magnifierBase_16; }
+	inline void set_magnifierBase_16(GameObject_t1113636619 * value)
 	{
-		___Model_16 = value;
-		Il2CppCodeGenWriteBarrier((&___Model_16), value);
+		___magnifierBase_16 = value;
+		Il2CppCodeGenWriteBarrier((&___magnifierBase_16), value);
 	}
 
-	inline static int32_t get_offset_of_alphaBaseFlag_17() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___alphaBaseFlag_17)); }
-	inline bool get_alphaBaseFlag_17() const { return ___alphaBaseFlag_17; }
-	inline bool* get_address_of_alphaBaseFlag_17() { return &___alphaBaseFlag_17; }
-	inline void set_alphaBaseFlag_17(bool value)
+	inline static int32_t get_offset_of_Model_17() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___Model_17)); }
+	inline GameObject_t1113636619 * get_Model_17() const { return ___Model_17; }
+	inline GameObject_t1113636619 ** get_address_of_Model_17() { return &___Model_17; }
+	inline void set_Model_17(GameObject_t1113636619 * value)
 	{
-		___alphaBaseFlag_17 = value;
+		___Model_17 = value;
+		Il2CppCodeGenWriteBarrier((&___Model_17), value);
 	}
 
-	inline static int32_t get_offset_of_screenBaseFlag_18() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___screenBaseFlag_18)); }
-	inline bool get_screenBaseFlag_18() const { return ___screenBaseFlag_18; }
-	inline bool* get_address_of_screenBaseFlag_18() { return &___screenBaseFlag_18; }
-	inline void set_screenBaseFlag_18(bool value)
+	inline static int32_t get_offset_of_alphaBaseFlag_18() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___alphaBaseFlag_18)); }
+	inline bool get_alphaBaseFlag_18() const { return ___alphaBaseFlag_18; }
+	inline bool* get_address_of_alphaBaseFlag_18() { return &___alphaBaseFlag_18; }
+	inline void set_alphaBaseFlag_18(bool value)
 	{
-		___screenBaseFlag_18 = value;
+		___alphaBaseFlag_18 = value;
 	}
 
-	inline static int32_t get_offset_of_transformed_19() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___transformed_19)); }
-	inline Vector3_t3722313464  get_transformed_19() const { return ___transformed_19; }
-	inline Vector3_t3722313464 * get_address_of_transformed_19() { return &___transformed_19; }
-	inline void set_transformed_19(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_screenBaseFlag_19() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___screenBaseFlag_19)); }
+	inline bool get_screenBaseFlag_19() const { return ___screenBaseFlag_19; }
+	inline bool* get_address_of_screenBaseFlag_19() { return &___screenBaseFlag_19; }
+	inline void set_screenBaseFlag_19(bool value)
 	{
-		___transformed_19 = value;
+		___screenBaseFlag_19 = value;
 	}
 
-	inline static int32_t get_offset_of_distance1_20() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___distance1_20)); }
-	inline float get_distance1_20() const { return ___distance1_20; }
-	inline float* get_address_of_distance1_20() { return &___distance1_20; }
-	inline void set_distance1_20(float value)
+	inline static int32_t get_offset_of_transformed_20() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___transformed_20)); }
+	inline Vector3_t3722313464  get_transformed_20() const { return ___transformed_20; }
+	inline Vector3_t3722313464 * get_address_of_transformed_20() { return &___transformed_20; }
+	inline void set_transformed_20(Vector3_t3722313464  value)
 	{
-		___distance1_20 = value;
+		___transformed_20 = value;
 	}
 
-	inline static int32_t get_offset_of_distance2_21() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___distance2_21)); }
-	inline float get_distance2_21() const { return ___distance2_21; }
-	inline float* get_address_of_distance2_21() { return &___distance2_21; }
-	inline void set_distance2_21(float value)
+	inline static int32_t get_offset_of_distance1_21() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___distance1_21)); }
+	inline float get_distance1_21() const { return ___distance1_21; }
+	inline float* get_address_of_distance1_21() { return &___distance1_21; }
+	inline void set_distance1_21(float value)
 	{
-		___distance2_21 = value;
+		___distance1_21 = value;
 	}
 
-	inline static int32_t get_offset_of_oldPosition1_22() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___oldPosition1_22)); }
-	inline Vector3_t3722313464  get_oldPosition1_22() const { return ___oldPosition1_22; }
-	inline Vector3_t3722313464 * get_address_of_oldPosition1_22() { return &___oldPosition1_22; }
-	inline void set_oldPosition1_22(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_distance2_22() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___distance2_22)); }
+	inline float get_distance2_22() const { return ___distance2_22; }
+	inline float* get_address_of_distance2_22() { return &___distance2_22; }
+	inline void set_distance2_22(float value)
 	{
-		___oldPosition1_22 = value;
+		___distance2_22 = value;
 	}
 
-	inline static int32_t get_offset_of_oldPosition2_23() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___oldPosition2_23)); }
-	inline Vector3_t3722313464  get_oldPosition2_23() const { return ___oldPosition2_23; }
-	inline Vector3_t3722313464 * get_address_of_oldPosition2_23() { return &___oldPosition2_23; }
-	inline void set_oldPosition2_23(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_oldPosition1_23() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___oldPosition1_23)); }
+	inline Vector3_t3722313464  get_oldPosition1_23() const { return ___oldPosition1_23; }
+	inline Vector3_t3722313464 * get_address_of_oldPosition1_23() { return &___oldPosition1_23; }
+	inline void set_oldPosition1_23(Vector3_t3722313464  value)
 	{
-		___oldPosition2_23 = value;
+		___oldPosition1_23 = value;
+	}
+
+	inline static int32_t get_offset_of_oldPosition2_24() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508, ___oldPosition2_24)); }
+	inline Vector3_t3722313464  get_oldPosition2_24() const { return ___oldPosition2_24; }
+	inline Vector3_t3722313464 * get_address_of_oldPosition2_24() { return &___oldPosition2_24; }
+	inline void set_oldPosition2_24(Vector3_t3722313464  value)
+	{
+		___oldPosition2_24 = value;
 	}
 };
 
@@ -21128,125 +21138,125 @@ struct RemoveController_t1458312508_StaticFields
 {
 public:
 	// System.Int32 RemoveController::kCmdCmdAlphaBaseTranslate
-	int32_t ___kCmdCmdAlphaBaseTranslate_24;
+	int32_t ___kCmdCmdAlphaBaseTranslate_25;
 	// System.Int32 RemoveController::kRpcRpcAlphaBaseTranslate
-	int32_t ___kRpcRpcAlphaBaseTranslate_25;
+	int32_t ___kRpcRpcAlphaBaseTranslate_26;
 	// System.Int32 RemoveController::kCmdCmdScreenBaseTranslate
-	int32_t ___kCmdCmdScreenBaseTranslate_26;
+	int32_t ___kCmdCmdScreenBaseTranslate_27;
 	// System.Int32 RemoveController::kRpcRpcScreenBaseTranslate
-	int32_t ___kRpcRpcScreenBaseTranslate_27;
+	int32_t ___kRpcRpcScreenBaseTranslate_28;
 	// System.Int32 RemoveController::kCmdCmdAlphaBaseTranslateBack
-	int32_t ___kCmdCmdAlphaBaseTranslateBack_28;
+	int32_t ___kCmdCmdAlphaBaseTranslateBack_29;
 	// System.Int32 RemoveController::kRpcRpcAlphaBaseTranslateBack
-	int32_t ___kRpcRpcAlphaBaseTranslateBack_29;
+	int32_t ___kRpcRpcAlphaBaseTranslateBack_30;
 	// System.Int32 RemoveController::kCmdCmdScreenBaseTranslateBack
-	int32_t ___kCmdCmdScreenBaseTranslateBack_30;
+	int32_t ___kCmdCmdScreenBaseTranslateBack_31;
 	// System.Int32 RemoveController::kRpcRpcScreenBaseTranslateBack
-	int32_t ___kRpcRpcScreenBaseTranslateBack_31;
+	int32_t ___kRpcRpcScreenBaseTranslateBack_32;
 	// System.Int32 RemoveController::kCmdCmdAlphaBaseTranslateForward
-	int32_t ___kCmdCmdAlphaBaseTranslateForward_32;
+	int32_t ___kCmdCmdAlphaBaseTranslateForward_33;
 	// System.Int32 RemoveController::kRpcRpcAlphaBaseTranslateForward
-	int32_t ___kRpcRpcAlphaBaseTranslateForward_33;
+	int32_t ___kRpcRpcAlphaBaseTranslateForward_34;
 	// System.Int32 RemoveController::kCmdCmdScreenBaseTranslateForward
-	int32_t ___kCmdCmdScreenBaseTranslateForward_34;
+	int32_t ___kCmdCmdScreenBaseTranslateForward_35;
 	// System.Int32 RemoveController::kRpcRpcScreenBaseTranslateForward
-	int32_t ___kRpcRpcScreenBaseTranslateForward_35;
+	int32_t ___kRpcRpcScreenBaseTranslateForward_36;
 
 public:
-	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslate_24() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslate_24)); }
-	inline int32_t get_kCmdCmdAlphaBaseTranslate_24() const { return ___kCmdCmdAlphaBaseTranslate_24; }
-	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslate_24() { return &___kCmdCmdAlphaBaseTranslate_24; }
-	inline void set_kCmdCmdAlphaBaseTranslate_24(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslate_25() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslate_25)); }
+	inline int32_t get_kCmdCmdAlphaBaseTranslate_25() const { return ___kCmdCmdAlphaBaseTranslate_25; }
+	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslate_25() { return &___kCmdCmdAlphaBaseTranslate_25; }
+	inline void set_kCmdCmdAlphaBaseTranslate_25(int32_t value)
 	{
-		___kCmdCmdAlphaBaseTranslate_24 = value;
+		___kCmdCmdAlphaBaseTranslate_25 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslate_25() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslate_25)); }
-	inline int32_t get_kRpcRpcAlphaBaseTranslate_25() const { return ___kRpcRpcAlphaBaseTranslate_25; }
-	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslate_25() { return &___kRpcRpcAlphaBaseTranslate_25; }
-	inline void set_kRpcRpcAlphaBaseTranslate_25(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslate_26() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslate_26)); }
+	inline int32_t get_kRpcRpcAlphaBaseTranslate_26() const { return ___kRpcRpcAlphaBaseTranslate_26; }
+	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslate_26() { return &___kRpcRpcAlphaBaseTranslate_26; }
+	inline void set_kRpcRpcAlphaBaseTranslate_26(int32_t value)
 	{
-		___kRpcRpcAlphaBaseTranslate_25 = value;
+		___kRpcRpcAlphaBaseTranslate_26 = value;
 	}
 
-	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslate_26() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslate_26)); }
-	inline int32_t get_kCmdCmdScreenBaseTranslate_26() const { return ___kCmdCmdScreenBaseTranslate_26; }
-	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslate_26() { return &___kCmdCmdScreenBaseTranslate_26; }
-	inline void set_kCmdCmdScreenBaseTranslate_26(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslate_27() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslate_27)); }
+	inline int32_t get_kCmdCmdScreenBaseTranslate_27() const { return ___kCmdCmdScreenBaseTranslate_27; }
+	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslate_27() { return &___kCmdCmdScreenBaseTranslate_27; }
+	inline void set_kCmdCmdScreenBaseTranslate_27(int32_t value)
 	{
-		___kCmdCmdScreenBaseTranslate_26 = value;
+		___kCmdCmdScreenBaseTranslate_27 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslate_27() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslate_27)); }
-	inline int32_t get_kRpcRpcScreenBaseTranslate_27() const { return ___kRpcRpcScreenBaseTranslate_27; }
-	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslate_27() { return &___kRpcRpcScreenBaseTranslate_27; }
-	inline void set_kRpcRpcScreenBaseTranslate_27(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslate_28() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslate_28)); }
+	inline int32_t get_kRpcRpcScreenBaseTranslate_28() const { return ___kRpcRpcScreenBaseTranslate_28; }
+	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslate_28() { return &___kRpcRpcScreenBaseTranslate_28; }
+	inline void set_kRpcRpcScreenBaseTranslate_28(int32_t value)
 	{
-		___kRpcRpcScreenBaseTranslate_27 = value;
+		___kRpcRpcScreenBaseTranslate_28 = value;
 	}
 
-	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslateBack_28() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslateBack_28)); }
-	inline int32_t get_kCmdCmdAlphaBaseTranslateBack_28() const { return ___kCmdCmdAlphaBaseTranslateBack_28; }
-	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslateBack_28() { return &___kCmdCmdAlphaBaseTranslateBack_28; }
-	inline void set_kCmdCmdAlphaBaseTranslateBack_28(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslateBack_29() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslateBack_29)); }
+	inline int32_t get_kCmdCmdAlphaBaseTranslateBack_29() const { return ___kCmdCmdAlphaBaseTranslateBack_29; }
+	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslateBack_29() { return &___kCmdCmdAlphaBaseTranslateBack_29; }
+	inline void set_kCmdCmdAlphaBaseTranslateBack_29(int32_t value)
 	{
-		___kCmdCmdAlphaBaseTranslateBack_28 = value;
+		___kCmdCmdAlphaBaseTranslateBack_29 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslateBack_29() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslateBack_29)); }
-	inline int32_t get_kRpcRpcAlphaBaseTranslateBack_29() const { return ___kRpcRpcAlphaBaseTranslateBack_29; }
-	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslateBack_29() { return &___kRpcRpcAlphaBaseTranslateBack_29; }
-	inline void set_kRpcRpcAlphaBaseTranslateBack_29(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslateBack_30() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslateBack_30)); }
+	inline int32_t get_kRpcRpcAlphaBaseTranslateBack_30() const { return ___kRpcRpcAlphaBaseTranslateBack_30; }
+	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslateBack_30() { return &___kRpcRpcAlphaBaseTranslateBack_30; }
+	inline void set_kRpcRpcAlphaBaseTranslateBack_30(int32_t value)
 	{
-		___kRpcRpcAlphaBaseTranslateBack_29 = value;
+		___kRpcRpcAlphaBaseTranslateBack_30 = value;
 	}
 
-	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslateBack_30() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslateBack_30)); }
-	inline int32_t get_kCmdCmdScreenBaseTranslateBack_30() const { return ___kCmdCmdScreenBaseTranslateBack_30; }
-	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslateBack_30() { return &___kCmdCmdScreenBaseTranslateBack_30; }
-	inline void set_kCmdCmdScreenBaseTranslateBack_30(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslateBack_31() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslateBack_31)); }
+	inline int32_t get_kCmdCmdScreenBaseTranslateBack_31() const { return ___kCmdCmdScreenBaseTranslateBack_31; }
+	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslateBack_31() { return &___kCmdCmdScreenBaseTranslateBack_31; }
+	inline void set_kCmdCmdScreenBaseTranslateBack_31(int32_t value)
 	{
-		___kCmdCmdScreenBaseTranslateBack_30 = value;
+		___kCmdCmdScreenBaseTranslateBack_31 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslateBack_31() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslateBack_31)); }
-	inline int32_t get_kRpcRpcScreenBaseTranslateBack_31() const { return ___kRpcRpcScreenBaseTranslateBack_31; }
-	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslateBack_31() { return &___kRpcRpcScreenBaseTranslateBack_31; }
-	inline void set_kRpcRpcScreenBaseTranslateBack_31(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslateBack_32() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslateBack_32)); }
+	inline int32_t get_kRpcRpcScreenBaseTranslateBack_32() const { return ___kRpcRpcScreenBaseTranslateBack_32; }
+	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslateBack_32() { return &___kRpcRpcScreenBaseTranslateBack_32; }
+	inline void set_kRpcRpcScreenBaseTranslateBack_32(int32_t value)
 	{
-		___kRpcRpcScreenBaseTranslateBack_31 = value;
+		___kRpcRpcScreenBaseTranslateBack_32 = value;
 	}
 
-	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslateForward_32() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslateForward_32)); }
-	inline int32_t get_kCmdCmdAlphaBaseTranslateForward_32() const { return ___kCmdCmdAlphaBaseTranslateForward_32; }
-	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslateForward_32() { return &___kCmdCmdAlphaBaseTranslateForward_32; }
-	inline void set_kCmdCmdAlphaBaseTranslateForward_32(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdAlphaBaseTranslateForward_33() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdAlphaBaseTranslateForward_33)); }
+	inline int32_t get_kCmdCmdAlphaBaseTranslateForward_33() const { return ___kCmdCmdAlphaBaseTranslateForward_33; }
+	inline int32_t* get_address_of_kCmdCmdAlphaBaseTranslateForward_33() { return &___kCmdCmdAlphaBaseTranslateForward_33; }
+	inline void set_kCmdCmdAlphaBaseTranslateForward_33(int32_t value)
 	{
-		___kCmdCmdAlphaBaseTranslateForward_32 = value;
+		___kCmdCmdAlphaBaseTranslateForward_33 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslateForward_33() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslateForward_33)); }
-	inline int32_t get_kRpcRpcAlphaBaseTranslateForward_33() const { return ___kRpcRpcAlphaBaseTranslateForward_33; }
-	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslateForward_33() { return &___kRpcRpcAlphaBaseTranslateForward_33; }
-	inline void set_kRpcRpcAlphaBaseTranslateForward_33(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcAlphaBaseTranslateForward_34() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcAlphaBaseTranslateForward_34)); }
+	inline int32_t get_kRpcRpcAlphaBaseTranslateForward_34() const { return ___kRpcRpcAlphaBaseTranslateForward_34; }
+	inline int32_t* get_address_of_kRpcRpcAlphaBaseTranslateForward_34() { return &___kRpcRpcAlphaBaseTranslateForward_34; }
+	inline void set_kRpcRpcAlphaBaseTranslateForward_34(int32_t value)
 	{
-		___kRpcRpcAlphaBaseTranslateForward_33 = value;
+		___kRpcRpcAlphaBaseTranslateForward_34 = value;
 	}
 
-	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslateForward_34() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslateForward_34)); }
-	inline int32_t get_kCmdCmdScreenBaseTranslateForward_34() const { return ___kCmdCmdScreenBaseTranslateForward_34; }
-	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslateForward_34() { return &___kCmdCmdScreenBaseTranslateForward_34; }
-	inline void set_kCmdCmdScreenBaseTranslateForward_34(int32_t value)
+	inline static int32_t get_offset_of_kCmdCmdScreenBaseTranslateForward_35() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kCmdCmdScreenBaseTranslateForward_35)); }
+	inline int32_t get_kCmdCmdScreenBaseTranslateForward_35() const { return ___kCmdCmdScreenBaseTranslateForward_35; }
+	inline int32_t* get_address_of_kCmdCmdScreenBaseTranslateForward_35() { return &___kCmdCmdScreenBaseTranslateForward_35; }
+	inline void set_kCmdCmdScreenBaseTranslateForward_35(int32_t value)
 	{
-		___kCmdCmdScreenBaseTranslateForward_34 = value;
+		___kCmdCmdScreenBaseTranslateForward_35 = value;
 	}
 
-	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslateForward_35() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslateForward_35)); }
-	inline int32_t get_kRpcRpcScreenBaseTranslateForward_35() const { return ___kRpcRpcScreenBaseTranslateForward_35; }
-	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslateForward_35() { return &___kRpcRpcScreenBaseTranslateForward_35; }
-	inline void set_kRpcRpcScreenBaseTranslateForward_35(int32_t value)
+	inline static int32_t get_offset_of_kRpcRpcScreenBaseTranslateForward_36() { return static_cast<int32_t>(offsetof(RemoveController_t1458312508_StaticFields, ___kRpcRpcScreenBaseTranslateForward_36)); }
+	inline int32_t get_kRpcRpcScreenBaseTranslateForward_36() const { return ___kRpcRpcScreenBaseTranslateForward_36; }
+	inline int32_t* get_address_of_kRpcRpcScreenBaseTranslateForward_36() { return &___kRpcRpcScreenBaseTranslateForward_36; }
+	inline void set_kRpcRpcScreenBaseTranslateForward_36(int32_t value)
 	{
-		___kRpcRpcScreenBaseTranslateForward_35 = value;
+		___kRpcRpcScreenBaseTranslateForward_36 = value;
 	}
 };
 
@@ -25694,20 +25704,24 @@ extern "C" IL2CPP_METHOD_ATTR void Highlighter_ConstantOffImmediate_m896226998 (
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_Project_m899145139 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  p0, Vector3_t3722313464  p1, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_right()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_get_right_m1913784872 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.Transform::get_parent()
+extern "C" IL2CPP_METHOD_ATTR Transform_t3600365921 * Transform_get_parent_m835071599 (Transform_t3600365921 * __this, const RuntimeMethod* method);
 // System.Void RemoveController::CallCmdAlphaBaseTranslate(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdAlphaBaseTranslate_m2938281172 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
 // System.Void RemoveController::CallCmdScreenBaseTranslate(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdScreenBaseTranslate_m3796994682 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_left()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_get_left_m2428419009 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// System.Void RemoveController::CallCmdAlphaBaseTranslateForward(UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdAlphaBaseTranslateForward_m162146291 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
 // System.Void RemoveController::CallCmdAlphaBaseTranslateBack(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdAlphaBaseTranslateBack_m776497358 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
+// System.Void RemoveController::CallCmdScreenBaseTranslateBack(UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdScreenBaseTranslateBack_m2126238610 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
 // System.Void RemoveController::CallCmdScreenBaseTranslateForward(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallCmdScreenBaseTranslateForward_m2156138221 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
 // System.Void RemoveController::CallRpcAlphaBaseTranslate(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void RemoveController_CallRpcAlphaBaseTranslate_m246020782 (RemoveController_t1458312508 * __this, Vector3_t3722313464  ___translated0, const RuntimeMethod* method);
-// UnityEngine.Transform UnityEngine.Transform::get_parent()
-extern "C" IL2CPP_METHOD_ATTR Transform_t3600365921 * Transform_get_parent_m835071599 (Transform_t3600365921 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::Translate(UnityEngine.Vector3,UnityEngine.Space)
 extern "C" IL2CPP_METHOD_ATTR void Transform_Translate_m1990195114 (Transform_t3600365921 * __this, Vector3_t3722313464  p0, int32_t p1, const RuntimeMethod* method);
 // System.Void RemoveController::CallRpcScreenBaseTranslate(UnityEngine.Vector3)
@@ -44886,11 +44900,11 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_Start_m2517885684 (RemoveCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_0 = __this->get_alphaBase_14();
 		NullCheck(L_0);
 		Highlighter_t672210414 * L_1 = GameObject_GetComponent_TisHighlighter_t672210414_m3027890784(L_0, /*hidden argument*/GameObject_GetComponent_TisHighlighter_t672210414_m3027890784_RuntimeMethod_var);
 		__this->set_h1_10(L_1);
-		GameObject_t1113636619 * L_2 = __this->get_screenBase_14();
+		GameObject_t1113636619 * L_2 = __this->get_screenBase_15();
 		NullCheck(L_2);
 		Highlighter_t672210414 * L_3 = GameObject_GetComponent_TisHighlighter_t672210414_m3027890784(L_2, /*hidden argument*/GameObject_GetComponent_TisHighlighter_t672210414_m3027890784_RuntimeMethod_var);
 		__this->set_h2_11(L_3);
@@ -44947,35 +44961,35 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_Update_m2554798388 (RemoveCo
 	memset(&V_21, 0, sizeof(V_21));
 	Player_t3266647312 * V_22 = NULL;
 	{
-		ModelController_t213260968 * L_0 = __this->get_modelController_12();
+		ModelController_t213260968 * L_0 = __this->get_modelController_13();
 		NullCheck(L_0);
 		bool L_1 = ModelController_CheckButton_m712699967(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
-			goto IL_0628;
+			goto IL_0713;
 		}
 	}
 	{
-		ModelController_t213260968 * L_2 = __this->get_modelController_12();
+		ModelController_t213260968 * L_2 = __this->get_modelController_13();
 		NullCheck(L_2);
 		Vector3_t3722313464  L_3 = L_2->get_transforme_15();
-		__this->set_transformed_19(L_3);
-		ModelController_t213260968 * L_4 = __this->get_modelController_12();
+		__this->set_transformed_20(L_3);
+		ModelController_t213260968 * L_4 = __this->get_modelController_13();
 		NullCheck(L_4);
 		float L_5 = L_4->get_distance1_19();
-		__this->set_distance1_20(L_5);
-		ModelController_t213260968 * L_6 = __this->get_modelController_12();
+		__this->set_distance1_21(L_5);
+		ModelController_t213260968 * L_6 = __this->get_modelController_13();
 		NullCheck(L_6);
 		float L_7 = L_6->get_distance2_20();
-		__this->set_distance2_21(L_7);
-		ModelController_t213260968 * L_8 = __this->get_modelController_12();
+		__this->set_distance2_22(L_7);
+		ModelController_t213260968 * L_8 = __this->get_modelController_13();
 		NullCheck(L_8);
 		Vector3_t3722313464  L_9 = L_8->get_oldRemove1_22();
-		__this->set_oldPosition1_22(L_9);
-		ModelController_t213260968 * L_10 = __this->get_modelController_12();
+		__this->set_oldPosition1_23(L_9);
+		ModelController_t213260968 * L_10 = __this->get_modelController_13();
 		NullCheck(L_10);
 		Vector3_t3722313464  L_11 = L_10->get_oldRemove2_23();
-		__this->set_oldPosition2_23(L_11);
+		__this->set_oldPosition2_24(L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
 		bool L_12 = Input_GetMouseButtonDown_m2081676745(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		if (!L_12)
@@ -45009,7 +45023,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_Update_m2554798388 (RemoveCo
 		Collider_t1773347010 * L_23 = RaycastHit_get_collider_m1464180279((RaycastHit_t1056001966 *)(&V_2), /*hidden argument*/NULL);
 		NullCheck(L_23);
 		GameObject_t1113636619 * L_24 = Component_get_gameObject_m442555142(L_23, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_25 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_25 = __this->get_alphaBase_14();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t631007953_il2cpp_TypeInfo_var);
 		bool L_26 = Object_op_Equality_m1810815630(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
 		if (!L_26)
@@ -45025,8 +45039,8 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_Update_m2554798388 (RemoveCo
 		Highlighter_t672210414 * L_29 = __this->get_h2_11();
 		NullCheck(L_29);
 		Highlighter_ConstantOffImmediate_m896226998(L_29, /*hidden argument*/NULL);
-		__this->set_alphaBaseFlag_17((bool)1);
-		__this->set_screenBaseFlag_18((bool)0);
+		__this->set_alphaBaseFlag_18((bool)1);
+		__this->set_screenBaseFlag_19((bool)0);
 		goto IL_0155;
 	}
 
@@ -45035,7 +45049,7 @@ IL_010b:
 		Collider_t1773347010 * L_30 = RaycastHit_get_collider_m1464180279((RaycastHit_t1056001966 *)(&V_2), /*hidden argument*/NULL);
 		NullCheck(L_30);
 		GameObject_t1113636619 * L_31 = Component_get_gameObject_m442555142(L_30, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_32 = __this->get_screenBase_14();
+		GameObject_t1113636619 * L_32 = __this->get_screenBase_15();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t631007953_il2cpp_TypeInfo_var);
 		bool L_33 = Object_op_Equality_m1810815630(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
 		if (!L_33)
@@ -45051,8 +45065,8 @@ IL_010b:
 		Highlighter_t672210414 * L_36 = __this->get_h1_10();
 		NullCheck(L_36);
 		Highlighter_ConstantOffImmediate_m896226998(L_36, /*hidden argument*/NULL);
-		__this->set_alphaBaseFlag_17((bool)0);
-		__this->set_screenBaseFlag_18((bool)1);
+		__this->set_alphaBaseFlag_18((bool)0);
+		__this->set_screenBaseFlag_19((bool)1);
 	}
 
 IL_0155:
@@ -45061,7 +45075,7 @@ IL_0155:
 		int32_t L_37 = Input_get_touchCount_m3403849067(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_37) == ((uint32_t)1))))
 		{
-			goto IL_036a;
+			goto IL_03dd;
 		}
 	}
 	{
@@ -45071,7 +45085,7 @@ IL_0155:
 		int32_t L_39 = Touch_get_phase_m214549210((Touch_t1921856868 *)(&V_4), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_39) == ((uint32_t)1))))
 		{
-			goto IL_036a;
+			goto IL_03dd;
 		}
 	}
 	{
@@ -45083,7 +45097,7 @@ IL_0155:
 		Vector2_t2156229523  L_42 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(Vector2_t2156229523_il2cpp_TypeInfo_var);
 		Vector3_t3722313464  L_43 = Vector2_op_Implicit_m1860157806(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_44 = __this->get_transformed_19();
+		Vector3_t3722313464  L_44 = __this->get_transformed_20();
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
 		Vector3_t3722313464  L_45 = Vector3_Project_m899145139(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
 		V_8 = L_45;
@@ -45091,419 +45105,513 @@ IL_0155:
 		Vector3_t3722313464  L_47 = Vector3_get_right_m1913784872(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector3_t3722313464  L_48 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_46, L_47, /*hidden argument*/NULL);
 		V_7 = L_48;
-		bool L_49 = __this->get_alphaBaseFlag_17();
+		bool L_49 = __this->get_alphaBaseFlag_18();
 		if (!L_49)
 		{
-			goto IL_028e;
+			goto IL_02ca;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_50 = __this->get_magnifierBase_15();
+		GameObject_t1113636619 * L_50 = __this->get_magnifierBase_16();
 		NullCheck(L_50);
 		Transform_t3600365921 * L_51 = GameObject_get_transform_m1369836730(L_50, /*hidden argument*/NULL);
 		NullCheck(L_51);
-		Vector3_t3722313464  L_52 = Transform_get_position_m36019626(L_51, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_53 = __this->get_alphaBase_13();
+		Transform_t3600365921 * L_52 = Transform_get_parent_m835071599(L_51, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		GameObject_t1113636619 * L_53 = Component_get_gameObject_m442555142(L_52, /*hidden argument*/NULL);
 		NullCheck(L_53);
 		Transform_t3600365921 * L_54 = GameObject_get_transform_m1369836730(L_53, /*hidden argument*/NULL);
 		NullCheck(L_54);
 		Vector3_t3722313464  L_55 = Transform_get_position_m36019626(L_54, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_56 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_52, L_55, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_57 = __this->get_Model_16();
+		GameObject_t1113636619 * L_56 = __this->get_alphaBase_14();
+		NullCheck(L_56);
+		Transform_t3600365921 * L_57 = GameObject_get_transform_m1369836730(L_56, /*hidden argument*/NULL);
 		NullCheck(L_57);
-		Transform_t3600365921 * L_58 = GameObject_get_transform_m1369836730(L_57, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_58 = Transform_get_parent_m835071599(L_57, /*hidden argument*/NULL);
 		NullCheck(L_58);
-		Vector3_t3722313464  L_59 = Transform_get_localScale_m129152068(L_58, /*hidden argument*/NULL);
-		V_9 = L_59;
-		float L_60 = (&V_9)->get_x_2();
-		if ((!(((double)(((double)((double)L_56)))) < ((double)((double)il2cpp_codegen_multiply((double)(0.18), (double)(((double)((double)L_60)))))))))
+		GameObject_t1113636619 * L_59 = Component_get_gameObject_m442555142(L_58, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		Transform_t3600365921 * L_60 = GameObject_get_transform_m1369836730(L_59, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		Vector3_t3722313464  L_61 = Transform_get_position_m36019626(L_60, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_62 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_55, L_61, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_63 = __this->get_Model_17();
+		NullCheck(L_63);
+		Transform_t3600365921 * L_64 = GameObject_get_transform_m1369836730(L_63, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		Vector3_t3722313464  L_65 = Transform_get_localScale_m129152068(L_64, /*hidden argument*/NULL);
+		V_9 = L_65;
+		float L_66 = (&V_9)->get_x_2();
+		if ((!(((double)(((double)((double)L_62)))) < ((double)((double)il2cpp_codegen_multiply((double)(0.42), (double)(((double)((double)L_66)))))))))
 		{
-			goto IL_028e;
+			goto IL_02ca;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_61 = __this->get_magnifierBase_15();
-		NullCheck(L_61);
-		Transform_t3600365921 * L_62 = GameObject_get_transform_m1369836730(L_61, /*hidden argument*/NULL);
-		NullCheck(L_62);
-		Vector3_t3722313464  L_63 = Transform_get_position_m36019626(L_62, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_64 = __this->get_alphaBase_13();
-		NullCheck(L_64);
-		Transform_t3600365921 * L_65 = GameObject_get_transform_m1369836730(L_64, /*hidden argument*/NULL);
-		NullCheck(L_65);
-		Vector3_t3722313464  L_66 = Transform_get_position_m36019626(L_65, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_67 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_63, L_66, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_68 = __this->get_Model_16();
+		GameObject_t1113636619 * L_67 = __this->get_magnifierBase_16();
+		NullCheck(L_67);
+		Transform_t3600365921 * L_68 = GameObject_get_transform_m1369836730(L_67, /*hidden argument*/NULL);
 		NullCheck(L_68);
-		Transform_t3600365921 * L_69 = GameObject_get_transform_m1369836730(L_68, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_69 = Transform_get_parent_m835071599(L_68, /*hidden argument*/NULL);
 		NullCheck(L_69);
-		Vector3_t3722313464  L_70 = Transform_get_localScale_m129152068(L_69, /*hidden argument*/NULL);
-		V_10 = L_70;
-		float L_71 = (&V_10)->get_x_2();
-		if ((!(((double)(((double)((double)L_67)))) > ((double)((double)il2cpp_codegen_multiply((double)(0.0015), (double)(((double)((double)L_71)))))))))
+		GameObject_t1113636619 * L_70 = Component_get_gameObject_m442555142(L_69, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		Transform_t3600365921 * L_71 = GameObject_get_transform_m1369836730(L_70, /*hidden argument*/NULL);
+		NullCheck(L_71);
+		Vector3_t3722313464  L_72 = Transform_get_position_m36019626(L_71, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_73 = __this->get_alphaBase_14();
+		NullCheck(L_73);
+		Transform_t3600365921 * L_74 = GameObject_get_transform_m1369836730(L_73, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		Transform_t3600365921 * L_75 = Transform_get_parent_m835071599(L_74, /*hidden argument*/NULL);
+		NullCheck(L_75);
+		GameObject_t1113636619 * L_76 = Component_get_gameObject_m442555142(L_75, /*hidden argument*/NULL);
+		NullCheck(L_76);
+		Transform_t3600365921 * L_77 = GameObject_get_transform_m1369836730(L_76, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Vector3_t3722313464  L_78 = Transform_get_position_m36019626(L_77, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_79 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_72, L_78, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_80 = __this->get_Model_17();
+		NullCheck(L_80);
+		Transform_t3600365921 * L_81 = GameObject_get_transform_m1369836730(L_80, /*hidden argument*/NULL);
+		NullCheck(L_81);
+		Vector3_t3722313464  L_82 = Transform_get_localScale_m129152068(L_81, /*hidden argument*/NULL);
+		V_10 = L_82;
+		float L_83 = (&V_10)->get_x_2();
+		if ((!(((double)(((double)((double)L_79)))) > ((double)((double)il2cpp_codegen_multiply((double)(0.05), (double)(((double)((double)L_83)))))))))
 		{
-			goto IL_028e;
+			goto IL_02ca;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_72 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_72);
-		PlayerController_t496487816 * L_73 = List_1_get_Item_m2882992018(L_72, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
-		NullCheck(L_73);
-		GameObject_t1113636619 * L_74 = L_73->get_gameObject_3();
-		NullCheck(L_74);
-		Player_t3266647312 * L_75 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_74, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_11 = L_75;
-		Player_t3266647312 * L_76 = V_11;
-		NetworkIdentity_t3299519057 * L_77 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_78 = V_11;
-		NullCheck(L_78);
-		NetworkIdentity_t3299519057 * L_79 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_78, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		NullCheck(L_76);
-		Player_CheckAuthority_m2436050745(L_76, L_77, L_79, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_80 = V_7;
-		RemoveController_CallCmdAlphaBaseTranslate_m2938281172(__this, L_80, /*hidden argument*/NULL);
-		goto IL_036a;
+		List_1_t1968562558 * L_84 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_84);
+		PlayerController_t496487816 * L_85 = List_1_get_Item_m2882992018(L_84, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		NullCheck(L_85);
+		GameObject_t1113636619 * L_86 = L_85->get_gameObject_3();
+		NullCheck(L_86);
+		Player_t3266647312 * L_87 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_86, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_11 = L_87;
+		Player_t3266647312 * L_88 = V_11;
+		NetworkIdentity_t3299519057 * L_89 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_90 = V_11;
+		NullCheck(L_90);
+		NetworkIdentity_t3299519057 * L_91 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_90, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_88);
+		Player_CheckAuthority_m2436050745(L_88, L_89, L_91, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_92 = V_7;
+		RemoveController_CallCmdAlphaBaseTranslate_m2938281172(__this, L_92, /*hidden argument*/NULL);
+		goto IL_03dd;
 	}
 
-IL_028e:
+IL_02ca:
 	{
-		bool L_81 = __this->get_screenBaseFlag_18();
-		if (!L_81)
+		bool L_93 = __this->get_screenBaseFlag_19();
+		if (!L_93)
 		{
-			goto IL_036a;
+			goto IL_03dd;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_82 = __this->get_magnifierBase_15();
-		NullCheck(L_82);
-		Transform_t3600365921 * L_83 = GameObject_get_transform_m1369836730(L_82, /*hidden argument*/NULL);
-		NullCheck(L_83);
-		Vector3_t3722313464  L_84 = Transform_get_position_m36019626(L_83, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_85 = __this->get_screenBase_14();
-		NullCheck(L_85);
-		Transform_t3600365921 * L_86 = GameObject_get_transform_m1369836730(L_85, /*hidden argument*/NULL);
-		NullCheck(L_86);
-		Vector3_t3722313464  L_87 = Transform_get_position_m36019626(L_86, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_88 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_84, L_87, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_89 = __this->get_Model_16();
-		NullCheck(L_89);
-		Transform_t3600365921 * L_90 = GameObject_get_transform_m1369836730(L_89, /*hidden argument*/NULL);
-		NullCheck(L_90);
-		Vector3_t3722313464  L_91 = Transform_get_localScale_m129152068(L_90, /*hidden argument*/NULL);
-		V_12 = L_91;
-		float L_92 = (&V_12)->get_x_2();
-		if ((!(((double)(((double)((double)L_88)))) < ((double)((double)il2cpp_codegen_multiply((double)(0.18), (double)(((double)((double)L_92)))))))))
-		{
-			goto IL_036a;
-		}
-	}
-	{
-		GameObject_t1113636619 * L_93 = __this->get_magnifierBase_15();
-		NullCheck(L_93);
-		Transform_t3600365921 * L_94 = GameObject_get_transform_m1369836730(L_93, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_94 = __this->get_magnifierBase_16();
 		NullCheck(L_94);
-		Vector3_t3722313464  L_95 = Transform_get_position_m36019626(L_94, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_96 = __this->get_screenBase_14();
+		Transform_t3600365921 * L_95 = GameObject_get_transform_m1369836730(L_94, /*hidden argument*/NULL);
+		NullCheck(L_95);
+		Transform_t3600365921 * L_96 = Transform_get_parent_m835071599(L_95, /*hidden argument*/NULL);
 		NullCheck(L_96);
-		Transform_t3600365921 * L_97 = GameObject_get_transform_m1369836730(L_96, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_97 = Component_get_gameObject_m442555142(L_96, /*hidden argument*/NULL);
 		NullCheck(L_97);
-		Vector3_t3722313464  L_98 = Transform_get_position_m36019626(L_97, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_99 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_95, L_98, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_100 = __this->get_Model_16();
+		Transform_t3600365921 * L_98 = GameObject_get_transform_m1369836730(L_97, /*hidden argument*/NULL);
+		NullCheck(L_98);
+		Vector3_t3722313464  L_99 = Transform_get_position_m36019626(L_98, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_100 = __this->get_screenBase_15();
 		NullCheck(L_100);
 		Transform_t3600365921 * L_101 = GameObject_get_transform_m1369836730(L_100, /*hidden argument*/NULL);
 		NullCheck(L_101);
-		Vector3_t3722313464  L_102 = Transform_get_localScale_m129152068(L_101, /*hidden argument*/NULL);
-		V_13 = L_102;
-		float L_103 = (&V_13)->get_x_2();
-		if ((!(((double)(((double)((double)L_99)))) > ((double)((double)il2cpp_codegen_multiply((double)(0.0015), (double)(((double)((double)L_103)))))))))
-		{
-			goto IL_036a;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_104 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_104);
-		PlayerController_t496487816 * L_105 = List_1_get_Item_m2882992018(L_104, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
-		NullCheck(L_105);
-		GameObject_t1113636619 * L_106 = L_105->get_gameObject_3();
+		Transform_t3600365921 * L_102 = Transform_get_parent_m835071599(L_101, /*hidden argument*/NULL);
+		NullCheck(L_102);
+		Transform_t3600365921 * L_103 = Component_get_transform_m3162698980(L_102, /*hidden argument*/NULL);
+		NullCheck(L_103);
+		Vector3_t3722313464  L_104 = Transform_get_position_m36019626(L_103, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_105 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_99, L_104, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_106 = __this->get_Model_17();
 		NullCheck(L_106);
-		Player_t3266647312 * L_107 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_106, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_14 = L_107;
-		Player_t3266647312 * L_108 = V_14;
-		NetworkIdentity_t3299519057 * L_109 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_110 = V_14;
+		Transform_t3600365921 * L_107 = GameObject_get_transform_m1369836730(L_106, /*hidden argument*/NULL);
+		NullCheck(L_107);
+		Vector3_t3722313464  L_108 = Transform_get_localScale_m129152068(L_107, /*hidden argument*/NULL);
+		V_12 = L_108;
+		float L_109 = (&V_12)->get_x_2();
+		if ((!(((double)(((double)((double)L_105)))) < ((double)((double)il2cpp_codegen_multiply((double)(0.42), (double)(((double)((double)L_109)))))))))
+		{
+			goto IL_03dd;
+		}
+	}
+	{
+		GameObject_t1113636619 * L_110 = __this->get_magnifierBase_16();
 		NullCheck(L_110);
-		NetworkIdentity_t3299519057 * L_111 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_110, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		NullCheck(L_108);
-		Player_CheckAuthority_m2436050745(L_108, L_109, L_111, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_112 = V_7;
-		RemoveController_CallCmdScreenBaseTranslate_m3796994682(__this, L_112, /*hidden argument*/NULL);
-	}
-
-IL_036a:
-	{
-		bool L_113 = __this->get_alphaBaseFlag_17();
-		if (!L_113)
-		{
-			goto IL_040f;
-		}
-	}
-	{
-		GameObject_t1113636619 * L_114 = __this->get_magnifierBase_15();
+		Transform_t3600365921 * L_111 = GameObject_get_transform_m1369836730(L_110, /*hidden argument*/NULL);
+		NullCheck(L_111);
+		Transform_t3600365921 * L_112 = Transform_get_parent_m835071599(L_111, /*hidden argument*/NULL);
+		NullCheck(L_112);
+		GameObject_t1113636619 * L_113 = Component_get_gameObject_m442555142(L_112, /*hidden argument*/NULL);
+		NullCheck(L_113);
+		Transform_t3600365921 * L_114 = GameObject_get_transform_m1369836730(L_113, /*hidden argument*/NULL);
 		NullCheck(L_114);
-		Transform_t3600365921 * L_115 = GameObject_get_transform_m1369836730(L_114, /*hidden argument*/NULL);
-		NullCheck(L_115);
-		Vector3_t3722313464  L_116 = Transform_get_position_m36019626(L_115, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_117 = __this->get_alphaBase_13();
+		Vector3_t3722313464  L_115 = Transform_get_position_m36019626(L_114, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_116 = __this->get_screenBase_15();
+		NullCheck(L_116);
+		Transform_t3600365921 * L_117 = GameObject_get_transform_m1369836730(L_116, /*hidden argument*/NULL);
 		NullCheck(L_117);
-		Transform_t3600365921 * L_118 = GameObject_get_transform_m1369836730(L_117, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_118 = Transform_get_parent_m835071599(L_117, /*hidden argument*/NULL);
 		NullCheck(L_118);
-		Vector3_t3722313464  L_119 = Transform_get_position_m36019626(L_118, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_119 = Component_get_gameObject_m442555142(L_118, /*hidden argument*/NULL);
+		NullCheck(L_119);
+		Transform_t3600365921 * L_120 = GameObject_get_transform_m1369836730(L_119, /*hidden argument*/NULL);
+		NullCheck(L_120);
+		Vector3_t3722313464  L_121 = Transform_get_position_m36019626(L_120, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_120 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_116, L_119, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_121 = __this->get_Model_16();
-		NullCheck(L_121);
-		Transform_t3600365921 * L_122 = GameObject_get_transform_m1369836730(L_121, /*hidden argument*/NULL);
-		NullCheck(L_122);
-		Vector3_t3722313464  L_123 = Transform_get_localScale_m129152068(L_122, /*hidden argument*/NULL);
-		V_15 = L_123;
-		float L_124 = (&V_15)->get_x_2();
-		if ((!(((double)(((double)((double)L_120)))) >= ((double)((double)il2cpp_codegen_multiply((double)(0.18), (double)(((double)((double)L_124)))))))))
+		float L_122 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_115, L_121, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_123 = __this->get_Model_17();
+		NullCheck(L_123);
+		Transform_t3600365921 * L_124 = GameObject_get_transform_m1369836730(L_123, /*hidden argument*/NULL);
+		NullCheck(L_124);
+		Vector3_t3722313464  L_125 = Transform_get_localScale_m129152068(L_124, /*hidden argument*/NULL);
+		V_13 = L_125;
+		float L_126 = (&V_13)->get_x_2();
+		if ((!(((double)(((double)((double)L_122)))) > ((double)((double)il2cpp_codegen_multiply((double)(0.05), (double)(((double)((double)L_126)))))))))
 		{
-			goto IL_040f;
+			goto IL_03dd;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_125 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_125);
-		PlayerController_t496487816 * L_126 = List_1_get_Item_m2882992018(L_125, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
-		NullCheck(L_126);
-		GameObject_t1113636619 * L_127 = L_126->get_gameObject_3();
+		List_1_t1968562558 * L_127 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_127);
-		Player_t3266647312 * L_128 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_127, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_16 = L_128;
-		Player_t3266647312 * L_129 = V_16;
-		NetworkIdentity_t3299519057 * L_130 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_131 = V_16;
-		NullCheck(L_131);
-		NetworkIdentity_t3299519057 * L_132 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_131, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		PlayerController_t496487816 * L_128 = List_1_get_Item_m2882992018(L_127, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		NullCheck(L_128);
+		GameObject_t1113636619 * L_129 = L_128->get_gameObject_3();
 		NullCheck(L_129);
-		Player_CheckAuthority_m2436050745(L_129, L_130, L_132, /*hidden argument*/NULL);
-		Vector3_t3722313464 * L_133 = __this->get_address_of_transformed_19();
-		float L_134 = L_133->get_x_2();
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_135 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_136 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_134, L_135, /*hidden argument*/NULL);
-		RemoveController_CallCmdAlphaBaseTranslateBack_m776497358(__this, L_136, /*hidden argument*/NULL);
-		goto IL_05f9;
+		Player_t3266647312 * L_130 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_129, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_14 = L_130;
+		Player_t3266647312 * L_131 = V_14;
+		NetworkIdentity_t3299519057 * L_132 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_133 = V_14;
+		NullCheck(L_133);
+		NetworkIdentity_t3299519057 * L_134 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_133, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_131);
+		Player_CheckAuthority_m2436050745(L_131, L_132, L_134, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_135 = V_7;
+		RemoveController_CallCmdScreenBaseTranslate_m3796994682(__this, L_135, /*hidden argument*/NULL);
 	}
 
-IL_040f:
+IL_03dd:
 	{
-		bool L_137 = __this->get_alphaBaseFlag_17();
-		if (!L_137)
+		bool L_136 = __this->get_alphaBaseFlag_18();
+		if (!L_136)
 		{
-			goto IL_04b4;
+			goto IL_04a0;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_138 = __this->get_magnifierBase_15();
+		GameObject_t1113636619 * L_137 = __this->get_magnifierBase_16();
+		NullCheck(L_137);
+		Transform_t3600365921 * L_138 = GameObject_get_transform_m1369836730(L_137, /*hidden argument*/NULL);
 		NullCheck(L_138);
-		Transform_t3600365921 * L_139 = GameObject_get_transform_m1369836730(L_138, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_139 = Transform_get_parent_m835071599(L_138, /*hidden argument*/NULL);
 		NullCheck(L_139);
-		Vector3_t3722313464  L_140 = Transform_get_position_m36019626(L_139, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_141 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_140 = Component_get_gameObject_m442555142(L_139, /*hidden argument*/NULL);
+		NullCheck(L_140);
+		Transform_t3600365921 * L_141 = GameObject_get_transform_m1369836730(L_140, /*hidden argument*/NULL);
 		NullCheck(L_141);
-		Transform_t3600365921 * L_142 = GameObject_get_transform_m1369836730(L_141, /*hidden argument*/NULL);
-		NullCheck(L_142);
-		Vector3_t3722313464  L_143 = Transform_get_position_m36019626(L_142, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_144 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_140, L_143, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_145 = __this->get_Model_16();
+		Vector3_t3722313464  L_142 = Transform_get_position_m36019626(L_141, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_143 = __this->get_alphaBase_14();
+		NullCheck(L_143);
+		Transform_t3600365921 * L_144 = GameObject_get_transform_m1369836730(L_143, /*hidden argument*/NULL);
+		NullCheck(L_144);
+		Transform_t3600365921 * L_145 = Transform_get_parent_m835071599(L_144, /*hidden argument*/NULL);
 		NullCheck(L_145);
-		Transform_t3600365921 * L_146 = GameObject_get_transform_m1369836730(L_145, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_146 = Component_get_gameObject_m442555142(L_145, /*hidden argument*/NULL);
 		NullCheck(L_146);
-		Vector3_t3722313464  L_147 = Transform_get_localScale_m129152068(L_146, /*hidden argument*/NULL);
-		V_17 = L_147;
-		float L_148 = (&V_17)->get_x_2();
-		if ((!(((double)(((double)((double)L_144)))) <= ((double)((double)il2cpp_codegen_multiply((double)(0.0015), (double)(((double)((double)L_148)))))))))
-		{
-			goto IL_04b4;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_149 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_149);
-		PlayerController_t496487816 * L_150 = List_1_get_Item_m2882992018(L_149, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		Transform_t3600365921 * L_147 = GameObject_get_transform_m1369836730(L_146, /*hidden argument*/NULL);
+		NullCheck(L_147);
+		Vector3_t3722313464  L_148 = Transform_get_position_m36019626(L_147, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_149 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_142, L_148, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_150 = __this->get_Model_17();
 		NullCheck(L_150);
-		GameObject_t1113636619 * L_151 = L_150->get_gameObject_3();
+		Transform_t3600365921 * L_151 = GameObject_get_transform_m1369836730(L_150, /*hidden argument*/NULL);
 		NullCheck(L_151);
-		Player_t3266647312 * L_152 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_151, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_18 = L_152;
-		Player_t3266647312 * L_153 = V_18;
-		NetworkIdentity_t3299519057 * L_154 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_155 = V_18;
+		Vector3_t3722313464  L_152 = Transform_get_localScale_m129152068(L_151, /*hidden argument*/NULL);
+		V_15 = L_152;
+		float L_153 = (&V_15)->get_x_2();
+		if ((!(((double)(((double)((double)L_149)))) >= ((double)((double)il2cpp_codegen_multiply((double)(0.42), (double)(((double)((double)L_153)))))))))
+		{
+			goto IL_04a0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
+		List_1_t1968562558 * L_154 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_154);
+		PlayerController_t496487816 * L_155 = List_1_get_Item_m2882992018(L_154, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
 		NullCheck(L_155);
-		NetworkIdentity_t3299519057 * L_156 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_155, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		NullCheck(L_153);
-		Player_CheckAuthority_m2436050745(L_153, L_154, L_156, /*hidden argument*/NULL);
-		Vector3_t3722313464 * L_157 = __this->get_address_of_transformed_19();
-		float L_158 = L_157->get_x_2();
+		GameObject_t1113636619 * L_156 = L_155->get_gameObject_3();
+		NullCheck(L_156);
+		Player_t3266647312 * L_157 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_156, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_16 = L_157;
+		Player_t3266647312 * L_158 = V_16;
+		NetworkIdentity_t3299519057 * L_159 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_160 = V_16;
+		NullCheck(L_160);
+		NetworkIdentity_t3299519057 * L_161 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_160, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_158);
+		Player_CheckAuthority_m2436050745(L_158, L_159, L_161, /*hidden argument*/NULL);
+		Vector3_t3722313464 * L_162 = __this->get_address_of_transformed_20();
+		float L_163 = L_162->get_x_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_159 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_160 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_158, L_159, /*hidden argument*/NULL);
-		RemoveController_CallCmdAlphaBaseTranslateBack_m776497358(__this, L_160, /*hidden argument*/NULL);
-		goto IL_05f9;
+		Vector3_t3722313464  L_164 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_165 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_163, L_164, /*hidden argument*/NULL);
+		RemoveController_CallCmdAlphaBaseTranslateForward_m162146291(__this, L_165, /*hidden argument*/NULL);
+		goto IL_06e4;
 	}
 
-IL_04b4:
+IL_04a0:
 	{
-		bool L_161 = __this->get_screenBaseFlag_18();
-		if (!L_161)
+		bool L_166 = __this->get_alphaBaseFlag_18();
+		if (!L_166)
 		{
-			goto IL_0559;
+			goto IL_0563;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_162 = __this->get_magnifierBase_15();
-		NullCheck(L_162);
-		Transform_t3600365921 * L_163 = GameObject_get_transform_m1369836730(L_162, /*hidden argument*/NULL);
-		NullCheck(L_163);
-		Vector3_t3722313464  L_164 = Transform_get_position_m36019626(L_163, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_165 = __this->get_screenBase_14();
-		NullCheck(L_165);
-		Transform_t3600365921 * L_166 = GameObject_get_transform_m1369836730(L_165, /*hidden argument*/NULL);
-		NullCheck(L_166);
-		Vector3_t3722313464  L_167 = Transform_get_position_m36019626(L_166, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_168 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_164, L_167, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_169 = __this->get_Model_16();
+		GameObject_t1113636619 * L_167 = __this->get_magnifierBase_16();
+		NullCheck(L_167);
+		Transform_t3600365921 * L_168 = GameObject_get_transform_m1369836730(L_167, /*hidden argument*/NULL);
+		NullCheck(L_168);
+		Transform_t3600365921 * L_169 = Transform_get_parent_m835071599(L_168, /*hidden argument*/NULL);
 		NullCheck(L_169);
-		Transform_t3600365921 * L_170 = GameObject_get_transform_m1369836730(L_169, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_170 = Component_get_gameObject_m442555142(L_169, /*hidden argument*/NULL);
 		NullCheck(L_170);
-		Vector3_t3722313464  L_171 = Transform_get_localScale_m129152068(L_170, /*hidden argument*/NULL);
-		V_19 = L_171;
-		float L_172 = (&V_19)->get_x_2();
-		if ((!(((double)(((double)((double)L_168)))) >= ((double)((double)il2cpp_codegen_multiply((double)(0.18), (double)(((double)((double)L_172)))))))))
-		{
-			goto IL_0559;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_173 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_171 = GameObject_get_transform_m1369836730(L_170, /*hidden argument*/NULL);
+		NullCheck(L_171);
+		Vector3_t3722313464  L_172 = Transform_get_position_m36019626(L_171, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_173 = __this->get_alphaBase_14();
 		NullCheck(L_173);
-		PlayerController_t496487816 * L_174 = List_1_get_Item_m2882992018(L_173, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		Transform_t3600365921 * L_174 = GameObject_get_transform_m1369836730(L_173, /*hidden argument*/NULL);
 		NullCheck(L_174);
-		GameObject_t1113636619 * L_175 = L_174->get_gameObject_3();
+		Transform_t3600365921 * L_175 = Transform_get_parent_m835071599(L_174, /*hidden argument*/NULL);
 		NullCheck(L_175);
-		Player_t3266647312 * L_176 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_175, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_20 = L_176;
-		Player_t3266647312 * L_177 = V_20;
-		NetworkIdentity_t3299519057 * L_178 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_179 = V_20;
-		NullCheck(L_179);
-		NetworkIdentity_t3299519057 * L_180 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_179, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		GameObject_t1113636619 * L_176 = Component_get_gameObject_m442555142(L_175, /*hidden argument*/NULL);
+		NullCheck(L_176);
+		Transform_t3600365921 * L_177 = GameObject_get_transform_m1369836730(L_176, /*hidden argument*/NULL);
 		NullCheck(L_177);
-		Player_CheckAuthority_m2436050745(L_177, L_178, L_180, /*hidden argument*/NULL);
-		Vector3_t3722313464 * L_181 = __this->get_address_of_transformed_19();
-		float L_182 = L_181->get_x_2();
+		Vector3_t3722313464  L_178 = Transform_get_position_m36019626(L_177, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_183 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_184 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_182, L_183, /*hidden argument*/NULL);
-		RemoveController_CallCmdScreenBaseTranslateForward_m2156138221(__this, L_184, /*hidden argument*/NULL);
-		goto IL_05f9;
-	}
-
-IL_0559:
-	{
-		bool L_185 = __this->get_screenBaseFlag_18();
-		if (!L_185)
+		float L_179 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_172, L_178, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_180 = __this->get_Model_17();
+		NullCheck(L_180);
+		Transform_t3600365921 * L_181 = GameObject_get_transform_m1369836730(L_180, /*hidden argument*/NULL);
+		NullCheck(L_181);
+		Vector3_t3722313464  L_182 = Transform_get_localScale_m129152068(L_181, /*hidden argument*/NULL);
+		V_17 = L_182;
+		float L_183 = (&V_17)->get_x_2();
+		if ((!(((double)(((double)((double)L_179)))) <= ((double)((double)il2cpp_codegen_multiply((double)(0.05), (double)(((double)((double)L_183)))))))))
 		{
-			goto IL_05f9;
-		}
-	}
-	{
-		GameObject_t1113636619 * L_186 = __this->get_magnifierBase_15();
-		NullCheck(L_186);
-		Transform_t3600365921 * L_187 = GameObject_get_transform_m1369836730(L_186, /*hidden argument*/NULL);
-		NullCheck(L_187);
-		Vector3_t3722313464  L_188 = Transform_get_position_m36019626(L_187, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_189 = __this->get_screenBase_14();
-		NullCheck(L_189);
-		Transform_t3600365921 * L_190 = GameObject_get_transform_m1369836730(L_189, /*hidden argument*/NULL);
-		NullCheck(L_190);
-		Vector3_t3722313464  L_191 = Transform_get_position_m36019626(L_190, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		float L_192 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_188, L_191, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_193 = __this->get_Model_16();
-		NullCheck(L_193);
-		Transform_t3600365921 * L_194 = GameObject_get_transform_m1369836730(L_193, /*hidden argument*/NULL);
-		NullCheck(L_194);
-		Vector3_t3722313464  L_195 = Transform_get_localScale_m129152068(L_194, /*hidden argument*/NULL);
-		V_21 = L_195;
-		float L_196 = (&V_21)->get_x_2();
-		if ((!(((double)(((double)((double)L_192)))) <= ((double)((double)il2cpp_codegen_multiply((double)(0.0015), (double)(((double)((double)L_196)))))))))
-		{
-			goto IL_05f9;
+			goto IL_0563;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
-		List_1_t1968562558 * L_197 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_197);
-		PlayerController_t496487816 * L_198 = List_1_get_Item_m2882992018(L_197, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
-		NullCheck(L_198);
-		GameObject_t1113636619 * L_199 = L_198->get_gameObject_3();
-		NullCheck(L_199);
-		Player_t3266647312 * L_200 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_199, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
-		V_22 = L_200;
-		Player_t3266647312 * L_201 = V_22;
-		NetworkIdentity_t3299519057 * L_202 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		Player_t3266647312 * L_203 = V_22;
-		NullCheck(L_203);
-		NetworkIdentity_t3299519057 * L_204 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_203, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
-		NullCheck(L_201);
-		Player_CheckAuthority_m2436050745(L_201, L_202, L_204, /*hidden argument*/NULL);
-		Vector3_t3722313464 * L_205 = __this->get_address_of_transformed_19();
-		float L_206 = L_205->get_x_2();
+		List_1_t1968562558 * L_184 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_184);
+		PlayerController_t496487816 * L_185 = List_1_get_Item_m2882992018(L_184, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		NullCheck(L_185);
+		GameObject_t1113636619 * L_186 = L_185->get_gameObject_3();
+		NullCheck(L_186);
+		Player_t3266647312 * L_187 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_186, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_18 = L_187;
+		Player_t3266647312 * L_188 = V_18;
+		NetworkIdentity_t3299519057 * L_189 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_190 = V_18;
+		NullCheck(L_190);
+		NetworkIdentity_t3299519057 * L_191 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_190, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_188);
+		Player_CheckAuthority_m2436050745(L_188, L_189, L_191, /*hidden argument*/NULL);
+		Vector3_t3722313464 * L_192 = __this->get_address_of_transformed_20();
+		float L_193 = L_192->get_x_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_207 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3722313464  L_208 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_206, L_207, /*hidden argument*/NULL);
-		RemoveController_CallCmdScreenBaseTranslateForward_m2156138221(__this, L_208, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_194 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_195 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_193, L_194, /*hidden argument*/NULL);
+		RemoveController_CallCmdAlphaBaseTranslateBack_m776497358(__this, L_195, /*hidden argument*/NULL);
+		goto IL_06e4;
 	}
 
-IL_05f9:
+IL_0563:
+	{
+		bool L_196 = __this->get_screenBaseFlag_19();
+		if (!L_196)
+		{
+			goto IL_0626;
+		}
+	}
+	{
+		GameObject_t1113636619 * L_197 = __this->get_magnifierBase_16();
+		NullCheck(L_197);
+		Transform_t3600365921 * L_198 = GameObject_get_transform_m1369836730(L_197, /*hidden argument*/NULL);
+		NullCheck(L_198);
+		Transform_t3600365921 * L_199 = Transform_get_parent_m835071599(L_198, /*hidden argument*/NULL);
+		NullCheck(L_199);
+		GameObject_t1113636619 * L_200 = Component_get_gameObject_m442555142(L_199, /*hidden argument*/NULL);
+		NullCheck(L_200);
+		Transform_t3600365921 * L_201 = GameObject_get_transform_m1369836730(L_200, /*hidden argument*/NULL);
+		NullCheck(L_201);
+		Vector3_t3722313464  L_202 = Transform_get_position_m36019626(L_201, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_203 = __this->get_screenBase_15();
+		NullCheck(L_203);
+		Transform_t3600365921 * L_204 = GameObject_get_transform_m1369836730(L_203, /*hidden argument*/NULL);
+		NullCheck(L_204);
+		Transform_t3600365921 * L_205 = Transform_get_parent_m835071599(L_204, /*hidden argument*/NULL);
+		NullCheck(L_205);
+		GameObject_t1113636619 * L_206 = Component_get_gameObject_m442555142(L_205, /*hidden argument*/NULL);
+		NullCheck(L_206);
+		Transform_t3600365921 * L_207 = GameObject_get_transform_m1369836730(L_206, /*hidden argument*/NULL);
+		NullCheck(L_207);
+		Vector3_t3722313464  L_208 = Transform_get_position_m36019626(L_207, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_209 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_202, L_208, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_210 = __this->get_Model_17();
+		NullCheck(L_210);
+		Transform_t3600365921 * L_211 = GameObject_get_transform_m1369836730(L_210, /*hidden argument*/NULL);
+		NullCheck(L_211);
+		Vector3_t3722313464  L_212 = Transform_get_localScale_m129152068(L_211, /*hidden argument*/NULL);
+		V_19 = L_212;
+		float L_213 = (&V_19)->get_x_2();
+		if ((!(((double)(((double)((double)L_209)))) >= ((double)((double)il2cpp_codegen_multiply((double)(0.42), (double)(((double)((double)L_213)))))))))
+		{
+			goto IL_0626;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
+		List_1_t1968562558 * L_214 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_214);
+		PlayerController_t496487816 * L_215 = List_1_get_Item_m2882992018(L_214, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		NullCheck(L_215);
+		GameObject_t1113636619 * L_216 = L_215->get_gameObject_3();
+		NullCheck(L_216);
+		Player_t3266647312 * L_217 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_216, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_20 = L_217;
+		Player_t3266647312 * L_218 = V_20;
+		NetworkIdentity_t3299519057 * L_219 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_220 = V_20;
+		NullCheck(L_220);
+		NetworkIdentity_t3299519057 * L_221 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_220, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_218);
+		Player_CheckAuthority_m2436050745(L_218, L_219, L_221, /*hidden argument*/NULL);
+		Vector3_t3722313464 * L_222 = __this->get_address_of_transformed_20();
+		float L_223 = L_222->get_x_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		Vector3_t3722313464  L_224 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_225 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_223, L_224, /*hidden argument*/NULL);
+		RemoveController_CallCmdScreenBaseTranslateBack_m2126238610(__this, L_225, /*hidden argument*/NULL);
+		goto IL_06e4;
+	}
+
+IL_0626:
+	{
+		bool L_226 = __this->get_screenBaseFlag_19();
+		if (!L_226)
+		{
+			goto IL_06e4;
+		}
+	}
+	{
+		GameObject_t1113636619 * L_227 = __this->get_magnifierBase_16();
+		NullCheck(L_227);
+		Transform_t3600365921 * L_228 = GameObject_get_transform_m1369836730(L_227, /*hidden argument*/NULL);
+		NullCheck(L_228);
+		Transform_t3600365921 * L_229 = Transform_get_parent_m835071599(L_228, /*hidden argument*/NULL);
+		NullCheck(L_229);
+		GameObject_t1113636619 * L_230 = Component_get_gameObject_m442555142(L_229, /*hidden argument*/NULL);
+		NullCheck(L_230);
+		Transform_t3600365921 * L_231 = GameObject_get_transform_m1369836730(L_230, /*hidden argument*/NULL);
+		NullCheck(L_231);
+		Vector3_t3722313464  L_232 = Transform_get_position_m36019626(L_231, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_233 = __this->get_screenBase_15();
+		NullCheck(L_233);
+		Transform_t3600365921 * L_234 = GameObject_get_transform_m1369836730(L_233, /*hidden argument*/NULL);
+		NullCheck(L_234);
+		Transform_t3600365921 * L_235 = Transform_get_parent_m835071599(L_234, /*hidden argument*/NULL);
+		NullCheck(L_235);
+		GameObject_t1113636619 * L_236 = Component_get_gameObject_m442555142(L_235, /*hidden argument*/NULL);
+		NullCheck(L_236);
+		Transform_t3600365921 * L_237 = GameObject_get_transform_m1369836730(L_236, /*hidden argument*/NULL);
+		NullCheck(L_237);
+		Vector3_t3722313464  L_238 = Transform_get_position_m36019626(L_237, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		float L_239 = Vector3_Distance_m886789632(NULL /*static, unused*/, L_232, L_238, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_240 = __this->get_Model_17();
+		NullCheck(L_240);
+		Transform_t3600365921 * L_241 = GameObject_get_transform_m1369836730(L_240, /*hidden argument*/NULL);
+		NullCheck(L_241);
+		Vector3_t3722313464  L_242 = Transform_get_localScale_m129152068(L_241, /*hidden argument*/NULL);
+		V_21 = L_242;
+		float L_243 = (&V_21)->get_x_2();
+		if ((!(((double)(((double)((double)L_239)))) <= ((double)((double)il2cpp_codegen_multiply((double)(0.05), (double)(((double)((double)L_243)))))))))
+		{
+			goto IL_06e4;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ClientScene_t3640716971_il2cpp_TypeInfo_var);
+		List_1_t1968562558 * L_244 = ClientScene_get_localPlayers_m195702965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_244);
+		PlayerController_t496487816 * L_245 = List_1_get_Item_m2882992018(L_244, 0, /*hidden argument*/List_1_get_Item_m2882992018_RuntimeMethod_var);
+		NullCheck(L_245);
+		GameObject_t1113636619 * L_246 = L_245->get_gameObject_3();
+		NullCheck(L_246);
+		Player_t3266647312 * L_247 = GameObject_GetComponent_TisPlayer_t3266647312_m4068145281(L_246, /*hidden argument*/GameObject_GetComponent_TisPlayer_t3266647312_m4068145281_RuntimeMethod_var);
+		V_22 = L_247;
+		Player_t3266647312 * L_248 = V_22;
+		NetworkIdentity_t3299519057 * L_249 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(__this, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		Player_t3266647312 * L_250 = V_22;
+		NullCheck(L_250);
+		NetworkIdentity_t3299519057 * L_251 = Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386(L_250, /*hidden argument*/Component_GetComponent_TisNetworkIdentity_t3299519057_m1773528386_RuntimeMethod_var);
+		NullCheck(L_248);
+		Player_CheckAuthority_m2436050745(L_248, L_249, L_251, /*hidden argument*/NULL);
+		Vector3_t3722313464 * L_252 = __this->get_address_of_transformed_20();
+		float L_253 = L_252->get_x_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		Vector3_t3722313464  L_254 = Vector3_get_left_m2428419009(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_255 = Vector3_op_Multiply_m2104357790(NULL /*static, unused*/, L_253, L_254, /*hidden argument*/NULL);
+		RemoveController_CallCmdScreenBaseTranslateForward_m2156138221(__this, L_255, /*hidden argument*/NULL);
+	}
+
+IL_06e4:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		int32_t L_209 = Input_get_touchCount_m3403849067(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_209) <= ((int32_t)1)))
+		int32_t L_256 = Input_get_touchCount_m3403849067(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_256) <= ((int32_t)1)))
 		{
-			goto IL_0628;
+			goto IL_0713;
 		}
 	}
 	{
-		Highlighter_t672210414 * L_210 = __this->get_h1_10();
-		NullCheck(L_210);
-		Highlighter_ConstantOffImmediate_m896226998(L_210, /*hidden argument*/NULL);
-		Highlighter_t672210414 * L_211 = __this->get_h2_11();
-		NullCheck(L_211);
-		Highlighter_ConstantOffImmediate_m896226998(L_211, /*hidden argument*/NULL);
-		__this->set_alphaBaseFlag_17((bool)0);
-		__this->set_screenBaseFlag_18((bool)0);
+		Highlighter_t672210414 * L_257 = __this->get_h1_10();
+		NullCheck(L_257);
+		Highlighter_ConstantOffImmediate_m896226998(L_257, /*hidden argument*/NULL);
+		Highlighter_t672210414 * L_258 = __this->get_h2_11();
+		NullCheck(L_258);
+		Highlighter_ConstantOffImmediate_m896226998(L_258, /*hidden argument*/NULL);
+		__this->set_alphaBaseFlag_18((bool)0);
+		__this->set_screenBaseFlag_19((bool)0);
 	}
 
-IL_0628:
+IL_0713:
 	{
 		return;
 	}
@@ -45527,7 +45635,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcAlphaBaseTranslate_m11866
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_0 = __this->get_alphaBase_14();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45563,7 +45671,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcScreenBaseTranslate_m3524
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_screenBase_14();
+		GameObject_t1113636619 * L_0 = __this->get_screenBase_15();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45599,7 +45707,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcAlphaBaseTranslateBack_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_0 = __this->get_alphaBase_14();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45636,7 +45744,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcScreenBaseTranslateBack_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_screenBase_14();
+		GameObject_t1113636619 * L_0 = __this->get_screenBase_15();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45673,7 +45781,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcAlphaBaseTranslateForward
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_alphaBase_13();
+		GameObject_t1113636619 * L_0 = __this->get_alphaBase_14();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45709,7 +45817,7 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController_RpcScreenBaseTranslateForwar
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1113636619 * L_0 = __this->get_screenBase_14();
+		GameObject_t1113636619 * L_0 = __this->get_screenBase_15();
 		NullCheck(L_0);
 		Transform_t3600365921 * L_1 = GameObject_get_transform_m1369836730(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -45988,7 +46096,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslate_24();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslate_25();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46057,7 +46165,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslate_26();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslate_27();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46126,7 +46234,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateBack_28();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateBack_29();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46195,7 +46303,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateBack_30();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateBack_31();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46264,7 +46372,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateForward_32();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateForward_33();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46333,7 +46441,7 @@ IL_002c:
 		NetworkWriter_Write_m297525087(L_5, (int16_t)(((int32_t)((uint16_t)((int32_t)5)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateForward_34();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateForward_35();
 		NullCheck(L_6);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_6, L_7, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_8 = V_0;
@@ -46592,7 +46700,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslate_25();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslate_26();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46647,7 +46755,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslate_27();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslate_28();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46702,7 +46810,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateBack_29();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateBack_30();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46757,7 +46865,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateBack_31();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateBack_32();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46812,7 +46920,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateForward_33();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateForward_34();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46867,7 +46975,7 @@ IL_0015:
 		NetworkWriter_Write_m297525087(L_3, (int16_t)(((int32_t)((uint16_t)((int32_t)2)))), /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(RemoveController_t1458312508_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateForward_35();
+		int32_t L_5 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateForward_36();
 		NullCheck(L_4);
 		NetworkWriter_WritePackedUInt32_m3131691200(L_4, L_5, /*hidden argument*/NULL);
 		NetworkWriter_t3928387057 * L_6 = V_0;
@@ -46895,100 +47003,100 @@ extern "C" IL2CPP_METHOD_ATTR void RemoveController__cctor_m3653767283 (RuntimeO
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslate_24(((int32_t)451995007));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslate_25(((int32_t)451995007));
 		RuntimeTypeHandle_t3027515415  L_0 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_1 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		int32_t L_2 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslate_24();
+		int32_t L_2 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslate_25();
 		intptr_t L_3 = (intptr_t)RemoveController_InvokeCmdCmdAlphaBaseTranslate_m938912800_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_4 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_4, NULL, (intptr_t)L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkBehaviour_t204670959_il2cpp_TypeInfo_var);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_1, L_2, L_4, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslate_26(((int32_t)-984341583));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslate_27(((int32_t)-984341583));
 		RuntimeTypeHandle_t3027515415  L_5 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_6 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
-		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslate_26();
+		int32_t L_7 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslate_27();
 		intptr_t L_8 = (intptr_t)RemoveController_InvokeCmdCmdScreenBaseTranslate_m4085994497_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_9 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_9, NULL, (intptr_t)L_8, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_6, L_7, L_9, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslateBack_28(((int32_t)-988575994));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslateBack_29(((int32_t)-988575994));
 		RuntimeTypeHandle_t3027515415  L_10 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_11 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
-		int32_t L_12 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateBack_28();
+		int32_t L_12 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateBack_29();
 		intptr_t L_13 = (intptr_t)RemoveController_InvokeCmdCmdAlphaBaseTranslateBack_m278510582_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_14 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_14, NULL, (intptr_t)L_13, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_11, L_12, L_14, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslateBack_30(((int32_t)-228041672));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslateBack_31(((int32_t)-228041672));
 		RuntimeTypeHandle_t3027515415  L_15 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_16 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
-		int32_t L_17 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateBack_30();
+		int32_t L_17 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateBack_31();
 		intptr_t L_18 = (intptr_t)RemoveController_InvokeCmdCmdScreenBaseTranslateBack_m2165259633_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_19 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_19, NULL, (intptr_t)L_18, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_16, L_17, L_19, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslateForward_32(((int32_t)-406525882));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdAlphaBaseTranslateForward_33(((int32_t)-406525882));
 		RuntimeTypeHandle_t3027515415  L_20 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_21 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
-		int32_t L_22 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateForward_32();
+		int32_t L_22 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdAlphaBaseTranslateForward_33();
 		intptr_t L_23 = (intptr_t)RemoveController_InvokeCmdCmdAlphaBaseTranslateForward_m4090974142_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_24 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_24, NULL, (intptr_t)L_23, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_21, L_22, L_24, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslateForward_34(((int32_t)718974420));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kCmdCmdScreenBaseTranslateForward_35(((int32_t)718974420));
 		RuntimeTypeHandle_t3027515415  L_25 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_26 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
-		int32_t L_27 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateForward_34();
+		int32_t L_27 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kCmdCmdScreenBaseTranslateForward_35();
 		intptr_t L_28 = (intptr_t)RemoveController_InvokeCmdCmdScreenBaseTranslateForward_m1279156595_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_29 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_29, NULL, (intptr_t)L_28, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterCommandDelegate_m1873798754(NULL /*static, unused*/, L_26, L_27, L_29, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslate_25(((int32_t)701104085));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslate_26(((int32_t)701104085));
 		RuntimeTypeHandle_t3027515415  L_30 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_31 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
-		int32_t L_32 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslate_25();
+		int32_t L_32 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslate_26();
 		intptr_t L_33 = (intptr_t)RemoveController_InvokeRpcRpcAlphaBaseTranslate_m2434024748_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_34 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_34, NULL, (intptr_t)L_33, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterRpcDelegate_m1780902272(NULL /*static, unused*/, L_31, L_32, L_34, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslate_27(((int32_t)-1851894757));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslate_28(((int32_t)-1851894757));
 		RuntimeTypeHandle_t3027515415  L_35 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_36 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
-		int32_t L_37 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslate_27();
+		int32_t L_37 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslate_28();
 		intptr_t L_38 = (intptr_t)RemoveController_InvokeRpcRpcScreenBaseTranslate_m2165662565_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_39 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_39, NULL, (intptr_t)L_38, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterRpcDelegate_m1780902272(NULL /*static, unused*/, L_36, L_37, L_39, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslateBack_29(((int32_t)848004700));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslateBack_30(((int32_t)848004700));
 		RuntimeTypeHandle_t3027515415  L_40 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_41 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
-		int32_t L_42 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateBack_29();
+		int32_t L_42 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateBack_30();
 		intptr_t L_43 = (intptr_t)RemoveController_InvokeRpcRpcAlphaBaseTranslateBack_m1264340847_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_44 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_44, NULL, (intptr_t)L_43, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterRpcDelegate_m1780902272(NULL /*static, unused*/, L_41, L_42, L_44, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslateBack_31(((int32_t)871384994));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslateBack_32(((int32_t)871384994));
 		RuntimeTypeHandle_t3027515415  L_45 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_46 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
-		int32_t L_47 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateBack_31();
+		int32_t L_47 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateBack_32();
 		intptr_t L_48 = (intptr_t)RemoveController_InvokeRpcRpcScreenBaseTranslateBack_m677110240_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_49 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_49, NULL, (intptr_t)L_48, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterRpcDelegate_m1780902272(NULL /*static, unused*/, L_46, L_47, L_49, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslateForward_33(((int32_t)-419454672));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcAlphaBaseTranslateForward_34(((int32_t)-419454672));
 		RuntimeTypeHandle_t3027515415  L_50 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_51 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
-		int32_t L_52 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateForward_33();
+		int32_t L_52 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcAlphaBaseTranslateForward_34();
 		intptr_t L_53 = (intptr_t)RemoveController_InvokeRpcRpcAlphaBaseTranslateForward_m3710249511_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_54 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_54, NULL, (intptr_t)L_53, /*hidden argument*/NULL);
 		NetworkBehaviour_RegisterRpcDelegate_m1780902272(NULL /*static, unused*/, L_51, L_52, L_54, /*hidden argument*/NULL);
-		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslateForward_35(((int32_t)318181930));
+		((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->set_kRpcRpcScreenBaseTranslateForward_36(((int32_t)318181930));
 		RuntimeTypeHandle_t3027515415  L_55 = { reinterpret_cast<intptr_t> (RemoveController_t1458312508_0_0_0_var) };
 		Type_t * L_56 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
-		int32_t L_57 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateForward_35();
+		int32_t L_57 = ((RemoveController_t1458312508_StaticFields*)il2cpp_codegen_static_fields_for(RemoveController_t1458312508_il2cpp_TypeInfo_var))->get_kRpcRpcScreenBaseTranslateForward_36();
 		intptr_t L_58 = (intptr_t)RemoveController_InvokeRpcRpcScreenBaseTranslateForward_m556332951_RuntimeMethod_var;
 		CmdDelegate_t3685651507 * L_59 = (CmdDelegate_t3685651507 *)il2cpp_codegen_object_new(CmdDelegate_t3685651507_il2cpp_TypeInfo_var);
 		CmdDelegate__ctor_m65121049(L_59, NULL, (intptr_t)L_58, /*hidden argument*/NULL);
