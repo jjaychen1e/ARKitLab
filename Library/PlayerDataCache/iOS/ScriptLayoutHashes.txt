@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/js/Developer/build
+/Users/jjaychen/Developer/2Xcode
 SceneListBegin?
 Assets/Labs/MainScene/Scene/MainScene.unity
 Assets/Labs/Momentum/Scene/Momentum.unity
@@ -222,7 +222,7 @@ e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Player
 3cf4375471f0cac46cb4f119177e3284 Assembly-CSharp.dll:.SetWorldOriginControl
-61bdc033163c25ca69041c7f900abb39 Assembly-CSharp.dll:.VirtualImageController
+c52ac7c8165ee80d16adc5f88771665a Assembly-CSharp.dll:.VirtualImageController
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 9d863b523b577f5c3d915351a74cd338 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -239,7 +239,7 @@ af0330195ee2952276420a5a79b1ac01 Assembly-CSharp.dll:.ObjectText
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 fa20481299461e1b327b099ee2b59ed4 Assembly-CSharp.dll:.HitCreateEnvironmentProbe
 d43a1c664da41a0b47220482b3bd95a8 Assembly-CSharp.dll:.HexColorField
-e379ba4417e3f84dbe006a241fe98bb9 Assembly-CSharp.dll:.ModelController
+f1f35c2f37a37e5f7d3929dd426f5f2a Assembly-CSharp.dll:.ModelController
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Back
 7d79e7fa70111081e920b7b746ed9b1f Assembly-CSharp.dll:.TagClick
 de397d17c826db7d1d3c084067eac994 Assembly-CSharp.dll:.FocusSquare

@@ -17,6 +17,7 @@ public class ModelController : NetworkBehaviour {
     public float distance1,distance2,distance;
     [HideInInspector]
     public Vector3 oldRemove1, oldRemove2;
+    public GameObject ShowButton;
 
     private bool flag;
     private bool adjustable = true;
@@ -302,6 +303,7 @@ public class ModelController : NetworkBehaviour {
         HideButton();
         HintController.ShowElement(4);
         hintFinished = true;
+        ShowButton.SetActive(true);
     }
 
     [Command]
