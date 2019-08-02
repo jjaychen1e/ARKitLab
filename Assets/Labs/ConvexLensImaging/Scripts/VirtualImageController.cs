@@ -10,6 +10,9 @@ public class VirtualImageController  : MonoBehaviour {
     public Text text;
     public GameObject Button;
     public float focal,scale;
+    public Sprite[] sprites;
+
+    public Image image;
 
 	// Use this for initialization
 	void Awake () {
@@ -22,7 +25,7 @@ public class VirtualImageController  : MonoBehaviour {
         focal = 0.15f * Model.transform.localScale.x;
         //在拖动实现之后通过委托事件来实现，现在通过Update实现/
         if (Model.activeSelf) {
-            Button.SetActive(true);
+            //Button.SetActive(true);
             float u = (Glass.transform.position - RF.transform.position).magnitude; // 物距
             scale = focal / (u - focal);
             VF.transform.position = Glass.transform.position + (Glass.transform.position - RF.transform.position).normalized * u * scale;
@@ -40,12 +43,14 @@ public class VirtualImageController  : MonoBehaviour {
     {
         if (VF.activeSelf)
         {
-            text.text = "OFF";
+            //text.text = "OFF";
+            image.sprite = sprites[1];
             HideLineAndVF();
         }
         else
         {
-            text.text = "ON ";
+            //text.text = "ON ";
+            image.sprite = sprites[0];
             ShowLineAndVF();
         }
     }
